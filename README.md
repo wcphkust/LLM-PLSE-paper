@@ -73,7 +73,6 @@
 
 - Hypothesis Search: Inductive Reasoning with Language Models, ICLR 2024, [Link](https://openreview.net/forum?id=G7UtIGQmjm)
 
-
 - CodePlan: Repository-level Coding using LLMs and Planning, FMDM & NIPS 2023, [Link](https://www.microsoft.com/en-us/research/publication/codeplan-repository-level-coding-using-llms-and-planning/)
 
 - Repository-Level Prompt Generation for Large Language Models of Code. ICML 2023, [Link](https://arxiv.org/abs/2206.12839)
@@ -127,7 +126,7 @@
 
 ## Hallucination
 
-- Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation, ICLR 2024, (https://arxiv.org/abs/2305.15852)
+- Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation, ICLR 2024, [Link](https://arxiv.org/abs/2305.15852)
 
 ## Prompting for Reasoning Tasks
 
