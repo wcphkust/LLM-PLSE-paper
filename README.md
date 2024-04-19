@@ -38,7 +38,6 @@
 
 - Large Language Model-Powered Smart Contract Vulnerability Detection: New Perspectives. arXiv, [Link](https://arxiv.org/pdf/2310.01152.pdf)
 
-
 - GPTScan: Detecting Logic Vulnerabilities in Smart Contracts by Combining GPT with Program Analysis. ICSE 24 [Link](https://arxiv.org/pdf/2308.03314.pdf?utm_source=Klaviyo&utm_medium=campaign&_kx=)
 
 - Continuous Learning for Android Malware Detection, USENIX Security 2023, [Link](https://surrealyz.github.io/files/pubs/sec23winter-active-learning-prepub.pdf)
@@ -121,6 +120,10 @@
 - Grounded Copilot: How Programmers Interact with Code-Generating Models, OOPSLA 2023, [Link](https://dl.acm.org/doi/10.1145/3586030)
 
 - Extracting Training Data from Large Language Models, USENIX Security 2023, [Link](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)
+
+### Code Understanding and IDE-tech
+
+- Using an LLM to Help With Code Understanding, ICSE 2024, [Link](https://arxiv.org/pdf/2307.08177.pdf)
 
 ## Hallucination
 
