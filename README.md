@@ -114,6 +114,8 @@
 
 ### Code Model and Code Reasoning
 
+- FAIR: Flow Type-Aware Pre-Training of Compiler Intermediate Representations, ICSE 2024, [Link](https://arxiv.org/pdf/2309.04828.pdf)
+
 - Symmetry-Preserving Program Representations for Learning Code Semantics [Link](https://arxiv.org/pdf/2308.03312.pdf)
 
 - LmPa: Improving Decompilation by Synergy of Large Language Model and Program Analysis, [Link](https://arxiv.org/pdf/2306.02546.pdf)
