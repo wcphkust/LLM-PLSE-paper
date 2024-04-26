@@ -30,6 +30,8 @@
 
 **Domain-Specific Bug Detection(Domain-Specific Program & Bug Type)**
 
+- LLM-based Resource-Oriented Intention Inference for Static Resource Detection, ISSTA 2024, [Link](https://arxiv.org/abs/2311.04448)
+
 - The Hitchhiker's Guide to Program Analysis: A Journey with Large Language Models, OOPSLA 2024, [Link](https://arxiv.org/abs/2308.00245)
 
 - Do you still need a manual smart contract audit? [Link](https://arxiv.org/pdf/2306.12338.pdf)
