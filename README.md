@@ -32,6 +32,8 @@
 
 **Domain-Specific Bug Detection(Domain-Specific Program & Bug Type)**
 
+- SMARTINV: Multimodal Learning for Smart Contract Invariant Inference, S&P 2024, [Link](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a126/1Ub23GNTAeQ)
+
 - LLM-based Resource-Oriented Intention Inference for Static Resource Detection, ISSTA 2024, [Link](https://arxiv.org/abs/2311.04448)
 
 - The Hitchhiker's Guide to Program Analysis: A Journey with Large Language Models, OOPSLA 2024, [Link](https://arxiv.org/abs/2308.00245)
