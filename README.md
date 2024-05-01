@@ -21,7 +21,9 @@
 
 - SkipAnalyzer: An Embodied Agent for Code Analysis with Large Language Models, [Link](https://cs.paperswithcode.com/paper/skipanalyzer-an-embodied-agent-for-code)
 
-**General Bug Detection**
+**General Analysis**
+
+- A Learning-Based Approach to Static Program Slicing. OOPSLA 2024, [Link](https://aashishyadavally.github.io/assets/pdf/pub-oopsla2024.pdf)
 
 - Dataflow Analysis-Inspired Deep Learning for Efficient Vulnerability Detection. ICSE 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3597503.3623345)
 
