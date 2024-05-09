@@ -120,6 +120,8 @@
 
 ### Code Model and Code Reasoning
 
+- CodeArt: Better Code Models by Attention Regularization When Symbols Are Lacking, FSE 2024, [Link](https://arxiv.org/pdf/2402.11842)
+
 - FAIR: Flow Type-Aware Pre-Training of Compiler Intermediate Representations, ICSE 2024, [Link](https://arxiv.org/pdf/2309.04828.pdf)
 
 - Symmetry-Preserving Program Representations for Learning Code Semantics [Link](https://arxiv.org/pdf/2308.03312.pdf)
