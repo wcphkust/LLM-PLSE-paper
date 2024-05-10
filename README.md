@@ -7,6 +7,8 @@
 
 **Benchmark and Empirical Study**
 
+- LLMs Cannot Reliably Identify and Reason About Security Vulnerabilities (Yet?): A Comprehensive Evaluation, Framework, and Benchmarks. S&P 2024, [Link](https://arxiv.org/abs/2312.12575)
+
 - Vulnerability Detection with Code Language Models: How Far Are We? arxiv 2024, [Link](https://arxiv.org/pdf/2403.18624.pdf)
 
 - A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection, arxiv 2024, [Link](https://arxiv.org/pdf/2403.17218.pdf)
@@ -34,13 +36,13 @@
 
 - SMARTINV: Multimodal Learning for Smart Contract Invariant Inference, S&P 2024, [Link](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a126/1Ub23GNTAeQ)
 
-- LLM-based Resource-Oriented Intention Inference for Static Resource Detection, ISSTA 2024, [Link](https://arxiv.org/abs/2311.04448)
+- LLM-based Resource-Oriented Intention Inference for Static Resource Detection, arxiv, [Link](https://arxiv.org/abs/2311.04448)
 
 - The Hitchhiker's Guide to Program Analysis: A Journey with Large Language Models, OOPSLA 2024, [Link](https://arxiv.org/abs/2308.00245)
 
 - Do you still need a manual smart contract audit? [Link](https://arxiv.org/pdf/2306.12338.pdf)
 
-- Harnessing the Power of LLM to Support Binary Taint Analysis, TOSEM, [Link](https://arxiv.org/abs/2310.08275)
+- Harnessing the Power of LLM to Support Binary Taint Analysis, arxiv, [Link](https://arxiv.org/abs/2310.08275)
 
 - Large Language Model-Powered Smart Contract Vulnerability Detection: New Perspectives. arXiv, [Link](https://arxiv.org/pdf/2310.01152.pdf)
 
