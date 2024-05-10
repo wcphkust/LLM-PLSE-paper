@@ -48,8 +48,6 @@
 
 - GPTScan: Detecting Logic Vulnerabilities in Smart Contracts by Combining GPT with Program Analysis. ICSE 2024 [Link](https://arxiv.org/pdf/2308.03314.pdf?utm_source=Klaviyo&utm_medium=campaign&_kx=)
 
-- Sedar: Obtaining High-Quality Seeds for DBMS Fuzzing via Cross-DBMS SQL Transfer. ICSE 2024. [Link](http://wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/Sedar_ICSE24.pdf)
-
 - Continuous Learning for Android Malware Detection, USENIX Security 2023, [Link](https://surrealyz.github.io/files/pubs/sec23winter-active-learning-prepub.pdf)
 
 - Beware of the Unexpected: Bimodal Taint Analysis, ISSTA 2023, [Link](https://arxiv.org/pdf/2301.10545.pdf)
@@ -113,6 +111,8 @@
 
 
 ### Fuzzing and Testing
+
+- Sedar: Obtaining High-Quality Seeds for DBMS Fuzzing via Cross-DBMS SQL Transfer. ICSE 2024. [Link](http://wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/Sedar_ICSE24.pdf)
 
 - LLM4FUZZ: Guided Fuzzing of Smart Contracts with Large Language Models [Link](https://arxiv.org/pdf/2401.11108.pdf)
 
