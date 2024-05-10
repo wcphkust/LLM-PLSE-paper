@@ -79,6 +79,8 @@
 
 - Enabling Memory Safety of C Programs using LLMs, arxiv, [Link](https://arxiv.org/pdf/2404.01096.pdf)
 
+- CodeChain: Towards Modular Code Generation Through Chain of Self-revisions with Representative Sub-modules, ICLR 2024, [Link](https://arxiv.org/pdf/2310.08992)
+
 - Is Self-Repair a Silver Bullet for Code Generation? ICLR 2024, [Link](https://openreview.net/forum?id=y0GJXRungR)
 
 - Verified Multi-Step Synthesis using Large Language Models and Monte Carlo Tree Search [Link](https://arxiv.org/pdf/2402.08147.pdf)
