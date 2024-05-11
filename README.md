@@ -126,6 +126,8 @@
 
 ### Code Model and Code Reasoning
 
+- Source Code Vulnerability Detection: Combining Code Language Models and Code Property Graphs, arxiv, [Link](https://arxiv.org/pdf/2404.14719)
+
 - CodeArt: Better Code Models by Attention Regularization When Symbols Are Lacking, FSE 2024, [Link](https://arxiv.org/pdf/2402.11842)
 
 - FAIR: Flow Type-Aware Pre-Training of Compiler Intermediate Representations, ICSE 2024, [Link](https://arxiv.org/pdf/2309.04828.pdf)
