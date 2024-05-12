@@ -114,6 +114,8 @@
 
 ### Fuzzing and Testing
 
+- Prompt Fuzzing for Fuzz Driver Generation, CCS 2024, [Link](https://arxiv.org/pdf/2312.17677.pdf)
+
 - Sedar: Obtaining High-Quality Seeds for DBMS Fuzzing via Cross-DBMS SQL Transfer. ICSE 2024. [Link](http://wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_24/Sedar_ICSE24.pdf)
 
 - LLM4FUZZ: Guided Fuzzing of Smart Contracts with Large Language Models [Link](https://arxiv.org/pdf/2401.11108.pdf)
