@@ -75,6 +75,8 @@
 
 ### Program Repair, Code Completion, and Program Synthesis
 
+- Prompt Fuzzing for Fuzz Driver Generation, CCS 2024, [Link](https://arxiv.org/pdf/2312.17677.pdf)
+
 - Towards AI-Assisted Synthesis of Verified Dafny Methods, FSE 2024, [Link](https://arxiv.org/pdf/2402.00247.pdf)
 
 - Enabling Memory Safety of C Programs using LLMs, arxiv, [Link](https://arxiv.org/pdf/2404.01096.pdf)
