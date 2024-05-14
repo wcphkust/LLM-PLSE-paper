@@ -13,7 +13,7 @@
 
 - A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection, arxiv 2024, [Link](https://arxiv.org/pdf/2403.17218.pdf)
 
-- How Far Have We Gone in Vulnerability Detection Using Large Language Models, ICLR 2024, [Link](https://openreview.net/pdf?id=Q3GVrWRKuB#page=11&zoom=100,110,316)
+- How Far Have We Gone in Vulnerability Detection Using Large Language Models, arxiv, [Link](https://openreview.net/pdf?id=Q3GVrWRKuB#page=11&zoom=100,110,316)
 
 - Understanding the Effectiveness of Large Language Models in Detecting Security Vulnerabilities, arxiv 2023, [Link](https://arxiv.org/pdf/2311.16169.pdf)
 
