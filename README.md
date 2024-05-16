@@ -25,6 +25,12 @@
 
 **General Analysis**
 
+- Large Language Models for Test-Free Fault Localization, ICSE 2024, [Link](https://arxiv.org/pdf/2310.01726)
+
+- Your Instructions Are Not Always Helpful: Assessing the Efficacy of Instruction Fine-tuning for Software Vulnerability Detection, axiv, [Link](https://arxiv.org/pdf/2401.07466)
+
+- Finetuning Large Language Models for Vulnerability Detection, arxiv, [Link](https://arxiv.org/pdf/2401.17010)
+
 - A Learning-Based Approach to Static Program Slicing. OOPSLA 2024, [Link](https://aashishyadavally.github.io/assets/pdf/pub-oopsla2024.pdf)
 
 - Dataflow Analysis-Inspired Deep Learning for Efficient Vulnerability Detection. ICSE 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3597503.3623345)
