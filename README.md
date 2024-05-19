@@ -81,6 +81,8 @@
 
 ### Program Repair, Code Completion, and Program Synthesis
 
+- Automatic Programming: Large Language Models and Beyond, arxiv 2024, (Mark) [Link](https://arxiv.org/pdf/2405.02213)
+
 - Towards AI-Assisted Synthesis of Verified Dafny Methods, FSE 2024, [Link](https://arxiv.org/pdf/2402.00247.pdf)
 
 - Enabling Memory Safety of C Programs using LLMs, arxiv, [Link](https://arxiv.org/pdf/2404.01096.pdf)
