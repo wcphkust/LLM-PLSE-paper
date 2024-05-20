@@ -136,6 +136,10 @@
 
 ### Code Model and Code Reasoning
 
+- Enhancing Code Understanding for Impact Analysis by Combining Transformers and Program Dependence Graphs, FSE 2024.
+
+- Which Syntactic Capabilities Are Statistically Learned by Masked Language Models for Code? ICSE 2024, [Link](https://arxiv.org/pdf/2401.01512)
+
 - Source Code Vulnerability Detection: Combining Code Language Models and Code Property Graphs, arxiv, [Link](https://arxiv.org/pdf/2404.14719)
 
 - CodeArt: Better Code Models by Attention Regularization When Symbols Are Lacking, FSE 2024, [Link](https://arxiv.org/pdf/2402.11842)
