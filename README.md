@@ -168,6 +168,8 @@
 
 ## Prompting for Reasoning Tasks
 
+- Large Language Models for Automatic Equation Discovery, arxiv, [Link](https://arxiv.org/pdf/2405.07761)
+
 - Self-Evaluation Guided Beam Search for Reasoning, NeurIPS 2023, [Link](https://arxiv.org/pdf/2305.00633.pdf)
 
 - Self-consistency improves chain of thought reasoning in language models. NeurIPS 2022, [Link](https://arxiv.org/abs/2203.11171)
