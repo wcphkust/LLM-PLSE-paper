@@ -136,6 +136,8 @@
 
 ### Code Model and Code Reasoning
 
+- jTrans: jump-aware transformer for binary code similarity detection, ISSTA 2022, [Link](https://arxiv.org/pdf/2205.12713)
+
 - Enhancing Code Understanding for Impact Analysis by Combining Transformers and Program Dependence Graphs, FSE 2024.
 
 - Which Syntactic Capabilities Are Statistically Learned by Masked Language Models for Code? ICSE 2024, [Link](https://arxiv.org/pdf/2401.01512)
