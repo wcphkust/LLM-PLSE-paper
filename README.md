@@ -40,6 +40,8 @@
 
 **Domain-Specific Bug Detection(Domain-Specific Program & Bug Type)**
 
+- LLM-Assisted Static Analysis for Detecting Security Vulnerabilities, arxiv, [Link](https://arxiv.org/abs/2405.17238)
+
 - SMARTINV: Multimodal Learning for Smart Contract Invariant Inference, S&P 2024, [Link](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a126/1Ub23GNTAeQ)
 
 - LLM-based Resource-Oriented Intention Inference for Static Resource Detection, arxiv, [Link](https://arxiv.org/abs/2311.04448)
