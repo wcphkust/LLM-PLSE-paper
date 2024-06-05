@@ -83,6 +83,8 @@
 
 ### Program Repair, Code Completion, and Program Synthesis
 
+- PyDex: Repairing Bugs in Introductory Python Assignments using LLMs, OOPSLA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3649850)
+
 - Automatic Programming: Large Language Models and Beyond, arxiv 2024, (Mark) [Link](https://arxiv.org/pdf/2405.02213)
 
 - Towards AI-Assisted Synthesis of Verified Dafny Methods, FSE 2024, [Link](https://arxiv.org/pdf/2402.00247.pdf)
@@ -169,6 +171,8 @@
 - Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation, ICLR 2024, [Link](https://arxiv.org/abs/2305.15852)
 
 ## Prompting for Reasoning Tasks
+
+- LeanDojo: Theorem Proving with Retrieval-Augmented Language Models, NeurIPS 2023, [Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/4441469427094f8873d0fecb0c4e1cee-Paper-Datasets_and_Benchmarks.pdf)
 
 - Large Language Models for Automatic Equation Discovery, arxiv, [Link](https://arxiv.org/pdf/2405.07761)
 
