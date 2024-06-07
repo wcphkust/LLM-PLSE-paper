@@ -140,6 +140,10 @@
 
 ### Code Model and Code Reasoning
 
+- Large Language Models for Code: Security Hardening and Adversarial Testing, CCS 2023, [Link](https://arxiv.org/pdf/2302.05319)
+
+- Instruction Tuning for Secure Code Generation, ICML 2024, [Link](https://arxiv.org/pdf/2402.09497)
+
 - jTrans: jump-aware transformer for binary code similarity detection, ISSTA 2022, [Link](https://arxiv.org/pdf/2205.12713)
 
 - Enhancing Code Understanding for Impact Analysis by Combining Transformers and Program Dependence Graphs, FSE 2024.
