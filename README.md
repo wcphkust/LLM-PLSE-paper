@@ -85,6 +85,8 @@
 
 ### Program Repair, Code Completion, and Program Synthesis
 
+- Learning Performance-Improving Code Edits, ICLR 2024, [Link](https://arxiv.org/pdf/2302.07867)
+
 - PyDex: Repairing Bugs in Introductory Python Assignments using LLMs, OOPSLA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3649850)
 
 - Automatic Programming: Large Language Models and Beyond, arxiv 2024, (Mark) [Link](https://arxiv.org/pdf/2405.02213)
