@@ -146,7 +146,7 @@
 
 - Constrained Decoding for Secure Code Generation, arxiv, [Link](https://arxiv.org/pdf/2405.00218)
 
-- Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks, OOPLSA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3649829)
+- Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks, OOPSLA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3649829)
 
 - Large Language Models for Code: Security Hardening and Adversarial Testing, CCS 2023, [Link](https://arxiv.org/pdf/2302.05319)
 
