@@ -180,6 +180,8 @@
 
 - GraphCodeBert: Pre-training Code Representations with Data Flow, ICLR 2021, [Link](https://arxiv.org/pdf/2009.08366)
 
+- CodeBERT: A Pre-Trained Model for Programming and Natural Languages, EMNLP 2020, [Link](https://arxiv.org/pdf/2002.08155)
+
 ### Code Understanding and IDE-tech
 
 - Using an LLM to Help With Code Understanding, ICSE 2024, [Link](https://arxiv.org/pdf/2307.08177.pdf)
