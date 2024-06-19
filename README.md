@@ -85,6 +85,8 @@
 
 ### Program Repair, Code Completion, and Program Synthesis
 
+- LongCoder: A Long-Range Pre-trained Language Model for Code Completion, ICML 2023, [Link](https://arxiv.org/pdf/2306.14893)
+
 - Learning Performance-Improving Code Edits, ICLR 2024, [Link](https://arxiv.org/pdf/2302.07867)
 
 - PyDex: Repairing Bugs in Introductory Python Assignments using LLMs, OOPSLA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3649850)
@@ -173,6 +175,10 @@
 - Grounded Copilot: How Programmers Interact with Code-Generating Models, OOPSLA 2023, [Link](https://dl.acm.org/doi/10.1145/3586030)
 
 - Extracting Training Data from Large Language Models, USENIX Security 2023, [Link](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)
+
+- How could Neural Networks understand Programs? NeurIPS 2021, [Link](https://arxiv.org/pdf/2105.04297)
+
+- GraphCodeBert: Pre-training Code Representations with Data Flow, ICLR 2021, [Link](https://arxiv.org/pdf/2009.08366)
 
 ### Code Understanding and IDE-tech
 
