@@ -178,6 +178,8 @@
 
 - How could Neural Networks understand Programs? NeurIPS 2021, [Link](https://arxiv.org/pdf/2105.04297)
 
+- ProGraML: A Graph-based Program Representation for Data Flow Analysis and Compiler Optimizations, ICML 2021, [Link](https://proceedings.mlr.press/v139/cummins21a.html)
+
 - GraphCodeBert: Pre-training Code Representations with Data Flow, ICLR 2021, [Link](https://arxiv.org/pdf/2009.08366)
 
 - CodeBERT: A Pre-Trained Model for Programming and Natural Languages, EMNLP 2020, [Link](https://arxiv.org/pdf/2002.08155)
