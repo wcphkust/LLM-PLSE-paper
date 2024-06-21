@@ -42,6 +42,8 @@
 
 **Domain-Specific Bug Detection(Domain-Specific Program & Bug Type)**
 
+- Interleaving Static Analysis and LLM Prompting, SOAP 2024, [Link](https://web.cs.ucdavis.edu/~rubio/includes/soap24.pdf)
+
 - LLM-Assisted Static Analysis for Detecting Security Vulnerabilities, arxiv, [Link](https://arxiv.org/abs/2405.17238)
 
 - SMARTINV: Multimodal Learning for Smart Contract Invariant Inference, S&P 2024, [Link](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a126/1Ub23GNTAeQ)
