@@ -178,7 +178,7 @@
 
 - Extracting Training Data from Large Language Models, USENIX Security 2023, [Link](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)
 
-- How could Neural Networks understand Programs? NeurIPS 2021, [Link](https://arxiv.org/pdf/2105.04297)
+- How could Neural Networks understand Programs? ICML 2021, [Link](https://arxiv.org/pdf/2105.04297)
 
 - ProGraML: A Graph-based Program Representation for Data Flow Analysis and Compiler Optimizations, ICML 2021, [Link](https://proceedings.mlr.press/v139/cummins21a.html)
 
