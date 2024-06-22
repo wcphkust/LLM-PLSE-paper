@@ -186,6 +186,8 @@
 
 - CodeBERT: A Pre-Trained Model for Programming and Natural Languages, EMNLP 2020, [Link](https://arxiv.org/pdf/2002.08155)
 
+- Neural Code Comprehension: A Learnable Representation of Code Semantics, NeurIPS 2018, [Link](https://arxiv.org/abs/1806.07336)
+
 ### Code Understanding and IDE-tech
 
 - Using an LLM to Help With Code Understanding, ICSE 2024, [Link](https://arxiv.org/pdf/2307.08177.pdf)
