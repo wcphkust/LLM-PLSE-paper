@@ -222,6 +222,8 @@
 
 ## Agent, Tool Using, and Planning
 
+- (Survey) Comprehensive Outline of Large Language Model-based Multi-Agent Research, Tsinghua NLP Group, [Link](https://thinkwee.top/multiagent_ebook/)
+
 - Natural Language Commanding via Program Synthesis, Microsoft [Link](https://arxiv.org/pdf/2306.03460.pdf)
 
 - Chain of Code: Reasoning with a Language Model-Augmented Code Emulator, Feifei Li, Google [Link](https://arxiv.org/pdf/2312.04474.pdf)
