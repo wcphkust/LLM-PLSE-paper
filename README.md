@@ -148,6 +148,8 @@
 
 ### Code Model and Code Reasoning
 
+- Meta Large Language Model Compiler: Foundation Models of Compiler Optimization, Meta, [Link](https://ai.meta.com/research/publications/meta-large-language-model-compiler-foundation-models-of-compiler-optimization/)
+
 - Constrained Decoding for Secure Code Generation, arxiv, [Link](https://arxiv.org/pdf/2405.00218)
 
 - Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks, OOPSLA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3649829)
