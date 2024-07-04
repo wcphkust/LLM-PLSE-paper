@@ -66,6 +66,8 @@
 
 ### Specification Inference and Verification
 
+- Can Large Language Models Transform Natural Language Intent into Formal Method Postconditions? FSE 2024, [Link](https://arxiv.org/pdf/2310.01831)
+
 - Enchanting Program Specification Synthesis by Large Language Models using Static Analysis and Program Verification, CAV 2024, [Link](https://arxiv.org/pdf/2404.00762.pdf)
 
 - SpecGen: Automated Generation of Formal Program Specifications via Large Language Models, [Link](https://arxiv.org/pdf/2401.08807.pdf)
