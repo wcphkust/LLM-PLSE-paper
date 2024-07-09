@@ -158,6 +158,10 @@
 
 - Evaluating the Effectiveness of Deep Learning Models for Foundational Program Analysis Tasks, OOPSLA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3649829)
 
+- Detecting Misuse of Security APIs: A Systematic Review, Arxiv 2024, [Link](https://arxiv.org/html/2306.08869v2)
+
+- An Investigation into Misuse of Java Security APIs by Large Language Models, ASIACCS 2024, [Link](https://arxiv.org/html/2404.03823v1)
+
 - Large Language Models for Code: Security Hardening and Adversarial Testing, CCS 2023, [Link](https://arxiv.org/pdf/2302.05319), [Code](https://github.com/eth-sri/sven/tree/master)
 
 - Instruction Tuning for Secure Code Generation, ICML 2024, [Link](https://arxiv.org/pdf/2402.09497)
