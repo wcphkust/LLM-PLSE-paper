@@ -91,6 +91,8 @@
 
 ### Program Repair, Code Completion, and Program Synthesis
 
+- RepairAgent: An Autonomous, LLM-Based Agent for Program Repair, [Link](https://arxiv.org/pdf/2403.17134)
+
 - LongCoder: A Long-Range Pre-trained Language Model for Code Completion, ICML 2023, [Link](https://arxiv.org/pdf/2306.14893)
 
 - Learning Performance-Improving Code Edits, ICLR 2024, [Link](https://arxiv.org/pdf/2302.07867)
@@ -137,6 +139,8 @@
 
 
 ### Fuzzing and Testing
+
+- Evaluating Offensive Security Capabilities of Large Language Models, Google 2024/06, [Link](https://googleprojectzero.blogspot.com/2024/06/project-naptime.html)
 
 - Prompt Fuzzing for Fuzz Driver Generation, CCS 2024, [Link](https://arxiv.org/pdf/2312.17677.pdf)
 
