@@ -7,6 +7,8 @@
 
 **Benchmark and Empirical Study**
 
+- Code Linting using Language Models, arxiv 2024, [Link](https://arxiv.org/pdf/2406.19508)
+
 - LLMs Cannot Reliably Identify and Reason About Security Vulnerabilities (Yet?): A Comprehensive Evaluation, Framework, and Benchmarks. S&P 2024, [Link](https://arxiv.org/abs/2312.12575)
 
 - Vulnerability Detection with Code Language Models: How Far Are We? arxiv 2024, [Link](https://arxiv.org/pdf/2403.18624.pdf)
