@@ -91,7 +91,11 @@
 - Ranking LLM-Generated Loop Invariants for Program Verification, [Link](https://arxiv.org/pdf/2310.09342.pdf)
 
 
-### Program Repair, Code Completion, and Program Synthesis
+### Code Generation (Program Repair, Code Completion, and Program Synthesis)
+
+- Exploring and Unleashing the Power of Large Language Models in Automated Code Translation, FSE 2024, [Link](https://arxiv.org/pdf/2404.14646)
+
+- Rectifier: Code Translation with Corrector via LLMs, arxiv 2024, [Link](https://arxiv.org/pdf/2407.07472)
 
 - RepairAgent: An Autonomous, LLM-Based Agent for Program Repair, [Link](https://arxiv.org/pdf/2403.17134)
 
