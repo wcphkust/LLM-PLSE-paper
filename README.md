@@ -93,6 +93,8 @@
 
 ### Code Generation (Program Repair, Code Completion, and Program Synthesis)
 
+- A Survey on Large Language Models for Code Generation, arxiv 2024, [Link](https://arxiv.org/pdf/2406.00515)
+
 - Exploring and Unleashing the Power of Large Language Models in Automated Code Translation, FSE 2024, [Link](https://arxiv.org/pdf/2404.14646)
 
 - Rectifier: Code Translation with Corrector via LLMs, arxiv 2024, [Link](https://arxiv.org/pdf/2407.07472)
