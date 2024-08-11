@@ -46,6 +46,8 @@
 
 **Domain-Specific Bug Detection(Domain-Specific Program & Bug Type)**
 
+- Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications, ICSE 2025, [Link](https://arxiv.org/pdf/2403.16073)
+
 - Interleaving Static Analysis and LLM Prompting, SOAP 2024, [Link](https://web.cs.ucdavis.edu/~rubio/includes/soap24.pdf)
 
 - LLM-Assisted Static Analysis for Detecting Security Vulnerabilities, arxiv, [Link](https://arxiv.org/abs/2405.17238)
