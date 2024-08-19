@@ -150,6 +150,8 @@
 
 ### Fuzzing and Testing
 
+- Towards Understanding the Effectiveness of Large Langauge Models on Directed Test Input Generation, ASE 2024, [Link](https://github.com/CGCL-codes/PathEval/tree/main)
+
 - Evaluating Offensive Security Capabilities of Large Language Models, Google 2024/06, [Link](https://googleprojectzero.blogspot.com/2024/06/project-naptime.html)
 
 - Prompt Fuzzing for Fuzz Driver Generation, CCS 2024, [Link](https://arxiv.org/pdf/2312.17677.pdf)
