@@ -17,6 +17,8 @@
 
 - How Far Have We Gone in Vulnerability Detection Using Large Language Models, arxiv, [Link](https://openreview.net/pdf?id=Q3GVrWRKuB#page=11&zoom=100,110,316)
 
+- Large Language Models for Code Analysis: Do LLMs Really Do Their Job?, Usenix Security 2023, [Link](https://www.usenix.org/system/files/sec24fall-prepub-2205-fang.pdf)
+
 - Understanding the Effectiveness of Large Language Models in Detecting Security Vulnerabilities, arxiv 2023, [Link](https://arxiv.org/pdf/2311.16169.pdf)
 
 - Do Language Models Learn Semantics of Code? A Case Study in Vulnerability Detection, arXiv, [Link](https://arxiv.org/pdf/2311.04109.pdf)
@@ -56,7 +58,7 @@
 
 - LLM-based Resource-Oriented Intention Inference for Static Resource Detection, arxiv, [Link](https://arxiv.org/abs/2311.04448)
 
-- The Hitchhiker's Guide to Program Analysis: A Journey with Large Language Models, OOPSLA 2024, [Link](https://arxiv.org/abs/2308.00245)
+- Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach, OOPSLA 2024, [Link](https://arxiv.org/abs/2308.00245)
 
 - Do you still need a manual smart contract audit? [Link](https://arxiv.org/pdf/2306.12338.pdf)
 
