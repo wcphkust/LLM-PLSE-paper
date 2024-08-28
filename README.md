@@ -154,6 +154,10 @@
 
 ### Fuzzing and Testing
 
+- An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation, TSE 2024, [Link](https://www.franktip.org/pubs/testpilot2024.pdf)
+
+- LLMorpheus: Mutation Testing using Large Language Models, arxiv 2014, Frank Tip, [Link](https://arxiv.org/pdf/2404.09952)
+
 - Towards Understanding the Effectiveness of Large Langauge Models on Directed Test Input Generation, ASE 2024, [Link](https://github.com/CGCL-codes/PathEval/tree/main)
 
 - Evaluating Offensive Security Capabilities of Large Language Models, Google 2024/06, [Link](https://googleprojectzero.blogspot.com/2024/06/project-naptime.html)
