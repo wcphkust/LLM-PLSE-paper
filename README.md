@@ -204,6 +204,8 @@
 
 - Symmetry-Preserving Program Representations for Learning Code Semantics [Link](https://arxiv.org/pdf/2308.03312.pdf)
 
+- ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries, CCS 2024, [Link](https://www.cs.purdue.edu/homes/lintan/publications/resym-ccs24.pdf)
+
 - LmPa: Improving Decompilation by Synergy of Large Language Model and Program Analysis, [Link](https://arxiv.org/pdf/2306.02546.pdf)
 
 - When Do Program-of-Thought Works for Reasoning? AAAI 2024 [Link](https://arxiv.org/pdf/2308.15452.pdf)
