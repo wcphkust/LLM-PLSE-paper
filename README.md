@@ -1,6 +1,5 @@
 # Reference
 
-
 ## PL/SE Applications
 
 ### Bug Detection
@@ -98,8 +97,6 @@
 
 
 ### Code Generation (Program Repair, Code Completion, and Program Synthesis)
-
-- A Survey on Large Language Models for Code Generation, arxiv 2024, [Link](https://arxiv.org/pdf/2406.00515)
 
 - Exploring and Unleashing the Power of Large Language Models in Automated Code Translation, FSE 2024, [Link](https://arxiv.org/pdf/2404.14646)
 
@@ -232,9 +229,7 @@
 
 - Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation, ICLR 2024, [Link](https://arxiv.org/abs/2305.15852)
 
-## Prompting (for Reasoning Tasks)
-
-- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing, [Link](https://arxiv.org/pdf/2107.13586)
+## Prompting for Reasoning Tasks
 
 - LeanDojo: Theorem Proving with Retrieval-Augmented Language Models, NeurIPS 2023, [Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/4441469427094f8873d0fecb0c4e1cee-Paper-Datasets_and_Benchmarks.pdf)
 
@@ -260,13 +255,9 @@
 
 ## Agent, Tool Using, and Planning
 
-- (Survey) Comprehensive Outline of Large Language Model-based Multi-Agent Research, Tsinghua NLP Group, [Link](https://thinkwee.top/multiagent_ebook/)
-
 - Natural Language Commanding via Program Synthesis, Microsoft [Link](https://arxiv.org/pdf/2306.03460.pdf)
 
 - Chain of Code: Reasoning with a Language Model-Augmented Code Emulator, Feifei Li, Google [Link](https://arxiv.org/pdf/2312.04474.pdf)
-
-- If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents, [Link](https://arxiv.org/pdf/2401.00812.pdf)
 
 - Real-world practices of AI Agents, [Link](https://mp.weixin.qq.com/s/nnVQCc3UeeUxjzAxhDCDPQ)
 
@@ -298,3 +289,15 @@
 - CodeFuse: LLM for Code from Ant Group, [Link](https://github.com/codefuse-ai/codefuse)
 
 - Owl-LM: Large Language Model for Blockchain, [Link](https://github.com/sec3-service/Owl-LM)
+
+## Survey
+
+- Large Language Model-Based Agents for Software Engineering: A Survey [Link](https://arxiv.org/pdf/2409.02977)
+
+- A Survey on Large Language Models for Code Generation, arxiv 2024, [Link](https://arxiv.org/pdf/2406.00515)
+
+- Comprehensive Outline of Large Language Model-based Multi-Agent Research, Tsinghua NLP Group, [Link](https://thinkwee.top/multiagent_ebook/)
+
+- If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents, [Link](https://arxiv.org/pdf/2401.00812.pdf)
+
+- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing, [Link](https://arxiv.org/pdf/2107.13586)
