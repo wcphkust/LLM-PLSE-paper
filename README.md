@@ -232,7 +232,9 @@
 
 - Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation, ICLR 2024, [Link](https://arxiv.org/abs/2305.15852)
 
-## Prompting for Reasoning Tasks
+## Prompting (for Reasoning Tasks)
+
+- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing, [Link](https://arxiv.org/pdf/2107.13586)
 
 - LeanDojo: Theorem Proving with Retrieval-Augmented Language Models, NeurIPS 2023, [Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/4441469427094f8873d0fecb0c4e1cee-Paper-Datasets_and_Benchmarks.pdf)
 
@@ -295,19 +297,7 @@
 
 - CodeFuse: LLM for Code from Ant Group, [Link](https://github.com/codefuse-ai/codefuse)
 
-- Owl-LM: Large Language Model for Blockchain, [Link](https://github.com/sec3-service/Owl-LM) 
-
-## Remark: Researcher List
-
-- Tao YU, The University of Hong Kong (Training)
-
-- Shunyu YAO, Princeton University (Reasoning, Agent)
-
-- Xi YE, Isil Dillig, UT Austin (Prompting)
-
-- Lingming ZHANG, UIUC (Application: Testing, Repair)
-
-- Zhiyun QIAN, UC Riverside (Application: Analysis)
+- Owl-LM: Large Language Model for Blockchain, [Link](https://github.com/sec3-service/Owl-LM)
 
 - Yizheng CHEN, University of Maryland (Application: Analysis)
 
