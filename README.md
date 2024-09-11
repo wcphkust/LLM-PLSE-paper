@@ -298,9 +298,3 @@
 - CodeFuse: LLM for Code from Ant Group, [Link](https://github.com/codefuse-ai/codefuse)
 
 - Owl-LM: Large Language Model for Blockchain, [Link](https://github.com/sec3-service/Owl-LM)
-
-- Yizheng CHEN, University of Maryland (Application: Analysis)
-
-- Baishakhi Ray, Columbia University (Application: Repair, Analysis)
-
-- Martin Vechev, ETH (Data, Hallucination)
