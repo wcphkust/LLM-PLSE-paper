@@ -8,8 +8,6 @@
 
 - Top Score on the Wrong Exam: On Benchmarking in Machine Learning for Vulnerability Detection, arxiv 2024, [Link](https://arxiv.org/pdf/2408.12986)
 
-- Code Linting using Language Models, arxiv 2024, [Link](https://arxiv.org/pdf/2406.19508)
-
 - LLMs Cannot Reliably Identify and Reason About Security Vulnerabilities (Yet?): A Comprehensive Evaluation, Framework, and Benchmarks. S&P 2024, [Link](https://arxiv.org/abs/2312.12575)
 
 - Vulnerability Detection with Code Language Models: How Far Are We? arxiv 2024, [Link](https://arxiv.org/pdf/2403.18624.pdf)
@@ -54,6 +52,8 @@
 - Interleaving Static Analysis and LLM Prompting, SOAP 2024, [Link](https://web.cs.ucdavis.edu/~rubio/includes/soap24.pdf)
 
 - Using an LLM to Help With Code Understanding, ICSE 2024, [Link](https://arxiv.org/pdf/2307.08177.pdf)
+
+- Code Linting using Language Models, arxiv 2024, [Link](https://arxiv.org/pdf/2406.19508)
 
 - LLM-Assisted Static Analysis for Detecting Security Vulnerabilities, arxiv, [Link](https://arxiv.org/abs/2405.17238)
 
