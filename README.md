@@ -153,6 +153,8 @@
 
 ### Fuzzing and Testing
 
+- Evaluating Offensive Security Capabilities of Large Language Models, Google, [Link](https://googleprojectzero.blogspot.com/2024/06/project-naptime.html)
+
 - An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation, TSE 2024, [Link](https://www.franktip.org/pubs/testpilot2024.pdf)
 
 - LLMorpheus: Mutation Testing using Large Language Models, arxiv 2014, Frank Tip, [Link](https://arxiv.org/pdf/2404.09952)
@@ -172,6 +174,8 @@
 - Large Language Models are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models, ISSTA 2023, [Link](https://lingming.cs.illinois.edu/publication.html)
 
 - Language Agents as Hackers: Evaluating Cybersecurity Skills with Capture the Flag, MASEC@NeurIPS 2023, [Link](https://openreview.net/pdf?id=KOZwk7BFc3)
+
+- Nuances are the Key: Unlocking ChatGPT to Find Failure-Inducing Tests with Differential Prompting, [Link](https://arxiv.org/pdf/2304.11686)
 
 ### Code Model and Code Reasoning
 
