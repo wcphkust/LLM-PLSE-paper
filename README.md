@@ -53,6 +53,8 @@
 
 - Interleaving Static Analysis and LLM Prompting, SOAP 2024, [Link](https://web.cs.ucdavis.edu/~rubio/includes/soap24.pdf)
 
+- Using an LLM to Help With Code Understanding, ICSE 2024, [Link](https://arxiv.org/pdf/2307.08177.pdf)
+
 - LLM-Assisted Static Analysis for Detecting Security Vulnerabilities, arxiv, [Link](https://arxiv.org/abs/2405.17238)
 
 - SMARTINV: Multimodal Learning for Smart Contract Invariant Inference, S&P 2024, [Link](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a126/1Ub23GNTAeQ)
@@ -221,15 +223,10 @@
 
 - Neural Code Comprehension: A Learnable Representation of Code Semantics, NeurIPS 2018, [Link](https://arxiv.org/abs/1806.07336)
 
-### Code Understanding and IDE-tech
 
-- Using an LLM to Help With Code Understanding, ICSE 2024, [Link](https://arxiv.org/pdf/2307.08177.pdf)
-
-## Hallucination
+## Prompting (for Reasoning Tasks) and Hallucinations
 
 - Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation, ICLR 2024, [Link](https://arxiv.org/abs/2305.15852)
-
-## Prompting for Reasoning Tasks
 
 - LeanDojo: Theorem Proving with Retrieval-Augmented Language Models, NeurIPS 2023, [Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/4441469427094f8873d0fecb0c4e1cee-Paper-Datasets_and_Benchmarks.pdf)
 
@@ -250,8 +247,6 @@
 - Wechat Post: 大语言模型的数学之路 [Link](https://mp.weixin.qq.com/s/BXQVY7rjlwjAkSxWg_dtcQ)
 
 - Blog: Prompt Engineering [Link](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
-
-- Hallucination: Survey [Link](https://mp.weixin.qq.com/s/k7jQ62deAWZVRRCXjEw8OQ)
 
 ## Agent, Tool Using, and Planning
 
@@ -301,3 +296,5 @@
 - If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents, [Link](https://arxiv.org/pdf/2401.00812.pdf)
 
 - Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing, [Link](https://arxiv.org/pdf/2107.13586)
+
+- A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions, [Link](https://arxiv.org/pdf/2406.19508)
