@@ -6,6 +6,8 @@
 
 **Benchmark and Empirical Study**
 
+- LLMs: Understanding Code Syntax and Semantics for Code Analysis, arxiv 2024, [Link](https://arxiv.org/pdf/2305.12138)
+
 - Top Score on the Wrong Exam: On Benchmarking in Machine Learning for Vulnerability Detection, arxiv 2024, [Link](https://arxiv.org/pdf/2408.12986)
 
 - LLMs Cannot Reliably Identify and Reason About Security Vulnerabilities (Yet?): A Comprehensive Evaluation, Framework, and Benchmarks. S&P 2024, [Link](https://arxiv.org/abs/2312.12575)
