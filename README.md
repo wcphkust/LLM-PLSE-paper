@@ -175,6 +175,8 @@
 
 - Large Language Models are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models, ISSTA 2023, [Link](https://lingming.cs.illinois.edu/publication.html)
 
+- Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risk of Language Models, arxiv 2024, [Link](https://www.arxiv.org/pdf/2408.08926)
+
 - Language Agents as Hackers: Evaluating Cybersecurity Skills with Capture the Flag, MASEC@NeurIPS 2023, [Link](https://openreview.net/pdf?id=KOZwk7BFc3)
 
 - Nuances are the Key: Unlocking ChatGPT to Find Failure-Inducing Tests with Differential Prompting, [Link](https://arxiv.org/pdf/2304.11686)
