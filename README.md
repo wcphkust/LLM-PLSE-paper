@@ -183,6 +183,8 @@
 
 ### Code Model and Code Reasoning
 
+- CodeFort: Robust Training for Code Generation Models, EMNLP Findings 2024, [Link](https://foreverzyh.github.io/uploads/CodeFort.pdf)
+
 - Meta Large Language Model Compiler: Foundation Models of Compiler Optimization, Meta, [Link](https://ai.meta.com/research/publications/meta-large-language-model-compiler-foundation-models-of-compiler-optimization/)
 
 - Constrained Decoding for Secure Code Generation, arxiv, [Link](https://arxiv.org/pdf/2405.00218)
