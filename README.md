@@ -102,6 +102,8 @@
 
 ### Code Generation (Program Repair, Code Completion, and Program Synthesis)
 
+- AutoCodeRover: Autonomous Program Improvement, ISSTA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3650212.3680384)
+
 - Exploring and Unleashing the Power of Large Language Models in Automated Code Translation, FSE 2024, [Link](https://arxiv.org/pdf/2404.14646)
 
 - Rectifier: Code Translation with Corrector via LLMs, arxiv 2024, [Link](https://arxiv.org/pdf/2407.07472)
