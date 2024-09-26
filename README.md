@@ -310,3 +310,5 @@
 - Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing, [Link](https://arxiv.org/pdf/2107.13586)
 
 - A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions, [Link](https://arxiv.org/pdf/2406.19508)
+
+- Large Language Models for Software Engineering: A Systematic Literature Review, [Link](https://arxiv.org/pdf/2308.10620)
