@@ -159,6 +159,8 @@
 
 ### Fuzzing and Testing
 
+- When Fuzzing Meets LLMs: Challenges and Opportunities, FSE 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3663529.3663784)
+
 - Evaluating Offensive Security Capabilities of Large Language Models, Google, [Link](https://googleprojectzero.blogspot.com/2024/06/project-naptime.html)
 
 - An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation, TSE 2024, [Link](https://www.franktip.org/pubs/testpilot2024.pdf)
