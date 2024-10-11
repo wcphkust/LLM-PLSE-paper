@@ -158,6 +158,7 @@
 
 - Active Inductive Logic Programming for Code Search, ICSE 2019, [Link](http://web.cs.ucla.edu/~miryung/Publications/icse2019-alice.pdf)
 
+- LPR: Large Language Models-Aided Program Reduction. ISSTA 2024, [Link](https://cs.uwaterloo.ca/~cnsun/public/publication/issta24/issta24.pdf)
 
 ### Fuzzing and Testing
 
