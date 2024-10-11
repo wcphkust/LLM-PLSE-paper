@@ -158,8 +158,6 @@
 
 - Active Inductive Logic Programming for Code Search, ICSE 2019, [Link](http://web.cs.ucla.edu/~miryung/Publications/icse2019-alice.pdf)
 
-- LPR: Large Language Models-Aided Program Reduction. ISSTA 2024, [Link](https://cs.uwaterloo.ca/~cnsun/public/publication/issta24/issta24.pdf)
-
 ### Fuzzing and Testing
 
 - When Fuzzing Meets LLMs: Challenges and Opportunities, FSE 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3663529.3663784)
@@ -189,6 +187,8 @@
 - Language Agents as Hackers: Evaluating Cybersecurity Skills with Capture the Flag, MASEC@NeurIPS 2023, [Link](https://openreview.net/pdf?id=KOZwk7BFc3)
 
 - Nuances are the Key: Unlocking ChatGPT to Find Failure-Inducing Tests with Differential Prompting, [Link](https://arxiv.org/pdf/2304.11686)
+
+- LPR: Large Language Models-Aided Program Reduction. ISSTA 2024, [Link](https://cs.uwaterloo.ca/~cnsun/public/publication/issta24/issta24.pdf)
 
 ### Code Model and Code Reasoning
 
