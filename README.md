@@ -30,6 +30,8 @@
 
 **General Analysis**
 
+- Program Slicing in the Era of Large Language Models, arxiv 2024, [Link](https://arxiv.org/pdf/2409.12369)
+
 - LLMDFA: Analyzing Dataflow in Code with Large Language Models, NeurIPS 2024, [Link](https://chengpeng-wang.github.io/publications/LLMDFA_NeurIPS2024.pdf)
 
 - Sanitizing Large Language Models in Bug Detection with Data-Flow, Findings of EMNLP 2024, [Link](https://chengpeng-wang.github.io/publications/LLMSAN_EMNLP2024.pdf)
