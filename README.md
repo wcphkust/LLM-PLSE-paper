@@ -108,8 +108,6 @@
 
 ### Code Generation (Program Repair, Code Completion, and Program Synthesis)
 
-- Don’t Transform the Code, Code the Transforms: Towards Precise Code Rewriting using LLMs, Meta, [Link](https://arxiv.org/pdf/2410.08806)
-
 - AutoCodeRover: Autonomous Program Improvement, ISSTA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3650212.3680384)
 
 - Exploring and Unleashing the Power of Large Language Models in Automated Code Translation, FSE 2024, [Link](https://arxiv.org/pdf/2404.14646)
@@ -274,6 +272,8 @@
 - Blog: Prompt Engineering [Link](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
 
 ## Agent, Tool Using, and Planning
+
+- Don’t Transform the Code, Code the Transforms: Towards Precise Code Rewriting using LLMs, Meta, [Link](https://arxiv.org/pdf/2410.08806)
 
 - Natural Language Commanding via Program Synthesis, Microsoft [Link](https://arxiv.org/pdf/2306.03460.pdf)
 
