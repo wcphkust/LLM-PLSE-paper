@@ -247,6 +247,8 @@
 
 ## Prompting (for Reasoning Tasks) and Hallucinations
 
+- Drowzee: Metamorphic Testing for Fact-Conflicting Hallucination Detection in Large Language Models, OOPSLA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3689776)
+
 - Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation, ICLR 2024, [Link](https://arxiv.org/abs/2305.15852)
 
 - LeanDojo: Theorem Proving with Retrieval-Augmented Language Models, NeurIPS 2023, [Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/4441469427094f8873d0fecb0c4e1cee-Paper-Datasets_and_Benchmarks.pdf)
