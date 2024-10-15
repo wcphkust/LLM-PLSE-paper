@@ -204,6 +204,8 @@
 
 ### Code Model and Code Reasoning
 
+- SemCoder: Training Code Language Models with Comprehensive Semantics, NeurIPS 2024, [Link](https://arxiv.org/abs/2406.01006)
+
 - Source Code Foundation Models are Transferable Binary Analysis Knowledge Bases, NeurIPS 2024, [Link](https://arxiv.org/pdf/2405.19581)
 
 - CodeMind: A Framework to Challenge Large Language Models for Code Reasoning, arxiv, [Link](https://arxiv.org/abs/2402.09664)
