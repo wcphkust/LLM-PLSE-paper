@@ -85,6 +85,8 @@
 
 ### Specification Inference and Verification
 
+- SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications, arxiv 2024/09, [Link](https://arxiv.org/abs/2409.12866)
+
 - Can Large Language Models Transform Natural Language Intent into Formal Method Postconditions? FSE 2024, [Link](https://arxiv.org/pdf/2310.01831)
 
 - Enchanting Program Specification Synthesis by Large Language Models using Static Analysis and Program Verification, CAV 2024, [Link](https://arxiv.org/pdf/2404.00762.pdf)
@@ -107,6 +109,12 @@
 
 
 ### Code Generation (Program Repair, Code Completion, and Program Synthesis)
+
+- Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search, NeurIPS 2024, [Link](https://arxiv.org/pdf/2405.15383)
+
+- EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories, arxiv 2024/03, [https://arxiv.org/abs/2404.00599]
+
+- CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks, 
 
 - AutoCodeRover: Autonomous Program Improvement, ISSTA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3650212.3680384)
 
@@ -144,8 +152,6 @@
 
 - SWE-bench: Can Language Models Resolve Real-World GitHub Issues? [Link](https://arxiv.org/abs/2310.06770)
 
-- Teaching Large Language Models to Self-Debug, ICLR 2024, [Link](https://openreview.net/forum?id=KuPixIqPiq)
-
 - Guess & Sketch: Language Model Guided Transpilation, ICLR 2024, [Link](https://openreview.net/forum?id=qPFsIbF3V6)
 
 - Optimal Neural Program Synthesis from Multimodal Specifications, EMNLP 2021, [Link](https://arxiv.org/abs/2010.01678)
@@ -160,7 +166,11 @@
 
 - Active Inductive Logic Programming for Code Search, ICSE 2019, [Link](http://web.cs.ucla.edu/~miryung/Publications/icse2019-alice.pdf)
 
-### Fuzzing and Testing
+### Fuzzing, Testing, and Debugging
+
+- Effective Large Language Model Debugging with Best-first Tree Search, [Link](https://arxiv.org/pdf/2407.19055)
+
+- Teaching Large Language Models to Self-Debug, ICLR 2024, [Link](https://openreview.net/forum?id=KuPixIqPiq)
 
 - When Fuzzing Meets LLMs: Challenges and Opportunities, FSE 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3663529.3663784)
 
@@ -193,6 +203,10 @@
 - LPR: Large Language Models-Aided Program Reduction. ISSTA 2024, [Link](https://cs.uwaterloo.ca/~cnsun/public/publication/issta24/issta24.pdf)
 
 ### Code Model and Code Reasoning
+
+- Source Code Foundation Models are Transferable Binary Analysis Knowledge Bases, NeurIPS 2024, [Link](https://arxiv.org/pdf/2405.19581)
+
+- CodeMind: A Framework to Challenge Large Language Models for Code Reasoning, arxiv, [Link](https://arxiv.org/abs/2402.09664)
 
 - CodeFort: Robust Training for Code Generation Models, EMNLP Findings 2024, [Link](https://foreverzyh.github.io/uploads/CodeFort.pdf)
 
@@ -272,6 +286,8 @@
 - Blog: Prompt Engineering [Link](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
 
 ## Agent, Tool Using, and Planning
+
+- Steering Large Language Models between Code Execution and Textual Reasoning, Microsoft, [Link](https://arxiv.org/pdf/2410.03524)
 
 - Don’t Transform the Code, Code the Transforms: Towards Precise Code Rewriting using LLMs, Meta, [Link](https://arxiv.org/pdf/2410.08806)
 
