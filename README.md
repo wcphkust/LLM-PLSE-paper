@@ -112,7 +112,7 @@
 
 - Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search, NeurIPS 2024, [Link](https://arxiv.org/pdf/2405.15383)
 
-- EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories, arxiv 2024/03, [https://arxiv.org/abs/2404.00599]
+- EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories, arxiv 2024/03, [Link](https://arxiv.org/abs/2404.00599)
 
 - CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks, 
 
