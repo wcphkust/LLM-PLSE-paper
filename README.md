@@ -263,6 +263,8 @@
 
 ## Prompting (for Reasoning Tasks) and Hallucinations
 
+- GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models, Apple, [Link](https://arxiv.org/pdf/2410.05229)
+
 - Drowzee: Metamorphic Testing for Fact-Conflicting Hallucination Detection in Large Language Models, OOPSLA 2024, [Link](https://dl.acm.org/doi/pdf/10.1145/3689776)
 
 - Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation, ICLR 2024, [Link](https://arxiv.org/abs/2305.15852)
