@@ -303,6 +303,8 @@
 
 - Drowzee: Metamorphic Testing for Fact-Conflicting Hallucination Detection in Large Language Models. (OOPSLA 2024) [[Link]](https://dl.acm.org/doi/pdf/10.1145/3689776)
 
+- Deceptive Semantic Shortcuts on Reasoning Chains: How Far Can Models Go without Hallucination? (NAACL 2024) [[Link]](https://arxiv.org/pdf/2311.09702)
+
 - Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation. (ICLR 2024) [[Link]](https://arxiv.org/abs/2305.15852)
 
 - A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions. (arXiv 2023) [[Link]](https://arxiv.org/pdf/2406.19508)
