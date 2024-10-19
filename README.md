@@ -20,11 +20,11 @@
 
 - How Far Have We Gone in Vulnerability Detection Using Large Language Models. (arXiv 2023) [Link](https://arxiv.org/abs/2311.12420)
 
-- Large Language Models for Code Analysis: Do LLMs Really Do Their Job?, (Usenix Security 2023) [Link](https://www.usenix.org/system/files/sec24fall-prepub-2205-fang.pdf)
+- Large Language Models for Code Analysis: Do LLMs Really Do Their Job?. (Usenix Security 2023) [Link](https://www.usenix.org/system/files/sec24fall-prepub-2205-fang.pdf)
 
 - Understanding the Effectiveness of Large Language Models in Detecting Security Vulnerabilities. (arXiv 2023) [Link](https://arxiv.org/pdf/2311.16169.pdf)
 
-- Do Language Models Learn Semantics of Code? A Case Study in Vulnerability Detection. (arXiv 2023), [Link](https://arxiv.org/pdf/2311.04109.pdf)
+- Do Language Models Learn Semantics of Code? A Case Study in Vulnerability Detection. (arXiv 2023) [Link](https://arxiv.org/pdf/2311.04109.pdf)
 
 - DiverseVul: A New Vulnerable Source Code Dataset for Deep Learning Based Vulnerability Detection. (RAID 2023) [Link](https://surrealyz.github.io/)
 
@@ -65,7 +65,7 @@
 
 - Code Linting using Language Models. (arXiv 2024) [Link](https://arxiv.org/pdf/2406.19508)
 
-- LLM-Assisted Static Analysis for Detecting Security Vulnerabilities, (arXiv 2024) [Link](https://arxiv.org/abs/2405.17238)
+- LLM-Assisted Static Analysis for Detecting Security Vulnerabilities. (arXiv 2024) [Link](https://arxiv.org/abs/2405.17238)
 
 - SMARTINV: Multimodal Learning for Smart Contract Invariant Inference. (S&P 2024) [Link](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a126/1Ub23GNTAeQ)
 
@@ -114,7 +114,7 @@
 
 - Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search. (NeurIPS 2024) [Link](https://arxiv.org/pdf/2405.15383)
 
-- EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories. (arXiv 2024/03) [Link](https://arxiv.org/abs/2404.00599)
+- EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories. (arXiv 2024) [Link](https://arxiv.org/abs/2404.00599)
 
 - CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks. (arXiv 2024) [Link](https://arxiv.org/abs/2404.00566)
 
@@ -146,7 +146,7 @@
 
 - Hypothesis Search: Inductive Reasoning with Language Models. (ICLR 2024) [Link](https://openreview.net/forum?id=G7UtIGQmjm)
 
-- CodePlan: Repository-level Coding using LLMs and Planning, (NeurIPS 2023) [Link](https://www.microsoft.com/en-us/research/publication/codeplan-repository-level-coding-using-llms-and-planning/)
+- CodePlan: Repository-level Coding using LLMs and Planning. (NeurIPS 2023) [Link](https://www.microsoft.com/en-us/research/publication/codeplan-repository-level-coding-using-llms-and-planning/)
 
 - Repository-Level Prompt Generation for Large Language Models of Code. (ICML 2023) [Link](https://arxiv.org/abs/2206.12839)
 
@@ -208,7 +208,7 @@
 
 - Source Code Foundation Models are Transferable Binary Analysis Knowledge Bases. (NeurIPS 2024) [Link](https://arxiv.org/pdf/2405.19581)
 
-- CodeMind: A Framework to Challenge Large Language Models for Code Reasoning. (arXiv 2024), [Link](https://arxiv.org/abs/2402.09664)
+- CodeMind: A Framework to Challenge Large Language Models for Code Reasoning. (arXiv 2024) [Link](https://arxiv.org/abs/2402.09664)
 
 - CodeFort: Robust Training for Code Generation Models. (EMNLP 2024) [Link](https://foreverzyh.github.io/uploads/CodeFort.pdf)
 
@@ -281,11 +281,11 @@
 
 - Explanation Selection Using Unlabeled Data for Chain-of-Thought Prompting. (EMNLP 2023) [Link](https://arxiv.org/abs/2302.04813)
 
-- Complementary Explanations for Effective In-Context Learning, (ACL 2023) [Link](https://arxiv.org/abs/2211.13892)
+- Complementary Explanations for Effective In-Context Learning. (ACL 2023) [Link](https://arxiv.org/abs/2211.13892)
 
 ## Agent, Tool Using, and Planning
 
-- Steering Large Language Models between Code Execution and Textual Reasoning. (Microsoft 2024), [Link](https://arxiv.org/pdf/2410.03524)
+- Steering Large Language Models between Code Execution and Textual Reasoning. (Microsoft 2024) [Link](https://arxiv.org/pdf/2410.03524)
 
 - Don’t Transform the Code, Code the Transforms: Towards Precise Code Rewriting using LLMs. (Meta 2024) [Link](https://arxiv.org/pdf/2410.08806)
 
@@ -318,20 +318,20 @@
 
 - If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents. (UIUC 2023) [Link](https://arxiv.org/pdf/2401.00812.pdf)
 
-- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing, (CMU 2021) [Link](https://arxiv.org/pdf/2107.13586)
+- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing. (CMU 2021) [Link](https://arxiv.org/pdf/2107.13586)
 
 - A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions. (HIT 2023) [Link](https://arxiv.org/pdf/2406.19508)
 
 - Large Language Models for Software Engineering: A Systematic Literature Review. (HUST 2024) [Link](https://arxiv.org/pdf/2308.10620)
 
-- Awesome things about LLM-powered agents: Papers, Repos, and Blogs. (None 2024) [Link](https://github.com/hyp1231/awesome-llm-powered-agent#general-reasoning--planning--tool-using)
+- Awesome things about LLM-powered agents: Papers, Repos, and Blogs. (UCSD 2024) [Link](https://github.com/hyp1231/awesome-llm-powered-agent#general-reasoning--planning--tool-using)
 
 ## Model and Framework
 
-- LMFLow: An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All. [Link](https://github.com/OptimalScale/LMFlow)
+- LMFLow: An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All. (ACL 2024) [Link](https://github.com/OptimalScale/LMFlow)
 
-- codellama: Inference code for CodeLlama models, [Link](https://github.com/facebookresearch/codellama)
+- codellama: Inference code for CodeLlama models. (Meta 2023) [Link](https://github.com/facebookresearch/codellama)
 
-- CodeFuse: LLM for Code from Ant Group, [Link](https://github.com/codefuse-ai/codefuse)
+- CodeFuse: LLM for Code from Ant Group. (Ant 2023) [Link](https://github.com/codefuse-ai/codefuse)
 
-- Owl-LM: Large Language Model for Blockchain, [Link](https://github.com/sec3-service/Owl-LM)
+- Owl-LM: Large Language Model for Blockchain. (Sec3 2023) [Link](https://github.com/sec3-service/Owl-LM)
