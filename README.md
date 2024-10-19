@@ -354,7 +354,7 @@
 
 - Large Language Models for Software Engineering: A Systematic Literature Review. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2308.10620)
 
-- Awesome things about LLM-powered agents: Papers, Repos, and Blogs. (UCSD 2024) [[Link]](https://github.com/hyp1231/awesome-llm-powered-agent#general-reasoning--planning--tool-using)
+- Awesome things about LLM-powered agents: Papers, Repos, and Blogs. (arXiv 2024) [[Link]](https://github.com/hyp1231/awesome-llm-powered-agent#general-reasoning--planning--tool-using)
 
 - Comprehensive Outline of Large Language Model-based Multi-Agent Research. (None 2024) [[Link]](https://thinkwee.top/multiagent_ebook/)
 
