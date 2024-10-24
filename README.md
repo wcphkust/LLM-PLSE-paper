@@ -4,6 +4,8 @@
 
 ### A.1 Benchmark, Empirical Study, and Survey
 
+- Security of Language Models for Code: A Systematic Literature Review. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2410.15631)
+
 - LLMs: Understanding Code Syntax and Semantics for Code Analysis. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2305.12138)
 
 - CodeMind: A Framework to Challenge Large Language Models for Code Reasoning. (arXiv 2024) [[Link]](https://arxiv.org/abs/2402.09664)
@@ -346,9 +348,9 @@
 
 
 
-## F. Survey, Model, and Framework
+## F. Other Surveys, Models, and Frameworks
 
-### F.1 Survey of Agent
+### F.1 Surveys of Agent
 
 - Large Language Model-Based Agents for Software Engineering: A Survey. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2409.02977)
 
@@ -365,7 +367,7 @@
 - The Rise and Potential of Large Language Model Based Agents: A Survey. (arXiv 2023) [[Link]](https://arxiv.org/abs/2309.07864)
 
 
-### F.2 Model and Framework
+### F.2 Models and Frameworks
 
 - LMFLow: An Extensible Toolkit for Finetuning and Inference of Large Foundation Models. Large Models for All. (ACL 2024) [[Link]](https://github.com/OptimalScale/LMFlow)
 
