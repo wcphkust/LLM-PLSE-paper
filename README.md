@@ -216,6 +216,10 @@
 
 #### C.2.1 Invariant Generation
 
+- LLM Meets Bounded Model Checking: Neuro-symbolic Loop Invariant Inference. (ASE 2024) [[Link]](https://chentaolue.github.io/pub-papers/ASE24.pdf)
+
+- LLM-Generated Invariants for Bounded Model Checking Without Loop Unrolling. (ASE 2024) [[Link]](https://dl.acm.org/doi/pdf/10.1145/3691620.3695512)
+
 - Enchanting Program Specification Synthesis by Large Language Models using Static Analysis and Program Verification. (CAV 2024) [[Link]](https://arxiv.org/pdf/2404.00762.pdf)
 
 - Lemur: Integrating Large Language Models in Automated Program Verification. (ICLR 2024) [[Link]](https://openreview.net/forum?id=Q3YaCghZNt)
