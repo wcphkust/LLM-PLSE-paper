@@ -146,6 +146,8 @@
 
 - Vulnerability Detection with Code Language Models: How Far Are We? (ICSE 2025) [[Link]](https://arxiv.org/pdf/2403.18624.pdf)
 
+- VulEval: Towards Repository-Level Evaluation of Software Vulnerability Detection. (arxiv 2024) [[Link]](https://arxiv.org/pdf/2404.15596)
+
 - LLMs Cannot Reliably Identify and Reason About Security Vulnerabilities (Yet?): A Comprehensive Evaluation, Framework, and Benchmarks. (S&P 2024) [[Link]](https://arxiv.org/abs/2312.12575)
 
 - A Comprehensive Study of the Capabilities of Large Language Models for Vulnerability Detection. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2403.17218.pdf)
