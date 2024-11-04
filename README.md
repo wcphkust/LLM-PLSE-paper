@@ -176,6 +176,8 @@
 
 #### C.1.2 General Bug Detection
 
+- LLM-based Resource-Oriented Intention Inference for Static Resource Detection. (ICSE 2025) [[Link]](https://arxiv.org/abs/2311.04448)
+
 - LLMDFA: Analyzing Dataflow in Code with Large Language Models. (NeurIPS 2024) [[Link]](https://chengpeng-wang.github.io/publications/LLMDFA_NeurIPS2024.pdf)
 
 - Sanitizing Large Language Models in Bug Detection with Data-Flow. (EMNLP 2024) [[Link]](https://chengpeng-wang.github.io/publications/LLMSAN_EMNLP2024.pdf)
@@ -189,8 +191,6 @@
 - LLM-Assisted Static Analysis for Detecting Security Vulnerabilities. (arXiv 2024) [[Link]](https://arxiv.org/abs/2405.17238)
 
 - Beware of the Unexpected: Bimodal Taint Analysis. (ISSTA 2023) [[Link]](https://arxiv.org/pdf/2301.10545.pdf)
-
-- LLM-based Resource-Oriented Intention Inference for Static Resource Detection. (arXiv 2023) [[Link]](https://arxiv.org/abs/2311.04448)
 
 - E&V: Prompting Large Language Models to Perform Static Analysis by Pseudo-code Execution and Verification. (Microsoft 2023) [[Link]](https://arxiv.org/pdf/2312.08477.pdf)
 
