@@ -291,6 +291,10 @@
 
 - Nuances are the Key: Unlocking ChatGPT to Find Failure-Inducing Tests with Differential Prompting. (ASE 2023) [[Link]](https://arxiv.org/pdf/2304.11686)
 
+- CAT-LM: Training Language Models on Aligned Code And Tests. (ASE 2023) [[Link]](https://arxiv.org/pdf/2310.01602)
+
+- UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing. (ISSTA 2024) [[Link]](https://haochen.org/publications/he2024unitsyn.pdf)
+
 ### D.4 Execution Prediction
 
 - Predictive Program Slicing via Execution Knowledge-Guided Dynamic Dependence Learning. (FSE 2024) [[Link]](https://aashishyadavally.github.io/assets/pdf/pub-fse2024.pdf)
