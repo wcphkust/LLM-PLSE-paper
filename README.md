@@ -302,6 +302,8 @@
 
 ### D.5 PoC Generation
 
+- Teams of LLM Agents can Exploit Zero-Day Vulnerabilities. (arXiv 2024) [[Link]](https://ar5iv.labs.arxiv.org/html/2406.01637v1)
+
 - From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code. (Google 2024/10) [[Link]](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html)
 
 - Evaluating Offensive Security Capabilities of Large Language Models. (Google 2024/06) [[Link]](https://googleprojectzero.blogspot.com/2024/06/project-naptime.html)
