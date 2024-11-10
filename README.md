@@ -114,6 +114,8 @@
 
 ### B.4 Program Transformation
 
+- Verified Code Transpilation with LLMs. (NeurIPS 2024) [[Link]](https://arxiv.org/pdf/2406.03003)
+
 - Exploring and Unleashing the Power of Large Language Models in Automated Code Translation. (FSE 2024) [[Link]](https://arxiv.org/pdf/2404.14646)
 
 - Rectifier: Code Translation with Corrector via LLMs. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2407.07472)
