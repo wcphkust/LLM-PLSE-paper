@@ -63,6 +63,8 @@
 
 ### B.1 Benchmark, Empirical Study, and Survey
 
+- LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation. (TSE 2024) [[link]](https://ieeexplore.ieee.org/document/10606356)
+
 - SWE-bench: Can Language Models Resolve Real-World GitHub Issues? (ICLR 2024) [[Link]](https://arxiv.org/abs/2310.06770)
 
 - EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories. (arXiv 2024) [[Link]](https://arxiv.org/abs/2404.00599)
@@ -70,9 +72,6 @@
 - CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks. (arXiv 2024) [[Link]](https://arxiv.org/abs/2404.00566)
 
 - A Survey on Large Language Models for Code Generation. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2406.00515)
-
-- LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation. (TSE 2024) [[link]](https://ieeexplore.ieee.org/document/10606356)
-
 
 ### B.2 Program Repair
 
