@@ -71,6 +71,8 @@
 
 - A Survey on Large Language Models for Code Generation. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2406.00515)
 
+- LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation. (TSE 2024) [[link]](https://ieeexplore.ieee.org/document/10606356)
+
 
 ### B.2 Program Repair
 
