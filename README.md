@@ -204,6 +204,8 @@
 
 - Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications. (ICSE 2025) [[Link]](https://arxiv.org/pdf/2403.16073)
 
+- Leveraging Semantic Relations in Code and Data to Enhance Taint Analysis of Embedded Systems. (Security 2024) [[Link]](https://www.usenix.org/conference/usenixsecurity24/presentation/zhao)
+
 - GPTScan: Detecting Logic Vulnerabilities in Smart Contracts by Combining GPT with Program Analysis. (ICSE 2024) [[Link]](https://arxiv.org/pdf/2308.03314.pdf?utm_source=Klaviyo&utm_medium=campaign&_kx=)
 
 - An Investigation into Misuse of Java Security APIs by Large Language Models. (ASIACCS 2024) [[Link]](https://arxiv.org/html/2404.03823v1)
