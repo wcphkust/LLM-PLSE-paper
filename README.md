@@ -179,8 +179,6 @@
 
 #### C.1.2 General Bug Detection
 
-- LLM-based Resource-Oriented Intention Inference for Static Resource Detection. (ICSE 2025) [[Link]](https://arxiv.org/abs/2311.04448)
-
 - LLMDFA: Analyzing Dataflow in Code with Large Language Models. (NeurIPS 2024) [[Link]](https://chengpeng-wang.github.io/publications/LLMDFA_NeurIPS2024.pdf)
 
 - Sanitizing Large Language Models in Bug Detection with Data-Flow. (EMNLP 2024) [[Link]](https://chengpeng-wang.github.io/publications/LLMSAN_EMNLP2024.pdf)
@@ -189,18 +187,19 @@
 
 - Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach. (OOPSLA 2024) [[Link]](https://arxiv.org/abs/2308.00245)
 
+- E&V: Prompting Large Language Models to Perform Static Analysis by Pseudo-code Execution and Verification. (Microsoft 2023) [[Link]](https://arxiv.org/pdf/2312.08477.pdf)
+
+#### C.1.3 Specific Bug Type
+
+- LLM-based Resource-Oriented Intention Inference for Static Resource Detection. (ICSE 2025) [[Link]](https://arxiv.org/abs/2311.04448)
+
 - Interleaving Static Analysis and LLM Prompting. (SOAP 2024) [[Link]](https://web.cs.ucdavis.edu/~rubio/includes/soap24.pdf)
 
 - LLM-Assisted Static Analysis for Detecting Security Vulnerabilities. (arXiv 2024) [[Link]](https://arxiv.org/abs/2405.17238)
 
 - Beware of the Unexpected: Bimodal Taint Analysis. (ISSTA 2023) [[Link]](https://arxiv.org/pdf/2301.10545.pdf)
 
-- E&V: Prompting Large Language Models to Perform Static Analysis by Pseudo-code Execution and Verification. (Microsoft 2023) [[Link]](https://arxiv.org/pdf/2312.08477.pdf)
-
-- Harnessing the Power of LLM to Support Binary Taint Analysis. (arXiv 2023) [[Link]](https://arxiv.org/abs/2310.08275)
-
-
-#### C.1.3 Domain-Specific Bug Detection
+#### C.1.4 Domain-Specific Program
 
 - Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications. (ICSE 2025) [[Link]](https://arxiv.org/pdf/2403.16073)
 
@@ -211,6 +210,8 @@
 - An Investigation into Misuse of Java Security APIs by Large Language Models. (ASIACCS 2024) [[Link]](https://arxiv.org/html/2404.03823v1)
 
 - SMARTINV: Multimodal Learning for Smart Contract Invariant Inference. (S&P 2024) [[Link]](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a126/1Ub23GNTAeQ)
+
+- Harnessing the Power of LLM to Support Binary Taint Analysis. (arXiv 2023) [[Link]](https://arxiv.org/abs/2310.08275)
 
 - Do you still need a manual smart contract audit? (arXiv 2023) [[Link]](https://arxiv.org/pdf/2306.12338.pdf)
 
