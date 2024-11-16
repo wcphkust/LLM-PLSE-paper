@@ -4,6 +4,8 @@
 
 ### A.1 Benchmark, Empirical Study, and Survey
 
+- Unveiling Code Pre-Trained Models: Investigating Syntax and Semantics Capacities. (TOSEM 2024) [[Link]](https://dl.acm.org/doi/10.1145/3664606)
+
 - Security of Language Models for Code: A Systematic Literature Review. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2410.15631)
 
 - LLMs: Understanding Code Syntax and Semantics for Code Analysis. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2305.12138)
