@@ -195,6 +195,8 @@
 
 - LLM-based Resource-Oriented Intention Inference for Static Resource Detection. (ICSE 2025) [[Link]](https://arxiv.org/abs/2311.04448)
 
+- Generating API Parameter Security Rules with LLM for API Misuse Detection. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2409.09288)
+
 - Interleaving Static Analysis and LLM Prompting. (SOAP 2024) [[Link]](https://web.cs.ucdavis.edu/~rubio/includes/soap24.pdf)
 
 - LLM-Assisted Static Analysis for Detecting Security Vulnerabilities. (arXiv 2024) [[Link]](https://arxiv.org/abs/2405.17238)
