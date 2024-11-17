@@ -291,6 +291,8 @@
 
 - LLM4FUZZ: Guided Fuzzing of Smart Contracts with Large Language Models. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2401.11108.pdf)
 
+- DLLENS: Testing Deep Learning Libraries via LLM-aided Synthesis. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2406.07944)
+
 - LLMorpheus: Mutation Testing using Large Language Models. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2404.09952)
 
 - Large Language Models are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models. (ISSTA 2023) [[Link]](https://lingming.cs.illinois.edu/publication.html)
