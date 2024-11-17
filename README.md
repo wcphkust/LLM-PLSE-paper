@@ -271,13 +271,17 @@
 
 ## D. Dynamic Analysis
 
-### D.1 Debugging
+### D.1 Survey
+
+- Software Testing with Large Language Models: Survey, Landscape, and Vision. (TSE 2024) [[Link]](https://dl.acm.org/doi/10.1109/TSE.2024.3368208)
+
+### D.2 Debugging
 
 - Teaching Large Language Models to Self-Debug. (ICLR 2024) [[Link]](https://openreview.net/forum?id=KuPixIqPiq)
 
 - LPR: Large Language Models-Aided Program Reduction. (ISSTA 2024) [[Link]](https://cs.uwaterloo.ca/~cnsun/public/publication/issta24/issta24.pdf)
 
-### D.2 Fuzzing and Mutation Testing
+### D.3 Fuzzing and Mutation Testing
 
 - When Fuzzing Meets LLMs: Challenges and Opportunities. (FSE 2024) [[Link]](https://dl.acm.org/doi/pdf/10.1145/3663529.3663784)
 
@@ -297,7 +301,7 @@
 
 - Large Language Models are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models. (ISSTA 2023) [[Link]](https://lingming.cs.illinois.edu/publication.html)
 
-### D.3 Unit Test Generation
+### D.4 Unit Test Generation
 
 - An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation. (TSE 2024) [[Link]](https://www.franktip.org/pubs/testpilot2024.pdf)
 
@@ -308,11 +312,11 @@
 - CAT-LM: Training Language Models on Aligned Code And Tests. (ASE 2023) [[Link]](https://arxiv.org/pdf/2310.01602)
 
 
-### D.4 Execution Prediction
+### D.5 Execution Prediction
 
 - Predictive Program Slicing via Execution Knowledge-Guided Dynamic Dependence Learning. (FSE 2024) [[Link]](https://aashishyadavally.github.io/assets/pdf/pub-fse2024.pdf)
 
-### D.5 PoC Generation
+### D.6 PoC Generation
 
 - Teams of LLM Agents can Exploit Zero-Day Vulnerabilities. (arXiv 2024) [[Link]](https://ar5iv.labs.arxiv.org/html/2406.01637v1)
 
