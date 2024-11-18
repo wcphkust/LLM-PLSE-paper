@@ -1,0 +1,33 @@
+topic: Hierachical graph
+
+- Example: Program Analysis -> Static Analysis -> Static Bug Detection (leaf node)
+
+
+
+
+Leaf node
+
+- benchmark
+
+- empirical study
+
+- technical
+
+
+
+
+Paper
+
+- published time / released time
+
+- Title
+
+- Paper Link
+
+- Conference
+
+- Year
+
+- IsArxiv
+
+- Resource links

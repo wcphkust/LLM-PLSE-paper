@@ -1,0 +1,73 @@
+Please label the paper with keywords according to the title and abstract of the paper. Specifically, you should select the keywords from the following lists. You can select one or more than one keywords.
+
+- General coding task
+
+- Code generation
+  - Code completion: If the paper concentrates on code completion, please choose the keywords "code generation" and "code completion".
+  - Program transformation: If the paper concentrates on program transformation, please choose the keywords "code generation" and "program transformation".
+  - Program synthesis: If the paper concentrates on program synthesis, please choose the keywords "code generation" and "program synthesis".
+  - Program decompilation: If the paper concentrates on program decompilation, please choose the keywords "code generation" and "program decompilation".
+  - Program repair:  If the paper concentrates on program repair, please choose the keywords "code generation" and "program repair".
+
+- Program testing
+  - Debugging: If the paper concentrates on debugging, please choose the keywords "program testing" and "debugging".
+  - Fuzzing: If the paper concentrates on fuzzing, please choose the keywords "program testing" and "fuzzing".
+  - Mutation testing
+  - Differential testing: If the paper concentrates on differential testing, please choose the keywords "program testing" and "differential testing".
+  - Unit testing: If the paper concentrates on unit testing, please choose the keywords "program testing" and "unit testing".
+  - Library testing: If the paper concentrates on library testing, please choose the keywords "program testing" and "library testing".
+  - DBMS testing
+  - Compiler testing
+  - Protocol fuzzing: If the paper concentrates on protocol fuzzing, please choose the keywords "program testing" and "protocol fuzzing".
+  - Kernel fuzzing: If the paper concentrates on kernel fuzzing, please choose the keywords "program testing" and "kernel fuzzing".
+  - Bug reproduction
+
+- Static analysis
+  - Foundamental analysis: If the paper concentrates on data-flow analysis, pointer analysis, and other fundamental analysis, please choose the keywords "static analysis" and "data-flow analysis".
+  - Bug detection: If the paper concentrates on bug detection, please choose the keywords "static analysis" and "bug detection".
+  - Type inference: If the paper concentrates on type inference, please choose the keywords "static analysis" and "type inference".
+  - Program verification: If the paper concentrates on program verification, please choose the keywords "static analysis" and "program verification".
+  - Invariant generation: If the paper concentrates on invariant generation, please choose the keywords "static analysis" and "invariant generation".
+  - Specification inference: If the paper concentrates on specification inference, please choose the keywords "static analysis" and "specification inference".
+  - Execution prediction
+  - code summarization
+  - code clone detection
+
+
+- Software maintenance and deployment
+  - Code review
+  - Documentation generation
+  - Commit message generation
+  - Commit conflict merge
+  - Software configuration 
+  - Supply chain 
+  - System log analysis
+  
+
+- Code model training: If the work simply uses existing models instead of training their own models or fine-tuning exisiting ones, just skip this item. Otherwise, please classify their model types.
+  - binary code model: If the model analyzes the binary code, please choose the keywords "code model training" and "binary code model".
+  - source code model: If the model analyzes the source code, please choose the keywords "code model training" and "source code model".
+  - IR code model: If the model analyzes the intermediate representation code, such as LLVM IR, please choose the keywords "code model training" and "IR code model".
+
+- Code model security
+  - Attack: If the work concentrates on generating attacks or inputs making the models fail or generate wrong outputs, please choose the keywords "code model security" and "attack".
+  - Defense: If the work concentrates on improving the model security, please choose the keywords "code model security" and "defense".
+  - Model debugging
+
+- Agent design
+  - Planning
+  - Tool using
+
+- Prompting strategy
+  - RAG
+  - Reason with Code
+  - sampling and ranking
+
+
+Also, please pay attention on the work style:
+
+- Benchmark: If the work concentrates on the construction of a new benchmark insteaf of proposing a new technique, please choose the keywords "benchmark".
+- Empirical study: If the work concentrates on the evaluation of existing studies without proposing new technique, please choose the keyword "empirical study".
+- Survey: If the work summarizes many existing works in a specific area comprehensively, please choose the keyword "survey".
+
+If the paper does not target the code reasoning, testing, generation, or using code for reasoning, just label "unrelated".

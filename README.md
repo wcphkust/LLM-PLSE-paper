@@ -44,7 +44,7 @@
 
 - How could Neural Networks understand Programs? (ICML 2021) [[Link]](https://arxiv.org/pdf/2105.04297)
 
-- ProGraML: A Graph-based Program Representation for Data Flow Analysis and Compiler Optimizations (ICML 2021) [[Link]](https://proceedings.mlr.press/v139/cummins21a.html)
+- ProGraML: A Graph-based Program Representation for Data Flow Analysis and Compiler Optimizations. (ICML 2021) [[Link]](https://proceedings.mlr.press/v139/cummins21a.html)
 
 
 ### A.4 Binary Code Model
@@ -103,7 +103,7 @@
 
 - Guess & Sketch: Language Model Guided Transpilation. (ICLR 2024) [[Link]](https://openreview.net/forum?id=qPFsIbF3V6)
 
-- AutoGen: A programming framework for agentic AI (Microsoft 2023) [[Link]](https://microsoft.github.io/autogen/0.2/)
+- AutoGen: A programming framework for agentic AI. (Microsoft 2023) [[Link]](https://microsoft.github.io/autogen/0.2/)
 
 - Data Extraction via Semantic Regular Expression Synthesis. (OOPSLA 2023) [[Link]](https://arxiv.org/pdf/2305.10401.pdf)
 
@@ -158,7 +158,7 @@
 
 - Your Instructions Are Not Always Helpful: Assessing the Efficacy of Instruction Fine-tuning for Software Vulnerability Detection. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2401.07466)
 
-- LLM4Vuln: A Unified Evaluation Framework for Decoupling and Enhancing LLMs’ Vulnerability Reasoning. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2401.16185)
+- LLM4Vuln: A Unified Evaluation Framework for Decoupling and Enhancing LLMs Vulnerability Reasoning. (arXiv 2024) [[Link]](https://arxiv.org/pdf/2401.16185)
 
 - Detecting Misuse of Security APIs: A Systematic Review. (arXiv 2024) [[Link]](https://arxiv.org/html/2306.08869v2)
 
@@ -202,6 +202,8 @@
 #### C.1.3 Domain-Specific Bug Detection
 
 - Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications. (ICSE 2025) [[Link]](https://arxiv.org/pdf/2403.16073)
+
+- AdvSCanner: Generating Adversarial Smart Contracts to Exploit Reentrancy Vulnerabilities Using LLM and Static Analysis. (ASE 2024) [[Link]](https://dl.acm.org/doi/pdf/10.1145/3691620.3695482)
 
 - GPTScan: Detecting Logic Vulnerabilities in Smart Contracts by Combining GPT with Program Analysis. (ICSE 2024) [[Link]](https://arxiv.org/pdf/2308.03314.pdf?utm_source=Klaviyo&utm_medium=campaign&_kx=)
 
@@ -306,9 +308,9 @@
 
 - Teams of LLM Agents can Exploit Zero-Day Vulnerabilities. (arXiv 2024) [[Link]](https://ar5iv.labs.arxiv.org/html/2406.01637v1)
 
-- From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code. (Google 2024/10) [[Link]](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html)
+- From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code. (Google 2024) [[Link]](https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html)
 
-- Evaluating Offensive Security Capabilities of Large Language Models. (Google 2024/06) [[Link]](https://googleprojectzero.blogspot.com/2024/06/project-naptime.html)
+- Evaluating Offensive Security Capabilities of Large Language Models. (Google 2024) [[Link]](https://googleprojectzero.blogspot.com/2024/06/project-naptime.html)
 
 - Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risk of Language Models. (arXiv 2024) [[Link]](https://www.arxiv.org/pdf/2408.08926)
 
@@ -357,7 +359,7 @@
 
 ### E.3 Prompting Strategy in Code Reasoning Tasks
 
-- Steering Large Language Models between Code Execution and Textual Reasoning. (Microsoft 2024), [[Link]](https://arxiv.org/pdf/2410.03524)
+- Steering Large Language Models between Code Execution and Textual Reasoning. (Microsoft 2024) [[Link]](https://arxiv.org/pdf/2410.03524)
 
 - Don’t Transform the Code, Code the Transforms: Towards Precise Code Rewriting using LLMs. (Meta 2024) [[Link]](https://arxiv.org/pdf/2410.08806)
 
