@@ -74,8 +74,8 @@ def label_json_files(matching_items):
             response = get_openai_response(prompt, k)
             details['keywords'] = [keyword.strip().lower() for keyword in response.split(",")]
             print(f"Title: {title}\nKeywords: {details['keywords']}\n")
-            if not "unrelated" in details['keywords']:
-                labeled_data[title] = details
+            # if not "unrelated" in details['keywords']:
+            labeled_data[title] = details
             print(response)
         
 

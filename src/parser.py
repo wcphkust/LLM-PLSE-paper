@@ -43,9 +43,9 @@ class Parser:
                 if "=" in attribute:
                     k, v = attribute.strip("\n").split("=", 1)
                     k = k.strip().strip("\n").strip().replace("\n", "")
-                    v = v.strip().strip("\n").strip("{}").strip('"').strip(" ").strip(",").strip("}").replace("\n", "")
+                    v = v.strip().strip("\n").strip("{}").strip('"').strip(" ").strip(",").strip("}").replace("\n", "")\
+                        .replace("                  ", " ")
                     entry_dict[k] = v
-            print(entry_text)
             if "title" not in entry_dict:
                 continue
             abstract = entry_dict["abstract"]
