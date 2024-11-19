@@ -31,7 +31,7 @@ class Parser:
         bib_tex = bib_tex.replace("{{", "{").replace("}}", "}").replace("{ ", "{").replace(" }", "}")
         venue_database = {}
 
-        for entry_text in bib_tex.strip().split("\n@")[1:]:
+        for entry_text in bib_tex.strip().split("\n@")[0:]:
             entry_type, rest = entry_text.split("{", 1)
             entry_dict = {}
             entry_dict["type"] = entry_type.strip("@").strip()  
@@ -46,7 +46,7 @@ class Parser:
                     v = v.strip().strip("\n").strip("{}").strip('"').strip(" ").strip(",").strip("}").replace("\n", "")
                     entry_dict[k] = v
             print(entry_text)
-            if "abstract" not in entry_dict or "title" not in entry_dict:
+            if "title" not in entry_dict:
                 continue
             abstract = entry_dict["abstract"]
             if abstract != "":
@@ -261,5 +261,7 @@ if __name__ == "__main__":
 
     # parser.parse_acl_html("../rawdata/2024/ACL2024.html", "ACL", 2024)
     # parser.parse_acl_html("../rawdata/2024/NAACL2024.html", "NAACL", 2024)
-    parser.parse_acl_html("../rawdata/2024/EMNLP-findings2024.html", "EMNLP", 2024)
+    # parser.parse_acl_html("../rawdata/2024/EMNLP-findings2024.html", "EMNLP", 2024)
     # parser.parse_acl_html("../rawdata/2024/EMNLP-main2024.html", "EMNLP", 2024)
+
+    parser.parse_entry("../rawdata/sample/sample.bib")

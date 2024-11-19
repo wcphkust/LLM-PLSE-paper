@@ -68,7 +68,7 @@ def label_json_files(matching_items):
 
     for title, details in matching_items.items():
         cnt += 1
-        if 500 <= cnt:
+        if 0 <= cnt:
             prompt = get_application_labeling_prompt(title, details['abstract'])
             k = os.environ.get("OPENAI_API_KEY").split(":")[0]
             response = get_openai_response(prompt, k)
@@ -89,13 +89,20 @@ def save_to_json(data, output_file):
 
 # Example usage
 directory = "../absdata"
-output_file = "matching_items.json"
+output_file = "sample.json"
 
-json_files = collect_json_files(directory)
-matching_items = pre_process_json_files(json_files)
-save_to_json(matching_items, output_file)
+# json_files = collect_json_files(directory)
+# matching_items = pre_process_json_files(json_files)
+# save_to_json(matching_items, output_file)
 
-print(len(matching_items))
+# print(len(matching_items))
 
-print(f"Processed {len(json_files)} JSON files and saved matching items to {output_file}")
+# print(f"Processed {len(json_files)} JSON files and saved matching items to {output_file}")
+
+# load from output_file
+with open(directory + "/sample/" + output_file, 'r') as file:
+    matching_items = json.load(file)
+
+# print(matching_items)
+
 label_json_files(matching_items)
