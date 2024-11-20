@@ -48,6 +48,7 @@ def pre_process_json_files(json_files):
     matching_items = {}
 
     for json_file in json_files:
+        print(json_file)
         with open(json_file, 'r') as file:
             data = json.load(file)
             for title, details in data.items():
@@ -56,7 +57,7 @@ def pre_process_json_files(json_files):
 
                 abstract = details.get('abstract', '').lower()
                 if ('code' in abstract.replace("our code", "") or 'program' in abstract.replace("our code", "")) and \
-                    (' llm' in abstract or ' large language model' in abstract):
+                    (' llm' in abstract or 'large language model' in abstract or 'pretrain' in abstract or 'transformer' in abstract):
                     details['venue'] = json_file.split("/")[-1].split(".")[0]
                     matching_items[title] = details
     return matching_items
@@ -88,8 +89,8 @@ def save_to_json(data, output_file):
         json.dump(data, json_file, indent=4)
 
 # Example usage
-directory = "../absdata"
-output_file = "sample.json"
+directory = "../absdata/absdata"
+output_file = "all.json"
 
 # json_files = collect_json_files(directory)
 # matching_items = pre_process_json_files(json_files)
@@ -100,7 +101,7 @@ output_file = "sample.json"
 # print(f"Processed {len(json_files)} JSON files and saved matching items to {output_file}")
 
 # load from output_file
-with open(directory + "/sample/" + output_file, 'r') as file:
+with open("diffpaper.json", 'r') as file:
     matching_items = json.load(file)
 
 # print(matching_items)
