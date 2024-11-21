@@ -1,0 +1,16 @@
+# USENIXSec2024
+
+Number of papers: 2
+
+## [Large Language Models for Code Analysis: Do LLMs Really Do Their Job?](paper_1.md)
+- **Authors**: Chongzhou Fang and Ning Miao and Shaurya Srivastav and Jialin Liu and Ruoyu Zhang and Ruijie Fang and Asmita and Ryan Tsang and Najmeh Nazari and Han Wang and Houman Homayoun
+- **Abstract**: Large language models (LLMs) have demonstrated significant potential in the realm of natural language understanding and programming code processing tasks. Their capacity to comprehend and generate human-like code has spurred research into harnessing LLMs for code analysis purposes. However, the exis...
+- **Link**: [Read Paper](https://www.usenix.org/conference/usenixsecurity24/presentation/fang)
+- **Labels**: static analysis, bug detection, empirical study
+
+## [Leveraging Semantic Relations in Code and Data to Enhance Taint Analysis of Embedded Systems](paper_2.md)
+- **Authors**: Zhao, Jiaxu and Li, Yuekang and Zou, Yanyan and Liang, Zhaohui and Xiao, Yang and Li, Yeting and Peng, Bingwei and Zhong, Nanyu and Wang, Xinyi and Wang, Wei and others
+- **Abstract**: IoT devices have significantly impacted our daily lives, and detecting vulnerabilities in embedded systems early on is critical for ensuring their security. Among the existing vulnerability detection techniques for embedded systems, static taint analysis has been proven effective in detecting severe...
+- **Link**: [Read Paper](No Link Available)
+- **Labels**: static analysis, bug detection, code model, training, source code model
+

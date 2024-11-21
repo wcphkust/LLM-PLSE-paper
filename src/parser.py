@@ -1,7 +1,6 @@
 import fitz
 import re
 import json
-from access import *
 import requests
 from bs4 import BeautifulSoup
 

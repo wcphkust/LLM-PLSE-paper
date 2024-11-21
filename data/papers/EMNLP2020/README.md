@@ -1,0 +1,10 @@
+# EMNLP2020
+
+Number of papers: 1
+
+## [Codebert: A pre-trained model for programming and natural languages](paper_1.md)
+- **Authors**: Feng, Zhangyin and Guo, Daya and Tang, Duyu and Duan, Nan and Feng, Xiaocheng and Gong, Ming and Shou, Linjun and Qin, Bing and Liu, Ting and Jiang, Daxin and others
+- **Abstract**: We present CodeBERT, a bimodal pre-trained model for programming language (PL) and nat-ural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language codesearch, code documentation generation, etc. We develop CodeBERT with Tran...
+- **Link**: [Read Paper](No Link Available)
+- **Labels**: general coding task, code model, training, source code model
+

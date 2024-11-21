@@ -1,63 +1,93 @@
-import re
+import os
 import json
+from collections import defaultdict
 
-def parse_paper_metadata_with_sections(file_path):
-    """
-    Parse a Markdown file to extract paper metadata and include titles/subtitles.
+def collect_json_files(directory):
+    """Recursively collects all JSON files from a directory."""
+    json_files = []
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.endswith('.json'):
+                json_files.append(os.path.join(root, file))
+    return json_files
 
-    Args:
-        file_path (str): Path to the Markdown file.
+def extract_papers_by_venue(json_files):
+    """Extracts and categorizes papers from JSON files by venue."""
+    venue_dict = defaultdict(list)
+    
+    for json_file in json_files:
+        with open(json_file, 'r') as f:
+            try:
+                data = json.load(f)
+                for title in data:
+                    paper = data[title]
+                    venue = paper.get("venue", "Unknown Venue")
+                    venue_dict[venue].append({
+                        "title": title,
+                        "author": paper.get("author", "Unknown Author"),
+                        "abstract": paper.get("abstract", "No Abstract Available"),
+                        "url": paper.get("url", "No Link Available"),
+                        "labels": paper.get("labels", [])
+                    })
+            except json.JSONDecodeError:
+                print(f"Error decoding JSON in file: {json_file}")
+    return venue_dict
 
-    Returns:
-        list: A list of dictionaries containing paper metadata with section/subsection details.
-    """
-    heading_pattern = re.compile(r"(#+)\s+(.*)")
-    paper_pattern = re.compile(r"(.*?[.?])\s+\((.*?)\s+(\d{4})\)\s+\[\[Link\]\]\((.*?)\)")
+def export_papers_to_readme(venue_dict, output_dir):
+    """Creates directories for venues, saves papers as markdown files, and generates a README.md."""
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
+    title_to_path = {}
+    venue_to_path = {}
 
-    papers = []
-    sections = []
+    label_set = set([])
+    
+    for venue, papers in venue_dict.items():
+        venue_dir = os.path.join(output_dir, venue.replace('/', '_'))
+        os.makedirs(venue_dir, exist_ok=True)
+        
+        readme_path = os.path.join(venue_dir, "README.md")
 
-    with open(file_path, "r") as file:
-        lines = file.readlines()
+        with open(readme_path, "w") as readme_file:
+            readme_file.write(f"# {venue}\n\n")
+            readme_file.write(f"Number of papers: {len(papers)}\n\n")
+            
+            for idx, paper in enumerate(papers, start=1):
+                markdown_filename = f"paper_{idx}.md"
+                markdown_path = os.path.join(venue_dir, markdown_filename)
+                
+                # Save individual paper as a markdown file
+                with open(markdown_path, "w") as paper_file:
+                    paper_file.write(f"# {paper['title']}\n\n")
+                    paper_file.write(f"**Authors**: {paper['author']}\n\n")
+                    paper_file.write(f"**Abstract**:\n\n{paper['abstract']}\n\n")
+                    paper_file.write(f"**Link**: [Read Paper]({paper['url']})\n\n")
+                    paper_file.write(f"**Labels**: {', '.join(paper['labels'])}\n")
+                
+                # Add entry to README.md
+                readme_file.write(f"## [{paper['title']}]({markdown_filename})\n")
+                readme_file.write(f"- **Authors**: {paper['author']}\n")
+                readme_file.write(f"- **Abstract**: {paper['abstract'][:300]}...\n")
+                readme_file.write(f"- **Link**: [Read Paper]({paper['url']})\n")
+                readme_file.write(f"- **Labels**: {', '.join(paper['labels'])}\n\n")
+                label_set = label_set.union(set(paper['labels']))
 
-    for line in lines:
-        # Match headings to track sections and subsections
-        heading_match = heading_pattern.match(line.strip())
-        if heading_match:
-            level = len(heading_match.group(1))
-            title = heading_match.group(2).strip()
+                title_to_path[paper['title']] = markdown_path
+                venue_to_path[venue] = readme_path
+    return title_to_path, venue_to_path, label_set
 
-            # Update the section list based on heading level
-            while len(sections) >= level:
-                sections.pop()
-            sections.append(title)
+def main():
+    input_directory = '../data/labeldata'
+    output_directory = '../data/papers'
+    
+    json_files = collect_json_files(input_directory)
+    venue_dict = extract_papers_by_venue(json_files)
+    title_to_path, venue_to_path, label_set = export_papers_to_readme(venue_dict, output_directory)
 
-        # Match paper metadata
-        elif paper_match := paper_pattern.match(line.strip()):
-            title, conference, year, link = paper_match.groups()
+    print(f"Exported papers to: {output_directory}")
+    print(sorted(label_set))
+    print(len(title_to_path))
 
-            papers.append({
-                "title": title.replace("- ", ""),
-                "conference": conference,
-                "year": int(year),
-                "link": link,
-                "sections": sections[:]  # Copy of the current sections
-            })
-
-        if line.startswith("-") and not (paper_match := paper_pattern.match(line.strip())):
-            print(line)
-            # break
-
-    return papers
-
-# Parse the file and print the extracted metadata
-markdown_file_path = "README.md"  # Replace with the path to your Markdown file
-papers_metadata = parse_paper_metadata_with_sections(markdown_file_path)
-
-# Output the result as JSON
-# print(json.dumps(papers_metadata, indent=4))
-
-# dump paper_metadata to a json file
-with open("paperbase.json", "w") as outfile:
-    json.dump(papers_metadata, outfile, indent=4)
+if __name__ == "__main__":
+    main()
