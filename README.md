@@ -1,4 +1,4 @@
-# Code LLM Paper Repository
+# CodeLLM Research
 
 This repository provides a curated list of research papers focused on Large Language Models (LLMs) for code. It aims to facilitate researchers and practitioners in exploring the rapidly growing body of literature on this topic. The papers are systematically collected from various top-tier venues, categorized, and labeled for easier navigation.
 
@@ -17,12 +17,18 @@ We have systematically selected papers from the following venues, which are top-
 The papers accepted by USENIXSec2024 and CCS2024 have not been published in the proceedings. Due to the large volume, we do not systematically collect the papers published in top-tier ML conferences (ICML, NeurIPS, and ICLR) and arXiv. However, we are keeping manually adding important works published in these venues. We plan to expand the collection over time, and contributions are welcome. For details, see the section [How to Contribute](#3-contribution).
 
 
-## Paper Selection Strategy
+## Selection Strategy
+
 1. **Abstract Extraction**: Extract the abstracts from bib files or HTML files. The bib and HTML files of the above listed venues are stored in the directory `data/rawdata`.
+
 2. **Keyword Matching**: Filter abstracts that meet both of the following conditions:
+
    - Contains at least one keyword from: `{"pretrain", "LLM", "large language model", "transformer", "code model"}`.
+
    - Contains the keyword `"code"` or `"program"`.
+
 3. **Relevance Check Using LLMs**: Use LLMs to verify if the papers obtained in Step 2 are related to LLMs for code.
+
 4. **Manual Labeling**: Manually assign labels to the papers based on domain knowledge.
 
 All the selected papers along with the labels are maintained in the json file `data/labeldata/labeldata.json`.
