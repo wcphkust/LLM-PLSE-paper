@@ -41,7 +41,11 @@
             "type inference": {}
         },
         "code model": {
-            "code model training": {},
+            "code model training": {
+                "source code model": {},
+                "IR code model": {},
+                "binary code model": {}
+            },
             "code model security": {},
             "code model robustness": {}
         },
