@@ -113,7 +113,7 @@ def generate_readme_from_label(label, categories, label_to_papers, title_to_path
             paper_str += f"  - **Abstract**: {paper['abstract'][:300]}...\n"
             labels_with_links = []
             for label in paper['labels']:
-                labels_with_links.append(f"[{label}](../../labels/{label.replace(' ', '_')}.md)")
+                labels_with_links.append(f"[{label}]({label.replace(' ', '_')}.md)")
             paper_str += f"  - **Labels**: {', '.join(labels_with_links)}\n"
             paper_list.append(paper_str)
 
