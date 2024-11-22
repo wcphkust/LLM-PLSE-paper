@@ -6,5 +6,5 @@ Number of papers: 1
 - **Authors**: Chen, Yongchao and Jhamtani, Harsh and Sharma, Srinagesh and Fan, Chuchu and Wang, Chi
 - **Abstract**: While a lot of recent research focuses on enhancing the textual reasoning capabilities of Large Language Models (LLMs) by optimizing the multi-agent framework or reasoning chains, several benchmark tasks can be solved with 100% success through direct coding, which is more scalable and avoids the com...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2410.03524)
-- **Labels**: prompt strategy, reason with code
+- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 

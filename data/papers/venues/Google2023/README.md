@@ -6,5 +6,5 @@ Number of papers: 1
 - **Authors**: Li, Chengshu and Liang, Jacky and Zeng, Andy and Chen, Xinyun and Hausman, Karol and Sadigh, Dorsa and Levine, Sergey and Fei-Fei, Li and Xia, Fei and Ichter, Brian
 - **Abstract**: Code provides a general syntactic structure to build complex programs and perform precise computations when paired with a code interpreter -- we hypothesize that language models (LMs) can leverage code-writing to improve Chain of Thought reasoning not only for logic and arithmetic tasks, but also fo...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2312.04474.pdf)
-- **Labels**: prompt strategy, reason with code
+- **Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
 

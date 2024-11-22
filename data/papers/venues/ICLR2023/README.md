@@ -6,5 +6,5 @@ Number of papers: 1
 - **Authors**: Olausson, Theo X and Inala, Jeevana Priya and Wang, Chenglong and Gao, Jianfeng and Solar-Lezama, Armando
 - **Abstract**: Large language models have shown remarkable aptitude in code generation, but still struggle to perform complex tasks. Self-repair---in which the model debugs and repairs its own code---has recently become a popular way to boost performance in these settings. However, despite its increasing popularit...
 - **Link**: [Read Paper](https://openreview.net/forum?id=y0GJXRungR)
-- **Labels**: code generation, program repair
+- **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md)
 
