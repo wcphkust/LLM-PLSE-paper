@@ -1,77 +1,63 @@
 {
     "categories": {
-      "general coding task": [],
-      "program testing": [
-        "fuzzing",
-        "library testing",
-        "DBMS testing",
-        "compiler testing",
-        "protocol fuzzing",
-        "mutation testing",
-        "unit testing",
-        "differential testing",
-        "debugging",
-        "bug reproduction",
-        "vulnerability exploitation"
-      ],
-      "code generation": [
-        "program synthesis",
-        "code completion",
-        "program repair",
-        "program transformation",
-        "program decompilation"
-      ],
-      "software maintenance and deployment": [
-        "code review",
-        "documentation generation",
-        "commit message generation",
-        "software configuration",
-        "system log analysis"
-      ],
-      "static analysis": [
-        "fundamental analysis",
-        "specification inference",
-        "bug detection",
-        "program verification",
-        "code search",
-        "code similarity analysis",
-        "software composition analysis",
-        "code summarization",
-        "compiler optimization",
-        "type inference"
-      ],
-      "agent design": {
-        "prompt strategy": [
-          "RAG",
-          "reason with code",
-          "sampling and ranking"
-        ],
-        "planning": []
-      },
-      "code model": {
-        "code model training": [
-          "IR code model",
-          "binary code model",
-          "source code model"
-        ],
-        "code model security": {
-          "defense": [],
-          "attack": []
+        "general coding task": {},
+        "program testing": {
+            "fuzzing": {},
+            "library testing": {},
+            "DBMS testing": {},
+            "compiler testing": {},
+            "protocol fuzzing": {},
+            "mutation testing": {},
+            "unit testing": {},
+            "differential testing": {},
+            "debugging": {},
+            "bug reproduction": {},
+            "vulnerability exploitation": {}
         },
-        "code model robustness": {
-          "defense": [],
-          "attack": []
-        }
-      },
-      "benchmark empirical study and survey": [
-        "general coding task",
-        "program testing",
-        "static analysis",
-        "code generation",
-        "code model"
-      ],
-      "hallucination in reasoning": [],
-      "PL design for LLMs": []
+        "code generation": {
+            "program synthesis": {},
+            "code completion": {},
+            "program repair": {},
+            "program transformation": {},
+            "program decompilation": {}
+        },
+        "software maintenance and deployment": {
+            "code review": {},
+            "documentation generation": {},
+            "commit message generation": {},
+            "software configuration": {},
+            "system log analysis": {}
+        },
+        "static analysis": {
+            "fundamental analysis": {},
+            "specification inference": {},
+            "bug detection": {},
+            "program verification": {},
+            "code search": {},
+            "code similarity analysis": {},
+            "software composition analysis": {},
+            "code summarization": {},
+            "compiler optimization": {},
+            "type inference": {}
+        },
+        "code model": {
+            "code model training": {},
+            "code model security": {},
+            "code model robustness": {}
+        },
+        "hallucination in reasoning": {},
+        "PL design for LLMs": {},
+        "agent design": {
+            "prompt strategy": {
+                "retrieval-augmented generation": {},
+                "reason with code": {},
+                "sampling and ranking": {}
+            },
+            "planning": {}
+        },
+        "benchmark": {},
+        "empirical study": {},
+        "survey": {}
     }
-  }
+}
   

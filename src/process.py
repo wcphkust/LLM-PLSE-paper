@@ -27,6 +27,7 @@ def extract_papers_by_venue(json_files):
                         "author": paper.get("author", "Unknown Author"),
                         "abstract": paper.get("abstract", "No Abstract Available"),
                         "url": paper.get("url", "No Link Available"),
+                        "venue": paper.get("venue"),
                         "labels": paper.get("labels", [])
                     })
             except json.JSONDecodeError:
@@ -63,7 +64,11 @@ def export_papers_to_readme(venue_dict, output_dir):
                     paper_file.write(f"**Authors**: {paper['author']}\n\n")
                     paper_file.write(f"**Abstract**:\n\n{paper['abstract']}\n\n")
                     paper_file.write(f"**Link**: [Read Paper]({paper['url']})\n\n")
-                    paper_file.write(f"**Labels**: {', '.join(paper['labels'])}\n")
+
+                    labels_with_links = []
+                    for label in paper['labels']:
+                        labels_with_links.append(f"[{label}](../../labels/{label.replace(' ', '_')}.md)")
+                    paper_file.write(f"**Labels**: {', '.join(labels_with_links)}\n")
                 
                 # Add entry to README.md
                 readme_file.write(f"## [{paper['title']}]({markdown_filename})\n")
@@ -77,13 +82,102 @@ def export_papers_to_readme(venue_dict, output_dir):
                 venue_to_path[venue] = readme_path
     return title_to_path, venue_to_path, label_set
 
+def get_flattened_labels(label_dict):
+    flattened_labels = {}
+    for label in label_dict:
+        flattened_labels[label] = label_dict[label]
+        flattened_labels.update(get_flattened_labels(label_dict[label]))
+    return flattened_labels
+
+def generate_readme_from_label(label, categories, label_to_papers, title_to_path, venue_to_path, level=1):
+    """
+    Recursively generates a markdown content listing sub-labels of a given label.
+
+    Args:
+        label (str): The starting label.
+        categories (dict): The categories dictionary from the JSON.
+        level (int): The current header level for markdown.
+
+    Returns:
+        str: The markdown content.
+    """    
+    # The first letter of each word in label is capitalized
+    capitalized_label = ' '.join([word.capitalize() for word in label.split()])
+
+    content = f"{'#' * level} {capitalized_label}\n\n"
+
+    flattened_labels = get_flattened_labels(categories)
+
+    subcategories = flattened_labels[label]
+
+    for sub_label in subcategories:
+        content += generate_readme_from_label(sub_label, subcategories, label_to_papers, title_to_path, venue_to_path, level + 1) + "\n\n"
+
+    paper_list = []
+    if len(subcategories) == 0:
+        for paper in label_to_papers[label]:
+            paper_list.append(f"- [{paper['title']}]({title_to_path[paper['title']].replace('../data/papers/', '../')}), ([{paper['venue']}]({venue_to_path[paper['venue']].replace('../data/papers/', '../')}))\n")
+
+    sorted_paper_list = sorted(paper_list)
+    content += "\n\n".join(sorted_paper_list)
+    
+    return content
+
+
+def get_all_labels(label_dict):
+    all_labels = set([])
+    for label in label_dict:
+        all_labels.add(label)
+        all_labels = all_labels.union(set(get_all_labels(label_dict[label])))
+    return all_labels
+
+
+def classify_papers_by_label(venue_dict, title_to_path, venue_to_path):
+    # read category from ../data/category.json
+    with open('../data/category.json', 'r') as f:
+        label_category = json.load(f)["categories"]
+
+    label_to_path = {}
+    label_paper_dict = {}
+    for venue in venue_dict:
+        for paper in venue_dict[venue]:
+            for label in paper['labels']:
+                if label not in label_paper_dict:
+                    label_paper_dict[label] = []
+                label_paper_dict[label].append(paper)
+
+    output_directory = '../data/papers/labels'
+    if not os.path.exists(output_directory):
+        os.makedirs(output_directory)
+
+    labels = get_all_labels(label_category)
+
+    for label in labels:
+        # Generate the markdown content
+        readme_content = generate_readme_from_label(label, label_category, label_paper_dict, title_to_path, venue_to_path)
+
+        # Print or save the result
+        print(readme_content)
+
+        # Optionally, save to a markdown file
+        output_path = os.path.join(output_directory, f"{label.replace(' ', '_')}.md")
+        with open(output_path, 'w') as output_file:
+            output_file.write(readme_content)
+            label_to_path[label] = output_path
+    return label_to_path
+
+
 def main():
     input_directory = '../data/labeldata'
-    output_directory = '../data/papers'
+    output_directory = '../data/papers/venues'
+    if not os.path.exists(output_directory):
+        os.makedirs(output_directory)
     
     json_files = collect_json_files(input_directory)
     venue_dict = extract_papers_by_venue(json_files)
     title_to_path, venue_to_path, label_set = export_papers_to_readme(venue_dict, output_directory)
+
+    classify_papers_by_label(venue_dict, title_to_path, venue_to_path)
 
     print(f"Exported papers to: {output_directory}")
     print(sorted(label_set))

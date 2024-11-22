@@ -35,7 +35,7 @@
             "code generation",
             "code completion",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2024.acl-long.735",
@@ -171,7 +171,8 @@
         "doi": "10.1109/SP54263.2024.00210",
         "ISSN": "2375-1207",
         "month": "May",
-        "venue": "S&P2024"
+        "venue": "S&P2024",
+        "url": "https://arxiv.org/pdf/2312.12575"
     },
     "LLMIF: Augmented Large Language Model for Fuzzing IoT Devices": {
         "type": "INPROCEEDINGS",
@@ -191,7 +192,8 @@
         "doi": "10.1109/SP54263.2024.00211",
         "ISSN": "2375-1207",
         "month": "May",
-        "venue": "S&P2024"
+        "venue": "S&P2024",
+        "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10646659"
     },
     "TrojanPuzzle: Covertly Poisoning Code-Suggestion Models": {
         "type": "INPROCEEDINGS",
@@ -206,7 +208,7 @@
         "abstract": "With tools like GitHub Copilot, automatic code suggestion is no longer a dream in software engineering. These tools, based on large language models, are typically trained on massive corpora of code mined from unvetted public sources. As a result, these models are susceptible to data poisoning attacks where an adversary manipulates the model\u2019s training by injecting malicious data. Poisoning attacks could be designed to influence the model\u2019s suggestions at run time for chosen contexts, such as inducing the model into suggesting insecure code payloads. To achieve this, prior attacks explicitly inject the insecure code payload into the training data, making the poison data detectable by static analysis tools that can remove such malicious data from the training set. In this work, we demonstrate two novel attacks, Covert and TrojanPuzzle, that can bypass static analysis by planting malicious poison data in out-of-context regions such as docstrings. Our most novel attack, TrojanPuzzle, goes one step further in generating less suspicious poison data by never explicitly including certain (suspicious) parts of the payload in the poison data, while still inducing a model that suggests the entire payload when completing code (i.e., outside docstrings). This makes TrojanPuzzle robust against signature-based dataset-cleansing methods that can filter out suspicious sequences from the training data. Our evaluation against models of two sizes demonstrates that both Covert and TrojanPuzzle have significant implications for practitioners when selecting code used to train or tune code-suggestion models.",
         "labels": [
             "code model",
-            "security",
+            "code model security",
             "attack",
             "code generation",
             "code completion"
@@ -214,7 +216,8 @@
         "doi": "10.1109/SP54263.2024.00140",
         "ISSN": "2375-1207",
         "month": "May",
-        "venue": "S&P2024"
+        "venue": "S&P2024",
+        "url": "https://arxiv.org/pdf/2301.02344"
     },
     "Preference-Guided Refactored Tuning for Retrieval Augmented Code Generation": {
         "type": "inproceedings",
@@ -256,7 +259,7 @@
         "numpages": "13",
         "labels": [
             "prompt strategy",
-            "RAG"
+            "retrieval-augmented generation"
         ],
         "location": "Sacramento, CA, USA",
         "series": "ASE '24",
@@ -281,7 +284,7 @@
             "static analysis",
             "code summarization",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "location": "Sacramento, CA, USA",
@@ -425,7 +428,7 @@
             "code generation",
             "program decompilation",
             "code model",
-            "training",
+            "code model training",
             "binary code model"
         ]
     },
@@ -517,7 +520,7 @@
             "code generation",
             "code completion",
             "prompt strategy",
-            "RAG"
+            "retrieval-augmented generation"
         ],
         "location": "Sacramento, CA, USA",
         "series": "ASE '24",
@@ -542,7 +545,7 @@
             "code generation",
             "program repair",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "location": "Sacramento, CA, USA",
@@ -638,7 +641,7 @@
             "code generation",
             "benchmark",
             "code model",
-            "robustness",
+            "code model robustness",
             "attack"
         ],
         "location": "Sacramento, CA, USA",
@@ -687,7 +690,7 @@
             "code generation",
             "program synthesis",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "location": "Sacramento, CA, USA",
@@ -971,7 +974,7 @@
         "numpages": "5",
         "labels": [
             "code model",
-            "security",
+            "code model security",
             "attack",
             "defense"
         ],
@@ -1388,7 +1391,8 @@
         "doi": "10.1109/ASE56229.2023.00010",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://arxiv.org/pdf/2307.04693"
     },
     "An Empirical Study on Fine-Tuning Large Language Models of Code for Automated Program Repair": {
         "type": "INPROCEEDINGS",
@@ -1409,7 +1413,8 @@
         "doi": "10.1109/ASE56229.2023.00181",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10298532"
     },
     "SMT Solver Validation Empowered by Large Pre-Trained Language Models": {
         "type": "INPROCEEDINGS",
@@ -1429,7 +1434,8 @@
         "doi": "10.1109/ASE56229.2023.00180",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10298442"
     },
     "Improving Code Extraction from Coding Screencasts Using a Code-Aware Encoder-Decoder Model": {
         "type": "INPROCEEDINGS",
@@ -1446,13 +1452,14 @@
             "code generation",
             "program synthesis",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "doi": "10.1109/ASE56229.2023.00184",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10298433"
     },
     "Better Patching Using LLM Prompting, via Self-Consistency": {
         "type": "INPROCEEDINGS",
@@ -1473,7 +1480,8 @@
         "doi": "10.1109/ASE56229.2023.00065",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://arxiv.org/pdf/2306.00108"
     },
     "A Closer Look at Different Difficulty Levels Code Generation Abilities of ChatGPT": {
         "type": "INPROCEEDINGS",
@@ -1494,7 +1502,8 @@
         "doi": "10.1109/ASE56229.2023.00096",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10298505"
     },
     "Nuances are the Key: Unlocking ChatGPT to Find Failure-Inducing Tests with Differential Prompting": {
         "type": "INPROCEEDINGS",
@@ -1514,7 +1523,8 @@
         "doi": "10.1109/ASE56229.2023.00089",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10298538"
     },
     "SCPatcher: Mining Crowd Security Discussions to Enrich Secure Coding Practices": {
         "type": "INPROCEEDINGS",
@@ -1534,7 +1544,8 @@
         "doi": "10.1109/ASE56229.2023.00040",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10298463"
     },
     "The Plastic Surgery Hypothesis in the Era of Large Language Models": {
         "type": "INPROCEEDINGS",
@@ -1554,7 +1565,8 @@
         "doi": "10.1109/ASE56229.2023.00047",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://dl.acm.org/doi/pdf/10.1109/ASE56229.2023.00047"
     },
     "What Makes Good In-Context Demonstrations for Code Intelligence Tasks with LLMs?": {
         "type": "INPROCEEDINGS",
@@ -1573,7 +1585,8 @@
         "doi": "10.1109/ASE56229.2023.00109",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://arxiv.org/pdf/2304.07575"
     },
     "From Misuse to Mastery: Enhancing Code Generation with Knowledge-Driven AI Chaining": {
         "type": "INPROCEEDINGS",
@@ -1593,7 +1606,8 @@
         "doi": "10.1109/ASE56229.2023.00143",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://arxiv.org/pdf/2309.15606"
     },
     "Generative Type Inference for Python": {
         "type": "INPROCEEDINGS",
@@ -1613,7 +1627,8 @@
         "doi": "10.1109/ASE56229.2023.00031",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://arxiv.org/pdf/2307.09163"
     },
     "Lost at C: a user study on the security implications of large language model code assistants": {
         "type": "inproceedings",
@@ -1635,7 +1650,8 @@
             "code generation",
             "program synthesis",
             "empirical study"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2208.09727"
     },
     "Examining Zero-Shot Vulnerability Repair with Large Language Models": {
         "type": "INPROCEEDINGS",
@@ -1674,7 +1690,7 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2023.emnlp-main.68",
@@ -1698,7 +1714,7 @@
             "code generation",
             "program synthesis",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2023.emnlp-main.417",
@@ -1765,7 +1781,7 @@
         "abstract": "While large language models (LLMs) bring not only performance but also complexity, recent work has started to turn LLMs into data generators rather than task inferencers, where another affordable task model is trained for efficient deployment and inference. However, such an approach has primarily been applied to natural language tasks, and has not yet been explored for symbolic language tasks with complex structured outputs (e.g., semantic parsing and code generation). In this paper, we propose SymGen which utilizes LLMs for generating various annotation-expensive symbolic language data. SymGen consists of an informative prompt to steer generation and an agreement-based verifier to improve data correctness. We conduct extensive experiments on six symbolic language tasks across various settings. Compared with the LLMs, we demonstrate the 1%-sized task model can achieve comparable or better performance, largely cutting inference and deployment costs. We also show that generated data with only a few human demonstrations can be as effective as over 10 times the amount of human-annotated data when training the task model, saving a considerable amount of annotation effort. SymGen takes a step toward data generation for annotation-expensive complex tasks, and we release the code at URL.",
         "labels": [
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2023.emnlp-main.523",
@@ -1893,7 +1909,7 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model",
             "empirical study"
         ],
@@ -2043,7 +2059,7 @@
         "abstract": "Cross-Lingual Semantic Parsing (CLSP) aims to translate queries in multiple natural languages (NLs) into meaning representations (MRs) such as SQL, lambda calculus, and logic forms. However, existing CLSP models are separately proposed and evaluated on datasets of limited tasks and applications, impeding a comprehensive and unified evaluation of CLSP on a diverse range of NLs and MRs. To this end, we present XSemPLR, a unified benchmark for cross-lingual semantic parsing featured with 22 natural languages and 8 meaning representations by examining and selecting 9 existing datasets to cover 5 tasks and 164 domains. We use XSemPLR to conduct a comprehensive benchmark study on a wide range of multilingual language models including encoder-based models (mBERT, XLM-R), encoder-decoder models (mBART, mT5), and decoder-based models (Codex, BLOOM). We design 6 experiment settings covering various lingual combinations (monolingual, multilingual, cross-lingual) and numbers of learning samples (full dataset, few-shot, and zero-shot). Our experiments show that encoder-decoder models (mT5) achieve the highest performance compared with other popular models, and multilingual training can further improve the average performance. Notably, multilingual large language models (e.g., BLOOM) are still inadequate to perform CLSP tasks. We also find that the performance gap between monolingual training and cross-lingual transfer learning is still significant for multilingual models, though it can be mitigated by cross-lingual few-shot training. Our dataset and code are available at https://github.com/psunlpgroup/XSemPLR.",
         "labels": [
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2023.acl-long.887",
@@ -2094,7 +2110,7 @@
             "code generation",
             "program transformation",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "location": "San Francisco, CA, USA",
@@ -2143,7 +2159,7 @@
             "code generation",
             "code completion",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "location": "San Francisco, CA, USA",
@@ -2320,7 +2336,7 @@
         "numpages": "38",
         "labels": [
             "code model",
-            "robustness",
+            "code model robustness",
             "attack"
         ],
         "venue": "TOSEM2024"
@@ -2425,7 +2441,7 @@
             "code generation",
             "program synthesis",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "venue": "OOPSLA2024"
@@ -2531,7 +2547,7 @@
         "type": "INPROCEEDINGS",
         "key": "koshkin-etal-2024-transllama",
         "author": "Koshkin, Roman and Sudoh, Katsuhito and Nakamura, Satoshi",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "TransLLaMa: LLM-based Simultaneous Translation System",
         "year": "2024",
         "volume": "",
@@ -2547,13 +2563,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "Introducing Compiler Semantics into Large Language Models as Programming Language Translators: A Case Study of C to x86 Assembly": {
         "type": "INPROCEEDINGS",
         "key": "zhang-etal-2024-introducing",
         "author": "Zhang, Shuoming and Zhao, Jiacheng and Xia, Chunwei and Wang, Zheng and Chen, Yunji and Cui, Huimin",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "Introducing Compiler Semantics into Large Language Models as Programming Language Translators: A Case Study of C to x86 Assembly",
         "year": "2024",
         "volume": "",
@@ -2568,13 +2584,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "EvoR: Evolving Retrieval for Code Generation": {
         "type": "INPROCEEDINGS",
         "key": "su-etal-2024-evor",
         "author": "Su, Hongjin and Jiang, Shuyang and Lai, Yuhang and Wu, Haoyuan and Shi, Boao and Liu, Che and Liu, Qian and Yu, Tao",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "EvoR: Evolving Retrieval for Code Generation",
         "year": "2024",
         "volume": "",
@@ -2586,19 +2602,19 @@
             "code completion",
             "source code model",
             "prompt strategy",
-            "RAG"
+            "retrieval-augmented generation"
         ],
         "url": "https://aclanthology.org/2024.findings-emnlp.143",
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization": {
         "type": "INPROCEEDINGS",
         "key": "nahid-rafiei-2024-normtab",
         "author": "Nahid, Md and Rafiei, Davood",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization",
         "year": "2024",
         "volume": "",
@@ -2613,13 +2629,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "Sanitizing Large Language Models in Bug Detection with Data-Flow": {
         "type": "INPROCEEDINGS",
         "key": "wang-etal-2024-sanitizing",
         "author": "Wang, Chengpeng and Zhang, Wuqi and Su, Zian and Xu, Xiangzhe and Zhang, Xiangyu",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "Sanitizing Large Language Models in Bug Detection with Data-Flow",
         "year": "2024",
         "volume": "",
@@ -2635,13 +2651,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "Stanceformer: Target-Aware Transformer for Stance Detection": {
         "type": "INPROCEEDINGS",
         "key": "garg-caragea-2024-stanceformer",
         "author": "Garg, Krishna and Caragea, Cornelia",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "Stanceformer: Target-Aware Transformer for Stance Detection",
         "year": "2024",
         "volume": "",
@@ -2657,13 +2673,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "Defending Large Language Models Against Jailbreak Attacks via Layer-specific Editing": {
         "type": "INPROCEEDINGS",
         "key": "zhao-etal-2024-defending-large",
         "author": "Zhao, Wei and Li, Zhe and Li, Yige and Zhang, Ye and Sun, Jun",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "Defending Large Language Models Against Jailbreak Attacks via Layer-specific Editing",
         "year": "2024",
         "volume": "",
@@ -2672,20 +2688,20 @@
         "abstract": "Large language models (LLMs) are increasingly being adopted in a wide range of real-world applications. Despite their impressive performance, recent studies have shown that LLMs are vulnerable to deliberately crafted adversarial prompts even when aligned via Reinforcement Learning from Human Feedback or supervised fine-tuning. While existing defense methods focus on either detecting harmful prompts or reducing the likelihood of harmful responses through various means, defending LLMs against jailbreak attacks based on the inner mechanisms of LLMs remains largely unexplored. In this work, we investigate how LLMs respond to harmful prompts and propose a novel defense method termed Layer-specific Editing (LED) to enhance the resilience of LLMs against jailbreak attacks. Through LED, we reveal that several critical safety layers exist among the early layers of LLMs. We then show that realigning these safety layers (and some selected additional layers) with the decoded safe response from identified toxic layers can significantly improve the alignment of LLMs against jailbreak attacks. Extensive experiments across various LLMs (e.g., Llama2, Mistral) show the effectiveness of LED, which effectively defends against jailbreak attacks while maintaining performance on benign prompts. Our code is available at https://github.com/ledllm/ledllm.",
         "labels": [
             "code model",
-            "security",
+            "code model security",
             "defense"
         ],
         "url": "https://aclanthology.org/2024.findings-emnlp.293",
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement": {
         "type": "INPROCEEDINGS",
         "key": "feng-etal-2024-self",
         "author": "Feng, Yunlong and Teng, Dechuan and Xu, Yang and Mu, Honglin and Xu, Xiao and Qin, Libo and Zhu, Qingfu and Che, Wanxiang",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement",
         "year": "2024",
         "volume": "",
@@ -2696,7 +2712,7 @@
             "code generation",
             "program decompilation",
             "code model",
-            "training",
+            "code model training",
             "binary code model",
             "benchmark"
         ],
@@ -2704,13 +2720,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "AutoDetect: Towards a Unified Framework for Automated Weakness Detection in Large Language Models": {
         "type": "INPROCEEDINGS",
         "key": "cheng-etal-2024-autodetect",
         "author": "Cheng, Jiale and Lu, Yida and Gu, Xiaotao and Ke, Pei and Liu, Xiao and Dong, Yuxiao and Wang, Hongning and Tang, Jie and Huang, Minlie",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "AutoDetect: Towards a Unified Framework for Automated Weakness Detection in Large Language Models",
         "year": "2024",
         "volume": "",
@@ -2719,7 +2735,7 @@
         "abstract": "Although Large Language Models (LLMs) are becoming increasingly powerful, they still exhibit significant but subtle weaknesses, such as mistakes in instruction-following or coding tasks.As these unexpected errors could lead to severe consequences in practical deployments, it is crucial to investigate the limitations within LLMs systematically.Traditional benchmarking approaches cannot thoroughly pinpoint specific model deficiencies, while manual inspections are costly and not scalable. In this paper, we introduce a unified framework, AutoDetect, to automatically expose weaknesses in LLMs across various tasks. Inspired by the educational assessment process that measures students\u2019 learning outcomes, AutoDetect consists of three LLM-powered agents: Examiner, Questioner, and Assessor.The collaboration among these three agents is designed to realize comprehensive and in-depth weakness identification. Our framework demonstrates significant success in uncovering flaws, with an identification success rate exceeding 30% in prominent models such as ChatGPT and Claude.More importantly, these identified weaknesses can guide specific model improvements, proving more effective than untargeted data augmentation methods like Self-Instruct. Our approach has led to substantial enhancements in popular LLMs, including the Llama series and Mistral-7b, boosting their performance by over 10% across several benchmarks.Code and data are publicly available at https://github.com/thu-coai/AutoDetect.",
         "labels": [
             "code model",
-            "security",
+            "code model security",
             "attack",
             "empirical study"
         ],
@@ -2727,13 +2743,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "CodeIP: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code": {
         "type": "INPROCEEDINGS",
         "key": "guan-etal-2024-codeip",
         "author": "Guan, Batu and Wan, Yao and Bi, Zhangqian and Wang, Zheng and Zhang, Hongyu and Zhou, Pan and Sun, Lichao",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "CodeIP: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code",
         "year": "2024",
         "volume": "",
@@ -2744,20 +2760,20 @@
             "code generation",
             "program synthesis",
             "code model",
-            "security",
+            "code model security",
             "defense"
         ],
         "url": "https://aclanthology.org/2024.findings-emnlp.541",
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging": {
         "type": "INPROCEEDINGS",
         "key": "kargupta-etal-2024-instruct",
         "author": "Kargupta, Priyanka and Agarwal, Ishika and Tur, Dilek Hakkani and Han, Jiawei",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging",
         "year": "2024",
         "volume": "",
@@ -2774,13 +2790,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "Can LLMs Reason in the Wild with Programs?": {
         "type": "INPROCEEDINGS",
         "key": "yang-etal-2024-llms",
         "author": "Yang, Yuan and Xiong, Siheng and Payani, Ali and Shareghi, Ehsan and Fekri, Faramarz",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "Can LLMs Reason in the Wild with Programs?",
         "year": "2024",
         "volume": "",
@@ -2795,13 +2811,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "Rethinking Code Refinement: Learning to Judge Code Efficiency": {
         "type": "INPROCEEDINGS",
         "key": "seo-etal-2024-rethinking",
         "author": "Seo, Minju and Baek, Jinheon and Hwang, Sung Ju",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "Rethinking Code Refinement: Learning to Judge Code Efficiency",
         "year": "2024",
         "volume": "",
@@ -2812,20 +2828,20 @@
             "code generation",
             "program transformation",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://aclanthology.org/2024.findings-emnlp.645",
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "Revisiting the Impact of Pursuing Modularity for Code Generation": {
         "type": "INPROCEEDINGS",
         "key": "kang-etal-2024-revisiting",
         "author": "Kang, Deokyeong and Seo, KiJung and Kim, Taeuk",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "Revisiting the Impact of Pursuing Modularity for Code Generation",
         "year": "2024",
         "volume": "",
@@ -2841,13 +2857,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "Enhancing Discourse Dependency Parsing with Sentence Dependency Parsing: A Unified Generative Method Based on Code Representation": {
         "type": "INPROCEEDINGS",
         "key": "shen-etal-2024-enhancing",
         "author": "Shen, Zizhuo and Shao, Yanqiu and Li, Wei",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "Enhancing Discourse Dependency Parsing with Sentence Dependency Parsing: A Unified Generative Method Based on Code Representation",
         "year": "2024",
         "volume": "",
@@ -2858,20 +2874,20 @@
             "code generation",
             "program synthesis",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://aclanthology.org/2024.findings-emnlp.729",
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "On Leakage of Code Generation Evaluation Datasets": {
         "type": "INPROCEEDINGS",
         "key": "matton-etal-2024-leakage",
         "author": "Matton, Alexandre and Sherborne, Tom and Aumiller, Dennis and Tommasone, Elena and Alizadeh, Milad and He, Jingyi and Ma, Raymond and Voisin, Maxime and Gilsenan-McMahon, Ellen and Gall\u00e9, Matthias",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "On Leakage of Code Generation Evaluation Datasets",
         "year": "2024",
         "volume": "",
@@ -2887,7 +2903,7 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "AI-Assisted Code Authoring at Scale: Fine-Tuning, Deploying, and Mixed Methods Evaluation": {
         "type": "article",
@@ -2910,7 +2926,7 @@
         "labels": [
             "code generation",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "venue": "FSE2024"
@@ -3033,7 +3049,7 @@
             "code generation",
             "program transformation",
             "code model",
-            "training",
+            "code model training",
             "empirical study"
         ],
         "venue": "FSE2024"
@@ -3336,7 +3352,7 @@
             "code generation",
             "program synthesis",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2024.naacl-long.417",
@@ -3349,7 +3365,7 @@
         "type": "INPROCEEDINGS",
         "key": "salim-etal-2024-impeding",
         "author": "Salim, Saiful Islam and Yang, Rubin Yuchan and Cooper, Alexander and Ray, Suryashree and Debray, Saumya and Rahaman, Sazzadur",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "Impeding LLM-assisted Cheating in Introductory Programming Assignments via Adversarial Perturbation",
         "year": "2024",
         "volume": "",
@@ -3365,13 +3381,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "AMR-Evol: Adaptive Modular Response Evolution Elicits Better Knowledge Distillation for Large Language Models in Code Generation": {
         "type": "INPROCEEDINGS",
         "key": "luo-etal-2024-amr",
         "author": "Luo, Ziyang and Li, Xin and Lin, Hongzhan and Ma, Jing and Bing, Lidong",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "AMR-Evol: Adaptive Modular Response Evolution Elicits Better Knowledge Distillation for Large Language Models in Code Generation",
         "year": "2024",
         "volume": "",
@@ -3382,20 +3398,20 @@
             "code generation",
             "program synthesis",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://aclanthology.org/2024.emnlp-main.66",
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "LLM4Decompile: Decompiling Binary Code with Large Language Models": {
         "type": "INPROCEEDINGS",
         "key": "tan-etal-2024-llm4decompile",
         "author": "Tan, Hanzhuo and Luo, Qi and Li, Jing and Zhang, Yuqun",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "LLM4Decompile: Decompiling Binary Code with Large Language Models",
         "year": "2024",
         "volume": "",
@@ -3406,20 +3422,20 @@
             "code generation",
             "program decompilation",
             "code model",
-            "training",
+            "code model training",
             "binary code model"
         ],
         "url": "https://aclanthology.org/2024.emnlp-main.203",
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "PTD-SQL: Partitioning and Targeted Drilling with LLMs in Text-to-SQL": {
         "type": "INPROCEEDINGS",
         "key": "luo-etal-2024-ptd",
         "author": "Luo, Ruilin and Wang, Liyuan and Lin, Binghuai and Lin, Zicheng and Yang, Yujiu",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "PTD-SQL: Partitioning and Targeted Drilling with LLMs in Text-to-SQL",
         "year": "2024",
         "volume": "",
@@ -3435,13 +3451,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "How Do Humans Write Code? Large Models Do It the Same Way Too": {
         "type": "INPROCEEDINGS",
         "key": "li-etal-2024-humans",
         "author": "Li, Long and He, Xuzheng and Wang, Haozhe and Wang, Linlin and He, Liang",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "How Do Humans Write Code? Large Models Do It the Same Way Too",
         "year": "2024",
         "volume": "",
@@ -3457,13 +3473,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "Socratic Human Feedback (SoHF): Expert Steering Strategies for LLM Code Generation": {
         "type": "INPROCEEDINGS",
         "key": "chidambaram-etal-2024-socratic",
         "author": "Chidambaram, Subramanian and Li, Li Erran and Bai, Min and Li, Xiaopeng and Lin, Kaixiang and Zhou, Xiong and Williams, Alex C.",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "Socratic Human Feedback (SoHF): Expert Steering Strategies for LLM Code Generation",
         "year": "2024",
         "volume": "",
@@ -3479,13 +3495,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "PythonSaga: Redefining the Benchmark to Evaluate Code Generating LLMs": {
         "type": "INPROCEEDINGS",
         "key": "yadav-etal-2024-pythonsaga",
         "author": "Yadav, Ankit and Beniwal, Himanshu and Singh, Mayank",
-        "booktitle": "EMNLP-findings2024",
+        "booktitle": "EMNLP2024",
         "title": "PythonSaga: Redefining the Benchmark to Evaluate Code Generating LLMs",
         "year": "2024",
         "volume": "",
@@ -3501,7 +3517,7 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-findings2024"
+        "venue": "EMNLP2024"
     },
     "Towards Efficient Fine-Tuning of Language Models With Organizational Data for Automated Software Review": {
         "type": "article",
@@ -3526,7 +3542,7 @@
             "code generation",
             "program repair",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ]
     },
@@ -3603,7 +3619,7 @@
             "program testing",
             "debugging",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ]
     },
@@ -3803,7 +3819,7 @@
             "code generation",
             "code completion",
             "code model",
-            "training",
+            "code model training",
             "source code model",
             "benchmark"
         ]
@@ -3894,6 +3910,27 @@
         "labels": [
             "software maintenance and deployment",
             "software configuration"
+        ],
+        "location": "Vienna, Austria",
+        "series": "ISSTA 2024",
+        "venue": "ISSTA2024"
+    },
+    "Automated Program Repair via Conversation:Fixing 162 out of 337 Bugs for $0.42 Each using ChatGPT": {
+        "type": "inproceedings",
+        "key": "issta24fixlingming",
+        "author": "Xia, Chunqiu Steven and Zhang, Lingming",
+        "title": "Automated Program Repair via Conversation:Fixing 162 out of 337 Bugs for $0.42 Each using ChatGPT",
+        "year": "2024",
+        "isbn": "9798400706127",
+        "publisher": "Association for Computing Machinery",
+        "address": "New York, NY, USA",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3650212.3680323",
+        "doi": "10.1145/3650212.3680323",
+        "abstract": "Automated Program Repair (APR) aims to automatically generate patches for buggy programs. Traditional APR techniques suffer from a lack of patch variety as they rely heavily on handcrafted or mined bug fixing patterns and cannot easily generalize to other bug/fix types. To address this limitation, recent APR work has been focused on leveraging modern Large Language Models (LLMs) to directly generate patches for APR. Such LLM-based APR tools work by first constructing an input prompt built using the original buggy code and then querying the LLM to either fill-in (cloze-style APR) the correct code at the bug location or to produce a completely new code snippet as the patch. While the LLM-based APR tools are able to achieve state-of-the-art results, they still follow the classic Generate and Validate (GV) repair paradigm of first generating lots of patches by sampling from the same initial prompt and then validating each one afterwards. This not only leads to many repeated patches that are incorrect, but also misses the crucial and yet previously ignored information in test failures as well as in plausible patches. To address these aforementioned limitations, we propose ChatRepair, the first fully automated conversation-driven APR approach that interleaves patch generation with instant feedback to perform APR in a conversational style. ChatRepair first feeds the LLM with relevant test failure information to start with, and then learns from both failures and successes of earlier patching attempts of the same bug for more powerful APR. For earlier patches that failed to pass all tests, we combine the incorrect patches with their corresponding relevant test failure information to construct a new prompt for the LLM to generate the next patch. In this way, we can avoid making the same mistakes. For earlier patches that passed all the tests (i.e., plausible patches), we further ask the LLM to generate alternative variations of the original plausible patches. In this way, we can further build on and learn from earlier successes to generate more plausible patches to increase the chance of having correct patches. While our approach is general, we implement ChatRepair using state-of-the-art dialogue-based LLM – ChatGPT. Our evaluation on the widely studied Defects4j dataset shows that ChatRepair is able to achieve the new state-of-the-art in repair performance, achieving 114 and 48 correct fixes on Defects4j 1.2 and 2.0 respectively. By calculating the cost of accessing ChatGPT, we can fix 162 out of 337 bugs for $0.42 each!",
+        "booktitle": "Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis",
+        "labels": [
+            "code generation",
+            "program repair"
         ],
         "location": "Vienna, Austria",
         "series": "ISSTA 2024",
@@ -4038,7 +4075,7 @@
             "code generation",
             "code completion",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "location": "Vienna, Austria",
@@ -4269,7 +4306,7 @@
         "numpages": "12",
         "labels": [
             "code model",
-            "security",
+            "code model security",
             "defense"
         ],
         "location": "Vienna, Austria",
@@ -4506,7 +4543,7 @@
             "static analysis",
             "bug detection",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ]
     },
@@ -4532,7 +4569,7 @@
             "program testing",
             "debugging",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ]
     },
@@ -4646,7 +4683,7 @@
         "numpages": "12",
         "labels": [
             "code model",
-            "security",
+            "code model security",
             "attack",
             "benchmark"
         ],
@@ -4907,7 +4944,7 @@
             "static analysis",
             "code summarization",
             "prompt strategy",
-            "RAG"
+            "retrieval-augmented generation"
         ],
         "location": "Lisbon, Portugal",
         "series": "ICSE '24",
@@ -4984,7 +5021,7 @@
             "code search",
             "code summarization",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "venue": "FSE2024"
@@ -5157,7 +5194,7 @@
         "numpages": "23",
         "labels": [
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "venue": "FSE2024"
@@ -5244,7 +5281,7 @@
             "code generation",
             "program synthesis",
             "code model",
-            "training",
+            "code model training",
             "IR code model"
         ],
         "url": "https://doi.org/10.18653/v1/2024.acl-long.100",
@@ -5270,7 +5307,7 @@
             "static analysis",
             "code search",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2024.acl-long.167",
@@ -5294,7 +5331,7 @@
             "code generation",
             "program synthesis",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2024.acl-long.207",
@@ -5339,7 +5376,7 @@
             "code generation",
             "program synthesis",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2024.acl-long.259",
@@ -5363,7 +5400,7 @@
             "code generation",
             "program synthesis",
             "code model",
-            "security",
+            "code model security",
             "defense"
         ],
         "url": "https://doi.org/10.18653/v1/2024.acl-long.268",
@@ -5408,7 +5445,7 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2024.acl-long.280",
@@ -5527,7 +5564,7 @@
         "type": "INPROCEEDINGS",
         "key": "bostrom-etal-2024-language",
         "author": "Bostrom, Kaj and Jhamtani, Harsh and Fang, Hao and Thomson, Sam and Shin, Richard and Xia, Patrick and Van Durme, Benjamin and Eisner, Jason and Andreas, Jacob",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "Language-to-Code Translation with a Single Labeled Example",
         "year": "2024",
         "volume": "",
@@ -5543,13 +5580,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "RealVul: Can We Detect Vulnerabilities in Web Applications with LLM?": {
         "type": "INPROCEEDINGS",
         "key": "cao-etal-2024-realvul",
         "author": "Cao, Di and Liao, Yong and Shang, Xiuwei",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "RealVul: Can We Detect Vulnerabilities in Web Applications with LLM?",
         "year": "2024",
         "volume": "",
@@ -5564,13 +5601,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs": {
         "type": "INPROCEEDINGS",
         "key": "puerto-etal-2024-code",
         "author": "Puerto, Haritz and Tutek, Martin and Aditya, Somak and Zhu, Xiaodan and Gurevych, Iryna",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs",
         "year": "2024",
         "volume": "",
@@ -5585,13 +5622,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "CodeAgent: Autonomous Communicative Agents for Code Review": {
         "type": "INPROCEEDINGS",
         "key": "tang-etal-2024-codeagent",
         "author": "Tang, Xunzhu and Kim, Kisub and Song, Yewei and Lothritz, Cedric and Li, Bei and Ezzini, Saad and Tian, Haoye and Klein, Jacques and Bissyand\u00e9, Tegawend\u00e9 F.",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "CodeAgent: Autonomous Communicative Agents for Code Review",
         "year": "2024",
         "volume": "",
@@ -5607,13 +5644,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "Empowering Multi-step Reasoning across Languages via Program-Aided Language Models": {
         "type": "INPROCEEDINGS",
         "key": "ranaldi-etal-2024-empowering-multi",
         "author": "Ranaldi, Leonardo and Pucci, Giulia and Haddow, Barry and Birch, Alexandra",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "Empowering Multi-step Reasoning across Languages via Program-Aided Language Models",
         "year": "2024",
         "volume": "",
@@ -5628,13 +5665,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models": {
         "type": "INPROCEEDINGS",
         "key": "huang-etal-2024-da",
         "author": "Huang, Yiming and Luo, Jianwen and Yu, Yan and Zhang, Yitong and Lei, Fangyu and Wei, Yifan and He, Shizhu and Huang, Lifu and Liu, Xiao and Zhao, Jun and Liu, Kang",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models",
         "year": "2024",
         "volume": "",
@@ -5650,13 +5687,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "Leveraging Context-Aware Prompting for Commit Message Generation": {
         "type": "INPROCEEDINGS",
         "key": "jiang-etal-2024-leveraging-context",
         "author": "Jiang, Zhihua and Chen, Jianwei and Rao, Dongning and Ye, Guanghui",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "Leveraging Context-Aware Prompting for Commit Message Generation",
         "year": "2024",
         "volume": "",
@@ -5671,13 +5708,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "How Do Your Code LLMs perform? Empowering Code Instruction Tuning with Really Good Data": {
         "type": "INPROCEEDINGS",
         "key": "wang-etal-2024-code",
         "author": "Wang, Yejie and He, Keqing and Fu, Dayuan and GongQue, Zhuoma and Xu, Heyang and Chen, Yanxu and Wang, Zhexu and Fu, Yujia and Dong, Guanting and Diao, Muxi and Wang, Jingang and Zhang, Mengdi and Cai, Xunliang and Xu, Weiran",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "How Do Your Code LLMs perform? Empowering Code Instruction Tuning with Really Good Data",
         "year": "2024",
         "volume": "",
@@ -5687,20 +5724,20 @@
         "labels": [
             "code generation",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://aclanthology.org/2024.emnlp-main.777",
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?": {
         "type": "INPROCEEDINGS",
         "key": "waghjale-etal-2024-ecco",
         "author": "Waghjale, Siddhant and Veerendranath, Vishruth and Wang, Zhiruo and Fried, Daniel",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?",
         "year": "2024",
         "volume": "",
@@ -5715,13 +5752,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "Re-Reading Improves Reasoning in Large Language Models": {
         "type": "INPROCEEDINGS",
         "key": "xu-etal-2024-reading",
         "author": "Xu, Xiaohan and Tao, Chongyang and Shen, Tao and Xu, Can and Xu, Hongbo and Long, Guodong and Lou, Jian-Guang and Ma, Shuai",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "Re-Reading Improves Reasoning in Large Language Models",
         "year": "2024",
         "volume": "",
@@ -5735,13 +5772,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "DocCGen: Document-based Controlled Code Generation": {
         "type": "INPROCEEDINGS",
         "key": "pimparkhede-etal-2024-doccgen",
         "author": "Pimparkhede, Sameer and Kammakomati, Mehant and Tamilselvam, Srikanth G. and Kumar, Prince and Kumar, Ashok Pon and Bhattacharyya, Pushpak",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "DocCGen: Document-based Controlled Code Generation",
         "year": "2024",
         "volume": "",
@@ -5756,13 +5793,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "CoCoST: Automatic Complex Code Generation with Online Searching and Correctness Testing": {
         "type": "INPROCEEDINGS",
         "key": "he-etal-2024-cocost",
         "author": "He, Xinyi and Zou, Jiaru and Lin, Yun and Zhou, Mengyu and Han, Shi and Yuan, Zejian and Zhang, Dongmei",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "CoCoST: Automatic Complex Code Generation with Online Searching and Correctness Testing",
         "year": "2024",
         "volume": "",
@@ -5778,13 +5815,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "CodeJudge: Evaluating Code Generation with Large Language Models": {
         "type": "INPROCEEDINGS",
         "key": "tong-zhang-2024-codejudge",
         "author": "Tong, Weixi and Zhang, Tianyi",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "CodeJudge: Evaluating Code Generation with Large Language Models",
         "year": "2024",
         "volume": "",
@@ -5799,13 +5836,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records": {
         "type": "INPROCEEDINGS",
         "key": "shi-etal-2024-ehragent",
         "author": "Shi, Wenqi and Xu, Ran and Zhuang, Yuchen and Yu, Yue and Zhang, Jieyu and Wu, Hang and Zhu, Yuanda and Ho, Joyce C. and Yang, Carl and Wang, May Dongmei",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records",
         "year": "2024",
         "volume": "",
@@ -5820,13 +5857,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models": {
         "type": "INPROCEEDINGS",
         "key": "chae-etal-2024-language",
         "author": "Chae, Hyungjoo and Kim, Yeonghyeon and Kim, Seungone and Ong, Kai Tzu-iunn and Kwak, Beong-woo and Kim, Moohyeon and Kim, Sunghwan and Kwon, Taeyoon and Chung, Jiwan and Yu, Youngjae and Yeo, Jinyoung",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models",
         "year": "2024",
         "volume": "",
@@ -5841,13 +5878,13 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
     "Coffee-Gym: An Environment for Evaluating and Improving Natural Language Feedback on Erroneous Code": {
         "type": "INPROCEEDINGS",
         "key": "chae-etal-2024-coffee",
         "author": "Chae, Hyungjoo and Kwon, Taeyoon and Moon, Seungjun and Song, Yongho and Kang, Dongjin and Ong, Kai Tzu-iunn and Kwak, Beong-woo and Bae, Seonghyeon and Hwang, Seung-won and Yeo, Jinyoung",
-        "booktitle": "EMNLP-main2024",
+        "booktitle": "EMNLP2024",
         "title": "Coffee-Gym: An Environment for Evaluating and Improving Natural Language Feedback on Erroneous Code",
         "year": "2024",
         "volume": "",
@@ -5863,9 +5900,9 @@
         "doi": "",
         "ISSN": "",
         "month": "November",
-        "venue": "EMNLP-main2024"
+        "venue": "EMNLP2024"
     },
-    "Security of Language Models for Code: A Systematic Literature Review": {
+    "\u2248w": {
         "type": "article",
         "key": "chen2024security",
         "title": "Security of Language Models for Code: A Systematic Literature Review",
@@ -5878,9 +5915,10 @@
         "abstract": "Language models for code (CodeLMs) have emerged as powerful tools for code-related tasks, outperforming traditional methods and standard machine learning approaches. However, these models are susceptible to security vulnerabilities, drawing increasing research attention from domains such as software engineering, artificial intelligence, and cybersecurity. Despite the growing body of research focused on the security of CodeLMs, a comprehensive survey in this area remains absent. To address this gap, we systematically review 67 relevant papers, organizing them based on attack and defense strategies. Furthermore, we provide an overview of commonly used language models, datasets, and evaluation metrics, and highlight open-source tools and promising directions for future research in securing CodeLMs.",
         "labels": [
             "code model",
-            "security",
+            "code model security",
             "survey"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2410.15631"
     },
     "LLMs: Understanding Code Syntax and Semantics for Code Analysis": {
         "type": "article",
@@ -5895,10 +5933,11 @@
             "static analysis",
             "fundamental analysis",
             "code model",
-            "training",
+            "code model training",
             "source code model",
             "empirical study"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2410.15631"
     },
     "Codemind: A framework to challenge large language models for code reasoning": {
         "type": "article",
@@ -5912,7 +5951,8 @@
         "labels": [
             "general coding task",
             "empirical study"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2402.09664"
     },
     "Which Syntactic Capabilities Are Statistically Learned by Masked Language Models for Code?": {
         "type": "inproceedings",
@@ -5928,7 +5968,8 @@
             "static analysis",
             "fundamental analysis",
             "empirical study"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2401.01512"
     },
     "Grounded Copilot: How Programmers Interact with Code-Generating Models": {
         "type": "article",
@@ -5967,9 +6008,10 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2406.01006"
     },
     "CodeFort: Robust Training for Code Generation Models": {
         "type": "article",
@@ -5983,12 +6025,13 @@
         "labels": [
             "code generation",
             "code model",
-            "training",
+            "code model training",
             "code model",
-            "robustness",
+            "code model robustness",
             "attack",
             "defense"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2405.01567"
     },
     "Constrained Decoding for Secure Code Generation": {
         "type": "article",
@@ -6002,9 +6045,10 @@
         "labels": [
             "code generation",
             "code model",
-            "security",
+            "code model security",
             "defense"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2405.00218"
     },
     "Instruction tuning for secure code generation": {
         "type": "article",
@@ -6018,9 +6062,10 @@
         "labels": [
             "code generation",
             "code model",
-            "security",
+            "code model security",
             "defense"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2405.00218"
     },
     "Large language models for code: Security hardening and adversarial testing": {
         "type": "inproceedings",
@@ -6035,10 +6080,11 @@
         "labels": [
             "code generation",
             "code model",
-            "security",
+            "code model security",
             "defense",
             "attack"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2302.05319"
     },
     "Graphcodebert: Pre-training code representations with data flow": {
         "type": "article",
@@ -6052,9 +6098,10 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2302.05319"
     },
     "Codebert: A pre-trained model for programming and natural languages": {
         "type": "article",
@@ -6068,9 +6115,10 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2208.09727"
     },
     "Neural code comprehension: A learnable representation of code semantics": {
         "type": "article",
@@ -6085,9 +6133,10 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model"
-        ]
+        ],
+        "url": "https://dl.acm.org/doi/pdf/10.5555/3327144.3327276"
     },
     "Meta large language model compiler: Foundation models of compiler optimization": {
         "type": "article",
@@ -6102,9 +6151,27 @@
             "code generation",
             "compiler optimization",
             "code model",
-            "training",
+            "code model training",
             "IR code model"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2302.05319"
+    },
+    "Magicoder: Empowering Code Generation with OSS-Instruct": {
+        "type": "article",
+        "key": "magicoder",
+        "title": "Magicoder: Empowering Code Generation with OSS-Instruct",
+        "author": "Yuxiang Wei, Zhe Wang, Jiawei Liu, Yifeng Ding, Lingming Zhang",
+        "journal": "arXiv preprint arXiv:2312.02120",
+        "year": "2024",
+        "abstract": "We introduce Magicoder, a series of fully open-source (code, weights, and data) Large Language Models (LLMs) for code that significantly closes the gap with top code models while having no more than 7B parameters. Magicoder models are trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets to generate diverse instruction data for code. Our main motivation is to mitigate the inherent bias of the synthetic data generated by LLMs through the wealth of open-source references for the production of more realistic and controllable data. The orthogonality of OSS-Instruct and other data generation methods like Evol-Instruct further enables us to build an enhanced MagicoderS. Both Magicoder and MagicoderS substantially outperform state-of-the-art code models with similar or even larger sizes on a wide range of coding benchmarks. Notably, MagicoderS-CL-7B based on CodeLlama even surpasses the prominent ChatGPT on HumanEval+ (66.5 vs. 65.9 in pass@1 ). Overall, OSS-Instruct opens a new direction for crafting diverse synthetic instruction data for code using abundant open-source references.",
+        "venue": "ICML2024",
+        "labels": [
+            "code generation",
+            "code model",
+            "code model training",
+            "source code model"
+        ],
+        "url": "https://arxiv.org/abs/2312.02120"
     },
     "Symmetry-Preserving Program Representations for Learning Code Semantics": {
         "type": "article",
@@ -6118,9 +6185,10 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2308.03312"
     },
     "Fair: Flow type-aware pre-training of compiler intermediate representations": {
         "type": "inproceedings",
@@ -6135,9 +6203,10 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "IR code model"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2308.03312"
     },
     "How could neural networks understand programs?": {
         "type": "inproceedings",
@@ -6153,9 +6222,10 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "IR code model"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2105.04297"
     },
     "Programl: A graph-based program representation for data flow analysis and compiler optimizations": {
         "type": "inproceedings",
@@ -6173,9 +6243,10 @@
             "fundamental analysis",
             "compiler optimization",
             "code model",
-            "training",
+            "code model training",
             "IR code model"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2105.04297"
     },
     "ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries": {
         "type": "inproceedings",
@@ -6188,11 +6259,12 @@
         "abstract": "Decompilation aims to recover a binary executable to the source code form and hence has a wide range of applications in cyber security, such as malware analysis and legacy code hardening. A prominent challenge is to recover variable symbols, including both primitive and complex types such as user-defined data structures, along with their symbol information such as names and types. Existing efforts focus on solving parts of the problem, eg, recovering only types (without names) or only local variables (without user-defined structures). In this paper, we propose ReSym, a novel hybrid technique that combines Large Language Models (LLMs) and program analysis to recover both names and types for local variables and user-defined data structures. Our method encompasses fine-tuning two LLMs to handle local variables and structures, respectively. To overcome the inherent token limitations in current LLMs, we devise a novel Prolog-based algorithm to aggregate and cross-check results from multiple LLM queries, suppressing uncertainty and hallucinations. Our experiments show that ReSym is effective in recovering variable information and user-defined data structures, substantially outperforming the state-of-the-art methods.",
         "labels": [
             "code model",
-            "training",
+            "code model training",
             "binary code model",
             "code generation",
             "program decompilation"
-        ]
+        ],
+        "url": "https://www.cs.purdue.edu/homes/lintan/publications/resym-ccs24.pdf"
     },
     "Source Code Foundation Models are Transferable Binary Analysis Knowledge Bases": {
         "type": "article",
@@ -6205,9 +6277,10 @@
         "abstract": "Human-Oriented Binary Reverse Engineering (HOBRE) lies at the intersection of binary and source code, aiming to lift binary code to human-readable content relevant to source code, thereby bridging the binary-source semantic gap. Recent advancements in uni-modal code model pre-training, particularly in generative Source Code Foundation Models (SCFMs) and binary understanding models, have laid the groundwork for transfer learning applicable to HOBRE. However, existing approaches for HOBRE rely heavily on uni-modal models like SCFMs for supervised fine-tuning or general LLMs for prompting, resulting in sub-optimal performance. Inspired by recent progress in large multi-modal models, we propose that it is possible to harness the strengths of uni-modal code models from both sides to bridge the semantic gap effectively. In this paper, we introduce a novel probe-and-recover framework that incorporates a binary-source encoder-decoder model and black-box LLMs for binary analysis. Our approach leverages the pre-trained knowledge within SCFMs to synthesize relevant, symbol-rich code fragments as context. This additional context enables black-box LLMs to enhance recovery accuracy. We demonstrate significant improvements in zero-shot binary summarization and binary function name recovery, with a 10.3% relative gain in CHRF and a 16.7% relative gain in a GPT4-based metric for summarization, as well as a 6.7% and 7.4% absolute increase in token-level precision and recall for name recovery, respectively. These results highlight the effectiveness of our approach in automating and improving binary code analysis.",
         "labels": [
             "code model",
-            "training",
+            "code model training",
             "binary code model"
-        ]
+        ],
+        "url": "https://openreview.net/pdf?id=qPpVDzPhSL"
     },
     "Codeart: Better code models by attention regularization when symbols are lacking": {
         "type": "article",
@@ -6224,9 +6297,10 @@
         "abstract": "Transformer based code models have impressive performance in many software engineering tasks. However, their effectiveness degrades when symbols are missing or not informative. The reason is that the model may not learn to pay attention to the right correlations/contexts without the help of symbols. We propose a new method to pre-train general code models when symbols are lacking. We observe that in such cases, programs degenerate to something written in a very primitive language. We hence propose to use program analysis to extract contexts a priori (instead of relying on symbols and masked language modeling as in vanilla models). We then leverage a novel attention masking method to only allow the model attending to these contexts, e.g., bi-directional program dependence transitive closures and token co-occurrences. In the meantime, the inherent self-attention mechanism is utilized to learn which of the allowed attentions are more important compared to others. To realize the idea, we enhance the vanilla tokenization and model architecture of a BERT model, construct and utilize attention masks, and introduce a new pre-training algorithm. We pre-train this BERT-like model from scratch, using a dataset of 26 million stripped binary functions with explicit program dependence information extracted by our tool. We apply the model in three downstream tasks: binary similarity, type inference, and malware family classification. Our pre-trained model can improve the SOTAs in these tasks from 53% to 64%, 49% to 60%, and 74% to 94%, respectively. It also substantially outperforms other general pre-training techniques of code understanding models.",
         "labels": [
             "code model",
-            "training",
+            "code model training",
             "binary code model"
-        ]
+        ],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3643752"
     },
     "Lmpa: Improving decompilation by synergy of large language model and program analysis": {
         "type": "article",
@@ -6239,9 +6313,10 @@
         "abstract": "Decompilation aims to recover the source code form of a binary executable. It has many applications in security and software engineering such as malware analysis, vulnerability detection and code reuse. A prominent challenge in decompilation is to recover variable names. We propose a novel method that leverages the synergy of large language model (LLM) and program analysis. Language models encode rich multi-modal knowledge, but its limited input size prevents providing sufficient global context for name recovery. We propose to divide the task to many LLM queries and use program analysis to correlate and propagate the query results, which in turn improves the performance of LLM by providing additional contextual information. Our results show that 75% of the recovered names are considered good by users and our technique outperforms the state-of-the-art technique by 16.5% and 20.23% in precision and recall, respectively.",
         "labels": [
             "code model",
-            "training",
+            "code model training",
             "binary code model"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2306.02546v1"
     },
     "Jtrans: Jump-aware transformer for binary code similarity detection": {
         "type": "inproceedings",
@@ -6257,9 +6332,10 @@
             "static analysis",
             "bug detection",
             "code model",
-            "training",
+            "code model training",
             "binary code model"
-        ]
+        ],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3533767.3534367"
     },
     "Swe-bench: Can language models resolve real-world github issues?": {
         "type": "article",
@@ -6267,14 +6343,15 @@
         "title": "Swe-bench: Can language models resolve real-world github issues?",
         "author": "Jimenez, Carlos E and Yang, John and Wettig, Alexander and Yao, Shunyu and Pei, Kexin and Press, Ofir and Narasimhan, Karthik",
         "journal": "arXiv preprint arXiv:2310.06770",
-        "year": "2023",
+        "year": "2024",
         "venue": "ICLR2024",
         "abstract": "Language models have outpaced our ability to evaluate them effectively, but for their future development it is essential to study the frontier of their capabilities. We find real-world software engineering to be a rich, sustainable, and challenging testbed for evaluating the next generation of language models. To this end, we introduce SWE-bench, an evaluation framework consisting of 2,294 software engineering problems drawn from real GitHub issues and corresponding pull requests across 12 popular Python repositories. Given a codebase along with a description of an issue to be resolved, a language model is tasked with editing the codebase to address the issue. Resolving issues in SWE-bench frequently requires understanding and coordinating changes across multiple functions, classes, and even files simultaneously, calling for models to interact with execution environments, process extremely long contexts and perform complex reasoning that goes far beyond traditional code generation tasks. Our evaluations show that both state-of-the-art proprietary models and our fine-tuned model SWE-Llama can resolve only the simplest issues. The best-performing model, Claude 2, is able to solve a mere 1.96% of the issues. Advances on SWE-bench represent steps towards LMs that are more practical, intelligent, and autonomous.",
         "labels": [
             "benchmark",
             "code generation",
             "program repair"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2310.06770"
     },
     "EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories": {
         "type": "article",
@@ -6288,7 +6365,8 @@
         "labels": [
             "benchmark",
             "code generation"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2404.00599"
     },
     "CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks": {
         "type": "article",
@@ -6302,7 +6380,8 @@
         "labels": [
             "code generation",
             "benchmark"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2404.00566"
     },
     "A Survey on Large Language Models for Code Generation": {
         "type": "article",
@@ -6316,7 +6395,8 @@
         "labels": [
             "survey",
             "code generation"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2406.00515"
     },
     "Is Self-Repair a Silver Bullet for Code Generation?": {
         "type": "inproceedings",
@@ -6330,7 +6410,8 @@
         "labels": [
             "code generation",
             "program repair"
-        ]
+        ],
+        "url": "https://openreview.net/forum?id=y0GJXRungR"
     },
     "Repairagent: An autonomous, llm-based agent for program repair": {
         "type": "article",
@@ -6346,7 +6427,8 @@
             "program repair",
             "agent design",
             "planning"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2403.17134"
     },
     "Natural Language Commanding via Program Synthesis": {
         "type": "article",
@@ -6360,7 +6442,8 @@
         "labels": [
             "code generation",
             "program synthesis"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2306.03460.pdf"
     },
     "Effective Large Language Model Debugging with Best-first Tree Search": {
         "type": "article",
@@ -6374,7 +6457,8 @@
         "labels": [
             "code generation",
             "debugging"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2407.19055"
     },
     "Automatic Programming: Large Language Models and Beyond": {
         "type": "article",
@@ -6388,7 +6472,8 @@
         "labels": [
             "general coding task",
             "empirical study"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2405.02213"
     },
     "Verified multi-step synthesis using large language models and monte carlo tree search": {
         "type": "article",
@@ -6402,7 +6487,8 @@
         "labels": [
             "code generation",
             "program synthesis"
-        ]
+        ],
+        "url": "https://openreview.net/pdf?id=HmB9uZTzaD"
     },
     "Hypothesis search: Inductive reasoning with language models": {
         "type": "article",
@@ -6418,7 +6504,8 @@
             "program synthesis",
             "static analysis",
             "program verification"
-        ]
+        ],
+        "url": "https://openreview.net/forum?id=G7UtIGQmjm"
     },
     "Guess \\& Sketch: Language Model Guided Transpilation": {
         "type": "article",
@@ -6432,7 +6519,8 @@
         "labels": [
             "code generation",
             "program transformation"
-        ]
+        ],
+        "url": "https://openreview.net/forum?id=qPFsIbF3V6"
     },
     "Verified Code Transpilation with LLMs": {
         "type": "article",
@@ -6448,7 +6536,8 @@
             "program synthesis",
             "static analysis",
             "program verification"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2406.03003"
     },
     "Rectifier: Code translation with corrector via llms": {
         "type": "article",
@@ -6462,7 +6551,8 @@
         "labels": [
             "code generation",
             "program transformation"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2407.07472"
     },
     "Learning performance-improving code edits": {
         "type": "article",
@@ -6476,7 +6566,8 @@
         "labels": [
             "code generation",
             "program transformation"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2302.07867"
     },
     "Enabling Memory Safety of C Programs using LLMs": {
         "type": "article",
@@ -6490,7 +6581,8 @@
         "labels": [
             "code generation",
             "program transformation"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2404.01096.pdf"
     },
     "Refactoring programs using large language models with few-shot examples": {
         "type": "inproceedings",
@@ -6506,7 +6598,8 @@
         "labels": [
             "code generation",
             "program transformation"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2311.11690.pdf"
     },
     "Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search": {
         "type": "article",
@@ -6570,7 +6663,7 @@
             "code generation",
             "code completion",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ]
     },
@@ -6595,7 +6688,7 @@
             "code generation",
             "code completion",
             "prompt strategy",
-            "RAG"
+            "retrieval-augmented generation"
         ]
     },
     "Vulnerability Detection with Code Language Models: How Far Are We?": {
@@ -6688,7 +6781,7 @@
             "static analysis",
             "bug detection",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ]
     },
@@ -6713,7 +6806,7 @@
             "static analysis",
             "bug detection",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ]
     },
@@ -6909,7 +7002,8 @@
         "labels": [
             "static analysis",
             "bug detection"
-        ]
+        ],
+        "url": "https://chengpeng-wang.github.io/publications/LLMDFA_NeurIPS2024.pdf"
     },
     "Towards General Loop Invariant Generation: A Benchmark of Programs with Memory Manipulation": {
         "type": "article",
@@ -6923,7 +7017,8 @@
             "static analysis",
             "program verification",
             "benchmark"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2311.10483"
     },
     "The Mutators Reloaded: Fuzzing Compilers with Large Language Model Generated Mutation Operators": {
         "type": "article",
@@ -6932,12 +7027,13 @@
         "title": "The Mutators Reloaded: Fuzzing Compilers with Large Language Model Generated Mutation Operators",
         "journal": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
         "venue": "ASPLOS2024",
-        "abstract": "Crafting high-quality mutators–the core of mutation-based fuzzing that shapes the search space–is challenging. It requires human expertise and creativity, and their implementation demands knowledge of compiler internals. This paper presents MetaMut framework for developing new, useful mutators for compiler fuzzing. It integrates our compilerdomain knowledge into prompts and processes that can best harness the capabilities of a large language model. With MetaMut, we have successfully created 118 semantic-aware mutators at approximately $0.5 each, with only moderate human effort. With these mutators, our fuzzer uncovered 131 bugs in GCC and Clang, 129 of which were confirmed or fixed. The success of MetaMut suggests that the integration of AI into software and system engineering tasks traditionally thought to require expert human intervention could be a promising research direction.",
+        "abstract": "Crafting high-quality mutators\u2013the core of mutation-based fuzzing that shapes the search space\u2013is challenging. It requires human expertise and creativity, and their implementation demands knowledge of compiler internals. This paper presents MetaMut framework for developing new, useful mutators for compiler fuzzing. It integrates our compilerdomain knowledge into prompts and processes that can best harness the capabilities of a large language model. With MetaMut, we have successfully created 118 semantic-aware mutators at approximately $0.5 each, with only moderate human effort. With these mutators, our fuzzer uncovered 131 bugs in GCC and Clang, 129 of which were confirmed or fixed. The success of MetaMut suggests that the integration of AI into software and system engineering tasks traditionally thought to require expert human intervention could be a promising research direction.",
         "labels": [
             "program testing",
             "fuzzing",
             "compiler testing"
-        ]
+        ],
+        "url": "https://connglli.github.io/pdfs/metamut_asplos24.pdf"
     },
     "Unifying the perspectives of nlp and software engineering: A survey on language models for code": {
         "type": "article",
@@ -6946,13 +7042,13 @@
         "title": "Unifying the perspectives of nlp and software engineering: A survey on language models for code",
         "journal": "Transactions on Machine Learning Research",
         "venue": "TMLR2024",
-        "abstract": "In this work we systematically review the recent advancements in software engineering with language models, covering 70+ models, 40+ evaluation tasks, 180+ datasets, and 900 related works. Unlike previous works, we integrate software engineering (SE) with natural language processing (NLP) by discussing the perspectives of both sides: SE applies language models for development automation, while NLP adopts SE tasks for language model evaluation. We break down code processing models into general language models represented by the GPT family and specialized models that are specifically pretrained on code, often with tailored objectives. We discuss the relations and differences between these models, and highlight the historical transition of code modeling from statistical models and RNNs to pretrained Transformers and LLMs, which is exactly the same course that had been taken by NLP. We also go beyond programming and review LLMs’ application in other software engineering activities including requirement engineering, testing, deployment, and operations in an endeavor to provide a global view of NLP in SE, and identify key challenges and potential future directions in this domain. We keep the survey open and updated on GitHub at https://github.com/codefuse-ai/Awesome-Code-LLM.",
+        "abstract": "In this work we systematically review the recent advancements in software engineering with language models, covering 70+ models, 40+ evaluation tasks, 180+ datasets, and 900 related works. Unlike previous works, we integrate software engineering (SE) with natural language processing (NLP) by discussing the perspectives of both sides: SE applies language models for development automation, while NLP adopts SE tasks for language model evaluation. We break down code processing models into general language models represented by the GPT family and specialized models that are specifically pretrained on code, often with tailored objectives. We discuss the relations and differences between these models, and highlight the historical transition of code modeling from statistical models and RNNs to pretrained Transformers and LLMs, which is exactly the same course that had been taken by NLP. We also go beyond programming and review LLMs\u2019 application in other software engineering activities including requirement engineering, testing, deployment, and operations in an endeavor to provide a global view of NLP in SE, and identify key challenges and potential future directions in this domain. We keep the survey open and updated on GitHub at https://github.com/codefuse-ai/Awesome-Code-LLM.",
         "labels": [
             "general coding task",
             "survey"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2311.07989"
     },
-    
     "E{\\&}V: Prompting Large Language Models to Perform Static Analysis by Pseudo-code Execution and Verification": {
         "type": "article",
         "key": "DBLP:journals/corr/abs-2312-08477",
@@ -6987,7 +7083,8 @@
         "labels": [
             "static analysis",
             "bug detection"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2311.04448"
     },
     "Generating API Parameter Security Rules with LLM for API Misuse Detection": {
         "type": "article",
@@ -7001,7 +7098,8 @@
         "labels": [
             "static analysis",
             "specification inference"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2409.09288"
     },
     "Interleaving Static Analysis and LLM Prompting": {
         "type": "inproceedings",
@@ -7016,7 +7114,8 @@
         "labels": [
             "static analysis",
             "bug detection"
-        ]
+        ],
+        "url": "https://web.cs.ucdavis.edu/~rubio/includes/soap24.pdf"
     },
     "LLM-Assisted Static Analysis for Detecting Security Vulnerabilities": {
         "type": "article",
@@ -7030,7 +7129,8 @@
         "labels": [
             "static analysis",
             "bug detection"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2405.17238"
     },
     "Beware of the unexpected: Bimodal taint analysis": {
         "type": "inproceedings",
@@ -7045,7 +7145,8 @@
         "labels": [
             "static analysis",
             "bug detection"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2301.10545.pdf"
     },
     "Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications": {
         "type": "article",
@@ -7060,7 +7161,8 @@
             "static analysis",
             "bug detection",
             "agent design"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2403.16073"
     },
     "Leveraging Semantic Relations in Code and Data to Enhance Taint Analysis of Embedded Systems": {
         "type": "inproceedings",
@@ -7076,9 +7178,10 @@
             "static analysis",
             "bug detection",
             "code model",
-            "training",
+            "code model training",
             "source code model"
-        ]
+        ],
+        "url": "https://www.usenix.org/system/files/usenixsecurity24-zhao.pdf"
     },
     "Gptscan: Detecting logic vulnerabilities in smart contracts by combining gpt with program analysis": {
         "type": "inproceedings",
@@ -7093,7 +7196,8 @@
         "labels": [
             "static analysis",
             "bug detection"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2308.03314.pdf?utm_source=Klaviyo&utm_medium=campaign&_kx="
     },
     "An investigation into misuse of java security apis by large language models": {
         "type": "inproceedings",
@@ -7107,9 +7211,10 @@
         "abstract": "The increasing trend of using Large Language Models (LLMs) for code generation raises the question of their capability to generate trustworthy code. While many researchers are exploring the utility of code generation for uncovering software vulnerabilities, one crucial but often overlooked aspect is the security Application Programming Interfaces (APIs). APIs play an integral role in upholding software security, yet effectively integrating security APIs presents substantial challenges. This leads to inadvertent misuse by developers, thereby exposing software to vulnerabilities. To overcome these challenges, developers may seek assistance from LLMs. In this paper, we systematically assess ChatGPT's trustworthiness in code generation for security API use cases in Java. To conduct a thorough evaluation, we compile an extensive collection of 48 programming tasks for 5 widely used security APIs. We employ both automated and manual approaches to effectively detect security API misuse in the code generated by ChatGPT for these tasks. Our findings are concerning: around 70% of the code instances across 30 attempts per task contain security API misuse, with 20 distinct misuse types identified. Moreover, for roughly half of the tasks, this rate reaches 100%, indicating that there is a long way to go before developers can rely on ChatGPT to securely implement security API code.",
         "labels": [
             "code model",
-            "security",
+            "code model security",
             "empirical study"
-        ]
+        ],
+        "url": "https://arxiv.org/html/2404.03823v1"
     },
     "Smartinv: Multimodal learning for smart contract invariant inference": {
         "type": "inproceedings",
@@ -7125,7 +7230,8 @@
         "labels": [
             "static analysis",
             "bug detection"
-        ]
+        ],
+        "url": "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a126/1Ub23GNTAeQ"
     },
     "Harnessing the power of llm to support binary taint analysis": {
         "type": "article",
@@ -7139,7 +7245,8 @@
         "labels": [
             "static analysis",
             "bug detection"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2310.08275"
     },
     "Do you still need a manual smart contract audit?": {
         "type": "article",
@@ -7153,7 +7260,8 @@
         "labels": [
             "static analysis",
             "bug detection"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2306.12338.pdf"
     },
     "Large language model-powered smart contract vulnerability detection: New perspectives": {
         "type": "inproceedings",
@@ -7169,7 +7277,8 @@
         "labels": [
             "static analysis",
             "bug detection"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2310.01152.pdf"
     },
     "Continuous learning for android malware detection": {
         "type": "inproceedings",
@@ -7185,7 +7294,8 @@
             "static analysis",
             "bug detection",
             "empirical study"
-        ]
+        ],
+        "url": "https://surrealyz.github.io/files/pubs/sec23winter-active-learning-prepub.pdf"
     },
     "Enchanting program specification synthesis by large language models using static analysis and program verification": {
         "type": "inproceedings",
@@ -7202,7 +7312,8 @@
             "static analysis",
             "program verification",
             "specification inference"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2404.00762.pdf"
     },
     "Lemur: Integrating large language models in automated program verification": {
         "type": "article",
@@ -7216,7 +7327,8 @@
         "labels": [
             "static analysis",
             "program verification"
-        ]
+        ],
+        "url": "https://openreview.net/forum?id=Q3YaCghZNt"
     },
     "Can ChatGPT support software verification?": {
         "type": "inproceedings",
@@ -7232,7 +7344,8 @@
         "labels": [
             "static analysis",
             "program verification"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2311.02433"
     },
     "Automated Program Refinement: Guide and Verify Code Large Language Model with Refinement Calculus": {
         "type": "inproceedings",
@@ -7250,7 +7363,8 @@
             "program transformation",
             "static analysis",
             "program verification"
-        ]
+        ],
+        "url": "https://arxiv.org/html/2406.18616v1"
     },
     "Can large language models reason about program invariants?": {
         "type": "inproceedings",
@@ -7266,7 +7380,8 @@
         "labels": [
             "static analysis",
             "program verification"
-        ]
+        ],
+        "url": "https://openreview.net/pdf?id=mXv2aVqUGG"
     },
     "Ranking llm-generated loop invariants for program verification": {
         "type": "article",
@@ -7283,7 +7398,8 @@
             "invariant generation",
             "prompt strategy",
             "sampling and ranking"
-        ]
+        ],
+        "url": "https://aclanthology.org/2023.findings-emnlp.614.pdf"
     },
     "Finding inductive loop invariants using large language models": {
         "type": "article",
@@ -7298,7 +7414,8 @@
             "static analysis",
             "program verification",
             "invariant generation"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2311.07948"
     },
     "SpecGen: Automated Generation of Formal Program Specifications via Large Language Models": {
         "type": "article",
@@ -7312,7 +7429,8 @@
         "labels": [
             "static analysis",
             "specification inference"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2401.08807.pdf"
     },
     "SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications": {
         "type": "article",
@@ -7326,7 +7444,8 @@
         "labels": [
             "static analysis",
             "specification inference"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2409.12866"
     },
     "Impact of large language models on generating software specifications": {
         "type": "article",
@@ -7340,7 +7459,8 @@
         "labels": [
             "static analysis",
             "specification inference"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2306.03324.pdf"
     },
     "A Learning-Based Approach to Static Program Slicing": {
         "type": "article",
@@ -7359,9 +7479,10 @@
             "static analysis",
             "fundamental analysis",
             "code model",
-            "training",
+            "code model training",
             "source code model"
-        ]
+        ],
+        "url": "https://aashishyadavally.github.io/assets/pdf/pub-oopsla2024.pdf"
     },
     "Evaluating the effectiveness of deep learning models for foundational program analysis tasks": {
         "type": "article",
@@ -7380,9 +7501,10 @@
             "static analysis",
             "fundamental analysis",
             "code model",
-            "training",
+            "code model training",
             "source code model"
-        ]
+        ],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3649829"
     },
     "Program Slicing in the Era of Large Language Models": {
         "type": "article",
@@ -7396,7 +7518,8 @@
         "labels": [
             "static analysis",
             "fundamental analysis"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2409.12369"
     },
     "Teaching large language models to self-debug": {
         "type": "article",
@@ -7410,7 +7533,8 @@
         "labels": [
             "program testing",
             "debugging"
-        ]
+        ],
+        "url": "https://openreview.net/forum?id=KuPixIqPiq"
     },
     "When fuzzing meets llms: Challenges and opportunities": {
         "type": "inproceedings",
@@ -7426,7 +7550,8 @@
             "program testing",
             "fuzzing",
             "survey"
-        ]
+        ],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3663529.3663784"
     },
     "DAInfer: Inferring API Aliasing Specifications from Library Documentation via Neurosymbolic Optimization": {
         "type": "inproceedings",
@@ -7440,7 +7565,8 @@
         "labels": [
             "static analysis",
             "specification inference"
-        ]
+        ],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3660816"
     },
     "Towards Understanding the Effectiveness of Large Language Models on Directed Test Input Generation": {
         "type": "inproceedings",
@@ -7456,7 +7582,8 @@
             "program testing",
             "unit testing",
             "empirical study"
-        ]
+        ],
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3691620.3695513e"
     },
     "Prompt Fuzzing for Fuzz Driver Generation": {
         "type": "article",
@@ -7470,7 +7597,8 @@
         "labels": [
             "program testing",
             "fuzzing"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2312.17677.pdf"
     },
     "Llm4fuzz: Guided fuzzing of smart contracts with large language models": {
         "type": "article",
@@ -7484,7 +7612,8 @@
         "labels": [
             "program testing",
             "fuzzing"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2401.11108.pdf"
     },
     "LLMorpheus: Mutation Testing using Large Language Models": {
         "type": "article",
@@ -7498,7 +7627,8 @@
         "labels": [
             "program testing",
             "mutation testing"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2404.09952"
     },
     "UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing": {
         "type": "inproceedings",
@@ -7514,7 +7644,8 @@
             "program testing",
             "unit testing",
             "benchmark"
-        ]
+        ],
+        "url": "https://haochen.org/publications/he2024unitsyn.pdf"
     },
     "CAT-LM training language models on aligned code and tests": {
         "type": "inproceedings",
@@ -7529,9 +7660,10 @@
         "abstract": "Testing is an integral but often neglected part of the software development process. Classical test generation tools such as EvoSuite generate behavioral test suites by optimizing for coverage, but tend to produce tests that are hard to understand. Language models trained on code can generate code that is highly similar to that written by humans, but current models are trained to generate each file separately, as is standard practice in natural language processing, and thus fail to consider the code-under-test context when producing a test file. In this work, we propose the Aligned Code And Tests Language Model (CAT-LM), a GPT-style language model with 2.7 Billion parameters, trained on a corpus of Python and Java projects. We utilize a novel pretraining signal that explicitly considers the mapping between code and test files when available. We also drastically increase the maximum sequence length of inputs to 8,192 tokens, 4x more than typical code generation models, to ensure that the code context is available to the model when generating test code. We analyze its usefulness for realistic applications, showing that sampling with filtering (e.g., by compilability, coverage) allows it to efficiently produce tests that achieve coverage similar to ones written by developers while resembling their writing style. By utilizing the code context, CAT-LM generates more valid tests than even much larger language models trained with more data (CodeGen 16B and StarCoder) and substantially outperforms a recent test-specific model (TeCo) at test completion. Overall, our work highlights the importance of incorporating software-specific insights when training language models for code and paves the way to more powerful automated test generation.",
         "labels": [
             "code model",
-            "training",
+            "code model training",
             "source code model"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2310.01602"
     },
     "Predictive Program Slicing via Execution Knowledge-Guided Dynamic Dependence Learning": {
         "type": "article",
@@ -7550,9 +7682,10 @@
             "program testing",
             "debugging",
             "code model",
-            "training",
+            "code model training",
             "source code model"
-        ]
+        ],
+        "url": "https://aashishyadavally.github.io/assets/pdf/pub-fse2024.pdf"
     },
     "Teams of LLM Agents can Exploit Zero-Day Vulnerabilities": {
         "type": "article",
@@ -7593,7 +7726,7 @@
         "year": "2024",
         "venue": "Galois2024",
         "url": "https://galois.com/blog/2024/11/function-argument-nullability-using-an-llm/",
-        "abstract": "We think that Rust is a great language, and maybe you agree! Unfortunately, even if you do, there’s a good chance whatever application you’re working on is written in some older language such as C. To help with this, Galois has been developing c2rust, an automated transpiler (source-to-source translator) from C code into Rust code. c2rust can take almost any C and turn it into C-like Rust code, the first step in creating a new Rust application. And we’re building more features to turn C into safe, idiomatic Rust code. Recently, we have been experimenting with LLMs to help with transpilation from C to Rust. This blog describes one such experiment, where we built an analysis for determining nullability of function arguments in C. This is a necessary stage in the c2rust translation pipeline, and we already have an existing interprocedural static analysis tool that performs this task. We built a companion LLM-based tool using GPT-4o, and compared the performance between our static and LLM-based analysis. ",
+        "abstract": "We think that Rust is a great language, and maybe you agree! Unfortunately, even if you do, there\u2019s a good chance whatever application you\u2019re working on is written in some older language such as C. To help with this, Galois has been developing c2rust, an automated transpiler (source-to-source translator) from C code into Rust code. c2rust can take almost any C and turn it into C-like Rust code, the first step in creating a new Rust application. And we\u2019re building more features to turn C into safe, idiomatic Rust code. Recently, we have been experimenting with LLMs to help with transpilation from C to Rust. This blog describes one such experiment, where we built an analysis for determining nullability of function arguments in C. This is a necessary stage in the c2rust translation pipeline, and we already have an existing interprocedural static analysis tool that performs this task. We built a companion LLM-based tool using GPT-4o, and compared the performance between our static and LLM-based analysis. ",
         "labels": [
             "static analysis",
             "fundamental analysis"
@@ -7639,7 +7772,7 @@
         "year": "2024",
         "venue": "ProtectAI2024",
         "url": "https://protectai.com/threat-research/vulnhuntr-first-0-day-vulnerabilities",
-        "abstract": "Today, we introduce [Vulnhuntr](https://github.com/protectai/vulnhuntr), a Python static code analyzer that leverages the power of large language models (LLMs) to find and explain complex, multistep vulnerabilities. Thanks to the capabilities of models like Claude 3.5, AI has now uncovered more than a dozen remotely exploitable 0-day vulnerabilities targeting open-source projects in the AI ecosystem with over 10,000 GitHub stars in just a few hours of running it. These discoveries include full-blown Remote Code Execution. If you’d like to get paid for using Vulnhuntr then head on over to https://huntr.com which is an AI bug bounty program helping secure the exploding open source AI ecosystem.",
+        "abstract": "Today, we introduce [Vulnhuntr](https://github.com/protectai/vulnhuntr), a Python static code analyzer that leverages the power of large language models (LLMs) to find and explain complex, multistep vulnerabilities. Thanks to the capabilities of models like Claude 3.5, AI has now uncovered more than a dozen remotely exploitable 0-day vulnerabilities targeting open-source projects in the AI ecosystem with over 10,000 GitHub stars in just a few hours of running it. These discoveries include full-blown Remote Code Execution. If you\u2019d like to get paid for using Vulnhuntr then head on over to https://huntr.com which is an AI bug bounty program helping secure the exploding open source AI ecosystem.",
         "labels": [
             "program testing",
             "vulnerability exploitation"
@@ -7673,7 +7806,8 @@
         "labels": [
             "hallucination in reasoning",
             "empirical study"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2410.05229"
     },
     "Deceptive Semantic Shortcuts on Reasoning Chains: How Far Can Models Go without Hallucination?": {
         "type": "inproceedings",
@@ -7688,7 +7822,8 @@
         "labels": [
             "hallucination in reasoning",
             "empirical study"
-        ]
+        ],
+        "url": "https://aclanthology.org/2024.naacl-long.424/"
     },
     "Self-contradictory hallucinations of large language models: Evaluation, detection and mitigation": {
         "type": "article",
@@ -7702,7 +7837,8 @@
         "labels": [
             "hallucination in reasoning",
             "empirical study"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2305.15852"
     },
     "A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions": {
         "type": "article",
@@ -7716,7 +7852,8 @@
         "labels": [
             "hallucination in reasoning",
             "survey"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2406.19508"
     },
     "Chain of code: Reasoning with a language model-augmented code emulator": {
         "type": "article",
@@ -7730,7 +7867,8 @@
         "labels": [
             "prompt strategy",
             "reason with code"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2312.04474.pdf"
     },
     "When Do Program-of-Thought Works for Reasoning?": {
         "type": "inproceedings",
@@ -7748,7 +7886,8 @@
             "prompt strategy",
             "reason with code",
             "empirical study"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2308.15452"
     },
     "Explanation selection using unlabeled data for chain-of-thought prompting": {
         "type": "article",
@@ -7763,7 +7902,8 @@
             "prompt strategy",
             "reason with code",
             "empirical study"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2302.04813"
     },
     "Complementary explanations for effective in-context learning": {
         "type": "article",
@@ -7778,7 +7918,8 @@
             "prompt strategy",
             "reason with code",
             "empirical study"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2211.13892"
     },
     "Self-evaluation guided beam search for reasoning": {
         "type": "article",
@@ -7793,7 +7934,8 @@
         "labels": [
             "hallucination in reasoning",
             "prompt strategy"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2305.00633.pdf"
     },
     "Tree of thoughts: Deliberate problem solving with large language models": {
         "type": "article",
@@ -7808,7 +7950,8 @@
         "labels": [
             "hallucination in reasoning",
             "prompt strategy"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2305.10601"
     },
     "React: Synergizing reasoning and acting in language models": {
         "type": "article",
@@ -7822,7 +7965,8 @@
         "labels": [
             "hallucination in reasoning",
             "prompt strategy"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2210.03629"
     },
     "Reflexion: Language agents with verbal reinforcement learning": {
         "type": "article",
@@ -7837,7 +7981,8 @@
         "labels": [
             "hallucination in reasoning",
             "prompt strategy"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2303.11366"
     },
     "Satlm: Satisfiability-aided language models using declarative prompting": {
         "type": "article",
@@ -7852,7 +7997,8 @@
         "labels": [
             "hallucination in reasoning",
             "prompt strategy"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2305.09656.pdf"
     },
     "Cumulative reasoning with large language models": {
         "type": "article",
@@ -7866,7 +8012,8 @@
         "labels": [
             "hallucination in reasoning",
             "prompt strategy"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2308.04371.pdf"
     },
     "Self-consistency improves chain of thought reasoning in language models": {
         "type": "article",
@@ -7880,7 +8027,8 @@
         "labels": [
             "hallucination in reasoning",
             "prompt strategy"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2203.11171"
     },
     "Pre-train, prompt, and predict: A systematic survey of prompting methods in natural language processing": {
         "type": "article",
@@ -7898,7 +8046,8 @@
         "labels": [
             "survey",
             "prompt strategy"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2107.13586"
     },
     "Steering Large Language Models between Code Execution and Textual Reasoning": {
         "type": "article",
@@ -7912,7 +8061,8 @@
         "labels": [
             "prompt strategy",
             "reason with code"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2410.03524"
     },
     "Don't Transform the Code, Code the Transforms: Towards Precise Code Rewriting using LLMs": {
         "type": "article",
@@ -7926,7 +8076,8 @@
         "labels": [
             "prompt strategy",
             "reason with code"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2410.08806"
     },
     "Leandojo: Theorem proving with retrieval-augmented language models": {
         "type": "article",
@@ -7940,8 +8091,9 @@
         "abstract": "Large language models (LLMs) have shown promise in proving formal theorems using proof assistants such as Lean. However, existing methods are difficult to reproduce or build on, due to private code, data, and large compute requirements. This has created substantial barriers to research on machine learning methods for theorem proving. This paper removes these barriers by introducing LeanDojo: an open-source Lean playground consisting of toolkits, data, models, and benchmarks. LeanDojo extracts data from Lean and enables interaction with the proof environment programmatically. It contains fine-grained annotations of premises in proofs, providing valuable data for premise selection\u2014a key bottleneck in theorem proving. Using this data, we develop ReProver (Retrieval-Augmented Prover): an LLM-based prover augmented with retrieval for selecting premises from a vast math library. It is inexpensive and needs only one GPU week of training. Our retriever leverages LeanDojo's program analysis capability to identify accessible premises and hard negative examples, which makes retrieval much more effective. Furthermore, we construct a new benchmark consisting of 98,734 theorems and proofs extracted from Lean's math library. It features challenging data split requiring the prover to generalize to theorems relying on novel premises that are never used in training. We use this benchmark for training and evaluation, and experimental results demonstrate the effectiveness of ReProver over non-retrieval baselines and GPT-4. We thus provide the first set of open-source LLM-based theorem provers without any proprietary datasets and release it under a permissive MIT license to facilitate further research.",
         "labels": [
             "prompt strategy",
-            "RAG"
-        ]
+            "retrieval-augmented generation"
+        ],
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/4441469427094f8873d0fecb0c4e1cee-Paper-Datasets_and_Benchmarks.pdf"
     },
     "Large language model-based agents for software engineering: A survey": {
         "type": "article",
@@ -7955,7 +8107,8 @@
         "labels": [
             "survey",
             "agent design"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2409.02977"
     },
     "Large language models for software engineering: A systematic literature review": {
         "type": "article",
@@ -7970,7 +8123,8 @@
         "labels": [
             "survey",
             "general coding task"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2308.10620"
     },
     "If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents": {
         "type": "article",
@@ -7985,7 +8139,8 @@
             "survey",
             "agent design",
             "reason with code"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2401.00812.pdf"
     },
     "Cognitive architectures for language agents": {
         "type": "article",
@@ -7999,7 +8154,8 @@
         "labels": [
             "agent design",
             "survey"
-        ]
+        ],
+        "url": "https://arxiv.org/pdf/2309.02427.pdf"
     },
     "The rise and potential of large language model based agents: A survey": {
         "type": "article",
@@ -8013,7 +8169,8 @@
         "labels": [
             "survey",
             "agent design"
-        ]
+        ],
+        "url": "https://arxiv.org/abs/2309.07864"
     },
     "Improving Automated Program Repair with Domain Adaptation": {
         "type": "article",
@@ -8114,7 +8271,7 @@
             "static analysis",
             "code similarity analysis",
             "code model",
-            "training",
+            "code model training",
             "binary code model"
         ]
     },
@@ -8182,7 +8339,7 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "location": "Lisbon, Portugal",
@@ -8207,7 +8364,7 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "location": "Lisbon, Portugal",
@@ -8303,7 +8460,7 @@
             "static analysis",
             "bug detection",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "location": "Lisbon, Portugal",
@@ -8329,7 +8486,7 @@
             "static analysis",
             "bug detection",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "location": "Lisbon, Portugal",
@@ -8355,7 +8512,7 @@
             "static analysis",
             "software composition analysis",
             "code model",
-            "training",
+            "code model training",
             "binary code model"
         ],
         "location": "Lisbon, Portugal",
@@ -8432,12 +8589,12 @@
             "static analysis",
             "bug detection",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "venue": "FSE2024"
     },
-   "The Emergence of Large Language Models in Static Analysis: A First Look through Micro-Benchmarks": {
+    "The Emergence of Large Language Models in Static Analysis: A First Look through Micro-Benchmarks": {
         "type": "inproceedings",
         "key": "venkatesh2024emergence",
         "author": "Venkatesh, Ashwin Prasad Shivarpatna and Sabu, Samkutty and Mir, Amir M and Reis, Sofia and Bodden, Eric",
@@ -8455,7 +8612,7 @@
             "empirical study"
         ],
         "venue": "Forge2024"
-   },
+    },
     "RCFG2Vec: Considering Long-Distance Dependency for Binary Code Similarity Detection": {
         "type": "inproceedings",
         "key": "10.1145/3691620.3695070",
@@ -8475,7 +8632,7 @@
             "static analysis",
             "code similarity analysis",
             "code model",
-            "training",
+            "code model training",
             "binary code model"
         ],
         "location": "Sacramento, CA, USA",
@@ -8523,7 +8680,7 @@
             "code generation",
             "code completion",
             "code model",
-            "security",
+            "code model security",
             "attack"
         ],
         "location": "Sacramento, CA, USA",
@@ -8547,7 +8704,7 @@
         "numpages": "13",
         "labels": [
             "code model",
-            "training",
+            "code model training",
             "binary code model",
             "static analysis",
             "code similarity analysis"
@@ -8639,7 +8796,7 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model",
             "empirical study"
         ],
@@ -8664,9 +8821,9 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "prompt strategy",
-            "RAG"
+            "retrieval-augmented generation"
         ],
         "location": "Melbourne, Victoria, Australia",
         "series": "ICSE '23",
@@ -8741,7 +8898,7 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ]
     },
@@ -8793,7 +8950,7 @@
             "static analysis",
             "code summarization",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ]
     },
@@ -8819,7 +8976,7 @@
         "labels": [
             "general coding task",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ]
     },
@@ -8846,7 +9003,7 @@
             "static analysis",
             "code search",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ]
     },
@@ -8920,7 +9077,8 @@
         "doi": "10.1109/ASE56229.2023.00114",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://arxiv.org/pdf/2308.08961"
     },
     "VALAR: Streamlining Alarm Ranking in Static Analysis with Value-Flow Assisted Active Learning": {
         "type": "INPROCEEDINGS",
@@ -8940,7 +9098,8 @@
         "doi": "10.1109/ASE56229.2023.00098",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10298558"
     },
     "Twin Graph-Based Anomaly Detection via Attentive Multi-Modal Learning for Microservice System": {
         "type": "INPROCEEDINGS",
@@ -8960,7 +9119,8 @@
         "doi": "10.1109/ASE56229.2023.00138",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://arxiv.org/pdf/2310.04701"
     },
     "Cell2Doc: ML Pipeline for Generating Documentation in Computational Notebooks": {
         "type": "INPROCEEDINGS",
@@ -8980,7 +9140,8 @@
         "doi": "10.1109/ASE56229.2023.00200",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://dl.acm.org/doi/pdf/10.1109/ASE56229.2023.00200"
     },
     "Domain Adaptive Code Completion via Language Models and Decoupled Domain Databases": {
         "type": "INPROCEEDINGS",
@@ -8997,13 +9158,14 @@
             "code generation",
             "code completion",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "doi": "10.1109/ASE56229.2023.00076",
         "ISSN": "2643-1572",
         "month": "Sep.",
-        "venue": "ASE2023"
+        "venue": "ASE2023",
+        "url": "https://arxiv.org/pdf/2308.09313"
     },
     "Poster: Boosting Adversarial Robustness by Adversarial Pre-training": {
         "type": "inproceedings",
@@ -9022,7 +9184,7 @@
         "numpages": "3",
         "labels": [
             "code model",
-            "security",
+            "code model security",
             "defense"
         ],
         "location": "Copenhagen, Denmark",
@@ -9047,12 +9209,13 @@
         "venue": "USENIXSec2023",
         "labels": [
             "code model",
-            "security",
+            "code model security",
             "attack",
             "code model",
-            "training",
+            "code model training",
             "binary code model"
-        ]
+        ],
+        "url": "https://www.usenix.org/system/files/usenixsecurity23-zhang-zhuo-pelican.pdf"
     },
     "Towards Low-Resource Automatic Program Repair with Meta-Learning and Pretrained Language Models": {
         "type": "INPROCEEDINGS",
@@ -9069,7 +9232,7 @@
             "code generation",
             "program repair",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2023.emnlp-main.430",
@@ -9092,7 +9255,7 @@
         "labels": [
             "code generation",
             "code model",
-            "training",
+            "code model training",
             "source code model"
         ],
         "url": "https://doi.org/10.18653/v1/2023.emnlp-main.859",
@@ -9270,7 +9433,7 @@
         "articleno": "186",
         "numpages": "24",
         "labels": [
-            "PL for LLMs"
+            "PL design for LLMs"
         ],
         "venue": "PLDI2023"
     },
@@ -9293,7 +9456,7 @@
         "articleno": "166",
         "numpages": "25",
         "labels": [
-            "PL for LLMs"
+            "PL design for LLMs"
         ],
         "venue": "PLDI2023"
     },
@@ -9311,7 +9474,7 @@
         "abstract": "Foundation models have vast potential to enable diverse AI applications. The powerful yet incomplete nature of these models has spurred a wide range of mechanisms to augment them with capabilities such as in-context learning, information retrieval, and code interpreting. We propose VIEIRA, a declarative framework that unifies these mechanisms in a general solution for programming with foundation models. VIEIRA follows a probabilistic relational paradigm and treats foundation models as stateless functions with relational inputs and outputs. It supports neuro-symbolic applications by enabling the seamless combination of such models with logic programs, as well as complex, multi-modal applications by streamlining the composition of diverse sub-models. We implement VIEIRA by extending the SCALLOP compiler with a foreign interface that supports foundation models as plugins. We implement plugins for 12 foundation models including GPT, CLIP, and SAM. We evaluate VIEIRA on 9 challenging tasks that span language, vision, and structured and vector databases. Our evaluation shows that programs in VIEIRA are concise, can incorporate modern foundation models, and have comparable or better accuracy than competitive baselines.",
         "journal": "AAAI",
         "labels": [
-            "PL for LLMs"
+            "PL design for LLMs"
         ],
         "venue": "AAAI2024"
     },
@@ -9402,7 +9565,7 @@
         "numpages": "13",
         "labels": [
             "code model",
-            "security",
+            "code model security",
             "attack",
             "empirical study"
         ],
@@ -9429,7 +9592,7 @@
             "static analysis",
             "bug detection",
             "code model",
-            "training",
+            "code model training",
             "source code model",
             "empirical study"
         ],
@@ -9478,10 +9641,10 @@
         "venue": "ACL2023",
         "labels": [
             "code model",
-            "training",
+            "code model training",
             "source code model",
             "code model",
-            "robustness"
+            "code model robustness"
         ]
     }
 }
