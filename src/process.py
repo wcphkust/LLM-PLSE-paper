@@ -73,7 +73,7 @@ def export_papers_to_readme(venue_dict, output_dir):
                 # Add entry to README.md
                 readme_file.write(f"## [{paper['title']}]({markdown_filename})\n")
                 readme_file.write(f"- **Authors**: {paper['author']}\n")
-                readme_file.write(f"- **Abstract**: {paper['abstract'][:400]}...\n")
+                readme_file.write(f"- **Abstract**: {paper['abstract'][:500]}...\n")
                 readme_file.write(f"- **Link**: [Read Paper]({paper['url']})\n")
                 
                 labels_with_links = []
@@ -110,7 +110,7 @@ def generate_readme_from_label(label, categories, label_to_papers, title_to_path
     if len(subcategories) == 0:
         for paper in label_to_papers[label]:
             paper_str = f"- [{paper['title']}]({title_to_path[paper['title']].replace('../data/papers/', '../')}), ([{paper['venue']}]({venue_to_path[paper['venue']].replace('../data/papers/', '../')}))\n" + "\n"
-            paper_str += f"  - **Abstract**: {paper['abstract'][:400]}...\n"
+            paper_str += f"  - **Abstract**: {paper['abstract'][:500]}...\n"
             labels_with_links = []
             for label in paper['labels']:
                 labels_with_links.append(f"[{label}]({label.replace(' ', '_')}.md)")
