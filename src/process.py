@@ -109,13 +109,18 @@ def generate_readme_from_label(label, categories, label_to_papers, title_to_path
     paper_list = []
     if len(subcategories) == 0:
         for paper in label_to_papers[label]:
-            paper_list.append(f"- [{paper['title']}]({title_to_path[paper['title']].replace('../data/papers/', '../')}), ([{paper['venue']}]({venue_to_path[paper['venue']].replace('../data/papers/', '../')}))\n")
+            paper_str = f"- [{paper['title']}]({title_to_path[paper['title']].replace('../data/papers/', '../')}), ([{paper['venue']}]({venue_to_path[paper['venue']].replace('../data/papers/', '../')}))\n" + "\n"
+            paper_str += f"  - **Abstract**: {paper['abstract'][:300]}...\n"
+            labels_with_links = []
+            for label in paper['labels']:
+                labels_with_links.append(f"[{label}](../../labels/{label.replace(' ', '_')}.md)")
+            paper_str += f"  - **Labels**: {', '.join(labels_with_links)}\n"
+            paper_list.append(paper_str)
 
     sorted_paper_list = sorted(paper_list)
     content += "\n\n".join(sorted_paper_list)
     
     return content
-
 
 def get_all_labels(label_dict):
     all_labels = set([])
@@ -126,7 +131,6 @@ def get_all_labels(label_dict):
 
 
 def classify_papers_by_label(venue_dict, title_to_path, venue_to_path):
-    # read category from ../data/category.json
     with open('../data/category.json', 'r') as f:
         label_category = json.load(f)["categories"]
 
@@ -168,7 +172,7 @@ def generate_main_readme(label_to_path, label_paper_dict):
         for key, value in data.items():
             capitalized_label = ' '.join([key.capitalize() for key in key.split()])
             key_with_link = f"[{capitalized_label}]({label_to_path[key].replace('../', '')})"
-            markdown += f"{indent}- {key_with_link}\n"
+            markdown += f"{indent}- {key_with_link}({len(label_paper_dict[key])})\n"
             if isinstance(value, dict):
                 markdown += json_to_markdown(value, label_to_path, label_paper_dict, level + 1)
         return markdown
