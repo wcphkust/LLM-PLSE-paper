@@ -4,43 +4,43 @@ Number of papers: 7
 
 ## [SemCoder: Training Code Language Models with Comprehensive Semantics](paper_1.md)
 - **Authors**: Ding, Yangruibo and Peng, Jinjun and Min, Marcus J and Kaiser, Gail and Yang, Junfeng and Ray, Baishakhi
-- **Abstract**: Code Large Language Models (Code LLMs) have excelled at tasks like code completion but often miss deeper semantics such as execution effects and dynamic states. This paper aims to bridge the gap between Code LLMs' reliance on static text data and the need for semantic understanding for complex tasks...
+- **Abstract**: Code Large Language Models (Code LLMs) have excelled at tasks like code completion but often miss deeper semantics such as execution effects and dynamic states. This paper aims to bridge the gap between Code LLMs' reliance on static text data and the need for semantic understanding for complex tasks like debugging and program repair. We introduce a novel strategy, monologue reasoning, to train Cod...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2406.01006)
 - **Labels**: [general coding task](../../labels/general_coding_task.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [source code model](../../labels/source_code_model.md)
 
 ## [Source Code Foundation Models are Transferable Binary Analysis Knowledge Bases](paper_2.md)
 - **Authors**: Su, Zian and Xu, Xiangzhe and Huang, Ziyang and Zhang, Kaiyuan and Zhang, Xiangyu
-- **Abstract**: Human-Oriented Binary Reverse Engineering (HOBRE) lies at the intersection of binary and source code, aiming to lift binary code to human-readable content relevant to source code, thereby bridging the binary-source semantic gap. Recent advancements in uni-modal code model pre-training, particularly ...
+- **Abstract**: Human-Oriented Binary Reverse Engineering (HOBRE) lies at the intersection of binary and source code, aiming to lift binary code to human-readable content relevant to source code, thereby bridging the binary-source semantic gap. Recent advancements in uni-modal code model pre-training, particularly in generative Source Code Foundation Models (SCFMs) and binary understanding models, have laid the g...
 - **Link**: [Read Paper](https://openreview.net/pdf?id=qPpVDzPhSL)
 - **Labels**: [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md)
 
 ## [Verified multi-step synthesis using large language models and monte carlo tree search](paper_3.md)
 - **Authors**: Brandfonbrener, David and Raja, Sibi and Prasad, Tarun and Loughridge, Chloe and Yang, Jianang and Henniger, Simon and Byrd, William E and Zinkov, Robert and Amin, Nada
-- **Abstract**: We present an approach using Monte Carlo Tree Search (MCTS) to guide Large Language Models (LLMs) to generate verified programs in Dafny, Lean and Coq. Our method, which we call VMCTS, leverages the verifier inside the search algorithm by checking partial programs at each step. In combination with t...
+- **Abstract**: We present an approach using Monte Carlo Tree Search (MCTS) to guide Large Language Models (LLMs) to generate verified programs in Dafny, Lean and Coq. Our method, which we call VMCTS, leverages the verifier inside the search algorithm by checking partial programs at each step. In combination with the LLM prior, the verifier feedback raises the synthesis capabilities of open source models. On a se...
 - **Link**: [Read Paper](https://openreview.net/pdf?id=HmB9uZTzaD)
 - **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md)
 
 ## [Verified Code Transpilation with LLMs](paper_4.md)
 - **Authors**: Bhatia, Sahil and Qiu, Jie and Hasabnis, Niranjan and Seshia, Sanjit A and Cheung, Alvin
-- **Abstract**: Domain-specific languages (DSLs) are integral to various software workflows. Such languages offer domain-specific optimizations and abstractions that improve code readability and maintainability. However, leveraging these languages requires developers to rewrite existing code using the specific DSL'...
+- **Abstract**: Domain-specific languages (DSLs) are integral to various software workflows. Such languages offer domain-specific optimizations and abstractions that improve code readability and maintainability. However, leveraging these languages requires developers to rewrite existing code using the specific DSL's API. While large language models (LLMs) have shown some success in automatic code transpilation, n...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2406.03003)
 - **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md)
 
 ## [Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search](paper_5.md)
 - **Authors**: Nicola Dainese and Matteo Merler and Minttu Alakuijala and Pekka Marttinen
-- **Abstract**: In this work we consider Code World Models, world models generated by a Large Language Model (LLM) in the form of Python code for model-based Reinforcement Learning (RL). Calling code instead of LLMs for planning has the advantages of being precise, reliable, interpretable, and extremely efficient. ...
+- **Abstract**: In this work we consider Code World Models, world models generated by a Large Language Model (LLM) in the form of Python code for model-based Reinforcement Learning (RL). Calling code instead of LLMs for planning has the advantages of being precise, reliable, interpretable, and extremely efficient. However, writing appropriate Code World Models requires the ability to understand complex instructio...
 - **Link**: [Read Paper](https://doi.org/10.48550/arXiv.2405.15383)
 - **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md)
 
 ## [LLMDFA: Analyzing Dataflow in Code with Large Language Model](paper_6.md)
 - **Authors**: Chengpeng Wang and Wuqi Zhang and Zian Su and Xiangzhe Xu and Xiaoheng Xie and Xiangyu Zhang
-- **Abstract**: Dataflow analysis is a fundamental code analysis technique that identifies dependencies between program values. Traditional approaches typically necessitate successful compilation and expert customization, hindering their applicability and usability for analyzing uncompilable programs with evolving ...
+- **Abstract**: Dataflow analysis is a fundamental code analysis technique that identifies dependencies between program values. Traditional approaches typically necessitate successful compilation and expert customization, hindering their applicability and usability for analyzing uncompilable programs with evolving analysis needs in realworld scenarios. This paper presents LLMDFA, an LLM-powered compilation-free a...
 - **Link**: [Read Paper](https://chengpeng-wang.github.io/publications/LLMDFA_NeurIPS2024.pdf)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 ## [Towards General Loop Invariant Generation: A Benchmark of Programs with Memory Manipulation](paper_7.md)
 - **Authors**: Liu, Chang and Wu, Xiwei and Feng, Yuan and Cao, Qinxiang and Yan, Junchi
-- **Abstract**: Program verification is vital for ensuring software reliability, especially in the context of increasingly complex systems. Loop invariants, remaining true before and after each iteration of loops, are crucial for this verification process. Traditional provers and machine learning based methods for ...
+- **Abstract**: Program verification is vital for ensuring software reliability, especially in the context of increasingly complex systems. Loop invariants, remaining true before and after each iteration of loops, are crucial for this verification process. Traditional provers and machine learning based methods for generating loop invariants often require expert intervention or extensive labeled data, and typicall...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2311.10483)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md), [benchmark](../../labels/benchmark.md)
 
