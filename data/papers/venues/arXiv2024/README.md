@@ -1,6 +1,6 @@
 # arXiv2024
 
-Number of papers: 27
+Number of papers: 28
 
 ## [≈w](paper_1.md)
 - **Authors**: Chen, Yuchen and Sun, Weisong and Fang, Chunrong and Chen, Zhenpeng and Ge, Yifei and Han, Tingxu and Zhang, Quanjun and Liu, Yang and Chen, Zhenyu and Xu, Baowen
@@ -163,4 +163,10 @@ Number of papers: 27
 - **Abstract**: The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Speci...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2401.00812.pdf)
 - **Labels**: [survey](../../labels/survey.md), [agent design](../../labels/agent_design.md), [reason with code](../../labels/reason_with_code.md)
+
+## [Large Language Models Based Fuzzing Techniques: A Survey](paper_28.md)
+- **Authors**: Misu, Md Rakib Hossain and Lopes, Cristina V. and Ma, Iris and Noble, James
+- **Abstract**: In the modern era where software plays a pivotal role, software security and vulnerability analysis have become essential for software development. Fuzzing test, as an efficient software testing method, are widely used in various domains. Moreover, the rapid development of Large Language Models (LLMs) has facilitated their application in the field of software testing, demonstrating remarkable performance. Considering existing fuzzing test techniques are not entirely automated and software vulner...
+- **Link**: [Read Paper](https://arxiv.org/pdf/2402.00350)
+- **Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md), [survey](../../labels/survey.md)
 

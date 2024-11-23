@@ -24,6 +24,12 @@
   - **Labels**: [survey](survey.md), [agent design](agent_design.md), [reason with code](reason_with_code.md)
 
 
+- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_28.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: In the modern era where software plays a pivotal role, software security and vulnerability analysis have become essential for software development. Fuzzing test, as an efficient software testing method, are widely used in various domains. Moreover, the rapid development of Large Language Models (LLMs) has facilitated their application in the field of software testing, demonstrating remarkable performance. Considering existing fuzzing test techniques are not entirely automated and software vulner...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [survey](survey.md)
+
+
 - [Large Language Models Meet NL2Code: A Survey](../venues/ACL2023/paper_4.md), ([ACL2023](../venues/ACL2023/README.md))
 
   - **Abstract**: The task of generating code from a natural language description, or NL2Code, is considered a pressing and significant challenge in code intelligence. Thanks to the rapid development of pre-training techniques, surging large language models are being proposed for code, sparking the advances in NL2Code. To facilitate further research and applications in this field, in this paper, we present a comprehensive survey of 27 existing large language models for NL2Code, and also review benchmarks and metr...

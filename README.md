@@ -57,8 +57,8 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (31)
-- [Program Testing](data/papers/labels/program_testing.md)   (47)
-  - [Fuzzing](data/papers/labels/fuzzing.md)   (18)
+- [Program Testing](data/papers/labels/program_testing.md)   (48)
+  - [Fuzzing](data/papers/labels/fuzzing.md)   (19)
   - [Library Testing](data/papers/labels/library_testing.md)   (1)
   - [Dbms Testing](data/papers/labels/DBMS_testing.md)   (1)
   - [Compiler Testing](data/papers/labels/compiler_testing.md)   (4)
@@ -119,7 +119,7 @@ This category includes studies on benchmarks, empirical evaluations, and surveys
 
 - [Benchmark](data/papers/labels/benchmark.md)   (41)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (76)
-- [Survey](data/papers/labels/survey.md)   (14)
+- [Survey](data/papers/labels/survey.md)   (15)
 
 ## D. How to Contribute
 
@@ -135,7 +135,7 @@ We welcome contributions to expand this repository. If you want to add new paper
 3. **Update Markdown Files**: Run the following command to update the repository:
    
    ```bash
-   cd src && python patch.py
+   cd src && python patch.python
    ```
 
 If you want to add new labels and change the current taxonomy, please post an issue first and suggest your taxonomy (See below).
