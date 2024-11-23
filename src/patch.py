@@ -185,11 +185,15 @@ def classify_papers_by_label(venue_dict, title_to_path, venue_to_path):
         label_category = json.load(f)["categories"]
 
     label_to_path = {}
+    labels = get_all_labels(label_category)
 
     label_paper_dict = {}
     for venue in venue_dict:
         for paper in venue_dict[venue]:
             for label in paper['labels']:
+                if label not in labels:
+                    print("You use a undefined label. Please submit an issue first to apply for a taxonomy change.")
+                    exit(0)
                 if label not in label_paper_dict:
                     label_paper_dict[label] = []
                 label_paper_dict[label].append(paper)
@@ -197,8 +201,6 @@ def classify_papers_by_label(venue_dict, title_to_path, venue_to_path):
     output_directory = '../data/papers/labels'
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
-
-    labels = get_all_labels(label_category)
 
     for label in labels:
 
