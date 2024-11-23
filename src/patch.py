@@ -136,6 +136,34 @@ def generate_readme_from_label(label, categories, label_to_papers, title_to_path
     
     return content
 
+def generate_readme_from_label_for_paradigm(label, categories, label_to_papers, title_to_path, venue_to_path, level=1):
+    assert label in {"benchmark", "survey", "empirical study"}
+    capitalized_label = ' '.join([capitalize_word(word) for word in label.split()])
+
+    content = f"{'#' * level} {capitalized_label}\n\n"
+
+    sublabels = set(categories.keys()) - set(["benchmark", "survey", "empirical study"])
+
+    sub_label_items = []
+
+    for sub_label in sorted(list(sublabels)):
+        capitalized_label = ' '.join([capitalize_word(word) for word in sub_label.split()])
+        single_content = ""
+        single_content += f"{'#' * (level + 1)} {capitalized_label}\n\n"
+        for paper in label_to_papers[sub_label]:
+            if label not in paper['labels']:
+                continue
+            paper_str = f"- [{paper['title']}]({title_to_path[paper['title']].replace('../data/papers/', '../')}), ([{paper['venue']}]({venue_to_path[paper['venue']].replace('../data/papers/', '../')}))\n" + "\n"
+            paper_str += f"  - **Abstract**: {paper['abstract'][:500]}...\n"
+            labels_with_links = []
+            for label in paper['labels']:
+                labels_with_links.append(f"[{label}]({label.replace(' ', '_')}.md)")
+            paper_str += f"  - **Labels**: {', '.join(labels_with_links)}\n"
+            single_content += paper_str
+            sub_label_items.append(single_content)
+    content += "\n".join(sub_label_items)
+    return content
+
 def get_all_labels(label_dict):
     all_labels = set([])
     for label in label_dict:
@@ -165,7 +193,11 @@ def classify_papers_by_label(venue_dict, title_to_path, venue_to_path):
     labels = get_all_labels(label_category)
 
     for label in labels:
-        readme_content = generate_readme_from_label(label, label_category, label_paper_dict, title_to_path, venue_to_path)
+
+        if label in {"benchmark", "survey", "empirical study"}:
+            readme_content = generate_readme_from_label_for_paradigm(label, label_category, label_paper_dict, title_to_path, venue_to_path)
+        else:
+            readme_content = generate_readme_from_label(label, label_category, label_paper_dict, title_to_path, venue_to_path)
 
         output_path = os.path.join(output_directory, f"{label.replace(' ', '_')}.md")
         with open(output_path, 'w') as output_file:
