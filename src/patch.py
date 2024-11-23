@@ -158,13 +158,8 @@ def classify_papers_by_label(venue_dict, title_to_path, venue_to_path):
     labels = get_all_labels(label_category)
 
     for label in labels:
-        # Generate the markdown content
         readme_content = generate_readme_from_label(label, label_category, label_paper_dict, title_to_path, venue_to_path)
 
-        # Print or save the result
-        print(readme_content)
-
-        # Optionally, save to a markdown file
         output_path = os.path.join(output_directory, f"{label.replace(' ', '_')}.md")
         with open(output_path, 'w') as output_file:
             output_file.write(readme_content)
@@ -182,7 +177,6 @@ def generate_main_readme(label_paper_dict):
 
     readme_content = "".join(lines)
     for match in matches:
-        print(f"Label: {match[0]}, Link: {match[1]}, Count: {match[2]}")
         label = match[0].lower().replace('_', ' ')
         for labeltmp in label_paper_dict:
             if label.lower() == labeltmp.lower():
