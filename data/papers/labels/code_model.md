@@ -582,6 +582,12 @@
   - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [defense](defense.md)
 
 
+- [Security of Language Models for Code: A Systematic Literature Review](../venues/arXiv2024/paper_1.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: Language models for code (CodeLMs) have emerged as powerful tools for code-related tasks, outperforming traditional methods and standard machine learning approaches. However, these models are susceptible to security vulnerabilities, drawing increasing research attention from domains such as software engineering, artificial intelligence, and cybersecurity. Despite the growing body of research focused on the security of CodeLMs, a comprehensive survey in this area remains absent. To address this g...
+  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [survey](survey.md)
+
+
 - [Traces of Memorisation in Large Language Models for Code](../venues/ICSE2024/paper_8.md), ([ICSE2024](../venues/ICSE2024/README.md))
 
   - **Abstract**: Large language models have gained significant popularity because of their ability to generate human-like text and potential applications in various fields, such as Software Engineering. Large language models for code are commonly trained on large unsanitised corpora of source code scraped from the internet. The content of these datasets is memorised and can be extracted by attackers with data extraction attacks. In this work, we explore memorisation in large language models for code and compare ...
@@ -598,12 +604,6 @@
 
   - **Abstract**: Since the remarkable generation performance of large language models raised ethical and legal concerns, approaches to detect machine-generated text by embedding watermarks are being developed.However, we discover that the existing works fail to function appropriately in code generation tasks due to the task’s nature of having low entropy.Extending a logit-modifying watermark method, we propose Selective WatErmarking via Entropy Thresholding (SWEET), which enhances detection ability and mitigates...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [code model](code_model.md), [code model security](code_model_security.md), [defense](defense.md)
-
-
-- [≈w](../venues/arXiv2024/paper_1.md), ([arXiv2024](../venues/arXiv2024/README.md))
-
-  - **Abstract**: Language models for code (CodeLMs) have emerged as powerful tools for code-related tasks, outperforming traditional methods and standard machine learning approaches. However, these models are susceptible to security vulnerabilities, drawing increasing research attention from domains such as software engineering, artificial intelligence, and cybersecurity. Despite the growing body of research focused on the security of CodeLMs, a comprehensive survey in this area remains absent. To address this g...
-  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [survey](survey.md)
 
 
 ## Code Model Robustness

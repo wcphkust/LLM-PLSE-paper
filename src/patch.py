@@ -145,24 +145,31 @@ def generate_readme_from_label_for_paradigm(label, categories, label_to_papers, 
     sublabels = set(categories.keys()) - set(["benchmark", "survey", "empirical study"])
 
     sub_label_items = []
+    all_papers = []
+    titleset = set([])
+    for sub_label in label_to_papers:
+        for paper in label_to_papers[sub_label]:
+            if paper['title'] not in titleset:
+                titleset.add(paper['title'])
+                all_papers.append(paper)
 
     for sub_label in sorted(list(sublabels)):
         capitalized_label = ' '.join([capitalize_word(word) for word in sub_label.split()])
         single_content = f"{'#' * (level + 1)} {capitalized_label}\n\n"
         paper_strs = []
-        for paper in label_to_papers[sub_label]:
-            if label not in paper['labels']:
-                continue
-            paper_str = f"- [{paper['title']}]({title_to_path[paper['title']].replace('../data/papers/', '../')}), ([{paper['venue']}]({venue_to_path[paper['venue']].replace('../data/papers/', '../')}))\n" + "\n"
-            paper_str += f"  - **Abstract**: {paper['abstract'][:500]}...\n"
-            labels_with_links = []
-            for label in paper['labels']:
-                labels_with_links.append(f"[{label}]({label.replace(' ', '_')}.md)")
-            paper_str += f"  - **Labels**: {', '.join(labels_with_links)}\n"
-            paper_strs.append(paper_str)
+        for paper in all_papers:
+            if label in paper['labels'] and sub_label in paper['labels']:
+                paper_str = f"- [{paper['title']}]({title_to_path[paper['title']].replace('../data/papers/', '../')}), ([{paper['venue']}]({venue_to_path[paper['venue']].replace('../data/papers/', '../')}))\n" + "\n"
+                paper_str += f"  - **Abstract**: {paper['abstract'][:500]}...\n"
+                labels_with_links = []
+                for sub_sub_label in paper['labels']:
+                    labels_with_links.append(f"[{sub_sub_label}]({sub_sub_label.replace(' ', '_')}.md)")
+                paper_str += f"  - **Labels**: {', '.join(labels_with_links)}\n"
+                paper_strs.append(paper_str)
         single_content += "\n".join(sorted(paper_strs))    
-        sub_label_items.append(single_content)
-    content += "\n".join(sub_label_items)
+        if len(paper_strs) > 0:
+            sub_label_items.append(single_content)
+    content += "\n".join(sorted(sub_label_items))
     return content
 
 def get_all_labels(label_dict):

@@ -1,4 +1,4 @@
-# ≈w
+# Security of Language Models for Code: A Systematic Literature Review
 
 **Authors**: Chen, Yuchen and Sun, Weisong and Fang, Chunrong and Chen, Zhenpeng and Ge, Yifei and Han, Tingxu and Zhang, Quanjun and Liu, Yang and Chen, Zhenyu and Xu, Baowen
 

@@ -142,6 +142,13 @@ Number of papers: 28
 - **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md), [agent design](../../labels/agent_design.md), [planning](../../labels/planning.md)
 
 
+## [Security of Language Models for Code: A Systematic Literature Review](paper_1.md)
+- **Authors**: Chen, Yuchen and Sun, Weisong and Fang, Chunrong and Chen, Zhenpeng and Ge, Yifei and Han, Tingxu and Zhang, Quanjun and Liu, Yang and Chen, Zhenyu and Xu, Baowen
+- **Abstract**: Language models for code (CodeLMs) have emerged as powerful tools for code-related tasks, outperforming traditional methods and standard machine learning approaches. However, these models are susceptible to security vulnerabilities, drawing increasing research attention from domains such as software engineering, artificial intelligence, and cybersecurity. Despite the growing body of research focused on the security of CodeLMs, a comprehensive survey in this area remains absent. To address this g...
+- **Link**: [Read Paper](https://arxiv.org/pdf/2410.15631)
+- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [survey](../../labels/survey.md)
+
+
 ## [Source Code Vulnerability Detection: Combining Code Language Models and Code Property Graphs](paper_13.md)
 - **Authors**: Ruitong Liu and Yanbin Wang and Haitao Xu and Bin Liu and Jianguo Sun and Zhenhao Guo and Wenrui Ma
 - **Abstract**: Currently, deep learning successfully applies to code vulnerability detection by learning from code sequences or property graphs. However, sequence-based methods often overlook essential code attributes such as syntax, control flow, and data dependencies, whereas graph-based approaches might underestimate the semantics of code and face challenges in capturing long-distance contextual information.To address this gap, we propose Vul-LMGNN, a unified model that combines pre-trained code language mo...
@@ -189,10 +196,3 @@ Number of papers: 28
 - **Abstract**: Software, while beneficial, poses potential cybersecurity risks due to inherent vulnerabilities. Detecting these vulnerabilities is crucial, and deep learning has shown promise as an effective tool for this task due to its ability to perform well without extensive feature engineering. However, a challenge in deploying deep learning for vulnerability detection is the limited availability of training data. Recent research highlights the deep learning efficacy in diverse tasks. This success is attr...
 - **Link**: [Read Paper](https://doi.org/10.48550/arXiv.2401.07466)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [source code model](../../labels/source_code_model.md)
-
-
-## [≈w](paper_1.md)
-- **Authors**: Chen, Yuchen and Sun, Weisong and Fang, Chunrong and Chen, Zhenpeng and Ge, Yifei and Han, Tingxu and Zhang, Quanjun and Liu, Yang and Chen, Zhenyu and Xu, Baowen
-- **Abstract**: Language models for code (CodeLMs) have emerged as powerful tools for code-related tasks, outperforming traditional methods and standard machine learning approaches. However, these models are susceptible to security vulnerabilities, drawing increasing research attention from domains such as software engineering, artificial intelligence, and cybersecurity. Despite the growing body of research focused on the security of CodeLMs, a comprehensive survey in this area remains absent. To address this g...
-- **Link**: [Read Paper](https://arxiv.org/pdf/2410.15631)
-- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [survey](../../labels/survey.md)
