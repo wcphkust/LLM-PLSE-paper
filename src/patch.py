@@ -54,6 +54,8 @@ def export_papers_to_readme(venue_dict, output_dir):
         with open(readme_path, "w") as readme_file:
             readme_file.write(f"# {venue}\n\n")
             readme_file.write(f"Number of papers: {len(papers)}\n\n")
+
+            readme_item_strs = []
             
             for idx, paper in enumerate(papers, start=1):
                 markdown_filename = f"paper_{idx}.md"
@@ -71,11 +73,12 @@ def export_papers_to_readme(venue_dict, output_dir):
                         labels_with_links.append(f"[{label}](../../labels/{label.replace(' ', '_')}.md)")
                     paper_file.write(f"**Labels**: {', '.join(labels_with_links)}\n")
                 
-                # Add entry to README.md
-                readme_file.write(f"## [{paper['title']}]({markdown_filename})\n")
-                readme_file.write(f"- **Authors**: {paper['author']}\n")
-                readme_file.write(f"- **Abstract**: {paper['abstract'][:500]}...\n")
-                readme_file.write(f"- **Link**: [Read Paper]({paper['url']})\n")
+                readme_item_str = f"## [{paper['title']}]({markdown_filename})\n"
+                readme_item_str += f"- **Authors**: {paper['author']}\n"
+                readme_item_str += f"- **Abstract**: {paper['abstract'][:500]}...\n"
+                readme_item_str += f"- **Link**: [Read Paper]({paper['url']})\n"
+
+                readme_item_strs.append(readme_item_str)
                 
                 labels_with_links = []
                 for label in paper['labels']:
@@ -86,6 +89,10 @@ def export_papers_to_readme(venue_dict, output_dir):
 
                 title_to_path[paper['title']] = markdown_path
                 venue_to_path[venue] = readme_path
+
+            sorted_readme_item_strs = sorted(readme_item_strs)
+            readme_file.write("\n\n".join(sorted_readme_item_strs))
+            
     return title_to_path, venue_to_path, label_set
 
 def get_flattened_labels(label_dict):
