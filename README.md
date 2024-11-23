@@ -14,7 +14,7 @@ This repository provides a curated list of research papers focused on Large Lang
    - [D.1. PR Submission](#d1-pr-submission)
    - [D.2. Issue Submission](#d2-issue-submission)
    - [D.3. Request for Batch Updates](#d3-request-for-batch-updates)
-- [E. Contract](#e-contract)
+- [E. Disclaimer and Contract](#e-disclaimer-and-contact)
 
 
 ## A. Venues
@@ -157,6 +157,8 @@ Another option is to post the papers you wish to add in an issue. Please include
 
 To facilitate timely batch updates to the paper repository, we prefer to utilize the proceedings of various conferences and journals. Here are several examples: [ASE2024](https://dl.acm.org/doi/proceedings/10.1145/3691620), [OOPSLA2023](https://dl.acm.org/doi/proceedings/10.1145/3618305), [S&P2023](https://ieeexplore.ieee.org/xpl/conhome/10179215/proceeding), and [ACL2024](https://aclanthology.org/events/acl-2024/). By parsing and extracting information from bib files and HTML files (See [`data/rawdata`](data/rawdata/)), including abstracts, we can semi-automatically classify papers based on the aforementioned [selection strategy](#b-selection-strategy). If the conference or journal you are following has recently released its complete proceedings, please notify us by [submitting an issue](#d2-issue-submission). We will prioritize the batch update and add the corresponding conference or journal name to the [venue list](#a-venues).
 
-## E. Contact
+## E. Disclaimer and Contact
+
+This paper repository is intended solely for research purposes. All raw data is sourced from publicly available information on ACM, IEEE, and corresponding conference websites. Any content involving additional copyright information, including full PDF versions of the papers, is not disclosed in this repository.
 
 For any questions or suggestions, please contact [stephenw.wangcp@gmail.com](mailto:stephenw.wangcp@gmail.com) or [wang6590@purdue.edu](mailto:wang6590@purdue.edu)
