@@ -80,8 +80,10 @@ def export_papers_to_readme(venue_dict, output_dir):
                 
                 labels_with_links = []
                 for label in paper['labels']:
-                    readme_item_str += f"[{label}](../../labels/{label.replace(' ', '_')}.md), "
-                readme_item_strs.append(readme_item_str.rstrip(", "))
+                    labels_with_links.append(f"[{label}](../../labels/{label.replace(' ', '_')}.md)")
+                readme_item_str += f"- **Labels**: {', '.join(labels_with_links)}\n"
+
+                readme_item_strs.append(readme_item_str)
 
                 label_set = label_set.union(set(paper['labels']))
 
