@@ -66,6 +66,12 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   ({c1})
+- [Code Generation](data/papers/labels/code_generation.md)   ({c14})
+  - [Program Synthesis](data/papers/labels/program_synthesis.md)   ({c15})
+  - [Code Completion](data/papers/labels/code_completion.md)   ({c16})
+  - [Program Repair](data/papers/labels/program_repair.md)   ({c17})
+  - [Program Transformation](data/papers/labels/program_transformation.md)   ({c18})
+  - [Program Decompilation](data/papers/labels/program_decompilation.md)   ({c19})
 - [Program Testing](data/papers/labels/program_testing.md)   ({c2})
   - [Fuzzing](data/papers/labels/fuzzing.md)   ({c3})
   - [Library Testing](data/papers/labels/library_testing.md)   ({c4})
@@ -78,18 +84,6 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   ({c11})
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   ({c12})
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   ({c13})
-- [Code Generation](data/papers/labels/code_generation.md)   ({c14})
-  - [Program Synthesis](data/papers/labels/program_synthesis.md)   ({c15})
-  - [Code Completion](data/papers/labels/code_completion.md)   ({c16})
-  - [Program Repair](data/papers/labels/program_repair.md)   ({c17}))
-  - [Program Transformation](data/papers/labels/program_transformation.md)   ({c18})
-  - [Program Decompilation](data/papers/labels/program_decompilation.md)   ({c19})
-- [Software Maintenance And Deployment](data/papers/labels/software_maintenance_and_deployment.md)   ({c20})
-  - [Code Review](data/papers/labels/code_review.md)   ({c21})
-  - [Documentation Generation](data/papers/labels/documentation_generation.md)   ({c22})
-  - [Commit Message Generation](data/papers/labels/commit_message_generation.md)   ({c23})
-  - [Software Configuration](data/papers/labels/software_configuration.md)   ({c24})
-  - [System Log Analysis](data/papers/labels/system_log_analysis.md)   ({c25})
 - [Static Analysis](data/papers/labels/static_analysis.md)   ({c26})
   - [Fundamental Analysis](data/papers/labels/fundamental_analysis.md)   ({c27})
   - [Specification Inference](data/papers/labels/specification_inference.md)   ({c28})
@@ -101,10 +95,17 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Code Summarization](data/papers/labels/code_summarization.md)   ({c34})
   - [Compiler Optimization](data/papers/labels/compiler_optimization.md)   ({c35})
   - [Type Inference](data/papers/labels/type_inference.md)   ({c36})
+- [Software Maintenance and Deployment](data/papers/labels/software_maintenance_and_deployment.md)   ({c20})
+  - [Code Review](data/papers/labels/code_review.md)   ({c21})
+  - [Documentation Generation](data/papers/labels/documentation_generation.md)   ({c22})
+  - [Commit Message Generation](data/papers/labels/commit_message_generation.md)   ({c23})
+  - [Software Configuration](data/papers/labels/software_configuration.md)   ({c24})
+  - [System Log Analysis](data/papers/labels/system_log_analysis.md)   ({c25})
+
 
 ### C.2. Principle
 
-This category focuses on model functionality and non-functional properties.
+This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
 
 - [Code Model](data/papers/labels/code_model.md)   ({c37})
   - [Code Model Training](data/papers/labels/code_model_training.md)   ({c38})

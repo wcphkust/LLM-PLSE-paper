@@ -14,7 +14,7 @@ This repository provides a curated list of research papers focused on Large Lang
    - [D.1. PR Submission](#d1-pr-submission)
    - [D.2. Issue Submission](#d2-issue-submission)
    - [D.3. Request for Batch Updates](#d3-request-for-batch-updates)
-- [E. Disclaimer and Contract](#e-disclaimer-and-contact)
+- [E. Contract](#e-contract)
 
 
 ## A. Venues
@@ -65,8 +65,14 @@ The papers in this repository are categorized along three dimensions: **Applicat
 
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
-- [<span style="color:red">General Coding Task</span>](data/papers/labels/general_coding_task.md)   (31)
-- [<span style="color:red">Program Testing</span>](data/papers/labels/program_testing.md)   (48)
+- [General Coding Task](data/papers/labels/general_coding_task.md)   (31)
+- [Code Generation](data/papers/labels/code_generation.md)   (190)
+  - [Program Synthesis](data/papers/labels/program_synthesis.md)   (80)
+  - [Code Completion](data/papers/labels/code_completion.md)   (22)
+  - [Program Repair](data/papers/labels/program_repair.md)   (38)
+  - [Program Transformation](data/papers/labels/program_transformation.md)   (26)
+  - [Program Decompilation](data/papers/labels/program_decompilation.md)   (5)
+- [Program Testing](data/papers/labels/program_testing.md)   (48)
   - [Fuzzing](data/papers/labels/fuzzing.md)   (19)
   - [Library Testing](data/papers/labels/library_testing.md)   (1)
   - [DBMS Testing](data/papers/labels/DBMS_testing.md)   (1)
@@ -78,18 +84,6 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (9)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (6)
-- [Code Generation](data/papers/labels/code_generation.md)   (190)
-  - [Program Synthesis](data/papers/labels/program_synthesis.md)   (80)
-  - [Code Completion](data/papers/labels/code_completion.md)   (22)
-  - [Program Repair](data/papers/labels/program_repair.md)   (38))
-  - [Program Transformation](data/papers/labels/program_transformation.md)   (26)
-  - [Program Decompilation](data/papers/labels/program_decompilation.md)   (5)
-- [Software Maintenance And Deployment](data/papers/labels/software_maintenance_and_deployment.md)   (18)
-  - [Code Review](data/papers/labels/code_review.md)   (6)
-  - [Documentation Generation](data/papers/labels/documentation_generation.md)   (2)
-  - [Commit Message Generation](data/papers/labels/commit_message_generation.md)   (4)
-  - [Software Configuration](data/papers/labels/software_configuration.md)   (1)
-  - [System Log Analysis](data/papers/labels/system_log_analysis.md)   (4)
 - [Static Analysis](data/papers/labels/static_analysis.md)   (109)
   - [Fundamental Analysis](data/papers/labels/fundamental_analysis.md)   (12)
   - [Specification Inference](data/papers/labels/specification_inference.md)   (7)
@@ -101,10 +95,17 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Code Summarization](data/papers/labels/code_summarization.md)   (8)
   - [Compiler Optimization](data/papers/labels/compiler_optimization.md)   (2)
   - [Type Inference](data/papers/labels/type_inference.md)   (3)
+- [Software Maintenance and Deployment](data/papers/labels/software_maintenance_and_deployment.md)   (18)
+  - [Code Review](data/papers/labels/code_review.md)   (6)
+  - [Documentation Generation](data/papers/labels/documentation_generation.md)   (2)
+  - [Commit Message Generation](data/papers/labels/commit_message_generation.md)   (4)
+  - [Software Configuration](data/papers/labels/software_configuration.md)   (1)
+  - [System Log Analysis](data/papers/labels/system_log_analysis.md)   (4)
+
 
 ### C.2. Principle
 
-This category focuses on model functionality and non-functional properties.
+This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
 
 - [Code Model](data/papers/labels/code_model.md)   (103)
   - [Code Model Training](data/papers/labels/code_model_training.md)   (82)
@@ -157,8 +158,6 @@ Another option is to post the papers you wish to add in an issue. Please include
 
 To facilitate timely batch updates to the paper repository, we prefer to utilize the proceedings of various conferences and journals. Here are several examples: [ASE2024](https://dl.acm.org/doi/proceedings/10.1145/3691620), [OOPSLA2023](https://dl.acm.org/doi/proceedings/10.1145/3618305), [S&P2023](https://ieeexplore.ieee.org/xpl/conhome/10179215/proceeding), and [ACL2024](https://aclanthology.org/events/acl-2024/). By parsing and extracting information from bib files and HTML files (See [`data/rawdata`](data/rawdata/)), including abstracts, we can semi-automatically classify papers based on the aforementioned [selection strategy](#b-selection-strategy). If the conference or journal you are following has recently released its complete proceedings, please notify us by [submitting an issue](#d2-issue-submission). We will prioritize the batch update and add the corresponding conference or journal name to the [venue list](#a-venues).
 
-## E. Disclaimer and Contact
-
-This paper repository is intended solely for research purposes. All raw data is sourced from publicly available information on ACM, IEEE, and corresponding conference websites. Any content involving additional copyright information, including full PDF versions of the papers, is not disclosed in this repository.
+## E. Contact
 
 For any questions or suggestions, please contact [stephenw.wangcp@gmail.com](mailto:stephenw.wangcp@gmail.com) or [wang6590@purdue.edu](mailto:wang6590@purdue.edu)
