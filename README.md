@@ -65,8 +65,8 @@ The papers in this repository are categorized along three dimensions: **Applicat
 
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
-- [General Coding Task](data/papers/labels/general_coding_task.md)   (31)
-- [Program Testing](data/papers/labels/program_testing.md)   (48)
+- [<span style="color:red">General Coding Task</span>](data/papers/labels/general_coding_task.md)   (31)
+- [<span style="color:red">Program Testing</span>](data/papers/labels/program_testing.md)   (48)
   - [Fuzzing](data/papers/labels/fuzzing.md)   (19)
   - [Library Testing](data/papers/labels/library_testing.md)   (1)
   - [DBMS Testing](data/papers/labels/DBMS_testing.md)   (1)
