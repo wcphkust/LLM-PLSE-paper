@@ -1,9 +1,9 @@
 # Survey
 
-## PL design for LLMs
+## PL Design For Llms
 
 
-## agent design
+## Agent Design
 
 - [If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents](../venues/arXiv2024/paper_27.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
@@ -15,23 +15,23 @@
   - **Abstract**: The recent advance in Large Language Models (LLMs) has shaped a new paradigm of AI agents, i.e., LLM-based agents. Compared to standalone LLMs, LLM-based agents substantially extend the versatility and expertise of LLMs by enhancing LLMs with the capabilities of perceiving and utilizing external resources and tools. To date, LLM-based agents have been applied and shown remarkable effectiveness in Software Engineering (SE). The synergy between multiple agents and human interaction brings further ...
   - **Labels**: [survey](survey.md), [agent design](agent_design.md)
 
-## code generation
+## Code Generation
 
 
-## code model
+## Code Model
 
 
-## general coding task
+## General Coding Task
 
 
-## hallucination in reasoning
+## Hallucination In Reasoning
 
 
-## program testing
+## Program Testing
 
 
-## software maintenance and deployment
+## Software Maintenance And Deployment
 
 
-## static analysis
+## Static Analysis
 

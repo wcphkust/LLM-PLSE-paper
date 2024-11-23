@@ -1,9 +1,9 @@
 # Empirical Study
 
-## PL design for LLMs
+## PL Design For Llms
 
 
-## agent design
+## Agent Design
 
 - [Can GPT-4 Replicate Empirical Software Engineering Research?](../venues/FSE2024/paper_3.md), ([FSE2024](../venues/FSE2024/README.md))
 
@@ -30,7 +30,7 @@
   - **Abstract**: Human intelligence thrives on cognitive synergy, where collaboration among different minds yield superior outcomes compared to isolated individuals. In this work, we propose Solo Performance Prompting (SPP), which transforms a single LLM into a cognitive synergist by engaging in multi-turn self-collaboration with multiple personas. A cognitive synergist is an intelligent agent that collaboratively combines multiple minds’ strengths and knowledge to enhance problem-solving in complex tasks. By dy...
   - **Labels**: [agent design](agent_design.md), [planning](planning.md)
 
-## code generation
+## Code Generation
 
 - [A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement](../venues/ASE2024/paper_21.md), ([ASE2024](../venues/ASE2024/README.md))
 
@@ -152,7 +152,7 @@
   - **Abstract**: Leveraging recent advancements in large language models, modern neural code completion models have demonstrated the capability to generate highly accurate code suggestions. However, their massive size poses challenges in terms of computational costs and environmental impact, hindering their widespread adoption in practical scenarios. Dynamic inference emerges as a promising solution, as it allocates minimal computation during inference while maintaining the model's performance. In this research,...
   - **Labels**: [code generation](code_generation.md), [code completion](code_completion.md), [empirical study](empirical_study.md)
 
-## code model
+## Code Model
 
 - [An Extensive Study on Adversarial Attack against Pre-trained Models of Code](../venues/FSE2023/paper_11.md), ([FSE2023](../venues/FSE2023/README.md))
 
@@ -194,7 +194,7 @@
   - **Abstract**: The use of modern Natural Language Processing (NLP) techniques has shown to be beneficial for software engineering tasks, such as vulnerability detection and type inference. However, training deep NLP models requires significant computational resources. This paper explores techniques that aim at achieving the best usage of resources and available information in these models.  We propose a generic approach, EarlyBIRD, to build composite representations of code from the early layers of a pre-train...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md), [empirical study](empirical_study.md)
 
-## general coding task
+## General Coding Task
 
 - [Automatic Programming: Large Language Models and Beyond](../venues/arXiv2024/paper_8.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
@@ -221,7 +221,7 @@
   - **Abstract**: Self-consistency (SC), leveraging multiple samples from LLMs, shows significant gains on various reasoning tasks but struggles with free-form generation due to the difficulty of aggregating answers. Its variants, UCS and USC, rely on sample selection or voting mechanisms to improve output quality. These methods, however, face limitations due to their inability to fully utilize the nuanced consensus knowledge present within multiple candidate samples, often resulting in suboptimal outputs. We pro...
   - **Labels**: [general coding task](general_coding_task.md), [empirical study](empirical_study.md)
 
-## hallucination in reasoning
+## Hallucination In Reasoning
 
 - [Deceptive Semantic Shortcuts on Reasoning Chains: How Far Can Models Go without Hallucination?](../venues/NAACL2024/paper_6.md), ([NAACL2024](../venues/NAACL2024/README.md))
 
@@ -238,7 +238,7 @@
   - **Abstract**: Large language models (large LMs) are susceptible to producing text that contains hallucinated content. An important instance of this problem is self-contradiction, where the LM generates two contradictory sentences within the same context. In this work, we present a comprehensive investigation into self-contradiction for various instruction-tuned LMs, covering evaluation, detection, and mitigation. Our primary evaluation task is open-domain text generation, but we also demonstrate the applicabi...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [empirical study](empirical_study.md)
 
-## program testing
+## Program Testing
 
 - [CoderUJB: An Executable and Unified Java Benchmark for Practical Programming Scenarios](../venues/ISSTA2024/paper_3.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
 
@@ -275,10 +275,10 @@
   - **Abstract**: The remarkable capability of large language models (LLMs) in generating high-quality code has drawn increasing attention in the software testing community. However, existing code LLMs often demonstrate unsatisfactory capabilities in generating accurate, complete tests since they were trained on code snippets collected without differentiating between code for testing and for other purposes. In this paper, we present a large-scale dataset, UniTSyn, which can enhance LLMs for Unit Test Synthesis. A...
   - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [benchmark](benchmark.md)
 
-## software maintenance and deployment
+## Software Maintenance And Deployment
 
 
-## static analysis
+## Static Analysis
 
 - [DiverseVul: {A} New Vulnerable Source Code Dataset for Deep Learning Based Vulnerability Detection](../venues/RAID2023/paper_1.md), ([RAID2023](../venues/RAID2023/README.md))
 
