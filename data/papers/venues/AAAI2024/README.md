@@ -12,4 +12,4 @@ Number of papers: 2
 - **Authors**: Bi, Zhen and Zhang, Ningyu and Jiang, Yinuo and Deng, Shumin and Zheng, Guozhou and Chen, Huajun
 - **Abstract**: In the realm of embodied artificial intelligence, the reasoning capabilities of Large Language Models (LLMs) play a pivotal role. Although there are effective methods like program-of-thought prompting for LLMs which uses programming language to tackle complex reasoning tasks, the specific impact of code data on the improvement of reasoning capabilities remains under-explored. To address this gap, we propose complexity-impacted reasoning score CIRS, which combines structural and logical attribute...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2308.15452)
-[prompt strategy](../../labels/prompt_strategy.md)[reason with code](../../labels/reason_with_code.md)[empirical study](../../labels/empirical_study.md)
+[prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md), [empirical study](../../labels/empirical_study.md)
