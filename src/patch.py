@@ -1,5 +1,6 @@
 import os
 import json
+import re
 from collections import defaultdict
 
 def collect_json_files(directory):
@@ -165,27 +166,25 @@ def classify_papers_by_label(venue_dict, title_to_path, venue_to_path):
     return label_to_path, label_paper_dict
 
 
-def generate_main_readme(label_to_path, label_paper_dict):
-    def json_to_markdown(data, label_to_path, label_paper_dict, level=0):
-        markdown = ""
-        indent = "  " * level
-        for key, value in data.items():
-            capitalized_label = ' '.join([key.capitalize() for key in key.split()])
-            key_with_link = f"[{capitalized_label}]({label_to_path[key].replace('../', '')})"
-            markdown += f"{indent}- {key_with_link}   ({len(label_paper_dict[key])})\n"
-            if isinstance(value, dict):
-                markdown += json_to_markdown(value, label_to_path, label_paper_dict, level + 1)
-        return markdown
+def generate_main_readme(label_paper_dict):
+    # read lines from ../data/template.txt
+    with open('../data/template.txt', 'r') as f:
+        lines = f.readlines()
 
-    with open('../data/category.json', 'r') as f:
-        label_category = json.load(f)["categories"]
+    pattern = re.compile(r'- \[(.*?)\]\((.*?)\)\s+\(\{(c\d+)\}\)')
+    matches = pattern.findall("\n".join(lines))
 
-    markdown_output = json_to_markdown(label_category, label_to_path, label_paper_dict)
+    readme_content = "".join(lines)
+    for match in matches:
+        print(f"Label: {match[0]}, Link: {match[1]}, Count: {match[2]}")
+        label = match[0].lower().replace('_', ' ')
+        for labeltmp in label_paper_dict:
+            if label.lower() == labeltmp.lower():
+                readme_content = readme_content.replace("{" + match[2] + "}", str(len(label_paper_dict[labeltmp])))
 
-    # Save the Markdown to a file
-    with open('../README.md', 'w') as file:
-        file.write(markdown_output)
-    return
+    with open('../README.md', 'w') as f:
+        f.write(readme_content)
+
 
 def main():
     input_directory = '../data/labeldata'
@@ -197,11 +196,8 @@ def main():
     venue_dict = extract_papers_by_venue(json_files)
     title_to_path, venue_to_path, label_set = export_papers_to_readme(venue_dict, output_directory)
     label_to_path, label_paper_dict = classify_papers_by_label(venue_dict, title_to_path, venue_to_path)
-    generate_main_readme(label_to_path, label_paper_dict)
+    generate_main_readme(label_paper_dict)
 
-    print(f"Exported papers to: {output_directory}")
-    print(sorted(label_set))
-    print(len(title_to_path))
 
 if __name__ == "__main__":
     main()

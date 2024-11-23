@@ -1,5 +1,3 @@
-import fitz
-import re
 import json
 import requests
 from bs4 import BeautifulSoup
@@ -13,10 +11,6 @@ class Parser:
     def parse_entry(self, file_path):
         if file_path.endswith("bib"):
             self.parse_from_bib(file_path)
-        elif file_path.endswith("ris"):
-            self.parse_from_ris_with_link(file_path)
-        elif file_path.endswith("pdf"):
-            self.parse_proceedings(file_path)
         elif file_path.endswith("html"):
             self.parse_html_file(file_path)
         else:
@@ -55,7 +49,15 @@ class Parser:
         with open(absdata_json_path, "w") as file:
             json.dump(venue_database, file, indent=4)
         return venue_database
+    
 
+    def parse_html_file(self, htmlpath):
+        if "NDSS" in htmlpath:
+            self.parse_ndss_html(htmlpath)
+        if "ACL" in htmlpath or "NAACL" in htmlpath or "EMNLP" in htmlpath:
+            self.parse_acl_html(htmlpath)
+        return
+    
 
     def parse_ndss_html(self, htmlpath):
         with open(htmlpath, "r") as file:
@@ -131,7 +133,6 @@ class Parser:
                 weblink = "https://aclanthology.org/" + s1[6:index2-1]
                 print(weblink)
 
-                # read the html content of weblink
                 response = requests.get(weblink)
                 title = ""
                 venue_name = ""
@@ -183,84 +184,44 @@ class Parser:
             json.dump(venue_database, file, indent=4)
         return
 
-    def parse_from_ris_with_link(self, rispath):
-        with open(rispath, "r") as file:
-            lines = file.readlines()
-        for line in lines:
-            if line.startswith("UR"):
-                pdf_path = line.split(" ")[1].strip()
-                self.extract_text_from_pdf(pdf_path)
-                break
-        return
-
-
-    def parse_single_pdf_file(self, pdfpath):
-        with fitz.open(pdfpath) as pdf:
-            text = ""
-            for page_num in range(pdf.page_count):
-                page = pdf[page_num]
-                text += page.get_text()
-        # print(text[text.index("ABSTRACT"):text.index("CCS CONCEPTS")])
-        return
-
-
-    def parse_proceedings(self, proceedingspdf):
-        with fitz.open(proceedingspdf) as pdf:
-            text = ""
-            for page_num in range(pdf.page_count):
-                page = pdf[page_num]
-                text += page.get_text()
-        # print(text[text.index("ABSTRACT"):text.index("CCS CONCEPTS")])
-        return
-
-
-    def parse_html_file(self, htmlpath):
-        if "NDSS" in htmlpath:
-            self.parse_ndss_html(htmlpath)
-        if "ACL" in htmlpath or "NAACL" in htmlpath or "EMNLP" in htmlpath:
-            self.parse_acl_html(htmlpath)
-        return
-    
 
 if __name__ == "__main__":
     parser = Parser()
 
-    # bibs_with_abstract = [
-    #     "../rawdata/2024/ICSE2024.bib",
-    #     "../rawdata/2024/FSE2024.bib",
-    #     "../rawdata/2024/ASE2024.bib",
-    #     "../rawdata/2024/ISSTA2024.bib",
-    #     "../rawdata/2024/TOSEM2024.bib",
-    #     "../rawdata/2024/TSE2024.bib",
-    #     "../rawdata/2024/PLDI2024.bib",
-    #     "../rawdata/2024/OOPSLA2024.bib",
-    #     "../rawdata/2024/S&P2024.bib",
+    bibs_with_abstract = [
+        "../rawdata/2024/ICSE2024.bib",
+        "../rawdata/2024/FSE2024.bib",
+        "../rawdata/2024/ASE2024.bib",
+        "../rawdata/2024/ISSTA2024.bib",
+        "../rawdata/2024/TOSEM2024.bib",
+        "../rawdata/2024/TSE2024.bib",
+        "../rawdata/2024/PLDI2024.bib",
+        "../rawdata/2024/OOPSLA2024.bib",
+        "../rawdata/2024/S&P2024.bib",
 
-    #     "../rawdata/2023/ICSE2023.bib",
-    #     "../rawdata/2023/FSE2023.bib",
-    #     "../rawdata/2023/ASE2023.bib",
-    #     "../rawdata/2023/ISSTA2023.bib",
-    #     "../rawdata/2023/TOSEM2023.bib",
-    #     "../rawdata/2023/TSE2023.bib",
-    #     "../rawdata/2023/PLDI2023.bib",
-    #     "../rawdata/2023/OOPSLA2023.bib",
-    #     "../rawdata/2023/S&P2023.bib",   
-    #     "../rawdata/2023/USENIXSec2023.bib",
-    #     "../rawdata/2023/CCS2023.bib",
-    # ]
+        "../rawdata/2023/ICSE2023.bib",
+        "../rawdata/2023/FSE2023.bib",
+        "../rawdata/2023/ASE2023.bib",
+        "../rawdata/2023/ISSTA2023.bib",
+        "../rawdata/2023/TOSEM2023.bib",
+        "../rawdata/2023/TSE2023.bib",
+        "../rawdata/2023/PLDI2023.bib",
+        "../rawdata/2023/OOPSLA2023.bib",
+        "../rawdata/2023/S&P2023.bib",   
+        "../rawdata/2023/USENIXSec2023.bib",
+        "../rawdata/2023/CCS2023.bib",
+    ]
 
-    # for bib_with_abstract in bibs_with_abstract:
-    #     parser.parse_entry(bib_with_abstract)
+    for bib_with_abstract in bibs_with_abstract:
+        parser.parse_entry(bib_with_abstract)
 
-    # parser.parse_entry("../rawdata/2024/NDSS2024.html")
-    # parser.parse_entry("../rawdata/2023/NDSS2023.html")
+    parser.parse_entry("../rawdata/2024/NDSS2024.html")
+    parser.parse_entry("../rawdata/2023/NDSS2023.html")
 
-    # parser.parse_acl_html("../rawdata/2023/ACL2023.html", "ACL", 2023)
-    # parser.parse_acl_html("../rawdata/2023/EMNLP2023.html", "EMNLP", 2023)
+    parser.parse_acl_html("../rawdata/2023/ACL2023.html", "ACL", 2023)
+    parser.parse_acl_html("../rawdata/2023/EMNLP2023.html", "EMNLP", 2023)
 
-    # parser.parse_acl_html("../rawdata/2024/ACL2024.html", "ACL", 2024)
-    # parser.parse_acl_html("../rawdata/2024/NAACL2024.html", "NAACL", 2024)
-    # parser.parse_acl_html("../rawdata/2024/EMNLP-findings2024.html", "EMNLP", 2024)
-    # parser.parse_acl_html("../rawdata/2024/EMNLP-main2024.html", "EMNLP", 2024)
-
-    parser.parse_entry("../rawdata/sample/sample.bib")
+    parser.parse_acl_html("../rawdata/2024/ACL2024.html", "ACL", 2024)
+    parser.parse_acl_html("../rawdata/2024/NAACL2024.html", "NAACL", 2024)
+    parser.parse_acl_html("../rawdata/2024/EMNLP-findings2024.html", "EMNLP", 2024)
+    parser.parse_acl_html("../rawdata/2024/EMNLP-main2024.html", "EMNLP", 2024)
