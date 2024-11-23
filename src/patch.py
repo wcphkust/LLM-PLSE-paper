@@ -95,8 +95,14 @@ def get_flattened_labels(label_dict):
         flattened_labels.update(get_flattened_labels(label_dict[label]))
     return flattened_labels
 
+def capitalize_word(s):
+    if s.lower() in {"dbms", "llm", "ir", "pl"}:
+        return s.upper()
+    else:
+        return s.capitalize()
+
 def generate_readme_from_label(label, categories, label_to_papers, title_to_path, venue_to_path, level=1):
-    capitalized_label = ' '.join([word.capitalize() for word in label.split()])
+    capitalized_label = ' '.join([capitalize_word(word) for word in label.split()])
 
     content = f"{'#' * level} {capitalized_label}\n\n"
 

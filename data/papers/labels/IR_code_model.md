@@ -1,4 +1,4 @@
-# Ir Code Model
+# IR Code Model
 
 - [Fair: Flow type-aware pre-training of compiler intermediate representations](../venues/ICSE2024/paper_21.md), ([ICSE2024](../venues/ICSE2024/README.md))
 

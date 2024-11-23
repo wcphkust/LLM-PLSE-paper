@@ -1,4 +1,4 @@
-# Pl Design For Llms
+# PL Design For Llms
 
 - [Prompting Is Programming: A Query Language for Large Language Models](../venues/PLDI2023/paper_1.md), ([PLDI2023](../venues/PLDI2023/README.md))
 
