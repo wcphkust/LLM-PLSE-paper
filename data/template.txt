@@ -21,20 +21,29 @@ This repository provides a curated list of research papers focused on Large Lang
 
 We have systematically selected papers from the following venues, which are top-tier conferences and journals in SE/PL/Sec/NLP communities.
 
-- Software Engineering (SE): [ICSE2023](data/papers/venues/ICSE2023/README.md), [ICSE2024](data/papers/venues/ICSE2024/README.md), [FSE2023](data/papers/venues/FSE2023/README.md), [FSE2024](data/papers/venues/FSE2024/README.md), [ASE2023](data/papers/venues/ASE2023/README.md), [ASE2024](data/papers/venues/ASE2024/README.md), [ISSTA2023](data/papers/venues/ISSTA2023/README.md), [ISSTA2024](data/papers/venues/ISSTA2024/README.md), [TSE2023](data/papers/venues/TSE2023/README.md), [TSE2024](data/papers/venues/TSE2024/README.md), [TOSEM2023](data/papers/venues/TOSEM2023/README.md), [TOSEM2024](data/papers/venues/TOSEM2024/README.md)
+- Software Engineering (SE)
+  - [ICSE2023](data/papers/venues/ICSE2023/README.md), [FSE2023](data/papers/venues/FSE2023/README.md), [ASE2023](data/papers/venues/ASE2023/README.md), [ISSTA2023](data/papers/venues/ISSTA2023/README.md), [TSE2023](data/papers/venues/TSE2023/README.md), [TOSEM2023](data/papers/venues/TOSEM2023/README.md)
+  - [ICSE2024](data/papers/venues/ICSE2024/README.md), [FSE2024](data/papers/venues/FSE2024/README.md), [ASE2024](data/papers/venues/ASE2024/README.md), [ISSTA2024](data/papers/venues/ISSTA2024/README.md), [TSE2024](data/papers/venues/TSE2024/README.md), [TOSEM2024](data/papers/venues/TOSEM2024/README.md)
 
-- Programming Languages (PL): [PLDI2023](data/papers/venues/PLDI2023/README.md), [POPL2025](data/papers/venues/POPL2025/README.md), [OOPSLA2023](data/papers/venues/OOPSLA2023/README.md), [OOPSLA2024](data/papers/venues/OOPSLA2024/README.md)
+- Programming Languages (PL)
+  - [PLDI2023](data/papers/venues/PLDI2023/README.md), [OOPSLA2023](data/papers/venues/OOPSLA2023/README.md)
+  - [OOPSLA2024](data/papers/venues/OOPSLA2024/README.md)
+  - [POPL2025](data/papers/venues/POPL2025/README.md)
 
-- Security (Sec): [S&P2023](data/papers/venues/S&P2023/README.md), [S&P2024](data/papers/venues/S&P2024/README.md), [USENIXSec2023](data/papers/venues/USENIXSec2023/README.md), [USENIXSec2023](data/papers/venues/USENIXSec2023/README.md), [NDSS2023](data/papers/venues/NDSS2023/README.md), [NDSS2024](data/papers/venues/NDSS2024/README.md)
+- Security (Sec)
+  - [S&P2023](data/papers/venues/S&P2023/README.md), [USENIXSec2023](data/papers/venues/USENIXSec2023/README.md), [CCS2023](data/papers/venues/CCS2023/README.md), [NDSS2023](data/papers/venues/NDSS2023/README.md)
+  - [S&P2024](data/papers/venues/S&P2024/README.md), [NDSS2024](data/papers/venues/NDSS2024/README.md)
 
-- Natural Language Processing (NLP): [ACL2023](data/papers/venues/ACL2023/README.md), [ACL2024](data/papers/venues/ACL2024/README.md), [EMNLP2023](data/papers/venues/EMNLP2023/README.md), [EMNLP2024](data/papers/venues/EMNLP2024/README.md), [NAACL2023](data/papers/venues/NAACL2023/README.md), [NAACL2024](data/papers/venues/NAACL2024/README.md)
+- Natural Language Processing (NLP)
+  - [ACL2023](data/papers/venues/ACL2023/README.md), [EMNLP2023](data/papers/venues/EMNLP2023/README.md), [NAACL2023](data/papers/venues/NAACL2023/README.md)
+  - [ACL2024](data/papers/venues/ACL2024/README.md), [EMNLP2024](data/papers/venues/EMNLP2024/README.md), [NAACL2024](data/papers/venues/NAACL2024/README.md)
 
 The papers accepted by USENIXSec2024 and CCS2024 have not been published in the proceedings. Due to the large volume, we do not systematically collect the papers published in top-tier ML conferences (ICML, NeurIPS, and ICLR) and arXiv. However, we are keeping manually adding important works published in these venues. We plan to expand the collection over time, and contributions are welcome. For details, see the section [How to Contribute](#d-how-to-contribute).
 
 
 ## B. Selection Strategy
 
-1. **Abstract Extraction**: Extract the abstracts from bib files or HTML files. The bib and HTML files of the above listed venues are stored in the directory `data/rawdata`.
+1. **Abstract Extraction**: Extract the abstracts from bib files or HTML files. The bib and HTML files of the above listed venues are stored in the directory [`data/rawdata`](data/rawdata).
 
 2. **Keyword Matching**: Filter abstracts that meet both of the following conditions:
 
@@ -127,7 +136,7 @@ This category includes studies on benchmarks, empirical evaluations, and surveys
 
 We welcome contributions to expand this repository. If you want to add new papers to the list, please follow these steps:
 
-1. **Prepare a JSON File**: Format the file like `data/example.json`. Each paper should include:
+1. **Prepare a JSON File**: Format the file like [`data/labeldata/patch/example.json`](data/labeldata/patch/example.json). Each paper should include:
    - `title`, `authors`, `abstract`, `url`, `venue`, and `labels` (aligned with the taxonomy in [`data/labeldata/patch`](data/labeldata/patch)).
     
 2. **Upload the File**: Place the JSON file in the [`data/labeldata/patch`](data/labeldata/patch) directory.
@@ -135,7 +144,7 @@ We welcome contributions to expand this repository. If you want to add new paper
 3. **Update Markdown Files**: Run the following command to update the repository:
    
    ```bash
-   cd src && python patch.python
+   cd src && python patch.py
    ```
 
 If you want to add new labels and change the current taxonomy, please post an issue first and suggest your taxonomy (See below).
@@ -146,7 +155,7 @@ Another option is to post the papers you wish to add in an issue. Please include
 
 ### D.3. Request for Batch Updates
 
-To facilitate timely batch updates to the paper repository, we prefer to utilize the proceedings of various conferences and journals. Here are several examples: [ASE2024](https://dl.acm.org/doi/proceedings/10.1145/3691620), [OOPSLA2023](https://dl.acm.org/doi/proceedings/10.1145/3618305) [S&P2023](https://ieeexplore.ieee.org/xpl/conhome/10179215/proceeding), and [ACL2024](https://aclanthology.org/events/acl-2024/). By parsing and extracting information from bib files and HTML files (See [`data/rawdata`](data/rawdata/)), including abstracts, we can semi-automatically classify papers based on the aforementioned [selection strategy](#b-selection-strategy). If the conference or journal you are following has recently released its complete proceedings, please notify us by [submitting an issue](#d2-issue-submission). We will prioritize the batch update and add the corresponding conference or journal name to the [venue list](#a-venues).
+To facilitate timely batch updates to the paper repository, we prefer to utilize the proceedings of various conferences and journals. Here are several examples: [ASE2024](https://dl.acm.org/doi/proceedings/10.1145/3691620), [OOPSLA2023](https://dl.acm.org/doi/proceedings/10.1145/3618305), [S&P2023](https://ieeexplore.ieee.org/xpl/conhome/10179215/proceeding), and [ACL2024](https://aclanthology.org/events/acl-2024/). By parsing and extracting information from bib files and HTML files (See [`data/rawdata`](data/rawdata/)), including abstracts, we can semi-automatically classify papers based on the aforementioned [selection strategy](#b-selection-strategy). If the conference or journal you are following has recently released its complete proceedings, please notify us by [submitting an issue](#d2-issue-submission). We will prioritize the batch update and add the corresponding conference or journal name to the [venue list](#a-venues).
 
 ## E. Contact
 
