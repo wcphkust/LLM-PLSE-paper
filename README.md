@@ -125,7 +125,7 @@ This category concentrates on the LLMs' ability in understanding different forms
 
 ### C.3. Research Paradigm
 
-This category includes studies on benchmarks, empirical evaluations, and surveys.
+This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
 - [Benchmark](data/papers/labels/benchmark.md)   (41)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (76)
