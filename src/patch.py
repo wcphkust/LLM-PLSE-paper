@@ -77,13 +77,11 @@ def export_papers_to_readme(venue_dict, output_dir):
                 readme_item_str += f"- **Authors**: {paper['author']}\n"
                 readme_item_str += f"- **Abstract**: {paper['abstract'][:500]}...\n"
                 readme_item_str += f"- **Link**: [Read Paper]({paper['url']})\n"
-
-                readme_item_strs.append(readme_item_str)
                 
                 labels_with_links = []
                 for label in paper['labels']:
-                    labels_with_links.append(f"[{label}](../../labels/{label.replace(' ', '_')}.md)")
-                readme_file.write(f"- **Labels**: {', '.join(labels_with_links)}\n\n")
+                    readme_item_str += f"[{label}](../../labels/{label.replace(' ', '_')}.md)"
+                readme_item_strs.append(readme_item_str)
 
                 label_set = label_set.union(set(paper['labels']))
 
@@ -92,7 +90,7 @@ def export_papers_to_readme(venue_dict, output_dir):
 
             sorted_readme_item_strs = sorted(readme_item_strs)
             readme_file.write("\n\n".join(sorted_readme_item_strs))
-            
+
     return title_to_path, venue_to_path, label_set
 
 def get_flattened_labels(label_dict):
