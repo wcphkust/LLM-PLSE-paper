@@ -148,8 +148,8 @@ def generate_readme_from_label_for_paradigm(label, categories, label_to_papers, 
 
     for sub_label in sorted(list(sublabels)):
         capitalized_label = ' '.join([capitalize_word(word) for word in sub_label.split()])
-        single_content = ""
-        single_content += f"{'#' * (level + 1)} {capitalized_label}\n\n"
+        single_content = f"{'#' * (level + 1)} {sub_label}\n\n"
+        paper_strs = []
         for paper in label_to_papers[sub_label]:
             if label not in paper['labels']:
                 continue
@@ -159,8 +159,9 @@ def generate_readme_from_label_for_paradigm(label, categories, label_to_papers, 
             for label in paper['labels']:
                 labels_with_links.append(f"[{label}]({label.replace(' ', '_')}.md)")
             paper_str += f"  - **Labels**: {', '.join(labels_with_links)}\n"
-            single_content += paper_str
-            sub_label_items.append(single_content)
+            paper_strs.append(paper_str)
+        single_content += "\n".join(sorted(paper_strs))    
+        sub_label_items.append(single_content)
     content += "\n".join(sub_label_items)
     return content
 
