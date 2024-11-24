@@ -55,7 +55,7 @@ The papers accepted by USENIXSec2024 and CCS2024 have not been published in the 
 
 4. **Manual Labeling**: Manually assign labels to the papers based on domain knowledge.
 
-All the selected papers along with the labels are maintained in the json file [`data/labeldata/labeldata.json`](data/labeldata/labeldata.json).
+All the selected papers along with the labels are maintained in the json file [`data/labeldata/labeldata.json`](data/labeldata/labeldata.json). [`src/process.py`](src/process.py) is the python script used for selecting and labeling papers.
 
 ## C. Taxonomy
 
