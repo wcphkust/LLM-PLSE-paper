@@ -8,4 +8,4 @@ Large language models (large LMs) are increasingly trained on massive codebases 
 
 **Link**: [Read Paper](https://arxiv.org/abs/2302.05319)
 
-**Labels**: [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md), [attack](../../labels/attack.md)
+**Labels**: [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)

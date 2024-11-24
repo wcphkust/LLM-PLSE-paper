@@ -8,4 +8,4 @@ Large language models (LLMs) are increasingly being adopted in a wide range of r
 
 **Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.293)
 
-**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md)
+**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)

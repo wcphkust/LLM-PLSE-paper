@@ -209,7 +209,6 @@
         "labels": [
             "code model",
             "code model security",
-            "attack",
             "code generation",
             "code completion"
         ],
@@ -641,8 +640,7 @@
             "code generation",
             "benchmark",
             "code model",
-            "code model robustness",
-            "attack"
+            "code model robustness"
         ],
         "location": "Sacramento, CA, USA",
         "series": "ASE '24",
@@ -764,8 +762,7 @@
         "numpages": "13",
         "labels": [
             "static analysis",
-            "program verification",
-            "invariant generation"
+            "program verification"
         ],
         "location": "Sacramento, CA, USA",
         "series": "ASE '24",
@@ -974,9 +971,7 @@
         "numpages": "5",
         "labels": [
             "code model",
-            "code model security",
-            "attack",
-            "defense"
+            "code model security"
         ],
         "location": "Sacramento, CA, USA",
         "series": "ASE '24",
@@ -2336,8 +2331,7 @@
         "numpages": "38",
         "labels": [
             "code model",
-            "code model robustness",
-            "attack"
+            "code model robustness"
         ],
         "venue": "TOSEM2024"
     },
@@ -2688,8 +2682,7 @@
         "abstract": "Large language models (LLMs) are increasingly being adopted in a wide range of real-world applications. Despite their impressive performance, recent studies have shown that LLMs are vulnerable to deliberately crafted adversarial prompts even when aligned via Reinforcement Learning from Human Feedback or supervised fine-tuning. While existing defense methods focus on either detecting harmful prompts or reducing the likelihood of harmful responses through various means, defending LLMs against jailbreak attacks based on the inner mechanisms of LLMs remains largely unexplored. In this work, we investigate how LLMs respond to harmful prompts and propose a novel defense method termed Layer-specific Editing (LED) to enhance the resilience of LLMs against jailbreak attacks. Through LED, we reveal that several critical safety layers exist among the early layers of LLMs. We then show that realigning these safety layers (and some selected additional layers) with the decoded safe response from identified toxic layers can significantly improve the alignment of LLMs against jailbreak attacks. Extensive experiments across various LLMs (e.g., Llama2, Mistral) show the effectiveness of LED, which effectively defends against jailbreak attacks while maintaining performance on benign prompts. Our code is available at https://github.com/ledllm/ledllm.",
         "labels": [
             "code model",
-            "code model security",
-            "defense"
+            "code model security"
         ],
         "url": "https://aclanthology.org/2024.findings-emnlp.293",
         "doi": "",
@@ -2736,7 +2729,6 @@
         "labels": [
             "code model",
             "code model security",
-            "attack",
             "empirical study"
         ],
         "url": "https://aclanthology.org/2024.findings-emnlp.397",
@@ -2760,8 +2752,7 @@
             "code generation",
             "program synthesis",
             "code model",
-            "code model security",
-            "defense"
+            "code model security"
         ],
         "url": "https://aclanthology.org/2024.findings-emnlp.541",
         "doi": "",
@@ -4306,8 +4297,7 @@
         "numpages": "12",
         "labels": [
             "code model",
-            "code model security",
-            "defense"
+            "code model security"
         ],
         "location": "Vienna, Austria",
         "series": "ISSTA 2024",
@@ -4684,7 +4674,6 @@
         "labels": [
             "code model",
             "code model security",
-            "attack",
             "benchmark"
         ],
         "location": "Lisbon, Portugal",
@@ -5400,8 +5389,7 @@
             "code generation",
             "program synthesis",
             "code model",
-            "code model security",
-            "defense"
+            "code model security"
         ],
         "url": "https://doi.org/10.18653/v1/2024.acl-long.268",
         "doi": "",
@@ -6027,9 +6015,7 @@
             "code model",
             "code model training",
             "code model",
-            "code model robustness",
-            "attack",
-            "defense"
+            "code model robustness"
         ],
         "url": "https://arxiv.org/pdf/2405.01567"
     },
@@ -6045,8 +6031,7 @@
         "labels": [
             "code generation",
             "code model",
-            "code model security",
-            "defense"
+            "code model security"
         ],
         "url": "https://arxiv.org/pdf/2405.00218"
     },
@@ -6062,8 +6047,7 @@
         "labels": [
             "code generation",
             "code model",
-            "code model security",
-            "defense"
+            "code model security"
         ],
         "url": "https://arxiv.org/pdf/2405.00218"
     },
@@ -6080,9 +6064,7 @@
         "labels": [
             "code generation",
             "code model",
-            "code model security",
-            "defense",
-            "attack"
+            "code model security"
         ],
         "url": "https://arxiv.org/abs/2302.05319"
     },
@@ -7395,7 +7377,6 @@
         "labels": [
             "static analysis",
             "program verification",
-            "invariant generation",
             "prompt strategy",
             "sampling and ranking"
         ],
@@ -7412,8 +7393,7 @@
         "abstract": "    Loop invariants are fundamental to reasoning about programs with loops. They establish properties about a given loop's behavior. When they additionally are inductive, they become useful for the task of formal verification that seeks to establish strong mathematical guarantees about program's runtime behavior. The inductiveness ensures that the invariants can be checked locally without consulting the entire program, thus are indispensable artifacts in a formal proof of correctness. Finding inductive loop invariants is an undecidable problem, and despite a long history of research towards practical solutions, it remains far from a solved problem. This paper investigates the capabilities of the Large Language Models (LLMs) in offering a new solution towards this old, yet important problem. To that end, we first curate a dataset of verification problems on programs with loops. Next, we design a prompt for exploiting LLMs, obtaining inductive loop invariants, that are checked for correctness using sound symbolic tools. Finally, we explore the effectiveness of using an efficient combination of a symbolic tool and an LLM on our dataset and compare it against a purely symbolic baseline. Our results demonstrate that LLMs can help improve the state-of-the-art in automated program verification.",
         "labels": [
             "static analysis",
-            "program verification",
-            "invariant generation"
+            "program verification"
         ],
         "url": "https://arxiv.org/abs/2311.07948"
     },
@@ -8680,8 +8660,7 @@
             "code generation",
             "code completion",
             "code model",
-            "code model security",
-            "attack"
+            "code model security"
         ],
         "location": "Sacramento, CA, USA",
         "series": "ASE '24",
@@ -9184,8 +9163,7 @@
         "numpages": "3",
         "labels": [
             "code model",
-            "code model security",
-            "defense"
+            "code model security"
         ],
         "location": "Copenhagen, Denmark",
         "series": "CCS '23",
@@ -9210,7 +9188,6 @@
         "labels": [
             "code model",
             "code model security",
-            "attack",
             "code model",
             "code model training",
             "binary code model"
@@ -9566,7 +9543,6 @@
         "labels": [
             "code model",
             "code model security",
-            "attack",
             "empirical study"
         ],
         "location": "San Francisco, CA, USA",

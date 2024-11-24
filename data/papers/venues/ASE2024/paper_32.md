@@ -8,4 +8,4 @@ Modern large language models (LLMs), such as ChatGPT, have demonstrated impressi
 
 **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695297)
 
-**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md), [defense](../../labels/defense.md)
+**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)

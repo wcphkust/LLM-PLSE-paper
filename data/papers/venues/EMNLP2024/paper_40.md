@@ -8,4 +8,4 @@ Code generation models are not robust to small perturbations, which often lead t
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2405.01567)
 
-**Labels**: [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md), [attack](../../labels/attack.md), [defense](../../labels/defense.md)
+**Labels**: [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md)

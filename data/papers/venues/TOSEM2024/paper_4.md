@@ -8,4 +8,4 @@ Large Language Models (LLMs) have received much recent attention due to their hu
 
 **Link**: [Read Paper](https://doi.org/10.1145/3664812)
 
-**Labels**: [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md), [attack](../../labels/attack.md)
+**Labels**: [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md)

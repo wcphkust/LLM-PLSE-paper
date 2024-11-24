@@ -102,7 +102,7 @@
 - [RMCBench: Benchmarking Large Language Models' Resistance to Malicious Code](../venues/ASE2024/paper_18.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Warning: Please note that this article contains potential harmful or offensive content. This content is only for the evaluating and analysis of LLMs and does not imply any intention to promote criminal activities.The emergence of Large Language Models (LLMs) has significantly influenced various aspects of software development activities. Despite their benefits, LLMs also pose notable risks, including the potential to generate harmful content and being abused by malicious developers to create mal...
-  - **Labels**: [code generation](code_generation.md), [benchmark](benchmark.md), [code model](code_model.md), [code model robustness](code_model_robustness.md), [attack](attack.md)
+  - **Labels**: [code generation](code_generation.md), [benchmark](benchmark.md), [code model](code_model.md), [code model robustness](code_model_robustness.md)
 
 - [Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement](../venues/EMNLP2024/paper_8.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
@@ -134,7 +134,7 @@
 - [RMCBench: Benchmarking Large Language Models' Resistance to Malicious Code](../venues/ASE2024/paper_18.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Warning: Please note that this article contains potential harmful or offensive content. This content is only for the evaluating and analysis of LLMs and does not imply any intention to promote criminal activities.The emergence of Large Language Models (LLMs) has significantly influenced various aspects of software development activities. Despite their benefits, LLMs also pose notable risks, including the potential to generate harmful content and being abused by malicious developers to create mal...
-  - **Labels**: [code generation](code_generation.md), [benchmark](benchmark.md), [code model](code_model.md), [code model robustness](code_model_robustness.md), [attack](attack.md)
+  - **Labels**: [code generation](code_generation.md), [benchmark](benchmark.md), [code model](code_model.md), [code model robustness](code_model_robustness.md)
 
 - [Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement](../venues/EMNLP2024/paper_8.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
@@ -144,7 +144,7 @@
 - [Traces of Memorisation in Large Language Models for Code](../venues/ICSE2024/paper_8.md), ([ICSE2024](../venues/ICSE2024/README.md))
 
   - **Abstract**: Large language models have gained significant popularity because of their ability to generate human-like text and potential applications in various fields, such as Software Engineering. Large language models for code are commonly trained on large unsanitised corpora of source code scraped from the internet. The content of these datasets is memorised and can be extracted by attackers with data extraction attacks. In this work, we explore memorisation in large language models for code and compare ...
-  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [attack](attack.md), [benchmark](benchmark.md)
+  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [benchmark](benchmark.md)
 
 ## General Coding Task
 

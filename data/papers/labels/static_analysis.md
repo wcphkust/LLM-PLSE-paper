@@ -509,7 +509,7 @@
 - [Finding inductive loop invariants using large language models](../venues/arXiv2023/paper_10.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**:     Loop invariants are fundamental to reasoning about programs with loops. They establish properties about a given loop's behavior. When they additionally are inductive, they become useful for the task of formal verification that seeks to establish strong mathematical guarantees about program's runtime behavior. The inductiveness ensures that the invariants can be checked locally without consulting the entire program, thus are indispensable artifacts in a formal proof of correctness. Finding in...
-  - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [invariant generation](invariant_generation.md)
+  - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
 - [Hypothesis search: Inductive reasoning with language models](../venues/ICLR2024/paper_2.md), ([ICLR2024](../venues/ICLR2024/README.md))
@@ -527,7 +527,7 @@
 - [LLM-Generated Invariants for Bounded Model Checking Without Loop Unrolling](../venues/ASE2024/paper_23.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: We investigate a modification of the classical Bounded Model Checking (BMC) procedure that does not handle loops through unrolling but via modifications to the control flow graph (CFG). A portion of the CFG representing a loop is replaced by a node asserting invariants of the loop. We generate these invariants using Large Language Models (LLMs) and use a first-order theorem prover to ensure the correctness of the generated statements. We thus transform programs to loop-free variants in a sound m...
-  - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [invariant generation](invariant_generation.md)
+  - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
 - [Lemur: Integrating large language models in automated program verification](../venues/ICLR2024/paper_6.md), ([ICLR2024](../venues/ICLR2024/README.md))
@@ -539,7 +539,7 @@
 - [Ranking llm-generated loop invariants for program verification](../venues/EMNLP2023/paper_13.md), ([EMNLP2023](../venues/EMNLP2023/README.md))
 
   - **Abstract**: Synthesizing inductive loop invariants is fundamental to automating program verification. In this work, we observe that Large Language Models (such as gpt-3.5 or gpt-4) are capable of synthesizing loop invariants for a class of programs in a 0-shot setting, yet require several samples to generate the correct invariants. This can lead to a large number of calls to a program verifier to establish an invariant. To address this issue, we propose a {\it re-ranking} approach for the generated results ...
-  - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [invariant generation](invariant_generation.md), [prompt strategy](prompt_strategy.md), [sampling and ranking](sampling_and_ranking.md)
+  - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [prompt strategy](prompt_strategy.md), [sampling and ranking](sampling_and_ranking.md)
 
 
 - [Towards AI-Assisted Synthesis of Verified Dafny Methods](../venues/FSE2024/paper_23.md), ([FSE2024](../venues/FSE2024/README.md))

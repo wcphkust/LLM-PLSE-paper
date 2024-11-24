@@ -8,4 +8,4 @@ Deep Learning (DL) models are increasingly used in many cyber-security applicati
 
 **Link**: [Read Paper](https://www.usenix.org/system/files/usenixsecurity23-zhang-zhuo-pelican.pdf)
 
-**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md)
+**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md)

@@ -8,4 +8,4 @@
 
 **Link**: [Read Paper](https://arxiv.org/abs/2311.07948)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md), [invariant generation](../../labels/invariant_generation.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md)

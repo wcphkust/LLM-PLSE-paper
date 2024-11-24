@@ -8,4 +8,4 @@ Large Language Models (LLMs) have achieved remarkable progress in code generatio
 
 **Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.541)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md)
+**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)

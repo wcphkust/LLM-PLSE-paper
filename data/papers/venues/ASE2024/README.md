@@ -34,14 +34,14 @@ Number of papers: 45
 - **Authors**: Zhang, Chi and Wang, Zifan and Zhao, Ruoshi and Mangal, Ravi and Fredrikson, Matt and Jia, Limin and Pasareanu, Corina
 - **Abstract**: Modern large language models (LLMs), such as ChatGPT, have demonstrated impressive capabilities for coding tasks, including writing and reasoning about code. They improve upon previous neural network models of code, such as code2seq or seq2seq, that already demonstrated competitive results when performing tasks such as code summarization and identifying code vulnerabilities. However, these previous code models were shown vulnerable to adversarial examples, i.e., small syntactic perturbations des...
 - **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695297)
-- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md), [defense](../../labels/defense.md)
+- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)
 
 
 ## [Attribution-guided Adversarial Code Prompt Generation for Code Completion Models](paper_45.md)
 - **Authors**: Li, Xueyang and Meng, Guozhu and Liu, Shangqing and Xiang, Lu and Sun, Kun and Chen, Kai and Luo, Xiapu and Liu, Yang
 - **Abstract**: Large language models have made significant progress in code completion, which may further remodel future software development. However, these code completion models are found to be highly risky as they may introduce vulnerabilities unintentionally or be induced by a special input, i.e., adversarial code prompt. Prior studies mainly focus on the robustness of these models, but their security has not been fully analyzed.In this paper, we propose a novel approach AdvPro that can automatically gene...
 - **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695517)
-- **Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md)
+- **Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)
 
 
 ## [Automated Validation of COBOL to Java Transformation](paper_38.md)
@@ -188,7 +188,7 @@ Number of papers: 45
 - **Authors**: Pirzada, Muhammad A. A. and Reger, Giles and Bhayat, Ahmed and Cordeiro, Lucas C.
 - **Abstract**: We investigate a modification of the classical Bounded Model Checking (BMC) procedure that does not handle loops through unrolling but via modifications to the control flow graph (CFG). A portion of the CFG representing a loop is replaced by a node asserting invariants of the loop. We generate these invariants using Large Language Models (LLMs) and use a first-order theorem prover to ensure the correctness of the generated statements. We thus transform programs to loop-free variants in a sound m...
 - **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695512)
-- **Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md), [invariant generation](../../labels/invariant_generation.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md)
 
 
 ## [Leveraging Large Language Model to Assist Detecting Rust Code Comment Inconsistency](paper_5.md)
@@ -230,7 +230,7 @@ Number of papers: 45
 - **Authors**: Chen, Jiachi and Zhong, Qingyuan and Wang, Yanlin and Ning, Kaiwen and Liu, Yongkun and Xu, Zenan and Zhao, Zhe and Chen, Ting and Zheng, Zibin
 - **Abstract**: Warning: Please note that this article contains potential harmful or offensive content. This content is only for the evaluating and analysis of LLMs and does not imply any intention to promote criminal activities.The emergence of Large Language Models (LLMs) has significantly influenced various aspects of software development activities. Despite their benefits, LLMs also pose notable risks, including the potential to generate harmful content and being abused by malicious developers to create mal...
 - **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695480)
-- **Labels**: [code generation](../../labels/code_generation.md), [benchmark](../../labels/benchmark.md), [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md), [attack](../../labels/attack.md)
+- **Labels**: [code generation](../../labels/code_generation.md), [benchmark](../../labels/benchmark.md), [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md)
 
 
 ## [RepoSim: Evaluating Prompt Strategies for Code Completion via User Behavior Simulation](paper_33.md)

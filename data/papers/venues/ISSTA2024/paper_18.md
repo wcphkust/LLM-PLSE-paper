@@ -8,4 +8,4 @@ Large Language Models (LLMs) specialized in code have shown exceptional proficie
 
 **Link**: [Read Paper](https://doi.org/10.1145/3650212.3680371)
 
-**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md)
+**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)

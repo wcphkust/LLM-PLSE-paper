@@ -8,4 +8,4 @@ Code Large Language Models (Code LLMs) have been increasingly used by developers
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2405.00218)
 
-**Labels**: [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md)
+**Labels**: [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)

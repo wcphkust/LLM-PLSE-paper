@@ -8,4 +8,4 @@ We investigate a modification of the classical Bounded Model Checking (BMC) proc
 
 **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695512)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md), [invariant generation](../../labels/invariant_generation.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md)

@@ -13,7 +13,7 @@ Number of papers: 9
 - **Authors**: Feng, Xiaoning and Han, Xiaohong and Chen, Simin and Yang, Wei
 - **Abstract**: Large Language Models (LLMs) have received much recent attention due to their human-level accuracy. While existing works mostly focus on either improving accuracy or testing accuracy robustness, the computation efficiency of LLMs, which is of paramount importance due to often vast generation demands and real-time requirements, has surprisingly received little attention. In this article, we make the first attempt to understand and test potential computation efficiency robustness in state-of-the-a...
 - **Link**: [Read Paper](https://doi.org/10.1145/3664812)
-- **Labels**: [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md), [attack](../../labels/attack.md)
+- **Labels**: [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md)
 
 
 ## [Revealing the Unseen: AI Chain on LLMs for Predicting Implicit Dataflows to Generate Dataflow Graphs in Dynamically Typed Code](paper_3.md)

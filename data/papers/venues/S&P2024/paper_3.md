@@ -8,4 +8,4 @@ With tools like GitHub Copilot, automatic code suggestion is no longer a dream i
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2301.02344)
 
-**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md), [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md)
+**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md)

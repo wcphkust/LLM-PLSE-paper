@@ -13,7 +13,7 @@ Number of papers: 40
 - **Authors**: Cheng, Jiale and Lu, Yida and Gu, Xiaotao and Ke, Pei and Liu, Xiao and Dong, Yuxiao and Wang, Hongning and Tang, Jie and Huang, Minlie
 - **Abstract**: Although Large Language Models (LLMs) are becoming increasingly powerful, they still exhibit significant but subtle weaknesses, such as mistakes in instruction-following or coding tasks.As these unexpected errors could lead to severe consequences in practical deployments, it is crucial to investigate the limitations within LLMs systematically.Traditional benchmarking approaches cannot thoroughly pinpoint specific model deficiencies, while manual inspections are costly and not scalable. In this p...
 - **Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.397)
-- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md), [empirical study](../../labels/empirical_study.md)
+- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [empirical study](../../labels/empirical_study.md)
 
 
 ## [Can LLMs Reason in the Wild with Programs?](paper_12.md)
@@ -48,14 +48,14 @@ Number of papers: 40
 - **Authors**: Zhang, Yuhao and Wang, Shiqi and Qian, Haifeng and Wang, Zijian and Shang, Mingyue and Liu, Linbo and Gouda, Sanjay Krishna and Ray, Baishakhi and Ramanathan, Murali Krishna and Ma, Xiaofei and others
 - **Abstract**: Code generation models are not robust to small perturbations, which often lead to inconsistent and incorrect generations and significantly degrade the performance of these models. Improving the robustness of code generation models is crucial to better user experience when these models are deployed in real-world applications. However, existing efforts have not addressed this issue for code generation models. To fill this gap, we propose CodeFort, a framework to improve the robustness of code gene...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2405.01567)
-- **Labels**: [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md), [attack](../../labels/attack.md), [defense](../../labels/defense.md)
+- **Labels**: [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md)
 
 
 ## [CodeIP: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code](paper_10.md)
 - **Authors**: Guan, Batu and Wan, Yao and Bi, Zhangqian and Wang, Zheng and Zhang, Hongyu and Zhou, Pan and Sun, Lichao
 - **Abstract**: Large Language Models (LLMs) have achieved remarkable progress in code generation. It now becomes crucial to identify whether the code is AI-generated and to determine the specific model used, particularly for purposes such as protecting Intellectual Property (IP) in industry and preventing cheating in programming exercises. To this end, several attempts have been made to insert watermarks into machine-generated code. However, existing approaches are limited to inserting only a single bit of inf...
 - **Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.541)
-- **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md)
+- **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)
 
 
 ## [CodeJudge: Evaluating Code Generation with Large Language Models](paper_36.md)
@@ -83,7 +83,7 @@ Number of papers: 40
 - **Authors**: Zhao, Wei and Li, Zhe and Li, Yige and Zhang, Ye and Sun, Jun
 - **Abstract**: Large language models (LLMs) are increasingly being adopted in a wide range of real-world applications. Despite their impressive performance, recent studies have shown that LLMs are vulnerable to deliberately crafted adversarial prompts even when aligned via Reinforcement Learning from Human Feedback or supervised fine-tuning. While existing defense methods focus on either detecting harmful prompts or reducing the likelihood of harmful responses through various means, defending LLMs against jail...
 - **Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.293)
-- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md)
+- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)
 
 
 ## [DocCGen: Document-based Controlled Code Generation](paper_34.md)

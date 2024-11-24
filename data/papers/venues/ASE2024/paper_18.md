@@ -8,4 +8,4 @@ Warning: Please note that this article contains potential harmful or offensive c
 
 **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695480)
 
-**Labels**: [code generation](../../labels/code_generation.md), [benchmark](../../labels/benchmark.md), [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md), [attack](../../labels/attack.md)
+**Labels**: [code generation](../../labels/code_generation.md), [benchmark](../../labels/benchmark.md), [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md)

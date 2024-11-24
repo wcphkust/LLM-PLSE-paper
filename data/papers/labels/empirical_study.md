@@ -184,7 +184,7 @@
 - [An Extensive Study on Adversarial Attack against Pre-trained Models of Code](../venues/FSE2023/paper_11.md), ([FSE2023](../venues/FSE2023/README.md))
 
   - **Abstract**: Transformer-based pre-trained models of code (PTMC) have been widely utilized and have achieved state-of-the-art performance in many mission-critical applications. However, they can be vulnerable to adversarial attacks through identifier substitution or coding style transformation, which can significantly degrade accuracy and may further incur security concerns. Although several approaches have been proposed to generate adversarial examples for PTMC, the effectiveness and efficiency of such appr...
-  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [attack](attack.md), [empirical study](empirical_study.md)
+  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [empirical study](empirical_study.md)
 
 - [An investigation into misuse of java security apis by large language models](../venues/ASIACCS2024/paper_1.md), ([ASIACCS2024](../venues/ASIACCS2024/README.md))
 
@@ -194,7 +194,7 @@
 - [AutoDetect: Towards a Unified Framework for Automated Weakness Detection in Large Language Models](../venues/EMNLP2024/paper_9.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Although Large Language Models (LLMs) are becoming increasingly powerful, they still exhibit significant but subtle weaknesses, such as mistakes in instruction-following or coding tasks.As these unexpected errors could lead to severe consequences in practical deployments, it is crucial to investigate the limitations within LLMs systematically.Traditional benchmarking approaches cannot thoroughly pinpoint specific model deficiencies, while manual inspections are costly and not scalable. In this p...
-  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [attack](attack.md), [empirical study](empirical_study.md)
+  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [empirical study](empirical_study.md)
 
 - [Automating Code-Related Tasks Through Transformers: The Impact of Pre-Training](../venues/ICSE2023/paper_9.md), ([ICSE2023](../venues/ICSE2023/README.md))
 

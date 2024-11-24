@@ -62,7 +62,7 @@ Number of papers: 28
 - **Authors**: Li, Dong and Yan, Meng and Zhang, Yaosheng and Liu, Zhongxin and Liu, Chao and Zhang, Xiaohong and Chen, Ting and Lo, David
 - **Abstract**: Large Language Models (LLMs) specialized in code have shown exceptional proficiency across various programming-related tasks, particularly code generation. Nonetheless, due to its nature of pretraining on massive uncritically filtered data, prior studies have shown that code LLMs are prone to generate code with potential vulnerabilities. Existing approaches to mitigate this risk involve crafting data without vulnerability and subsequently retraining or fine-tuning the model. As the number of par...
 - **Link**: [Read Paper](https://doi.org/10.1145/3650212.3680371)
-- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md)
+- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)
 
 
 ## [CoderUJB: An Executable and Unified Java Benchmark for Practical Programming Scenarios](paper_3.md)

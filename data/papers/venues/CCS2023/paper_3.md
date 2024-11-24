@@ -8,4 +8,4 @@ Vision Transformer (ViT) shows superior performance on various tasks, but, simil
 
 **Link**: [Read Paper](https://doi.org/10.1145/3576915.3624370)
 
-**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md)
+**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)

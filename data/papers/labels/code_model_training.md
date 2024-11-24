@@ -465,7 +465,7 @@
 - [PELICAN: exploiting backdoors of naturally trained deep learning models in binary code analysis](../venues/USENIXSec2023/paper_3.md), ([USENIXSec2023](../venues/USENIXSec2023/README.md))
 
   - **Abstract**: Deep Learning (DL) models are increasingly used in many cyber-security applications and achieve superior performance compared to traditional solutions. In this paper, we study backdoor vulnerabilities in naturally trained models used in binary analysis. These backdoors are not injected by attackers but rather products of defects in datasets and/or training processes. The attacker can exploit these vulnerabilities by injecting some small fixed input pattern (e.g., an instruction) called backdoor ...
-  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [attack](attack.md), [code model](code_model.md), [code model training](code_model_training.md), [binary code model](binary_code_model.md)
+  - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [code model](code_model.md), [code model training](code_model_training.md), [binary code model](binary_code_model.md)
 
 
 - [RCFG2Vec: Considering Long-Distance Dependency for Binary Code Similarity Detection](../venues/ASE2024/paper_43.md), ([ASE2024](../venues/ASE2024/README.md))

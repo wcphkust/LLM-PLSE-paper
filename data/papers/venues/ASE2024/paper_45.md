@@ -8,4 +8,4 @@ Large language models have made significant progress in code completion, which m
 
 **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695517)
 
-**Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md)
+**Labels**: [code generation](../../labels/code_generation.md), [code completion](../../labels/code_completion.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)

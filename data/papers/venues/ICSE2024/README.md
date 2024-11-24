@@ -181,7 +181,7 @@ Number of papers: 32
 - **Authors**: Al-Kaswan, Ali and Izadi, Maliheh and van Deursen, Arie
 - **Abstract**: Large language models have gained significant popularity because of their ability to generate human-like text and potential applications in various fields, such as Software Engineering. Large language models for code are commonly trained on large unsanitised corpora of source code scraped from the internet. The content of these datasets is memorised and can be extracted by attackers with data extraction attacks. In this work, we explore memorisation in large language models for code and compare ...
 - **Link**: [Read Paper](https://doi.org/10.1145/3597503.3639133)
-- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md), [benchmark](../../labels/benchmark.md)
+- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [benchmark](../../labels/benchmark.md)
 
 
 ## [UniLog: Automatic Logging via LLM and In-Context Learning](paper_1.md)

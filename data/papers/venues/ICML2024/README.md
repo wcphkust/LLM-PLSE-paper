@@ -6,7 +6,7 @@ Number of papers: 3
 - **Authors**: He, Jingxuan and Vero, Mark and Krasnopolska, Gabriela and Vechev, Martin
 - **Abstract**: Modern language models (LMs) have gained widespread acceptance in everyday and professional contexts, particularly in programming. An essential procedure enabling this adoption is instruction tuning, which substantially enhances LMs' practical utility by training them to follow user instructions and human preferences. However, existing instruction tuning schemes overlook a crucial aspect: the security of generated code. As a result, even the state-of-the-art instruction-tuned LMs frequently prod...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2405.00218)
-- **Labels**: [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md)
+- **Labels**: [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)
 
 
 ## [Magicoder: Empowering Code Generation with OSS-Instruct](paper_2.md)

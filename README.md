@@ -1,4 +1,4 @@
-# CodeLLM Research
+# CodeLLM Paper
 
 This repository provides a curated list of research papers focused on Large Language Models (LLMs) for code. It aims to facilitate researchers and practitioners in exploring the rapidly growing body of literature on this topic. The papers are systematically collected from various top-tier venues, categorized, and labeled for easier navigation.
 

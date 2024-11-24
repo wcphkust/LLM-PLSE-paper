@@ -8,4 +8,4 @@ Since the remarkable generation performance of large language models raised ethi
 
 **Link**: [Read Paper](https://doi.org/10.18653/v1/2024.acl-long.268)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md)
+**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)

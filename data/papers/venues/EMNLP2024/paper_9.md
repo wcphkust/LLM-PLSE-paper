@@ -8,4 +8,4 @@ Although Large Language Models (LLMs) are becoming increasingly powerful, they s
 
 **Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.397)
 
-**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md), [empirical study](../../labels/empirical_study.md)
+**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [empirical study](../../labels/empirical_study.md)

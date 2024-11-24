@@ -6,7 +6,7 @@ Number of papers: 13
 - **Authors**: Du, Xiaohu and Wen, Ming and Wei, Zichao and Wang, Shangwen and Jin, Hai
 - **Abstract**: Transformer-based pre-trained models of code (PTMC) have been widely utilized and have achieved state-of-the-art performance in many mission-critical applications. However, they can be vulnerable to adversarial attacks through identifier substitution or coding style transformation, which can significantly degrade accuracy and may further incur security concerns. Although several approaches have been proposed to generate adversarial examples for PTMC, the effectiveness and efficiency of such appr...
 - **Link**: [Read Paper](https://doi.org/10.1145/3611643.3616356)
-- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md), [empirical study](../../labels/empirical_study.md)
+- **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [empirical study](../../labels/empirical_study.md)
 
 
 ## [Assisting Static Analysis with Large Language Models: A ChatGPT Experiment](paper_6.md)

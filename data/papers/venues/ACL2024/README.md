@@ -146,7 +146,7 @@ Number of papers: 22
 - **Authors**: Lee, Taehyun and Hong, Seokhee and Ahn, Jaewoo and Hong, Ilgee and Lee, Hwaran and Yun, Sangdoo and Shin, Jamin and Kim, Gunhee
 - **Abstract**: Since the remarkable generation performance of large language models raised ethical and legal concerns, approaches to detect machine-generated text by embedding watermarks are being developed.However, we discover that the existing works fail to function appropriately in code generation tasks due to the task’s nature of having low entropy.Extending a logit-modifying watermark method, we propose Selective WatErmarking via Entropy Thresholding (SWEET), which enhances detection ability and mitigates...
 - **Link**: [Read Paper](https://doi.org/10.18653/v1/2024.acl-long.268)
-- **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [defense](../../labels/defense.md)
+- **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)
 
 
 ## [XCodeEval: An Execution-based Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval](paper_20.md)

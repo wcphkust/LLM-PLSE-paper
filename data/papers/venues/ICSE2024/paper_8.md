@@ -8,4 +8,4 @@ Large language models have gained significant popularity because of their abilit
 
 **Link**: [Read Paper](https://doi.org/10.1145/3597503.3639133)
 
-**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md), [benchmark](../../labels/benchmark.md)
+**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [benchmark](../../labels/benchmark.md)

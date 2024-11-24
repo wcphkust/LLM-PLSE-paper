@@ -8,4 +8,4 @@ Synthesizing inductive loop invariants is fundamental to automating program veri
 
 **Link**: [Read Paper](https://aclanthology.org/2023.findings-emnlp.614.pdf)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md), [invariant generation](../../labels/invariant_generation.md), [prompt strategy](../../labels/prompt_strategy.md), [sampling and ranking](../../labels/sampling_and_ranking.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md), [prompt strategy](../../labels/prompt_strategy.md), [sampling and ranking](../../labels/sampling_and_ranking.md)

@@ -8,4 +8,4 @@ Transformer-based pre-trained models of code (PTMC) have been widely utilized an
 
 **Link**: [Read Paper](https://doi.org/10.1145/3611643.3616356)
 
-**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [attack](../../labels/attack.md), [empirical study](../../labels/empirical_study.md)
+**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [empirical study](../../labels/empirical_study.md)
