@@ -203,7 +203,6 @@ def classify_papers_by_label(venue_dict, title_to_path, venue_to_path):
         os.makedirs(output_directory)
 
     for label in labels:
-
         if label in {"benchmark", "survey", "empirical study"}:
             readme_content = generate_readme_from_label_for_paradigm(label, label_category, label_paper_dict, title_to_path, venue_to_path)
         else:

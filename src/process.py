@@ -220,6 +220,7 @@ class Classifier:
             return answer
         
         related_papers = {}
+        cnt = 0
 
         for title in matching_dict:
             paper = matching_dict[title]
@@ -229,11 +230,60 @@ class Classifier:
             answer = parse_output(output)
             if answer == "YES":
                 related_papers[title] = paper
+            cnt += 1
+            if cnt > 10:
+                break
         return related_papers
         
     
-    def label_with_llms(self):
-        return
+    def label_with_llms(self, related_papers):
+        def get_prompt(title, abstract, category_dict_str):
+            prompt_template = """
+            Please generate the labels for a given paper according to its title and abstract.
+            Here are the hierarchical labels:
+            {category_dict_str}
+            Here are the title and abstract of the paper:
+            [Title]: {title}
+            [Abstract]: {abstract}
+            When you choose the labels, you should also select all the labels that are parent of the labels you choose.
+            Please think step by step and provide a clear explanation before concluding YES or NO.
+            The output format is as follows:
+            [Explanation]: Your explanation here.
+            [Answer]: label1, label2, label3, ...
+            """
+            return prompt_template.format(title=title, abstract=abstract, category_dict_str=category_dict_str)
+        
+        def parse_output(output):
+            print(output)
+            labels = output.split("[Answer]: ")[1].split(", ")
+            return labels
+        
+        labeled_related_papers = {}
+
+        with open("../data/category.json", "r") as file:
+            lines = file.readlines()
+        category_dict_str = "".join(lines)
+
+        cnt = 0
+
+        for title in related_papers:
+            paper = related_papers[title]
+            title = paper.get('title', '')
+            abstract = paper.get('abstract', '')
+            prompt = get_prompt(title, abstract, category_dict_str)
+            output = Classifier.get_openai_response(prompt)
+            answer = parse_output(output)
+            paper['labels'] = answer
+            labeled_related_papers[title] = paper
+            cnt += 1
+            if cnt > 10:
+                break
+
+        with open("labeled_related_papers.json", "w") as file:
+            json.dump(labeled_related_papers, file, indent=4)
+
+        print("Labeled papers are saved in labeled_related_papers.json")
+        return related_papers
 
 
     def classify(self):
@@ -242,10 +292,8 @@ class Classifier:
         
         related_papers = classifier.relevance_check(matching_dict)
         print(len(related_papers))
-        
-        # dump related papers to json
-        with open("related_papers.json", "w") as file:
-            json.dump(related_papers, file, indent=4)
+
+        classifier.label_with_llms(related_papers)
 
 
 
