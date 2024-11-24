@@ -220,7 +220,6 @@ class Classifier:
             return answer
         
         related_papers = {}
-        cnt = 0
 
         for title in matching_dict:
             paper = matching_dict[title]
@@ -230,9 +229,6 @@ class Classifier:
             answer = parse_output(output)
             if answer == "YES":
                 related_papers[title] = paper
-            cnt += 1
-            if cnt > 10:
-                break
         return related_papers
         
     
@@ -264,8 +260,6 @@ class Classifier:
             lines = file.readlines()
         category_dict_str = "".join(lines)
 
-        cnt = 0
-
         for title in related_papers:
             paper = related_papers[title]
             title = paper.get('title', '')
@@ -275,9 +269,6 @@ class Classifier:
             answer = parse_output(output)
             paper['labels'] = answer
             labeled_related_papers[title] = paper
-            cnt += 1
-            if cnt > 10:
-                break
 
         with open("labeled_related_papers.json", "w") as file:
             json.dump(labeled_related_papers, file, indent=4)
