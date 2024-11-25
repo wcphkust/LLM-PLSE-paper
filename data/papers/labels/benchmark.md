@@ -44,6 +44,11 @@
   - **Abstract**: This paper presents Coffee-Gym, a comprehensive RL environment for training models that provide feedback on code editing. Coffee-Gym includes two major components: (1) Coffee, a dataset containing humans’ code edit traces for coding questions and human-written feedback for editing erroneous code; (2) CoffeeEval, a reward function that faithfully reflects the helpfulness of feedback by assessing the performance of the revised code in unit tests. With them, Coffee-Gym addresses the unavailability ...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [benchmark](benchmark.md)
 
+- [CompilerGym: robust, performant compiler optimization environments for AI research](../venues/CGO2022/paper_1.md), ([CGO2022](../venues/CGO2022/README.md))
+
+  - **Abstract**: Interest in applying Artificial Intelligence (AI) techniques to compiler optimizations is increasing rapidly, but compiler research has a high entry barrier. Unlike in other domains, compiler and AI researchers do not have access to the datasets and frameworks that enable fast iteration and development of ideas, and getting started requires a significant engineering investment. What is needed is an easy, reusable experimental infrastructure for real world compiler optimization tasks that can ser...
+  - **Labels**: [code generation](code_generation.md), [compiler optimization](compiler_optimization.md), [benchmark](benchmark.md)
+
 - [DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models](../venues/EMNLP2024/paper_29.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: We introduce DA-Code, a code generation benchmark specifically designed to assess LLMs on agent-based data science tasks. This benchmark features three core elements: First, the tasks within DA-Code are inherently challenging, setting them apart from traditional code generation tasks and demanding advanced coding skills in grounding and planning. Second, examples in DA-Code are all based on real and diverse data, covering a wide range of complex data wrangling and analytics tasks. Third, to solv...
@@ -202,7 +207,7 @@
   - **Abstract**: We propose and release a new vulnerable source code dataset. We curate the dataset by crawling security issue websites, extracting vulnerability-fixing commits and source codes from the corresponding projects. Our new dataset contains 18,945 vulnerable functions spanning 150 CWEs and 330,492 non-vulnerable functions extracted from 7,514 commits. Our dataset covers 295 more projects than all previous datasets combined.Combining our new dataset with previous datasets, we present an analysis of the...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [benchmark](benchmark.md)
 
-- [How Far Have We Gone in Vulnerability Detection Using Large Language Models](../venues/arXiv2023/paper_3.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [How Far Have We Gone in Vulnerability Detection Using Large Language Models](../venues/arXiv2023/paper_5.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: As software becomes increasingly complex and prone to vulnerabilities, automated vulnerability detection is critically important, yet challenging. Given the significant successes of large language models (LLMs) in various tasks, there is growing anticipation of their efficacy in vulnerability detection. However, a quantitative understanding of their potential in vulnerability detection is still missing. To bridge this gap, we introduce a comprehensive vulnerability benchmark VulBench. This bench...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [benchmark](benchmark.md)

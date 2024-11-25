@@ -66,12 +66,12 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (31)
-- [Code Generation](data/papers/labels/code_generation.md)   (190)
+- [Code Generation](data/papers/labels/code_generation.md)   (194)
   - [Program Synthesis](data/papers/labels/program_synthesis.md)   (80)
   - [Code Completion](data/papers/labels/code_completion.md)   (22)
   - [Program Repair](data/papers/labels/program_repair.md)   (38)
   - [Program Transformation](data/papers/labels/program_transformation.md)   (26)
-  - [Program Decompilation](data/papers/labels/program_decompilation.md)   (5)
+  - [Program Decompilation](data/papers/labels/program_decompilation.md)   (8)
 - [Program Testing](data/papers/labels/program_testing.md)   (48)
   - [Fuzzing](data/papers/labels/fuzzing.md)   (19)
   - [Library Testing](data/papers/labels/library_testing.md)   (1)
@@ -84,16 +84,16 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (9)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (6)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (109)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (110)
   - [Fundamental Analysis](data/papers/labels/fundamental_analysis.md)   (12)
   - [Specification Inference](data/papers/labels/specification_inference.md)   (7)
   - [Bug Detection](data/papers/labels/bug_detection.md)   (58)
   - [Program Verification](data/papers/labels/program_verification.md)   (15)
   - [Code Search](data/papers/labels/code_search.md)   (5)
-  - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (4)
+  - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (5)
   - [Software Composition Analysis](data/papers/labels/software_composition_analysis.md)   (3)
   - [Code Summarization](data/papers/labels/code_summarization.md)   (8)
-  - [Compiler Optimization](data/papers/labels/compiler_optimization.md)   (2)
+  - [Compiler Optimization](data/papers/labels/compiler_optimization.md)   (3)
   - [Type Inference](data/papers/labels/type_inference.md)   (3)
 - [Software Maintenance and Deployment](data/papers/labels/software_maintenance_and_deployment.md)   (18)
   - [Code Review](data/papers/labels/code_review.md)   (6)
@@ -107,11 +107,11 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
 
 This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
 
-- [Code Model](data/papers/labels/code_model.md)   (103)
-  - [Code Model Training](data/papers/labels/code_model_training.md)   (82)
+- [Code Model](data/papers/labels/code_model.md)   (104)
+  - [Code Model Training](data/papers/labels/code_model_training.md)   (83)
     - [Source Code Model](data/papers/labels/source_code_model.md)   (64)
     - [IR Code Model](data/papers/labels/IR_code_model.md)   (5)
-    - [Binary Code Model](data/papers/labels/binary_code_model.md)   (13)
+    - [Binary Code Model](data/papers/labels/binary_code_model.md)   (14)
   - [Code Model Security](data/papers/labels/code_model_security.md)   (17)
   - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (4)
 - [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (11)
@@ -127,7 +127,7 @@ This category concentrates on the LLMs' ability in understanding different forms
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (41)
+- [Benchmark](data/papers/labels/benchmark.md)   (42)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (76)
 - [Survey](data/papers/labels/survey.md)   (15)
 

@@ -100,7 +100,7 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [Impact of large language models on generating software specifications](../venues/arXiv2023/paper_11.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Impact of large language models on generating software specifications](../venues/arXiv2023/paper_13.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: Software specifications are essential for ensuring the reliability of software systems. Existing specification extraction approaches, however, suffer from limited generalizability and require manual efforts. The recent emergence of Large Language Models (LLMs), which have been successfully applied to numerous software engineering tasks, offers a promising avenue for automating this process. In this paper, we conduct the first empirical study to evaluate the capabilities of LLMs for generating so...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
@@ -180,13 +180,13 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [benchmark](benchmark.md)
 
 
-- [Do Language Models Learn Semantics of Code? {A} Case Study in Vulnerability Detection](../venues/arXiv2023/paper_5.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Do Language Models Learn Semantics of Code? {A} Case Study in Vulnerability Detection](../venues/arXiv2023/paper_7.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: Recently, pretrained language models have shown state-of-the-art performance on the vulnerability detection task. These models are pretrained on a large corpus of source code, then fine-tuned on a smaller supervised vulnerability dataset. Due to the different training objectives and the performance of the models, it is interesting to consider whether the models have learned the semantics of code relevant to vulnerability detection, namely bug semantics, and if so, how the alignment to bug semant...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
-- [Do you still need a manual smart contract audit?](../venues/arXiv2023/paper_8.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Do you still need a manual smart contract audit?](../venues/arXiv2023/paper_10.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: We investigate the feasibility of employing large language models (LLMs) for conducting the security audit of smart contracts, a traditionally time-consuming and costly process. Our research focuses on the optimization of prompt engineering for enhanced security analysis, and we evaluate the performance and accuracy of LLMs using a benchmark dataset comprising 52 Decentralized Finance (DeFi) smart contracts that have previously been compromised.     Our findings reveal that, when applied to vuln...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -234,13 +234,13 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Harnessing the power of llm to support binary taint analysis](../venues/arXiv2023/paper_7.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Harnessing the power of llm to support binary taint analysis](../venues/arXiv2023/paper_9.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: This paper proposes LATTE, the first static binary taint analysis that is powered by a large language model (LLM). LATTE is superior to the state of the art (e.g., Emtaint, Arbiter, Karonte) in three aspects. First, LATTE is fully automated while prior static binary taint analyzers need rely on human expertise to manually customize taint propagation rules and vulnerability inspection rules. Second, LATTE is significantly effective in vulnerability detection, demonstrated by our comprehensive eva...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [How Far Have We Gone in Vulnerability Detection Using Large Language Models](../venues/arXiv2023/paper_3.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [How Far Have We Gone in Vulnerability Detection Using Large Language Models](../venues/arXiv2023/paper_5.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: As software becomes increasingly complex and prone to vulnerabilities, automated vulnerability detection is critically important, yet challenging. Given the significant successes of large language models (LLMs) in various tasks, there is growing anticipation of their efficacy in vulnerability detection. However, a quantitative understanding of their potential in vulnerability detection is still missing. To bridge this gap, we introduce a comprehensive vulnerability benchmark VulBench. This bench...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [benchmark](benchmark.md)
@@ -294,7 +294,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
-- [Large language model-powered smart contract vulnerability detection: New perspectives](../venues/arXiv2023/paper_9.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Large language model-powered smart contract vulnerability detection: New perspectives](../venues/arXiv2023/paper_11.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: This paper provides a systematic analysis of the opportunities, challenges, and potential solutions of harnessing Large Language Models (LLMs) such as GPT-4 to dig out vulnerabilities within smart contracts based on our ongoing research. For the task of smart contract vulnerability detection, achieving practical usability hinges on identifying as many true vulnerabilities as possible while minimizing the number of false positives. Nonetheless, our empirical study reveals contradictory yet intere...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -354,7 +354,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [SkipAnalyzer: An Embodied Agent for Code Analysis with Large Language Models](../venues/arXiv2023/paper_6.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [SkipAnalyzer: An Embodied Agent for Code Analysis with Large Language Models](../venues/arXiv2023/paper_8.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: We introduce SkipAnalyzer, a large language model (LLM)-powered tool for static code analysis. SkipAnalyzer has three components: 1) an LLM-based static bug detector that scans source code and reports specific types of bugs, 2) an LLM-based false-positive filter that can identify false-positive bugs in the results of static bug detectors (e.g., the result of step 1) to improve detection accuracy, and 3) an LLM-based patch generator that can generate patches for the detected bugs above. As a proo...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [agent design](agent_design.md)
@@ -402,7 +402,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Understanding the Effectiveness of Large Language Models in Detecting Security Vulnerabilities](../venues/arXiv2023/paper_4.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Understanding the Effectiveness of Large Language Models in Detecting Security Vulnerabilities](../venues/arXiv2023/paper_6.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: While automated vulnerability detection techniques have made promising progress in detecting security vulnerabilities, their scalability and applicability remain challenging. The remarkable performance of Large Language Models (LLMs), such as GPT-4 and CodeLlama, on code-related tasks has prompted recent works to explore if LLMs can be used to detect vulnerabilities. In this paper, we perform a more comprehensive study by concurrently examining a higher number of datasets, languages and LLMs, an...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
@@ -506,7 +506,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [specification inference](specification_inference.md)
 
 
-- [Finding inductive loop invariants using large language models](../venues/arXiv2023/paper_10.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Finding inductive loop invariants using large language models](../venues/arXiv2023/paper_12.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**:     Loop invariants are fundamental to reasoning about programs with loops. They establish properties about a given loop's behavior. When they additionally are inductive, they become useful for the task of formal verification that seeks to establish strong mathematical guarantees about program's runtime behavior. The inductiveness ensures that the invariants can be checked locally without consulting the entire program, thus are indispensable artifacts in a formal proof of correctness. Finding in...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
@@ -612,6 +612,12 @@
   - **Labels**: [code model](code_model.md), [code model training](code_model_training.md), [binary code model](binary_code_model.md), [static analysis](static_analysis.md), [code similarity analysis](code_similarity_analysis.md)
 
 
+- [Nova: Generative Language Models for Assembly Code with Hierarchical Attention and Contrastive Learning](../venues/arXiv2023/paper_3.md), ([arXiv2023](../venues/arXiv2023/README.md))
+
+  - **Abstract**: Binary code analysis is the foundation of crucial tasks in the security domain; thus building effective binary analysis techniques is more important than ever. Large language models (LLMs) although have brought impressive improvement to source code tasks, do not directly generalize to assembly code due to the unique challenges of assembly: (1) the low information density of assembly and (2) the diverse optimizations in assembly code. To overcome these challenges, this work proposes a hierarchica...
+  - **Labels**: [code generation](code_generation.md), [program decompilation](program_decompilation.md), [static analysis](static_analysis.md), [code similarity analysis](code_similarity_analysis.md), [code model](code_model.md), [code model training](code_model_training.md), [binary code model](binary_code_model.md)
+
+
 - [RCFG2Vec: Considering Long-Distance Dependency for Binary Code Similarity Detection](../venues/ASE2024/paper_43.md), ([ASE2024](../venues/ASE2024/README.md))
 
   - **Abstract**: Binary code similarity detection(BCSD), as a fundamental technique in software security, has various applications, including malware family detection, known vulnerability detection and code plagiarism detection. Recent deep learning-based BCSD approaches have demonstrated promising performance. However, they face two significant challenges that limit detection performance. First, most approaches that use sequence networks (like RNN and Transformer) utilize coarse-grained tokenization methods, wh...
@@ -689,6 +695,12 @@
 
 
 ## Compiler Optimization
+
+- [CompilerGym: robust, performant compiler optimization environments for AI research](../venues/CGO2022/paper_1.md), ([CGO2022](../venues/CGO2022/README.md))
+
+  - **Abstract**: Interest in applying Artificial Intelligence (AI) techniques to compiler optimizations is increasing rapidly, but compiler research has a high entry barrier. Unlike in other domains, compiler and AI researchers do not have access to the datasets and frameworks that enable fast iteration and development of ideas, and getting started requires a significant engineering investment. What is needed is an easy, reusable experimental infrastructure for real world compiler optimization tasks that can ser...
+  - **Labels**: [code generation](code_generation.md), [compiler optimization](compiler_optimization.md), [benchmark](benchmark.md)
+
 
 - [Meta large language model compiler: Foundation models of compiler optimization](../venues/Meta2024/paper_1.md), ([Meta2024](../venues/Meta2024/README.md))
 

@@ -6138,6 +6138,22 @@
         ],
         "url": "https://arxiv.org/pdf/2302.05319"
     },
+    "CompilerGym: robust, performant compiler optimization environments for AI research": {
+        "type": "article",
+        "key": "CGO53902.2022.9741258",
+        "title": "CompilerGym: robust, performant compiler optimization environments for AI research",
+        "author": "Cummins, Chris and Wasti, Bram and Guo, Jiadong and Cui, Brandon and Ansel, Jason and Gomez, Sahir and Jain, Somya and Liu, Jia and Teytaud, Olivier and Steiner, Benoit and Tian, Yuandong and Leather, Hugh",
+        "journal": "Proceedings of the 20th IEEE/ACM International Symposium on Code Generation and Optimization",
+        "year": "2022",
+        "venue": "CGO2022",
+        "abstract": "Interest in applying Artificial Intelligence (AI) techniques to compiler optimizations is increasing rapidly, but compiler research has a high entry barrier. Unlike in other domains, compiler and AI researchers do not have access to the datasets and frameworks that enable fast iteration and development of ideas, and getting started requires a significant engineering investment. What is needed is an easy, reusable experimental infrastructure for real world compiler optimization tasks that can serve as a common benchmark for comparing techniques, and as a platform to accelerate progress in the field.We introduce CompilerGym, a set of environments for real world compiler optimization tasks, and a toolkit for exposing new optimization tasks to compiler researchers. CompilerGym enables anyone to experiment on production compiler optimization problems through an easy-to-use package, regardless of their experience with compilers. We build upon the popular OpenAI Gym interface enabling researchers to interact with compilers using Python and a familiar API.We describe the CompilerGym architecture and implementation, characterize the optimization spaces and computational efficiencies of three included compiler environments, and provide extensive empirical evaluations. Compared to prior works, CompilerGym offers larger datasets and optimization spaces, is 27X more computationally efficient, is fault-tolerant, and capable of detecting reproducibility bugs in the underlying compilers.In making it easy for anyone to experiment with compilers - irrespective of their background - we aim to accelerate progress in the AI and compiler research domains.",
+        "labels": [
+            "code generation",
+            "compiler optimization",
+            "benchmark"
+        ],
+        "url": "https://doi.org/10.1109/CGO53902.2022.9741258"
+    },
     "Magicoder: Empowering Code Generation with OSS-Instruct": {
         "type": "article",
         "key": "magicoder",
@@ -6294,11 +6310,48 @@
         "venue": "arXiv2023",
         "abstract": "Decompilation aims to recover the source code form of a binary executable. It has many applications in security and software engineering such as malware analysis, vulnerability detection and code reuse. A prominent challenge in decompilation is to recover variable names. We propose a novel method that leverages the synergy of large language model (LLM) and program analysis. Language models encode rich multi-modal knowledge, but its limited input size prevents providing sufficient global context for name recovery. We propose to divide the task to many LLM queries and use program analysis to correlate and propagate the query results, which in turn improves the performance of LLM by providing additional contextual information. Our results show that 75% of the recovered names are considered good by users and our technique outperforms the state-of-the-art technique by 16.5% and 20.23% in precision and recall, respectively.",
         "labels": [
+            "code generation",
+            "program decompilation",
             "code model",
             "code model training",
             "binary code model"
         ],
         "url": "https://arxiv.org/pdf/2306.02546v1"
+    },
+    "Nova: Generative Language Models for Assembly Code with Hierarchical Attention and Contrastive Learning": {
+        "type": "article",
+        "key": "nan2023nova",
+        "title": "Nova: Generative Language Models for Assembly Code with Hierarchical Attention and Contrastive Learning",
+        "author": "Nan Jiang, Chengxiao Wang, Kevin Liu, Xiangzhe Xu, Lin Tan, Xiangyu Zhang, and Petr Babkin",
+        "journal": "arXiv preprint arXiv:2311.13721",
+        "year": "2023",
+        "venue": "arXiv2023",
+        "abstract": "Binary code analysis is the foundation of crucial tasks in the security domain; thus building effective binary analysis techniques is more important than ever. Large language models (LLMs) although have brought impressive improvement to source code tasks, do not directly generalize to assembly code due to the unique challenges of assembly: (1) the low information density of assembly and (2) the diverse optimizations in assembly code. To overcome these challenges, this work proposes a hierarchical attention mechanism that builds attention summaries to capture the semantics more effectively and designs contrastive learning objectives to train LLMs to learn assembly optimization. Equipped with these techniques, this work develops Nova, a generative LLM for assembly code. Nova outperforms existing techniques on binary code decompilation by up to 14.84 -- 21.58% (absolute percentage point improvement) higher Pass@1 and Pass@10, and outperforms the latest binary code similarity detection techniques by up to 6.17% Recall@1, showing promising abilities on both assembly generation and understanding tasks.",
+        "labels": [
+            "code generation",
+            "program decompilation",
+            "static analysis",
+            "code similarity analysis",
+            "code model",
+            "code model training",
+            "binary code model"
+        ],
+        "url": "https://arxiv.org/pdf/2311.13721"
+    },
+    "Refining Decompiled C Code with Large Language Models": {
+        "type": "article",
+        "key": "ken2023",
+        "title": "Refining Decompiled C Code with Large Language Models",
+        "author": "Wai Kin Wong, Huaijin Wang, Zongjie Li, Zhibo Liu, Shuai Wang, Qiyi Tang, Sen Nie, and Shi Wu",
+        "journal": "arXiv preprint arXiv:2310.06530",
+        "year": "2023",
+        "venue": "arXiv2023",
+        "abstract": "A C decompiler converts an executable into source code. The recovered C source code, once re-compiled, is expected to produce an executable with the same functionality as the original executable. With over twenty years of development, C decompilers have been widely used in production to support reverse engineering applications. Despite the prosperous development of C decompilers, it is widely acknowledged that decompiler outputs are mainly used for human consumption, and are not suitable for automatic recompilation. Often, a substantial amount of manual effort is required to fix the decompiler outputs before they can be recompiled and executed properly. This paper is motived by the recent success of large language models (LLMs) in comprehending dense corpus of natural language. To alleviate the tedious, costly and often error-prone manual effort in fixing decompiler outputs, we investigate the feasibility of using LLMs to augment decompiler outputs, thus delivering recompilable decompilation. Note that different from previous efforts that focus on augmenting decompiler outputs with higher readability (e.g., recovering type/variable names), we focus on augmenting decompiler outputs with recompilability, meaning to generate code that can be recompiled into an executable with the same functionality as the original executable. We conduct a pilot study to characterize the obstacles in recompiling the outputs of the de facto commercial C decompiler -- IDA-Pro. We then propose a two-step, hybrid approach to augmenting decompiler outputs with LLMs. We evaluate our approach on a set of popular C test cases, and show that our approach can deliver a high recompilation success rate to over 75% with moderate effort, whereas none of the IDA-Pro's original outputs can be recompiled. We conclude with a discussion on the limitations of our approach and promising future research directions.",
+        "labels": [
+            "code generation",
+            "program decompilation"
+        ],
+        "url": "https://arxiv.org/abs/2310.06530"
     },
     "Jtrans: Jump-aware transformer for binary code similarity detection": {
         "type": "inproceedings",
