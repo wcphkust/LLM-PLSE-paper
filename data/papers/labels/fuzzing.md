@@ -60,7 +60,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [library testing](library_testing.md)
 
 
-- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_28.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_31.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In the modern era where software plays a pivotal role, software security and vulnerability analysis have become essential for software development. Fuzzing test, as an efficient software testing method, are widely used in various domains. Moreover, the rapid development of Large Language Models (LLMs) has facilitated their application in the field of software testing, demonstrating remarkable performance. Considering existing fuzzing test techniques are not entirely automated and software vulner...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [survey](survey.md)
@@ -100,6 +100,12 @@
 
   - **Abstract**: Crafting high-quality mutators–the core of mutation-based fuzzing that shapes the search space–is challenging. It requires human expertise and creativity, and their implementation demands knowledge of compiler internals. This paper presents MetaMut framework for developing new, useful mutators for compiler fuzzing. It integrates our compilerdomain knowledge into prompts and processes that can best harness the capabilities of a large language model. With MetaMut, we have successfully created 118 ...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [compiler testing](compiler_testing.md)
+
+
+- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_30.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: Large language models (LLMs) show promise in code translation - the task of translating code written in one programming language to another language - due to their ability to write code in most programming languages. However, LLM's effectiveness on translating real-world code remains largely unstudied. In this work, we perform the first substantial study on LLM-based translation to Rust by assessing the ability of five state-of-the-art LLMs, GPT4, Claude 3, Claude 2.1, Gemini Pro, and Mixtral. W...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
 - [When fuzzing meets llms: Challenges and opportunities](../venues/FSE2024/paper_27.md), ([FSE2024](../venues/FSE2024/README.md))

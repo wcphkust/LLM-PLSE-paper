@@ -8789,6 +8789,55 @@
             "program transformation"
         ]
     },
+    "VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners": {
+        "type": "article",
+        "key": "vert",
+        "title": "VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners",
+        "author": "Aidan Z.H. Yang, Yoshiki Takashima, Brandon Paulsen, Josiah Dodds, and Daniel Kroening",
+        "journal": "arXiv preprint arXiv:2404.18852",
+        "year": "2024",
+        "abstract": "Rust is a programming language that combines memory safety and low-level control, providing C-like performance while guaranteeing the absence of undefined behaviors by default. Rust's growing popularity has prompted research on safe and correct transpiling of existing code-bases to Rust. Existing work falls into two categories: rule-based and large language model (LLM)-based. While rule-based approaches can theoretically produce correct transpilations that maintain input-output equivalence to the original, they often yield unreadable Rust code that uses unsafe subsets of the Rust language. On the other hand, while LLM-based approaches typically produce more readable, maintainable, and safe code, they do not provide any guarantees about correctness. In this work, we present VERT, a tool that can produce readable Rust transpilations with formal guarantees of correctness. VERT's only requirement is that there is Web Assembly compiler for the source language, which is true for most major languages. VERT first uses the Web Assembly compiler to obtain an oracle Rust program. In parallel, VERT uses an LLM to generate a readable candidate Rust program. This candidate is verified against the oracle, and if verification fails, we regenerate a new candidate transpilation until verification succeeds. We evaluate VERT by transpiling a suite of 1,394 programs taken from competitive programming style benchmarks. Combining Anthropic's Claude-2 and VERT increases Rust transpilations passing property-based testing from 31% to 54% and bounded model-checking from 1% to 42% compared to using Claude alone. In addition, we evaluate VERT's ability to generate non-trivial safe Rust on programs taken from real-world C projects that make significant use of pointers. Our results provide insights into the limitations of LLMs to write safe Rust.",
+        "venue": "arXiv2024",
+        "labels": [
+            "code generation",
+            "program transformation",
+            "static analysis",
+            "program verification"
+        ],
+        "url": "https://arxiv.org/abs/2404.18852"
+    },
+    "Context-aware Code Segmentation for C-to-Rust Translation using Large Language Models": {
+        "type": "article",
+        "key": "10506v1",
+        "title": "Context-aware Code Segmentation for C-to-Rust Translation using Large Language Models",
+        "author": "Momoko Shiraishi and Takahiro Shinagawa",
+        "journal": "arXiv preprint arXiv:2409.10506v1",
+        "year": "2024",
+        "abstract": "There is strong motivation to translate C code into Rust code due to the continuing threat of memory safety vulnerabilities in existing C programs and the significant attention paid to Rust as an alternative to the C language. While large language models (LLMs) show promise for automating this translation by generating more natural and safer code than rule-based methods, previous studies have shown that LLM-generated Rust code often fails to compile, even for relatively small C programs, due to significant differences between the two languages and context window limitations. We propose an LLM-based translation scheme that improves the success rate of translating large-scale C code into compilable Rust code. Our approach involves three key techniques: (1) pre-processing the C code to better align its structure and expressions with Rust, (2) segmenting the code into optimally sized translation units to avoid exceeding the LLM's context window limits, and (3) iteratively compiling and repairing errors while maintaining consistency between translation units using context-supplementing prompts. Compilation success is an essential first step in achieving functional equivalence, as only compilable code can be further tested. In experiments with 20 benchmark C programs, including those exceeding 4 kilo lines of code, we successfully translated all programs into compilable Rust code without losing corresponding parts of the original code.",
+        "venue": "arXiv2024",
+        "labels": [
+            "code generation",
+            "program transformation"
+        ],
+        "url": "https://arxiv.org/abs/2409.10506v1"
+    },
+    "Towards Translating Real-World Code with LLMs: A Study of Translating to Rust": {
+        "type": "article",
+        "key": "2405.11514",
+        "title": "Towards Translating Real-World Code with LLMs: A Study of Translating to Rust",
+        "author": "Hasan Ferit Eniser, Hanliang Zhang, Cristina David, Meng Wang, Maria Christakis, Brandon Paulsen, Joey Dodds, and Daniel Kroening",
+        "journal": "arXiv preprint arXiv:2405.11514",
+        "year": "2024",
+        "abstract": "Large language models (LLMs) show promise in code translation - the task of translating code written in one programming language to another language - due to their ability to write code in most programming languages. However, LLM's effectiveness on translating real-world code remains largely unstudied. In this work, we perform the first substantial study on LLM-based translation to Rust by assessing the ability of five state-of-the-art LLMs, GPT4, Claude 3, Claude 2.1, Gemini Pro, and Mixtral. We conduct our study on code extracted from real-world open source projects. To enable our study, we develop FLOURINE, an end-to-end code translation tool that uses differential fuzzing to check if a Rust translation is I/O equivalent to the original source program, eliminating the need for pre-existing test cases. As part of our investigation, we assess both the LLM's ability to produce an initially successful translation, as well as their capacity to fix a previously generated buggy one. If the original and the translated programs are not I/O equivalent, we apply a set of automated feedback strategies, including feedback to the LLM with counterexamples. Our results show that the most successful LLM can translate 47% of our benchmarks, and also provides insights into next steps for improvements.",
+        "venue": "arXiv2024",
+        "labels": [
+            "code generation",
+            "program transformation",
+            "program testing", 
+            "fuzzing"
+        ],
+        "url": "https://arxiv.org/abs/2405.11514"
+    },
     "On the Applicability of Language Models to Block-Based Programs": {
         "type": "inproceedings",
         "key": "10.1109/ICSE48619.2023.00199",

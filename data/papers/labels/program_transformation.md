@@ -24,6 +24,12 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
+- [Context-aware Code Segmentation for C-to-Rust Translation using Large Language Models](../venues/arXiv2024/paper_29.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: There is strong motivation to translate C code into Rust code due to the continuing threat of memory safety vulnerabilities in existing C programs and the significant attention paid to Rust as an alternative to the C language. While large language models (LLMs) show promise for automating this translation by generating more natural and safer code than rule-based methods, previous studies have shown that LLM-generated Rust code often fails to compile, even for relatively small C programs, due to ...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
 - [Domain-specific transformer models for query translation](../venues/ACL2023/paper_11.md), ([ACL2023](../venues/ACL2023/README.md))
 
   - **Abstract**: Due to the democratization of e-commerce, many product companies are listing their goods for online shopping. For periodic buying within a domain such as Grocery, consumers are generally inclined to buy certain brands of products. Due to a large non-English speaking population in India, we observe a significant percentage of code-mix Hinglish search queries e.g., sasta atta. An intuitive approach to dealing with code-mix queries is to train an encoder-decoder model to translate the query to Engl...
@@ -138,6 +144,12 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
+- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_30.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: Large language models (LLMs) show promise in code translation - the task of translating code written in one programming language to another language - due to their ability to write code in most programming languages. However, LLM's effectiveness on translating real-world code remains largely unstudied. In this work, we perform the first substantial study on LLM-based translation to Rust by assessing the ability of five state-of-the-art LLMs, GPT4, Claude 3, Claude 2.1, Gemini Pro, and Mixtral. W...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [program testing](program_testing.md), [fuzzing](fuzzing.md)
+
+
 - [TransLLaMa: LLM-based Simultaneous Translation System](../venues/EMNLP2024/paper_1.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Decoder-only large language models (LLMs) have recently demonstrated impressive capabilities in text generation and reasoning. Nonetheless, they have limited applications in simultaneous machine translation (SiMT), currently dominated by encoder-decoder transformers. This study demonstrates that, after fine-tuning on a small dataset comprising causally aligned source and target sentence pairs, a pre-trained open-source LLM can control input segmentation directly by generating a special “wait” to...
@@ -148,6 +160,12 @@
 
   - **Abstract**: Software developers often repeat the same code changes within a project or across different projects. These repetitive changes are known as “code change patterns” (CPATs). Automating CPATs is crucial to expedite the software development process. While current Transformation by Example (TBE) techniques can automate CPATs, they are limited by the quality and quantity of the provided input examples. Thus, they miss transforming code variations that do not have the exact syntax, data-, or control-fl...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
+
+
+- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_28.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: Rust is a programming language that combines memory safety and low-level control, providing C-like performance while guaranteeing the absence of undefined behaviors by default. Rust's growing popularity has prompted research on safe and correct transpiling of existing code-bases to Rust. Existing work falls into two categories: rule-based and large language model (LLM)-based. While rule-based approaches can theoretically produce correct transpilations that maintain input-output equivalence to th...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
 - [Virtual Compiler Is All You Need For Assembly Code Search](../venues/ACL2024/paper_11.md), ([ACL2024](../venues/ACL2024/README.md))

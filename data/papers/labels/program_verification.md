@@ -84,6 +84,12 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [benchmark](benchmark.md)
 
 
+- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_28.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: Rust is a programming language that combines memory safety and low-level control, providing C-like performance while guaranteeing the absence of undefined behaviors by default. Rust's growing popularity has prompted research on safe and correct transpiling of existing code-bases to Rust. Existing work falls into two categories: rule-based and large language model (LLM)-based. While rule-based approaches can theoretically produce correct transpilations that maintain input-output equivalence to th...
+  - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program verification](program_verification.md)
+
+
 - [Verified Code Transpilation with LLMs](../venues/NeurIPS2024/paper_4.md), ([NeurIPS2024](../venues/NeurIPS2024/README.md))
 
   - **Abstract**: Domain-specific languages (DSLs) are integral to various software workflows. Such languages offer domain-specific optimizations and abstractions that improve code readability and maintainability. However, leveraging these languages requires developers to rewrite existing code using the specific DSL's API. While large language models (LLMs) have shown some success in automatic code transpilation, none of them provide any functional correctness guarantees on the transpiled code. Another approach f...
