@@ -8,4 +8,4 @@ While deep neural networks provide state-of-the-art solutions to a wide range of
 
 **Link**: [Read Paper](https://dl.acm.org/doi/pdf/10.1145/3649829)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [source code model](../../labels/source_code_model.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [pointer analysis](../../labels/pointer_analysis.md), [equivalence checking](../../labels/equivalence_checking.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [source code model](../../labels/source_code_model.md)

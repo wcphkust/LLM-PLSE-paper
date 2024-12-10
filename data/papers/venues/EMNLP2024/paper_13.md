@@ -1,11 +1,11 @@
-# Rethinking Code Refinement: Learning to Judge Code Efficiency
+# Revisiting the Impact of Pursuing Modularity for Code Generation
 
-**Authors**: Seo, Minju and Baek, Jinheon and Hwang, Sung Ju
+**Authors**: Kang, Deokyeong and Seo, KiJung and Kim, Taeuk
 
 **Abstract**:
 
-Large Language Models (LLMs) have demonstrated impressive capabilities in understanding and generating codes. Due to these capabilities, many recent methods are proposed to automatically refine the codes with LLMs. However, we should rethink that the refined codes (from LLMs and even humans) are not always more efficient than their original versions. On the other hand, running two different versions of codes and comparing them every time is not ideal and time-consuming. Therefore, in this work, we propose a novel method based on the code language model that is trained to judge the efficiency between two different codes (generated across humans and machines) by either classifying the superior one or predicting the relative improvement. We validate our method on multiple programming languages with multiple refinement steps, demonstrating that the proposed method can effectively distinguish between more and less efficient versions of code.
+Modular programming, which aims to construct the final program by integrating smaller, independent building blocks, has been regarded as a desirable practice in software development. However, with the rise of recent code generation agents built upon large language models (LLMs), a question emerges: is this traditional practice equally effective for these new tools? In this work, we assess the impact of modularity in code generation by introducing a novel metric for its quantitative measurement. Surprisingly, unlike conventional wisdom on the topic, we find that modularity is not a core factor for improving the performance of code generation models. We also explore potential explanations for why LLMs do not exhibit a preference for modular code compared to non-modular code.
 
-**Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.645)
+**Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.676)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program transformation](../../labels/program_transformation.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [source code model](../../labels/source_code_model.md)
+**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [empirical study](../../labels/empirical_study.md)

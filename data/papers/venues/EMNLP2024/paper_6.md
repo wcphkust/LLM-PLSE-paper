@@ -1,11 +1,11 @@
-# Stanceformer: Target-Aware Transformer for Stance Detection
+# Defending Large Language Models Against Jailbreak Attacks via Layer-specific Editing
 
-**Authors**: Garg, Krishna and Caragea, Cornelia
+**Authors**: Zhao, Wei and Li, Zhe and Li, Yige and Zhang, Ye and Sun, Jun
 
 **Abstract**:
 
-The task of Stance Detection involves discerning the stance expressed in a text towards a specific subject or target. Prior works have relied on existing transformer models that lack the capability to prioritize targets effectively. Consequently, these models yield similar performance regardless of whether we utilize or disregard target information, undermining the task’s significance. To address this challenge, we introduce Stanceformer, a target-aware transformer model that incorporates enhanced attention towards the targets during both training and inference. Specifically, we design a Target Awareness matrix that increases the self-attention scores assigned to the targets. We demonstrate the efficacy of the Stanceformer with various BERT-based models, including state-of-the-art models and Large Language Models (LLMs), and evaluate its performance across three stance detection datasets, alongside a zero-shot dataset. Our approach Stanceformer not only provides superior performance but also generalizes even to other domains, such as Aspect-based Sentiment Analysis. We make the code publicly available.
+Large language models (LLMs) are increasingly being adopted in a wide range of real-world applications. Despite their impressive performance, recent studies have shown that LLMs are vulnerable to deliberately crafted adversarial prompts even when aligned via Reinforcement Learning from Human Feedback or supervised fine-tuning. While existing defense methods focus on either detecting harmful prompts or reducing the likelihood of harmful responses through various means, defending LLMs against jailbreak attacks based on the inner mechanisms of LLMs remains largely unexplored. In this work, we investigate how LLMs respond to harmful prompts and propose a novel defense method termed Layer-specific Editing (LED) to enhance the resilience of LLMs against jailbreak attacks. Through LED, we reveal that several critical safety layers exist among the early layers of LLMs. We then show that realigning these safety layers (and some selected additional layers) with the decoded safe response from identified toxic layers can significantly improve the alignment of LLMs against jailbreak attacks. Extensive experiments across various LLMs (e.g., Llama2, Mistral) show the effectiveness of LED, which effectively defends against jailbreak attacks while maintaining performance on benign prompts. Our code is available at https://github.com/ledllm/ledllm.
 
-**Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.286)
+**Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.293)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [empirical study](../../labels/empirical_study.md)
+**Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)

@@ -20,7 +20,7 @@ Number of papers: 9
 - **Authors**: Huang, Qing and Luo, Zhiwen and Xing, Zhenchang and Zeng, Jinshan and Chen, Jieshan and Xu, Xiwei and Chen, Yong
 - **Abstract**: Dataflow graphs (DFGs) capture definitions (defs) and uses across program blocks, which is a fundamental program representation for program analysis, testing and maintenance. However, dynamically typed programming languages like Python present implicit dataflow issues that make it challenging to determine def-use flow information at compile time. Static analysis methods like Soot and WALA are inadequate for handling these issues, and manually enumerating comprehensive heuristic rules is impracti...
 - **Link**: [Read Paper](https://doi.org/10.1145/3672458)
-- **Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md)
 
 
 ## [Risky Dynamic Typing-related Practices in Python: An Empirical Study](paper_6.md)
@@ -55,7 +55,7 @@ Number of papers: 9
 - **Authors**: Ma, Wei and Liu, Shangqing and Zhao, Mengjie and Xie, Xiaofei and Wang, Wenhang and Hu, Qiang and Zhang, Jie and Liu, Yang
 - **Abstract**: Code models have made significant advancements in code intelligence by encoding knowledge about programming languages. While previous studies have explored the capabilities of these models in learning code syntax, there has been limited investigation on their ability to understand code semantics. Additionally, existing analyses assume that the number of edges between nodes at the abstract syntax tree&nbsp;(AST) is related to syntax distance, and also often require transforming the high-dimension...
 - **Link**: [Read Paper](https://doi.org/10.1145/3664606)
-- **Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md), [empirical study](../../labels/empirical_study.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [pointer analysis](../../labels/pointer_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md), [empirical study](../../labels/empirical_study.md)
 
 
 ## [Vision Transformer Inspired Automated Vulnerability Repair](paper_8.md)

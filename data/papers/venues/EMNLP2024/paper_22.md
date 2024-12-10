@@ -1,11 +1,11 @@
-# Socratic Human Feedback (SoHF): Expert Steering Strategies for LLM Code Generation
+# PythonSaga: Redefining the Benchmark to Evaluate Code Generating LLMs
 
-**Authors**: Chidambaram, Subramanian and Li, Li Erran and Bai, Min and Li, Xiaopeng and Lin, Kaixiang and Zhou, Xiong and Williams, Alex C.
+**Authors**: Yadav, Ankit and Beniwal, Himanshu and Singh, Mayank
 
 **Abstract**:
 
-Large Language Models (LLMs) are increasingly used for generating code solutions, empowered by features like self-debugging and self-reflection. However, LLMs often struggle with complex programming problems without human guidance. This paper investigates the strategies employed by expert programmers to steer code-generating LLMs toward successful outcomes. Through a study involving experts using natural language to guide GPT-4, Gemini Ultra, and, Claude 3.5 Sonnet on highly difficult programming challenges, we frame our analysis using the “Socratic Feedback” paradigm for understanding effective steering strategies. By analyzing 30 conversational transcripts across all three models, we map observed feedback strategies to five stages of Socratic Questioning: Definition, Elenhus, Maieutic, Dialectic, and Counter-factual reasoning. We find evidence that by employing a combination of different Socratic feedback strategies across multiple turns, programmers successfully guided the models to solve 74% of the problems that the models initially failed to solve on their own.
+Driven by the surge in code generation using large language models (LLMs), numerous benchmarks have emerged to evaluate these LLMs capabilities. We conducted a large-scale human evaluation of *HumanEval* and *MBPP*, two popular benchmarks for Python code generation, analyzing their diversity and difficulty. Our findings unveil a critical bias towards a limited set of programming concepts, neglecting most of the other concepts entirely. Furthermore, we uncover a worrying prevalence of easy tasks that can inflate model performance estimations. To address these limitations, we propose a novel benchmark, *PythonSaga*, featuring 185 hand-crafted prompts in a balanced representation of 38 programming concepts across diverse difficulty levels. The robustness of our benchmark is demonstrated by the poor performance of existing Code-LLMs. The code and data set are openly available to the NLP community at this [URL](https://github.com/PythonSaga/PythonSaga).
 
-**Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.908)
+**Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.996)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [empirical study](../../labels/empirical_study.md)
+**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [benchmark](../../labels/benchmark.md)

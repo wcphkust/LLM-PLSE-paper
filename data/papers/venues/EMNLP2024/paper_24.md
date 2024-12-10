@@ -1,11 +1,11 @@
-# Language-to-Code Translation with a Single Labeled Example
+# RealVul: Can We Detect Vulnerabilities in Web Applications with LLM?
 
-**Authors**: Bostrom, Kaj and Jhamtani, Harsh and Fang, Hao and Thomson, Sam and Shin, Richard and Xia, Patrick and Van Durme, Benjamin and Eisner, Jason and Andreas, Jacob
+**Authors**: Cao, Di and Liao, Yong and Shang, Xiuwei
 
 **Abstract**:
 
-Tools for translating natural language into code promise natural, open-ended interaction with databases, web APIs, and other software systems. However, this promise is complicated by the diversity and continual development of these systems, each with its own interface and distinct set of features. Building a new language-to-code translator, even starting with a large language model (LM), typically requires annotating a large set of natural language commands with their associated programs. In this paper, we describe ICIP (In-Context Inverse Programming), a method for bootstrapping a language-to-code system using mostly (or entirely) unlabeled programs written using a potentially unfamiliar (but human-readable) library or API. ICIP uses a pre-trained LM to assign candidate natural language descriptions to these programs, then iteratively refines the descriptions to ensure global consistency. Across nine different application domains from the Overnight and Spider benchmarks and text-davinci-003 and CodeLlama-7b-Instruct models, ICIP outperforms a number of prompting baselines. Indeed, in a “nearly unsupervised” setting with only a single annotated program and 100 unlabeled examples, it achieves up to 85% of the performance of a fully supervised system.
+The latest advancements in large language models (LLMs) have sparked interest in their potential for software vulnerability detection. However, there is currently a lack of research specifically focused on vulnerabilities in the PHP language, and challenges in data sampling and processing persist, hindering the model’s ability to effectively capture the characteristics of specific vulnerabilities. In this paper, we present RealVul, the first LLM-based framework designed for PHP vulnerability detection, addressing these issues. By improving code sampling methods and employing normalization techniques, we can isolate potential vulnerability triggers while streamlining the code and eliminating unnecessary semantic information, enabling the model to better understand and learn from the generated vulnerability samples. We also address the issue of insufficient PHP vulnerability samples by improving data synthesis methods. To evaluate RealVul’s performance, we conduct an extensive analysis using five distinct code LLMs on vulnerability data from 180 PHP projects. The results demonstrate a significant improvement in both effectiveness and generalization compared to existing methods, effectively boosting the vulnerability detection capabilities of these models.
 
-**Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.462)
+**Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.472)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [benchmark](../../labels/benchmark.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)

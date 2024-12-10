@@ -1,11 +1,11 @@
-# On Leakage of Code Generation Evaluation Datasets
+# Impeding LLM-assisted Cheating in Introductory Programming Assignments via Adversarial Perturbation
 
-**Authors**: Matton, Alexandre and Sherborne, Tom and Aumiller, Dennis and Tommasone, Elena and Alizadeh, Milad and He, Jingyi and Ma, Raymond and Voisin, Maxime and Gilsenan-McMahon, Ellen and Gallé, Matthias
+**Authors**: Salim, Saiful Islam and Yang, Rubin Yuchan and Cooper, Alexander and Ray, Suryashree and Debray, Saumya and Rahaman, Sazzadur
 
 **Abstract**:
 
-In this paper, we consider contamination by code generation test sets, in particular in their use in modern large language models.We discuss three possible sources of such contamination and show findings supporting each of them: (i) direct data leakage, (ii) indirect data leakage through the use of synthetic data and (iii) overfitting to evaluation sets during model selection.To address this, we release Less Basic Python Problems (LBPP): an uncontaminated new benchmark of 161 prompts with their associated Python solutions. LBPP is released at https://huggingface.co/datasets/CohereForAI/lbpp
+While Large language model (LLM)-based programming assistants such as CoPilot and ChatGPT can help improve the productivity of professional software developers, they can also facilitate cheating in introductory computer programming courses. Assuming instructors have limited control over the industrial-strength models, this paper investigates the baseline performance of 5 widely used LLMs on a collection of introductory programming problems, examines adversarial perturbations to degrade their performance, and describes the results of a user study aimed at measuring the efficacy of such perturbations in hindering actual code generation for introductory programming assignments. The user study suggests that i) perturbations combinedly reduced the average correctness score by 77%, ii) the drop in correctness caused by these perturbations was affected based on their detectability.
 
-**Link**: [Read Paper](https://aclanthology.org/2024.findings-emnlp.772)
+**Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.27)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [benchmark](../../labels/benchmark.md)
+**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [empirical study](../../labels/empirical_study.md)

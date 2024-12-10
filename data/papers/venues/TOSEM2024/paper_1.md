@@ -8,4 +8,4 @@ Code models have made significant advancements in code intelligence by encoding 
 
 **Link**: [Read Paper](https://doi.org/10.1145/3664606)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md), [empirical study](../../labels/empirical_study.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [pointer analysis](../../labels/pointer_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md), [empirical study](../../labels/empirical_study.md)

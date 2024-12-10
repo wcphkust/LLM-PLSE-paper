@@ -48,7 +48,7 @@
 
 ### Reason With Code
 
-- [Can LLMs Reason in the Wild with Programs?](../venues/EMNLP2024/paper_12.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
+- [Can LLMs Reason in the Wild with Programs?](../venues/EMNLP2024/paper_11.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have shown superior capability to solve reasoning problems with programs. While being a promising direction, most of such frameworks are trained and evaluated in settings with a prior knowledge of task requirements. However, as LLMs become more capable, it is necessary to assess their reasoning abilities in more realistic scenarios where many real-world problems are open-ended with ambiguous scope, and often require multiple formalisms to solve. To investigate this, ...
   - **Labels**: [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md)
@@ -60,7 +60,7 @@
   - **Labels**: [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md)
 
 
-- [Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs](../venues/EMNLP2024/paper_26.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
+- [Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs](../venues/EMNLP2024/paper_25.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Reasoning is a fundamental component of language understanding. Recent prompting techniques, such as chain of thought, have consistently improved LLMs’ performance on various reasoning tasks. Nevertheless, there is still little understanding of what triggers reasoning abilities in LLMs in the inference stage. In this paper, we investigate the effect of the input representation on the reasoning abilities of LLMs. We hypothesize that representing natural language tasks as code can enhance specific...
   - **Labels**: [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md)
@@ -78,13 +78,13 @@
   - **Labels**: [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md)
 
 
-- [EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records](../venues/EMNLP2024/paper_37.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
+- [EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records](../venues/EMNLP2024/paper_36.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Clinicians often rely on data engineers to retrieve complex patient information from electronic health record (EHR) systems, a process that is both inefficient and time-consuming. We propose EHRAgent, a large language model (LLM) agent empowered with accumulative domain knowledge and robust coding capability. EHRAgent enables autonomous code generation and execution to facilitate clinicians in directly interacting with EHRs using natural language. Specifically, we formulate a multi-tabular reaso...
   - **Labels**: [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md)
 
 
-- [Empowering Multi-step Reasoning across Languages via Program-Aided Language Models](../venues/EMNLP2024/paper_28.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
+- [Empowering Multi-step Reasoning across Languages via Program-Aided Language Models](../venues/EMNLP2024/paper_27.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: In-context learning methods are popular inference strategies where Large Language Models (LLMs) are elicited to solve a task using provided demonstrations without parameter updates. Among these approaches are the reasoning methods, best exemplified by Chain-of-Thought (CoT) and Program-Aided Language Models (PAL), which elicit LLMs to generate reasoning paths, thus promoting accuracy and attracting increasing attention. However, despite the success of these methods, the ability to deliver multi-...
   - **Labels**: [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md)
@@ -108,7 +108,7 @@
   - **Labels**: [survey](survey.md), [agent design](agent_design.md), [reason with code](reason_with_code.md)
 
 
-- [Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models](../venues/EMNLP2024/paper_38.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
+- [Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models](../venues/EMNLP2024/paper_37.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Algorithmic reasoning tasks that involve complex logical patterns, such as completing Dyck language, pose challenges for large language models (LLMs), despite their recent success. Prior work has used LLMs to generate programming language and applied external compilers for such tasks. Yet, when on the fly, it is hard to generate an executable code with the correct logic for the solution. Even so, code for one instance cannot be reused for others, although they might require the same logic to sol...
   - **Labels**: [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md)
@@ -192,7 +192,7 @@
   - **Labels**: [general coding task](general_coding_task.md), [agent design](agent_design.md), [planning](planning.md)
 
 
-- [Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging](../venues/EMNLP2024/paper_11.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
+- [Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging](../venues/EMNLP2024/paper_10.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Socratic questioning is an effective teaching strategy, encouraging critical thinking and problem-solving. The conversational capabilities of large language models (LLMs) show great potential for providing scalable, real-time student guidance. However, current LLMs often give away solutions directly, making them ineffective instructors. We tackle this issue in the code debugging domain with TreeInstruct, an Instructor agent guided by a novel state space-based planning algorithm. TreeInstruct ask...
   - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [agent design](agent_design.md), [planning](planning.md)

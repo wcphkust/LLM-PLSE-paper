@@ -1,11 +1,11 @@
-# Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models
+# Coffee-Gym: An Environment for Evaluating and Improving Natural Language Feedback on Erroneous Code
 
-**Authors**: Chae, Hyungjoo and Kim, Yeonghyeon and Kim, Seungone and Ong, Kai Tzu-iunn and Kwak, Beong-woo and Kim, Moohyeon and Kim, Sunghwan and Kwon, Taeyoon and Chung, Jiwan and Yu, Youngjae and Yeo, Jinyoung
+**Authors**: Chae, Hyungjoo and Kwon, Taeyoon and Moon, Seungjun and Song, Yongho and Kang, Dongjin and Ong, Kai Tzu-iunn and Kwak, Beong-woo and Bae, Seonghyeon and Hwang, Seung-won and Yeo, Jinyoung
 
 **Abstract**:
 
-Algorithmic reasoning tasks that involve complex logical patterns, such as completing Dyck language, pose challenges for large language models (LLMs), despite their recent success. Prior work has used LLMs to generate programming language and applied external compilers for such tasks. Yet, when on the fly, it is hard to generate an executable code with the correct logic for the solution. Even so, code for one instance cannot be reused for others, although they might require the same logic to solve. We present Think-and-Execute, a novel framework that improves LLMs’ algorithmic reasoning: (1) In Think, we discover task-level logic shared across all instances, and express such logic with pseudocode; (2) In Execute, we tailor the task-level pseudocode to each instance and simulate the execution of it. Think-and-Execute outperforms several strong baselines (including CoT and PoT) in diverse algorithmic reasoning tasks. We manifest the advantage of using task-level pseudocode over generating instance-specific solutions one by one. Also, we show that pseudocode can better improve LMs’ reasoning than natural language (NL) guidance, even though they are trained with NL instructions.
+This paper presents Coffee-Gym, a comprehensive RL environment for training models that provide feedback on code editing. Coffee-Gym includes two major components: (1) Coffee, a dataset containing humans’ code edit traces for coding questions and human-written feedback for editing erroneous code; (2) CoffeeEval, a reward function that faithfully reflects the helpfulness of feedback by assessing the performance of the revised code in unit tests. With them, Coffee-Gym addresses the unavailability of high-quality datasets for training feedback models with RL, and provides more accurate rewards than the SOTA reward model (i.e., GPT-4). By applying Coffee-Gym, we elicit feedback models that outperform baselines in enhancing open-source code LLMs’ code editing, making them comparable with closed-source LLMs. We make the dataset and the model checkpoint publicly available in https://huggingface.co/spaces/Coffee-Gym/Project-Coffee-Gym.
 
-**Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.1253)
+**Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.1254)
 
-**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)
+**Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md), [benchmark](../../labels/benchmark.md)

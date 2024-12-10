@@ -6,7 +6,7 @@ Number of papers: 2
 - **Authors**: Peiwei Hu and Chinese Academy of Sciences and Beijing and China) and Ruigang Liang and Chinese Academy of Sciences and Beijing and China) and Kai Chen and Chinese Academy of Sciences and China)
 - **Abstract**: Reverse engineering is essential in malware analysis, vulnerability discovery, etc. Decompilers assist the reverse engineers by lifting the assembly to the high-level programming language, which highly boosts binary comprehension. However, decompilers suffer from problems such as meaningless variable names, redundant variables, and lacking comments describing the purpose of the code. Previous studies have shown promising performance in refining the decompiler output by training the models with h...
 - **Link**: [Read Paper](https://www.ndss-symposium.org/ndss-paper/degpt-optimizing-decompiler-output-with-llm)
-- **Labels**: [code generation](../../labels/code_generation.md), [program decompilation](../../labels/program_decompilation.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [program decompilation](../../labels/program_decompilation.md)
 
 
 ## [Large Language Model guided Protocol Fuzzing](paper_2.md)

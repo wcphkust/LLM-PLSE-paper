@@ -8,4 +8,4 @@ Program slicing is a critical technique in software engineering, enabling develo
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2409.12369)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md)

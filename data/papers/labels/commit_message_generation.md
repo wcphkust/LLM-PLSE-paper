@@ -12,7 +12,7 @@
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [commit message generation](commit_message_generation.md)
 
 
-- [Leveraging Context-Aware Prompting for Commit Message Generation](../venues/EMNLP2024/paper_30.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
+- [Leveraging Context-Aware Prompting for Commit Message Generation](../venues/EMNLP2024/paper_29.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Writing comprehensive commit messages is tedious yet important, because these messages describe changes of code, such as fixing bugs or adding new features. However, most existing methods focus on either only the changed lines or nearest context lines, without considering the effectiveness of selecting useful contexts. On the other hand, it is possible that introducing excessive contexts can lead to noise. To this end, we propose a code model COMMIT (Context-aware prOMpting based comMIt-message ...
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [commit message generation](commit_message_generation.md)

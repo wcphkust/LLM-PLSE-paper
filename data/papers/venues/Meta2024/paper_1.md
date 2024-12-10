@@ -8,4 +8,4 @@ Large Language Models (LLMs) have demonstrated remarkable capabilities across a 
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2302.05319)
 
-**Labels**: [code generation](../../labels/code_generation.md), [compiler optimization](../../labels/compiler_optimization.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [IR code model](../../labels/IR_code_model.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [program optimization](../../labels/program_optimization.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [IR code model](../../labels/IR_code_model.md)

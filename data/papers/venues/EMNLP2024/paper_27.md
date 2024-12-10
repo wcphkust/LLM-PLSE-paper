@@ -1,11 +1,11 @@
-# CodeAgent: Autonomous Communicative Agents for Code Review
+# Empowering Multi-step Reasoning across Languages via Program-Aided Language Models
 
-**Authors**: Tang, Xunzhu and Kim, Kisub and Song, Yewei and Lothritz, Cedric and Li, Bei and Ezzini, Saad and Tian, Haoye and Klein, Jacques and Bissyandé, Tegawendé F.
+**Authors**: Ranaldi, Leonardo and Pucci, Giulia and Haddow, Barry and Birch, Alexandra
 
 **Abstract**:
 
-Code review, which aims at ensuring the overall quality and reliability of software, is a cornerstone of software development. Unfortunately, while crucial, Code review is a labor-intensive process that the research community is looking to automate. Existing automated methods rely on single input-output generative models and thus generally struggle to emulate the collaborative nature of code review. This work introduces CodeAgent, a novel multi-agent Large Language Model (LLM) system for code review automation. CodeAgent incorporates a supervisory agent, QA-Checker, to ensure that all the agents’ contributions address the initial review question. We evaluated CodeAgent on critical code review tasks: (1) detect inconsistencies between code changes and commit messages, (2) identify vulnerability introductions, (3) validate code style adherence, and (4) suggest code revisions. The results demonstrate CodeAgent’s effectiveness, contributing to a new state-of-the-art in code review automation. Our data and code are publicly available (https://github.com/Daniel4SE/codeagent).
+In-context learning methods are popular inference strategies where Large Language Models (LLMs) are elicited to solve a task using provided demonstrations without parameter updates. Among these approaches are the reasoning methods, best exemplified by Chain-of-Thought (CoT) and Program-Aided Language Models (PAL), which elicit LLMs to generate reasoning paths, thus promoting accuracy and attracting increasing attention. However, despite the success of these methods, the ability to deliver multi-step reasoning remains limited to a single language, making it challenging to generalize to other languages and hindering global development.In this work, we propose Cross-lingual Program-Aided Language Models (CrossPAL), a method for aligning reasoning programs across languages. In particular, our method delivers programs as intermediate reasoning steps in different languages through a double-step cross-lingual prompting mechanism inspired by the Program-Aided approach. In addition, we introduce Self-consistent CrossPAL (SCrossPAL) to ensemble different reasoning paths across languages. Our experimental evaluations show that our method significantly outperforms existing prompting methods, reducing the number of interactions and achieving state-of-the-art performance.
 
-**Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.632)
+**Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.678)
 
-**Labels**: [software maintenance and deployment](../../labels/software_maintenance_and_deployment.md), [code review](../../labels/code_review.md), [agent design](../../labels/agent_design.md)
+**Labels**: [prompt strategy](../../labels/prompt_strategy.md), [reason with code](../../labels/reason_with_code.md)

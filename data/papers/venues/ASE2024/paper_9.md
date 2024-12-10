@@ -8,4 +8,4 @@ WebAssembly (abbreviated Wasm) has emerged as a cornerstone of web development, 
 
 **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695020)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program decompilation](../../labels/program_decompilation.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [program decompilation](../../labels/program_decompilation.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md)

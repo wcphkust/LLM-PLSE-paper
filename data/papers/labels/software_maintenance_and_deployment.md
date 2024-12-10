@@ -14,7 +14,7 @@
   - **Labels**: [code review](code_review.md), [empirical study](empirical_study.md)
 
 
-- [CodeAgent: Autonomous Communicative Agents for Code Review](../venues/EMNLP2024/paper_27.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
+- [CodeAgent: Autonomous Communicative Agents for Code Review](../venues/EMNLP2024/paper_26.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Code review, which aims at ensuring the overall quality and reliability of software, is a cornerstone of software development. Unfortunately, while crucial, Code review is a labor-intensive process that the research community is looking to automate. Existing automated methods rely on single input-output generative models and thus generally struggle to emulate the collaborative nature of code review. This work introduces CodeAgent, a novel multi-agent Large Language Model (LLM) system for code re...
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [code review](code_review.md), [agent design](agent_design.md)
@@ -66,7 +66,7 @@
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [commit message generation](commit_message_generation.md)
 
 
-- [Leveraging Context-Aware Prompting for Commit Message Generation](../venues/EMNLP2024/paper_30.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
+- [Leveraging Context-Aware Prompting for Commit Message Generation](../venues/EMNLP2024/paper_29.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Writing comprehensive commit messages is tedious yet important, because these messages describe changes of code, such as fixing bugs or adding new features. However, most existing methods focus on either only the changed lines or nearest context lines, without considering the effectiveness of selecting useful contexts. On the other hand, it is possible that introducing excessive contexts can lead to noise. To this end, we propose a code model COMMIT (Context-aware prOMpting based comMIt-message ...
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [commit message generation](commit_message_generation.md)

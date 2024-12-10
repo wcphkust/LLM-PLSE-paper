@@ -8,4 +8,4 @@ Reverse engineering is essential in malware analysis, vulnerability discovery, e
 
 **Link**: [Read Paper](https://www.ndss-symposium.org/ndss-paper/degpt-optimizing-decompiler-output-with-llm)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program decompilation](../../labels/program_decompilation.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [program decompilation](../../labels/program_decompilation.md)

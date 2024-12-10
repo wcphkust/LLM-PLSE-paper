@@ -8,4 +8,4 @@ A C decompiler converts an executable into source code. The recovered C source c
 
 **Link**: [Read Paper](https://arxiv.org/abs/2310.06530)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program decompilation](../../labels/program_decompilation.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [program decompilation](../../labels/program_decompilation.md)

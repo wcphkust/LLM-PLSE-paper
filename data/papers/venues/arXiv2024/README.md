@@ -132,7 +132,7 @@ Number of papers: 31
 - **Authors**: Shahandashti, Kimya Khakzad and Mohajer, Mohammad Mahdi and Belle, Alvine Boaye and Wang, Song and Hemmati, Hadi
 - **Abstract**: Program slicing is a critical technique in software engineering, enabling developers to isolate relevant portions of code for tasks such as bug detection, code comprehension, and debugging. In this study, we investigate the application of large language models (LLMs) to both static and dynamic program slicing, with a focus on Java programs. We evaluate the performance of four state-of-the-art LLMs- GPT-4o, GPT-3.5 Turbo, Llama-2, and Gemma-7B leveraging advanced prompting techniques, including f...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2409.12369)
-- **Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md)
 
 
 ## [Rectifier: Code translation with corrector via llms](paper_9.md)

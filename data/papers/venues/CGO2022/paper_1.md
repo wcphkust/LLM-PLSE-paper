@@ -8,4 +8,4 @@ Interest in applying Artificial Intelligence (AI) techniques to compiler optimiz
 
 **Link**: [Read Paper](https://doi.org/10.1109/CGO53902.2022.9741258)
 
-**Labels**: [code generation](../../labels/code_generation.md), [compiler optimization](../../labels/compiler_optimization.md), [benchmark](../../labels/benchmark.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [program optimization](../../labels/program_optimization.md), [benchmark](../../labels/benchmark.md)

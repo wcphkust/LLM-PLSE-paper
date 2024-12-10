@@ -1,6 +1,6 @@
 # Code Model Robustness
 
-- [CodeFort: Robust Training for Code Generation Models](../venues/EMNLP2024/paper_40.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
+- [CodeFort: Robust Training for Code Generation Models](../venues/EMNLP2024/paper_39.md), ([EMNLP2024](../venues/EMNLP2024/README.md))
 
   - **Abstract**: Code generation models are not robust to small perturbations, which often lead to inconsistent and incorrect generations and significantly degrade the performance of these models. Improving the robustness of code generation models is crucial to better user experience when these models are deployed in real-world applications. However, existing efforts have not addressed this issue for code generation models. To fill this gap, we propose CodeFort, a framework to improve the robustness of code gene...
   - **Labels**: [code generation](code_generation.md), [code model](code_model.md), [code model training](code_model_training.md), [code model](code_model.md), [code model robustness](code_model_robustness.md)

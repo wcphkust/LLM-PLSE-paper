@@ -8,4 +8,4 @@ In contemporary software development, the widespread use of indirect calls to ac
 
 **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695016)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [call graph analysis](../../labels/call_graph_analysis.md)

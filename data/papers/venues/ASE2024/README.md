@@ -251,7 +251,7 @@ Number of papers: 45
 - **Authors**: Cheng, Baijun and Zhang, Cen and Wang, Kailong and Shi, Ling and Liu, Yang and Wang, Haoyu and Guo, Yao and Li, Ding and Chen, Xiangqun
 - **Abstract**: In contemporary software development, the widespread use of indirect calls to achieve dynamic features poses challenges in constructing precise control flow graphs (CFGs), which further impacts the performance of downstream static analysis tasks. To tackle this issue, various types of indirect call analyzers have been proposed. However, they do not fully leverage the semantic information of the program, limiting their effectiveness in real-world scenarios.To address these issues, this paper prop...
 - **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695016)
-- **Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [call graph analysis](../../labels/call_graph_analysis.md)
 
 
 ## [Semi-Supervised Code Translation Overcoming the Scarcity of Parallel Code Data](paper_24.md)
@@ -307,7 +307,7 @@ Number of papers: 45
 - **Authors**: She, Xinyu and Zhao, Yanjie and Wang, Haoyu
 - **Abstract**: WebAssembly (abbreviated Wasm) has emerged as a cornerstone of web development, offering a compact binary format that allows high-performance applications to run at near-native speeds in web browsers. Despite its advantages, Wasm's binary nature presents significant challenges for developers and researchers, particularly regarding readability when debugging or analyzing web applications. Therefore, effective decompilation becomes crucial. Unfortunately, traditional decompilers often struggle wit...
 - **Link**: [Read Paper](https://doi.org/10.1145/3691620.3695020)
-- **Labels**: [code generation](../../labels/code_generation.md), [program decompilation](../../labels/program_decompilation.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [program decompilation](../../labels/program_decompilation.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md)
 
 
 ## [iSMELL: Assembling LLMs with Expert Toolsets for Code Smell Detection and Refactoring](paper_22.md)

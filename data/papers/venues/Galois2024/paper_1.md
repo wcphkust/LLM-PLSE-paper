@@ -8,4 +8,4 @@ We think that Rust is a great language, and maybe you agree! Unfortunately, even
 
 **Link**: [Read Paper](https://galois.com/blog/2024/11/function-argument-nullability-using-an-llm/)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [pointer analysis](../../labels/pointer_analysis.md)

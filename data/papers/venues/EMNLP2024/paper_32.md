@@ -1,11 +1,11 @@
-# ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?
+# Re-Reading Improves Reasoning in Large Language Models
 
-**Authors**: Waghjale, Siddhant and Veerendranath, Vishruth and Wang, Zhiruo and Fried, Daniel
+**Authors**: Xu, Xiaohan and Tao, Chongyang and Shen, Tao and Xu, Can and Xu, Hongbo and Long, Guodong and Lou, Jian-Guang and Ma, Shuai
 
 **Abstract**:
 
-Although large language models (LLMs) have been largely successful in generating functionally correct programs, conditioning models to produce efficient solutions while ensuring correctness remains a challenge. Further, unreliability in benchmarking code efficiency is a hurdle across varying hardware specifications for popular interpreted languages such as Python. In this paper, we present ECCO, a reproducible benchmark for evaluating program efficiency via two paradigms: natural language (NL) based code generation and history-based code editing. On ECCO, we adapt and thoroughly investigate the three most promising existing LLM-based approaches: in-context learning, iterative refinement with execution or NL feedback, and fine-tuning conditioned on execution and editing history. While most methods degrade functional correctness and moderately increase program efficiency, we find that adding execution information often helps maintain functional correctness, and NL feedback enhances more on efficiency. We release our benchmark to support future work on LLM-based generation of efficient code.
+To enhance the reasoning capabilities of off-the-shelf Large Language Models (LLMs), we introduce a simple, yet general and effective prompting method, RE2, i.e., Re-Reading the question as input. Unlike most thought-eliciting prompting methods, such as Chain-of-Thought (CoT), which aim to elicit the reasoning process in the output, RE2 shifts the focus to the input by processing questions twice, thereby enhancing the understanding process. Consequently, RE2 demonstrates strong generality and compatibility with most thought-eliciting prompting methods, including CoT. Crucially, RE2 facilitates a “bidirectional” encoding in unidirectional decoder-only LLMs because the first pass could provide global information for the second pass. We begin with a preliminary empirical study as the foundation of RE2, illustrating its potential to enable “bidirectional” attention mechanisms. We then evaluate RE2 on extensive reasoning benchmarks across 14 datasets, spanning 112 experiments, to validate its effectiveness and generality. Our findings indicate that, with the exception of a few scenarios on vanilla ChatGPT, RE2 consistently enhances the reasoning performance of LLMs through a simple re-reading strategy. Further analyses reveal RE2’s adaptability, showing how it can be effectively integrated with different LLMs, thought-eliciting prompting, and ensemble strategies.
 
-**Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.859)
+**Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.871)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md)
+**Labels**: [prompt strategy](../../labels/prompt_strategy.md)

@@ -8,4 +8,4 @@ Decompilation aims to recover a binary executable to the source code form and he
 
 **Link**: [Read Paper](https://www.cs.purdue.edu/homes/lintan/publications/resym-ccs24.pdf)
 
-**Labels**: [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md), [code generation](../../labels/code_generation.md), [program decompilation](../../labels/program_decompilation.md)
+**Labels**: [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md), [static analysis](../../labels/static_analysis.md), [program decompilation](../../labels/program_decompilation.md)

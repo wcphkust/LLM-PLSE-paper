@@ -399,7 +399,7 @@
         "numpages": "13",
         "labels": [
             "static analysis",
-            "fundamental analysis"
+            "call graph analysis"
         ],
         "location": "Sacramento, CA, USA",
         "series": "ASE '24",
@@ -424,7 +424,7 @@
         "series": "ASE '24",
         "venue": "ASE2024",
         "labels": [
-            "code generation",
+            "static analysis",
             "program decompilation",
             "code model",
             "code model training",
@@ -2252,7 +2252,8 @@
         "numpages": "29",
         "labels": [
             "static analysis",
-            "fundamental analysis",
+            "pointer analysis",
+            "data-flow analysis",
             "empirical study"
         ],
         "venue": "TOSEM2024"
@@ -2306,7 +2307,7 @@
         "numpages": "29",
         "labels": [
             "static analysis",
-            "fundamental analysis"
+            "data-flow analysis"
         ],
         "venue": "TOSEM2024"
     },
@@ -2604,27 +2605,6 @@
         "month": "November",
         "venue": "EMNLP2024"
     },
-    "NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization": {
-        "type": "INPROCEEDINGS",
-        "key": "nahid-rafiei-2024-normtab",
-        "author": "Nahid, Md and Rafiei, Davood",
-        "booktitle": "EMNLP2024",
-        "title": "NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization",
-        "year": "2024",
-        "volume": "",
-        "number": "",
-        "pages": "",
-        "abstract": "In recent years, Large Language Models (LLMs) have demonstrated remarkable capabilities in parsing textual data and generating code. However, their performance in tasks involving tabular data, especially those requiring symbolic reasoning, faces challenges due to the structural variance and inconsistency in table cell values often found in web tables. In this paper, we introduce NormTab, a novel framework aimed at enhancing the symbolic reasoning performance of LLMs by normalizing web tables. We study table normalization as a stand-alone, one-time preprocessing step using LLMs to support symbolic reasoning on tabular data. Our experimental evaluation, conducted on challenging web table datasets such as WikiTableQuestion and TabFact, demonstrates that leveraging NormTab significantly improves symbolic reasoning performance, showcasing the importance and effectiveness of web table normalization for enhancing LLM-based symbolic reasoning tasks.",
-        "labels": [
-            "static analysis",
-            "fundamental analysis"
-        ],
-        "url": "https://aclanthology.org/2024.findings-emnlp.203",
-        "doi": "",
-        "ISSN": "",
-        "month": "November",
-        "venue": "EMNLP2024"
-    },
     "Sanitizing Large Language Models in Bug Detection with Data-Flow": {
         "type": "INPROCEEDINGS",
         "key": "wang-etal-2024-sanitizing",
@@ -2639,7 +2619,7 @@
         "labels": [
             "static analysis",
             "bug detection",
-            "fundamental analysis"
+            "data-flow analysis"
         ],
         "url": "https://aclanthology.org/2024.findings-emnlp.217",
         "doi": "",
@@ -2702,7 +2682,7 @@
         "pages": "",
         "abstract": "Decompilation transforms compiled code back into a high-level programming language for analysis when source code is unavailable. Previous work has primarily focused on enhancing decompilation performance by increasing the scale of model parameters or training data for pre-training. Based on the characteristics of the decompilation task, we propose two methods: (1) Without fine-tuning, the Self-Constructed Context Decompilation (sc\u00b2dec) method recompiles the LLM\u2019s decompilation results to construct pairs for in-context learning, helping the model improve decompilation performance. (2) Fine-grained Alignment Enhancement (FAE), which meticulously aligns assembly code with source code at the statement level by leveraging debugging information, is employed during the fine-tuning phase to achieve further improvements in decompilation. By integrating these two methods, we achieved a Re-Executability performance improvement of approximately 3.90% on the Decompile-Eval benchmark, establishing a new state-of-the-art performance of 52.41%. The code, data, and models are available at https://github.com/AlongWY/sccdec.",
         "labels": [
-            "code generation",
+            "static analysis",
             "program decompilation",
             "code model",
             "code model training",
@@ -3410,7 +3390,7 @@
         "pages": "",
         "abstract": "Decompilation aims to convert binary code to high-level source code, but traditional tools like Ghidra often produce results that are difficult to read and execute. Motivated by the advancements in Large Language Models (LLMs), we propose LLM4Decompile, the first and largest open-source LLM series (1.3B to 33B) trained to decompile binary code. We optimize the LLM training process and introduce the LLM4Decompile-End models to decompile binary directly. The resulting models significantly outperform GPT-4o and Ghidra on the HumanEval and ExeBench benchmarks by over 100% in terms of re-executability rate. Additionally, we improve the standard refinement approach to fine-tune the LLM4Decompile-Ref models, enabling them to effectively refine the decompiled code from Ghidra and achieve a further 16.2% improvement over the LLM4Decompile-End. LLM4Decompile demonstrates the potential of LLMs to revolutionize binary code decompilation, delivering remarkable improvements in readability and executability while complementing conventional tools for optimal results.",
         "labels": [
-            "code generation",
+            "static analysis",
             "program decompilation",
             "code model",
             "code model training",
@@ -3852,7 +3832,7 @@
         "pages": "",
         "abstract": "Reverse engineering is essential in malware analysis, vulnerability discovery, etc. Decompilers assist the reverse engineers by lifting the assembly to the high-level programming language, which highly boosts binary comprehension. However, decompilers suffer from problems such as meaningless variable names, redundant variables, and lacking comments describing the purpose of the code. Previous studies have shown promising performance in refining the decompiler output by training the models with huge datasets containing various decompiler outputs. However, even datasets that take much time to construct cover limited binaries in the real world. The performance degrades severely facing the binary migration.In this paper, we present DeGPT, an end-to-end framework aiming to optimize the decompiler output to improve its readability and simplicity and further assist the reverse engineers in understanding the binaries better. The Large Language Model (LLM) can mitigate performance degradation with its extraordinary ability endowed by large model size and training set containing rich multi-modal data. However, its potential is difficult to unlock through one-shot use. Thus, we propose the three-role mechanism, which includes referee (R_ref), advisor (R_adv), and operator (R_ope), to adapt the LLM to our optimization tasks. Specifically, R_ref provides the optimization scheme for the target decompiler output, while R_adv gives the rectification measures based on the scheme, and R_ope inspects whether the optimization changes the original function semantics and concludes the final verdict about whether to accept the optimizations. We evaluate DeGPT on the datasets containing decompiler outputs of various software, such as the practical command line tools, malware, a library for audio processing, and implementations of algorithms. The experimental results show that even on the output of the current top-level decompiler (Ghidra), DeGPT can achieve 24.4% reduction in the cognitive burden of understanding the decompiler outputs and provide comments of which 62.9% can provide practical semantics for the reverse engineers to help the understanding of binaries. Our user surveys also show that the optimizations can significantly simplify the code and add helpful semantic information (variable names and comments), facilitating a quick and accurate understanding of the binary.",
         "labels": [
-            "code generation",
+            "static analysis",
             "program decompilation"
         ],
         "url": "https://www.ndss-symposium.org/ndss-paper/degpt-optimizing-decompiler-output-with-llm",
@@ -5919,13 +5899,15 @@
         "abstract": "Large language models~(LLMs) demonstrate significant potential to revolutionize software engineering (SE) by exhibiting outstanding performance in SE tasks such as code and document generation. However, the high reliability and risk control requirements in software engineering raise concerns about the lack of interpretability of LLMs. To address this concern, we conducted a study to evaluate the capabilities of LLMs and their limitations for code analysis in SE. We break down the abilities needed for artificial intelligence~(AI) models to address SE tasks related to code analysis into three categories: 1) syntax understanding, 2) static behavior understanding, and 3) dynamic behavior understanding. Our investigation focused on the ability of LLMs to comprehend code syntax and semantic structures, which include abstract syntax trees (AST), control flow graphs (CFG), and call graphs (CG). We employed four state-of-the-art foundational models, GPT4, GPT3.5, StarCoder and CodeLlama-13b-instruct. We assessed the performance of LLMs on cross-language tasks involving C, Java, Python, and Solidity. Our findings revealed that while LLMs have a talent for understanding code syntax, they struggle with comprehending code semantics, particularly dynamic semantics. We conclude that LLMs possess capabilities similar to an Abstract Syntax Tree (AST) parser, demonstrating initial competencies in static code analysis. Furthermore, our study highlights that LLMs are susceptible to hallucinations when interpreting code semantic structures and fabricating nonexistent facts. These results indicate the need to explore methods to verify the correctness of LLM output to ensure its dependability in SE. More importantly, our study provides an initial answer to why the codes generated by LLM are usually syntax-correct but vulnerable.",
         "labels": [
             "static analysis",
-            "fundamental analysis",
+            "data-flow analysis",
+            "call graph analysis",
+            "data-flow analysis",
             "code model",
             "code model training",
             "source code model",
             "empirical study"
         ],
-        "url": "https://arxiv.org/pdf/2410.15631"
+        "url": "https://arxiv.org/abs/2305.12138"
     },
     "Codemind: A framework to challenge large language models for code reasoning": {
         "type": "article",
@@ -5954,7 +5936,7 @@
         "venue": "ICSE2024",
         "labels": [
             "static analysis",
-            "fundamental analysis",
+            "syntactic analysis",
             "empirical study"
         ],
         "url": "https://arxiv.org/pdf/2401.01512"
@@ -6130,8 +6112,8 @@
         "venue": "Meta2024",
         "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across a variety of software engineering and coding tasks. However, their application in the domain of code and compiler optimization remains underexplored. Training LLMs is resource-intensive, requiring substantial GPU hours and extensive data collection, which can be prohibitive. To address this gap, we introduce Meta Large Language Model Compiler (LLM Compiler), a suite of robust, openly available, pre-trained models specifically designed for code optimization tasks. Built on the foundation of Code Llama, LLM Compiler enhances the understanding of compiler intermediate representations (IRs), assembly language, and optimization techniques. The model has been trained on a vast corpus of 546 billion tokens of LLVM-IR and assembly code and has undergone instruction fine-tuning to interpret compiler behavior. LLM Compiler is released under a bespoke commercial license to allow wide reuse and is available in two sizes: 7 billion and 13 billion parameters. We also present fine-tuned versions of the model, demonstrating its enhanced capabilities in optimizing code size and disassembling from x86_64 and ARM assembly back into LLVM-IR. These achieve 77% of the optimising potential of an autotuning search, and 45% disassembly round trip (14% exact match). This release aims to provide a scalable, cost-effective foundation for further research and development in compiler optimization by both academic researchers and industry practitioners.",
         "labels": [
-            "code generation",
-            "compiler optimization",
+            "static analysis",
+            "program optimization",
             "code model",
             "code model training",
             "IR code model"
@@ -6148,8 +6130,8 @@
         "venue": "CGO2022",
         "abstract": "Interest in applying Artificial Intelligence (AI) techniques to compiler optimizations is increasing rapidly, but compiler research has a high entry barrier. Unlike in other domains, compiler and AI researchers do not have access to the datasets and frameworks that enable fast iteration and development of ideas, and getting started requires a significant engineering investment. What is needed is an easy, reusable experimental infrastructure for real world compiler optimization tasks that can serve as a common benchmark for comparing techniques, and as a platform to accelerate progress in the field.We introduce CompilerGym, a set of environments for real world compiler optimization tasks, and a toolkit for exposing new optimization tasks to compiler researchers. CompilerGym enables anyone to experiment on production compiler optimization problems through an easy-to-use package, regardless of their experience with compilers. We build upon the popular OpenAI Gym interface enabling researchers to interact with compilers using Python and a familiar API.We describe the CompilerGym architecture and implementation, characterize the optimization spaces and computational efficiencies of three included compiler environments, and provide extensive empirical evaluations. Compared to prior works, CompilerGym offers larger datasets and optimization spaces, is 27X more computationally efficient, is fault-tolerant, and capable of detecting reproducibility bugs in the underlying compilers.In making it easy for anyone to experiment with compilers - irrespective of their background - we aim to accelerate progress in the AI and compiler research domains.",
         "labels": [
-            "code generation",
-            "compiler optimization",
+            "static analysis",
+            "program optimization",
             "benchmark"
         ],
         "url": "https://doi.org/10.1109/CGO53902.2022.9741258"
@@ -6238,8 +6220,8 @@
         "abstract": "Machine learning (ML) is increasingly seen as a viable approach for building compiler optimization heuristics, but many ML methods cannot replicate even the simplest of the data flow analyses that are critical to making good optimization decisions. We posit that if ML cannot do that, then it is insufficiently able to reason about programs. We formulate data flow analyses as supervised learning tasks and introduce a large open dataset of programs and their corresponding labels from several analyses. We use this dataset to benchmark ML methods and show that they struggle on these fundamental program reasoning tasks. We propose ProGraML-Program Graphs for Machine Learning-a language-independent, portable representation of program semantics. ProGraML overcomes the limitations of prior works and yields improved performance on downstream optimization tasks.",
         "labels": [
             "static analysis",
-            "fundamental analysis",
-            "compiler optimization",
+            "data-flow analysis",
+            "program optimization",
             "code model",
             "code model training",
             "IR code model"
@@ -6259,7 +6241,7 @@
             "code model",
             "code model training",
             "binary code model",
-            "code generation",
+            "static analysis",
             "program decompilation"
         ],
         "url": "https://www.cs.purdue.edu/homes/lintan/publications/resym-ccs24.pdf"
@@ -6310,7 +6292,7 @@
         "venue": "arXiv2023",
         "abstract": "Decompilation aims to recover the source code form of a binary executable. It has many applications in security and software engineering such as malware analysis, vulnerability detection and code reuse. A prominent challenge in decompilation is to recover variable names. We propose a novel method that leverages the synergy of large language model (LLM) and program analysis. Language models encode rich multi-modal knowledge, but its limited input size prevents providing sufficient global context for name recovery. We propose to divide the task to many LLM queries and use program analysis to correlate and propagate the query results, which in turn improves the performance of LLM by providing additional contextual information. Our results show that 75% of the recovered names are considered good by users and our technique outperforms the state-of-the-art technique by 16.5% and 20.23% in precision and recall, respectively.",
         "labels": [
-            "code generation",
+            "static analysis",
             "program decompilation",
             "code model",
             "code model training",
@@ -6328,7 +6310,7 @@
         "venue": "arXiv2023",
         "abstract": "Binary code analysis is the foundation of crucial tasks in the security domain; thus building effective binary analysis techniques is more important than ever. Large language models (LLMs) although have brought impressive improvement to source code tasks, do not directly generalize to assembly code due to the unique challenges of assembly: (1) the low information density of assembly and (2) the diverse optimizations in assembly code. To overcome these challenges, this work proposes a hierarchical attention mechanism that builds attention summaries to capture the semantics more effectively and designs contrastive learning objectives to train LLMs to learn assembly optimization. Equipped with these techniques, this work develops Nova, a generative LLM for assembly code. Nova outperforms existing techniques on binary code decompilation by up to 14.84 -- 21.58% (absolute percentage point improvement) higher Pass@1 and Pass@10, and outperforms the latest binary code similarity detection techniques by up to 6.17% Recall@1, showing promising abilities on both assembly generation and understanding tasks.",
         "labels": [
-            "code generation",
+            "static analysis",
             "program decompilation",
             "static analysis",
             "code similarity analysis",
@@ -6348,7 +6330,7 @@
         "venue": "arXiv2023",
         "abstract": "A C decompiler converts an executable into source code. The recovered C source code, once re-compiled, is expected to produce an executable with the same functionality as the original executable. With over twenty years of development, C decompilers have been widely used in production to support reverse engineering applications. Despite the prosperous development of C decompilers, it is widely acknowledged that decompiler outputs are mainly used for human consumption, and are not suitable for automatic recompilation. Often, a substantial amount of manual effort is required to fix the decompiler outputs before they can be recompiled and executed properly. This paper is motived by the recent success of large language models (LLMs) in comprehending dense corpus of natural language. To alleviate the tedious, costly and often error-prone manual effort in fixing decompiler outputs, we investigate the feasibility of using LLMs to augment decompiler outputs, thus delivering recompilable decompilation. Note that different from previous efforts that focus on augmenting decompiler outputs with higher readability (e.g., recovering type/variable names), we focus on augmenting decompiler outputs with recompilability, meaning to generate code that can be recompiled into an executable with the same functionality as the original executable. We conduct a pilot study to characterize the obstacles in recompiling the outputs of the de facto commercial C decompiler -- IDA-Pro. We then propose a two-step, hybrid approach to augmenting decompiler outputs with LLMs. We evaluate our approach on a set of popular C test cases, and show that our approach can deliver a high recompilation success rate to over 75% with moderate effort, whereas none of the IDA-Pro's original outputs can be recompiled. We conclude with a discussion on the limitations of our approach and promising future research directions.",
         "labels": [
-            "code generation",
+            "static analysis",
             "program decompilation"
         ],
         "url": "https://arxiv.org/abs/2310.06530"
@@ -7510,7 +7492,7 @@
         "abstract": "Traditional program slicing techniques are crucial for early bug detection and manual/automated debugging of online code snippets. Nevertheless, their inability to handle incomplete code hinders their real-world applicability in such scenarios. To overcome these challenges, we present NS-Slicer, a novel learning-based approach that predicts static program slices for both complete and partial code Our tool leverages a pre-trained language model to exploit its understanding of fine-grained variable-statement dependencies within source code. With this knowledge, given a variable at a specific location and a statement in a code snippet, NS-Slicer determines whether the statement belongs to the backward slice or forward slice, respectively. We conducted a series of experiments to evaluate NS-Slicer's performance. On complete code, it predicts the backward and forward slices with an F1-score of 97.41% and 95.82%, respectively, while achieving an overall F1-score of 96.77%. Notably, in 85.20% of the cases, the static program slices predicted by NS-Slicer exactly match entire slices from the oracle. For partial programs, it achieved an F1-score of 96.77%\u201397.49% for backward slicing, 92.14%\u201395.40% for forward slicing, and an overall F1-score of 94.66%\u201396.62%. Furthermore, we demonstrate NS-Slicer's utility in vulnerability detection (VD), integrating its predicted slices into an automated VD tool. In this setup, the tool detected vulnerabilities in Java code with a high F1-score of 73.38%. We also include the analyses studying NS-Slicer\u2019s promising performance and limitations, providing insights into its understanding of intrinsic code properties such as variable aliasing, leading to better slicing.",
         "labels": [
             "static analysis",
-            "fundamental analysis",
+            "data-flow analysis",
             "code model",
             "code model training",
             "source code model"
@@ -7532,7 +7514,8 @@
         "abstract": "While deep neural networks provide state-of-the-art solutions to a wide range of programming language tasks, their effectiveness in dealing with foundational program analysis tasks remains under explored. In this paper, we present an empirical study that evaluates four prominent models of code (i.e., CuBERT, CodeBERT, GGNN, and Graph Sandwiches) in two such foundational tasks: (1) alias prediction, in which models predict whether two pointers must alias, may alias or must not alias; and (2) equivalence prediction, in which models predict whether or not two programs are semantically equivalent. At the core of this study is CodeSem, a dataset built upon the source code of real-world flagship software (e.g., Linux Kernel, GCC, MySQL) and manually validated for the two prediction tasks. Results show that all models are accurate in both prediction tasks, especially CuBERT with an accuracy of 89% and 84% in alias prediction and equivalence prediction, respectively. We also conduct a comprehensive, in-depth analysis of the results of all models in both tasks, concluding that deep learning models are generally capable of performing foundational tasks in program analysis even though in specific cases their weaknesses are also evident.",
         "labels": [
             "static analysis",
-            "fundamental analysis",
+            "pointer analysis",
+            "equivalence checking",
             "code model",
             "code model training",
             "source code model"
@@ -7550,7 +7533,7 @@
         "abstract": "Program slicing is a critical technique in software engineering, enabling developers to isolate relevant portions of code for tasks such as bug detection, code comprehension, and debugging. In this study, we investigate the application of large language models (LLMs) to both static and dynamic program slicing, with a focus on Java programs. We evaluate the performance of four state-of-the-art LLMs- GPT-4o, GPT-3.5 Turbo, Llama-2, and Gemma-7B leveraging advanced prompting techniques, including few-shot learning and chain-of-thought reasoning. Using a dataset of 100 Java programs derived from LeetCode problems, our experiments reveal that GPT-4o performs the best in both static and dynamic slicing across other LLMs, achieving an accuracy of 60.84% and 59.69%, respectively. Our results also show that the LLMs we experimented with are yet to achieve reasonable performance for either static slicing or dynamic slicing. Through a rigorous manual analysis, we developed a taxonomy of root causes and failure locations to explore the unsuccessful cases in more depth. We identified Complex Control Flow as the most frequent root cause of failures, with the majority of issues occurring in Variable Declarations and Assignments locations. To improve the performance of LLMs, we further examined two independent strategies for prompting guided by our taxonomy, including prompt crafting, which involved refining the prompts to better guide the LLM through the slicing process, and iterative prompting, where the model receives feedback on the root cause and location of the failure and re-generates its responses. Our evaluation shows these two prompting enhancement approaches can improve accuracy by 4% and 3.9%, respectively.",
         "labels": [
             "static analysis",
-            "fundamental analysis"
+            "data-flow analysis"
         ],
         "url": "https://arxiv.org/pdf/2409.12369"
     },
@@ -7762,7 +7745,7 @@
         "abstract": "We think that Rust is a great language, and maybe you agree! Unfortunately, even if you do, there\u2019s a good chance whatever application you\u2019re working on is written in some older language such as C. To help with this, Galois has been developing c2rust, an automated transpiler (source-to-source translator) from C code into Rust code. c2rust can take almost any C and turn it into C-like Rust code, the first step in creating a new Rust application. And we\u2019re building more features to turn C into safe, idiomatic Rust code. Recently, we have been experimenting with LLMs to help with transpilation from C to Rust. This blog describes one such experiment, where we built an analysis for determining nullability of function arguments in C. This is a necessary stage in the c2rust translation pipeline, and we already have an existing interprocedural static analysis tool that performs this task. We built a companion LLM-based tool using GPT-4o, and compared the performance between our static and LLM-based analysis. ",
         "labels": [
             "static analysis",
-            "fundamental analysis"
+            "pointer analysis"
         ]
     },
     "Evaluating Offensive Security Capabilities of Large Language Models": {

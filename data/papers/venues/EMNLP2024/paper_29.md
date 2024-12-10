@@ -1,11 +1,11 @@
-# DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models
+# Leveraging Context-Aware Prompting for Commit Message Generation
 
-**Authors**: Huang, Yiming and Luo, Jianwen and Yu, Yan and Zhang, Yitong and Lei, Fangyu and Wei, Yifan and He, Shizhu and Huang, Lifu and Liu, Xiao and Zhao, Jun and Liu, Kang
+**Authors**: Jiang, Zhihua and Chen, Jianwei and Rao, Dongning and Ye, Guanghui
 
 **Abstract**:
 
-We introduce DA-Code, a code generation benchmark specifically designed to assess LLMs on agent-based data science tasks. This benchmark features three core elements: First, the tasks within DA-Code are inherently challenging, setting them apart from traditional code generation tasks and demanding advanced coding skills in grounding and planning. Second, examples in DA-Code are all based on real and diverse data, covering a wide range of complex data wrangling and analytics tasks. Third, to solve the tasks, the models must utilize complex data science programming languages, including Python and SQL, to perform intricate data processing and derive the answers. We set up the benchmark in a controllable and executable environment that aligns with real-world data analysis scenarios and is scalable. The annotators meticulously designed the evaluation suite to ensure the accuracy and robustness of the evaluation. We developed the DA-Agent baseline. Experiments show that although the baseline performs better than other existing frameworks, using the current best LLMs achieves only 30.5% accuracy, leaving ample room for improvement. We release our benchmark at [link](https://github.com/yiyihum/dabench)
+Writing comprehensive commit messages is tedious yet important, because these messages describe changes of code, such as fixing bugs or adding new features. However, most existing methods focus on either only the changed lines or nearest context lines, without considering the effectiveness of selecting useful contexts. On the other hand, it is possible that introducing excessive contexts can lead to noise. To this end, we propose a code model COMMIT (Context-aware prOMpting based comMIt-message generaTion) in conjunction with a code dataset CODEC (COntext and metaData Enhanced Code dataset). Leveraging program slicing, CODEC consolidates code changes along with related contexts via property graph analysis. Further, utilizing CodeT5+ as the backbone model, we train COMMIT via context-aware prompt on CODEC. Experiments show that COMMIT can surpass all compared models including pre-trained language models for code (code-PLMs) such as CommitBART and large language models for code (code-LLMs) such as Code-LlaMa. Besides, we investigate several research questions (RQs), further verifying the effectiveness of our approach. We release the data and code at: https://github.com/Jnunlplab/COMMIT.git.
 
-**Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.748)
+**Link**: [Read Paper](https://aclanthology.org/2024.emnlp-main.749)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [benchmark](../../labels/benchmark.md)
+**Labels**: [software maintenance and deployment](../../labels/software_maintenance_and_deployment.md), [commit message generation](../../labels/commit_message_generation.md)

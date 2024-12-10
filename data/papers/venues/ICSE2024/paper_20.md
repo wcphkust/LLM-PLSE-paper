@@ -8,4 +8,4 @@ This paper discusses the limitations of evaluating Masked Language Models (MLMs)
 
 **Link**: [Read Paper](https://arxiv.org/pdf/2401.01512)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md), [empirical study](../../labels/empirical_study.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [syntactic analysis](../../labels/syntactic_analysis.md), [empirical study](../../labels/empirical_study.md)

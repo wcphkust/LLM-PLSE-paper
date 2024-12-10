@@ -68,8 +68,8 @@ Number of papers: 17
 ## [LLMs: Understanding Code Syntax and Semantics for Code Analysis](paper_1.md)
 - **Authors**: Ma, Wei and Liu, Shangqing and Lin, Zhihao and Wang, Wenhan and Hu, Qiang and Liu, Ye and Zhang, Cen and Nie, Liming and Li, Li and Liu, Yang
 - **Abstract**: Large language models~(LLMs) demonstrate significant potential to revolutionize software engineering (SE) by exhibiting outstanding performance in SE tasks such as code and document generation. However, the high reliability and risk control requirements in software engineering raise concerns about the lack of interpretability of LLMs. To address this concern, we conducted a study to evaluate the capabilities of LLMs and their limitations for code analysis in SE. We break down the abilities neede...
-- **Link**: [Read Paper](https://arxiv.org/pdf/2410.15631)
-- **Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [source code model](../../labels/source_code_model.md), [empirical study](../../labels/empirical_study.md)
+- **Link**: [Read Paper](https://arxiv.org/abs/2305.12138)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md), [call graph analysis](../../labels/call_graph_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [source code model](../../labels/source_code_model.md), [empirical study](../../labels/empirical_study.md)
 
 
 ## [Large language model-powered smart contract vulnerability detection: New perspectives](paper_11.md)
@@ -83,21 +83,21 @@ Number of papers: 17
 - **Authors**: Xu, Xiangzhe and Zhang, Zhuo and Feng, Shiwei and Ye, Yapeng and Su, Zian and Jiang, Nan and Cheng, Siyuan and Tan, Lin and Zhang, Xiangyu
 - **Abstract**: Decompilation aims to recover the source code form of a binary executable. It has many applications in security and software engineering such as malware analysis, vulnerability detection and code reuse. A prominent challenge in decompilation is to recover variable names. We propose a novel method that leverages the synergy of large language model (LLM) and program analysis. Language models encode rich multi-modal knowledge, but its limited input size prevents providing sufficient global context ...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2306.02546v1)
-- **Labels**: [code generation](../../labels/code_generation.md), [program decompilation](../../labels/program_decompilation.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [program decompilation](../../labels/program_decompilation.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md)
 
 
 ## [Nova: Generative Language Models for Assembly Code with Hierarchical Attention and Contrastive Learning](paper_3.md)
 - **Authors**: Nan Jiang, Chengxiao Wang, Kevin Liu, Xiangzhe Xu, Lin Tan, Xiangyu Zhang, and Petr Babkin
 - **Abstract**: Binary code analysis is the foundation of crucial tasks in the security domain; thus building effective binary analysis techniques is more important than ever. Large language models (LLMs) although have brought impressive improvement to source code tasks, do not directly generalize to assembly code due to the unique challenges of assembly: (1) the low information density of assembly and (2) the diverse optimizations in assembly code. To overcome these challenges, this work proposes a hierarchica...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2311.13721)
-- **Labels**: [code generation](../../labels/code_generation.md), [program decompilation](../../labels/program_decompilation.md), [static analysis](../../labels/static_analysis.md), [code similarity analysis](../../labels/code_similarity_analysis.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [program decompilation](../../labels/program_decompilation.md), [static analysis](../../labels/static_analysis.md), [code similarity analysis](../../labels/code_similarity_analysis.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [binary code model](../../labels/binary_code_model.md)
 
 
 ## [Refining Decompiled C Code with Large Language Models](paper_4.md)
 - **Authors**: Wai Kin Wong, Huaijin Wang, Zongjie Li, Zhibo Liu, Shuai Wang, Qiyi Tang, Sen Nie, and Shi Wu
 - **Abstract**: A C decompiler converts an executable into source code. The recovered C source code, once re-compiled, is expected to produce an executable with the same functionality as the original executable. With over twenty years of development, C decompilers have been widely used in production to support reverse engineering applications. Despite the prosperous development of C decompilers, it is widely acknowledged that decompiler outputs are mainly used for human consumption, and are not suitable for aut...
 - **Link**: [Read Paper](https://arxiv.org/abs/2310.06530)
-- **Labels**: [code generation](../../labels/code_generation.md), [program decompilation](../../labels/program_decompilation.md)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [program decompilation](../../labels/program_decompilation.md)
 
 
 ## [SkipAnalyzer: An Embodied Agent for Code Analysis with Large Language Models](paper_8.md)

@@ -8,4 +8,4 @@ Dataflow graphs (DFGs) capture definitions (defs) and uses across program blocks
 
 **Link**: [Read Paper](https://doi.org/10.1145/3672458)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [fundamental analysis](../../labels/fundamental_analysis.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md)
