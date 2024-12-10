@@ -192,6 +192,8 @@ def classify_papers_by_label(venue_dict, title_to_path, venue_to_path):
         for paper in venue_dict[venue]:
             for label in paper['labels']:
                 if label not in labels:
+                    print(paper)
+                    print(label)
                     print("You use a undefined label. Please submit an issue first to apply for a taxonomy change.")
                     exit(0)
                 if label not in label_paper_dict:

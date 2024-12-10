@@ -93,47 +93,47 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   ({c26})
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   ({c27})
   - [Bug Detection](data/papers/labels/bug_detection.md)   ({c28})
-  - [Program Verification](data/papers/labels/program_verification.md)   ({c30})
-  - [Program Optimization](Program Optimization)(data/papers/labels/program_optimization.md)   ({c29})
-  - [Program Decomposition](Program Optimization)(data/papers/labels/program_decomposition.md)   ({c30})
-  - [Code Summarization](data/papers/labels/code_summarization.md)   ({c31})
-  - [Code Search](data/papers/labels/code_search.md)   ({c32})
-  - [Software Composition Analysis](data/papers/labels/software_composition_analysis.md)   ({c33})
-- [Software Maintenance and Deployment](data/papers/labels/software_maintenance_and_deployment.md)   ({c34})
-  - [Code Review](data/papers/labels/code_review.md)   ({c35})
-  - [Documentation Generation](data/papers/labels/documentation_generation.md)   ({c36})
-  - [Commit Message Generation](data/papers/labels/commit_message_generation.md)   ({c37})
-  - [Software Configuration](data/papers/labels/software_configuration.md)   ({c38})
-  - [System Log Analysis](data/papers/labels/system_log_analysis.md)   ({c39})
+  - [Program Verification](data/papers/labels/program_verification.md)   ({c29})
+  - [Program Optimization](data/papers/labels/program_optimization.md)   ({c30})
+  - [Program Decompilation](data/papers/labels/program_decompilation.md)   ({c31})
+  - [Code Summarization](data/papers/labels/code_summarization.md)   ({c32})
+  - [Code Search](data/papers/labels/code_search.md)   ({c33})
+  - [Software Composition Analysis](data/papers/labels/software_composition_analysis.md)   ({c34})
+- [Software Maintenance and Deployment](data/papers/labels/software_maintenance_and_deployment.md)   ({c35})
+  - [Code Review](data/papers/labels/code_review.md)   ({c36})
+  - [Documentation Generation](data/papers/labels/documentation_generation.md)   ({c37})
+  - [Commit Message Generation](data/papers/labels/commit_message_generation.md)   ({c38})
+  - [Software Configuration](data/papers/labels/software_configuration.md)   ({c39})
+  - [System Log Analysis](data/papers/labels/system_log_analysis.md)   ({c40})
 
 
 ### C.2. Principle
 
 This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
 
-- [Code Model](data/papers/labels/code_model.md)   ({c40})
-  - [Code Model Training](data/papers/labels/code_model_training.md)   ({c41})
-    - [Source Code Model](data/papers/labels/source_code_model.md)   ({c42})
-    - [IR Code Model](data/papers/labels/IR_code_model.md)   ({c43})
-    - [Binary Code Model](data/papers/labels/binary_code_model.md)   ({c44})
-  - [Code Model Security](data/papers/labels/code_model_security.md)   ({c45})
-  - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   ({c46})
-- [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   ({c47})
-- [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   ({c48})
-- [Agent Design](data/papers/labels/agent_design.md)   ({c49})
-  - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   ({c50})
-    - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   ({c51})
-    - [Reason With Code](data/papers/labels/reason_with_code.md)   ({c52})
-    - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   ({c53})
-  - [Planning](data/papers/labels/planning.md)   ({c54})
+- [Code Model](data/papers/labels/code_model.md)   ({c41})
+  - [Code Model Training](data/papers/labels/code_model_training.md)   ({c42})
+    - [Source Code Model](data/papers/labels/source_code_model.md)   ({c43})
+    - [IR Code Model](data/papers/labels/IR_code_model.md)   ({c44})
+    - [Binary Code Model](data/papers/labels/binary_code_model.md)   ({c45})
+  - [Code Model Security](data/papers/labels/code_model_security.md)   ({c46})
+  - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   ({c47})
+- [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   ({c48})
+- [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   ({c49})
+- [Agent Design](data/papers/labels/agent_design.md)   ({c50})
+  - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   ({c51})
+    - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   ({c52})
+    - [Reason With Code](data/papers/labels/reason_with_code.md)   ({c53})
+    - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   ({c54})
+  - [Planning](data/papers/labels/planning.md)   ({c55})
 
 ### C.3. Research Paradigm
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   ({c55})
-- [Empirical Study](data/papers/labels/empirical_study.md)   ({c56})
-- [Survey](data/papers/labels/survey.md)   ({c57})
+- [Benchmark](data/papers/labels/benchmark.md)   ({c56})
+- [Empirical Study](data/papers/labels/empirical_study.md)   ({c57})
+- [Survey](data/papers/labels/survey.md)   ({c58})
 
 ## D. How to Contribute
 
