@@ -12,7 +12,7 @@
   - **Labels**: [general coding task](general_coding_task.md), [benchmark](benchmark.md)
 
 
-- [Automatic Programming: Large Language Models and Beyond](../venues/arXiv2024/paper_8.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Automatic Programming: Large Language Models and Beyond](../venues/arXiv2024/paper_10.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Automatic programming has seen increasing popularity due to the emergence of tools like GitHub Copilot which rely on Large Language Models (LLMs). At the same time, automatically generated code faces challenges during deployment due to concerns around quality and trust. In this article, we study automated coding in a general sense and study the concerns around code quality, security and related issues of programmer responsibility. These are key issues for organizations while deciding on the usag...
   - **Labels**: [general coding task](general_coding_task.md), [empirical study](empirical_study.md)
@@ -48,7 +48,7 @@
   - **Labels**: [general coding task](general_coding_task.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md)
 
 
-- [Codemind: A framework to challenge large language models for code reasoning](../venues/arXiv2024/paper_2.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Codemind: A framework to challenge large language models for code reasoning](../venues/arXiv2024/paper_4.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Solely relying on test passing to evaluate Large Language Models (LLMs) for code synthesis may result in unfair assessment or promoting models with data leakage. As an alternative, we introduce CodeMind, a framework designed to gauge the code reasoning abilities of LLMs. CodeMind currently supports three code reasoning tasks: Independent Execution Reasoning (IER), Dependent Execution Reasoning (DER), and Specification Reasoning (SR). The first two evaluate models to predict the execution output ...
   - **Labels**: [general coding task](general_coding_task.md), [empirical study](empirical_study.md)

@@ -102,7 +102,7 @@
   - **Labels**: [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md)
 
 
-- [If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents](../venues/arXiv2024/paper_27.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents](../venues/arXiv2024/paper_29.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Speci...
   - **Labels**: [survey](survey.md), [agent design](agent_design.md), [reason with code](reason_with_code.md)
@@ -198,7 +198,7 @@
   - **Labels**: [program testing](program_testing.md), [debugging](debugging.md), [agent design](agent_design.md), [planning](planning.md)
 
 
-- [Repairagent: An autonomous, llm-based agent for program repair](../venues/arXiv2024/paper_7.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Repairagent: An autonomous, llm-based agent for program repair](../venues/arXiv2024/paper_9.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Automated program repair has emerged as a powerful technique to mitigate the impact of software bugs on system reliability and user experience. This paper introduces RepairAgent, the first work to address the program repair challenge through an autonomous agent based on a large language model (LLM). Unlike existing deep learning-based approaches, which prompt a model with a fixed prompt or in a fixed feedback loop, our work treats the LLM as an agent capable of autonomously planning and executin...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [agent design](agent_design.md), [planning](planning.md)

@@ -5888,6 +5888,62 @@
         ],
         "url": "https://arxiv.org/pdf/2410.15631"
     },
+    "SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI": {
+        "type": "article",
+        "key": "secdoeplt",
+        "title": "SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI",
+        "author": "Yu Yang, Yuzhou Nie, Zhun Wang, Yuheng Tang, Wenbo Guo, Bo Li, Dawn Song",
+        "journal": "arXiv preprint arXiv:2410.11096",
+        "year": "2024",
+        "volume": "",
+        "number": "",
+        "venue": "arXiv2024",
+        "abstract": "Language models for code (CodeLMs) have emerged as powerful tools for code-related tasks, outperforming traditional methods and standard machine learning approaches. However, these models are susceptible to security vulnerabilities, drawing increasing research attention from domains such as software engineering, artificial intelligence, and cybersecurity. Despite the growing body of research focused on the security of CodeLMs, a comprehensive survey in this area remains absent. To address this gap, we systematically review 67 relevant papers, organizing them based on attack and defense strategies. Furthermore, we provide an overview of commonly used language models, datasets, and evaluation metrics, and highlight open-source tools and promising directions for future research in securing CodeLMs.",
+        "labels": [
+            "code generation",
+            "program synthesis",
+            "code model",
+            "code model security",
+            "benchmark"
+        ],
+        "url": "https://arxiv.org/abs/2410.11096"
+    },
+    "RedAgent: Red Teaming Large Language Models with Context-aware Autonomous Language Agent": {
+        "type": "article",
+        "key": "redagent",
+        "title": "RedAgent: Red Teaming Large Language Models with Context-aware Autonomous Language Agent",
+        "author": "Huiyu Xu, Wenhui Zhang, Zhibo Wang, Feng Xiao, Rui Zheng, Yunhe Feng, Zhongjie Ba, Kui Ren",
+        "journal": "arXiv preprint arXiv:2407.16667",
+        "year": "2024",
+        "volume": "",
+        "number": "",
+        "venue": "arXiv2024",
+        "abstract": "Recently, advanced Large Language Models (LLMs) such as GPT-4 have been integrated into many real-world applications like Code Copilot. These applications have significantly expanded the attack surface of LLMs, exposing them to a variety of threats. Among them, jailbreak attacks that induce toxic responses through jailbreak prompts have raised critical safety concerns. To identify these threats, a growing number of red teaming approaches simulate potential adversarial scenarios by crafting jailbreak prompts to test the target LLM. However, existing red teaming methods do not consider the unique vulnerabilities of LLM in different scenarios, making it difficult to adjust the jailbreak prompts to find context-specific vulnerabilities. Meanwhile, these methods are limited to refining jailbreak templates using a few mutation operations, lacking the automation and scalability to adapt to different scenarios. To enable context-aware and efficient red teaming, we abstract and model existing attacks into a coherent concept called \"jailbreak strategy\" and propose a multi-agent LLM system named RedAgent that leverages these strategies to generate context-aware jailbreak prompts. By self-reflecting on contextual feedback in an additional memory buffer, RedAgent continuously learns how to leverage these strategies to achieve effective jailbreaks in specific contexts. Extensive experiments demonstrate that our system can jailbreak most black-box LLMs in just five queries, improving the efficiency of existing red teaming methods by two times. Additionally, RedAgent can jailbreak customized LLM applications more efficiently. By generating context-aware jailbreak prompts towards applications on GPTs, we discover 60 severe vulnerabilities of these real-world applications with only two queries per vulnerability. We have reported all found issues and communicated with OpenAI and Meta for bug fixes.",
+        "labels": [
+            "code model",
+            "code model security",
+            "benchmark"
+        ],
+        "url": "https://arxiv.org/abs/2407.16667"
+    },
+    "OpenAI’s Approach to External Red Teaming for AI Models and Systems": {
+        "type": "article",
+        "key": "openairedteaming",
+        "title": "OpenAI’s Approach to External Red Teaming for AI Models and Systems",
+        "author": "Lama Ahmad, Sandhini Agarwal, Michael Lampe, Pamela Mishkin",
+        "journal": "technical report",
+        "year": "2024",
+        "volume": "",
+        "number": "",
+        "venue": "OpenAI2024",
+        "abstract": "Red teaming has emerged as a critical practice in assessing the possible risks of AI models and systems. It aids in the discovery of novel risks, stress testing possible gaps in existing mitigations, enriching existing quantitative safety metrics, facilitating the creation of new safety measurements, and enhancing public trust and the legitimacy of AI risk assessments. This white paper describes OpenAI’s work to date in external red teaming and draws some more general conclusions from this work. We describe the design considerations underpinning external red teaming, which include: selecting composition of red team, deciding on access levels, and providing guidance required to conduct red teaming. Additionally, we show outcomes red teaming can enable such as input into risk assessment and automated evaluations. We also describe the limitations of external red teaming, and how it can fit into a broader range of AI model and system evaluations. Through these contributions, we hope that AI developers and deployers,evaluation creators, and policymakers will be able to better design red teaming campaigns and get a deeper look into how external red teaming can fit into model deployment and evaluation processes. These methods are evolving and the value of different methods continues to shift as the ecosystem around red teaming matures and models themselves improve as tools for red teaming.",
+        "labels": [
+            "code model",
+            "code model security",
+            "benchmark"
+        ],
+        "url": "https://cdn.openai.com/papers/openais-approach-to-external-red-teaming.pdf"
+    },
     "LLMs: Understanding Code Syntax and Semantics for Code Analysis": {
         "type": "article",
         "key": "ma2023lms",
@@ -6206,6 +6262,22 @@
             "IR code model"
         ],
         "url": "https://arxiv.org/abs/2105.04297"
+    },
+    "QEDCartographer: Automating Formal Verification Using Reward-Free Reinforcement Learning": {
+        "type": "inproceedings",
+        "key": "QEDCartographer",
+        "title": "QEDCartographer: Automating Formal Verification Using Reward-Free Reinforcement Learning",
+        "author": "Alex Sanchez-Stern, Abhishek Varghese, Zhanna Kaufman, Dylan Zhang, Talia Ringer, Yuriy Brun",
+        "booktitle": "ICSE",
+        "year": "2025",
+        "organization": "ICSE",
+        "venue": "ICSE2025",
+        "abstract": "Formal verification is a promising method for producing reliable software, but the difficulty of manually writing verification proofs severely limits its utility in practice. Recent methods have automated some proof synthesis by guiding a search through the proof space using a theorem prover. Unfortunately, the theorem prover provides only the crudest estimate of progress, resulting in effectively undirected search. To address this problem, we create QEDCartographer, an automated proof-synthesis tool that combines supervised and reinforcement learning to more effectively explore the proof space. QEDCartographer incorporates the proofs' branching structure, enabling reward-free search and overcoming the sparse reward problem inherent to formal verification. We evaluate QEDCartographer using the CoqGym benchmark of 68.5K theorems from 124 open-source Coq projects. QEDCartographer fully automatically proves 21.4% of the test-set theorems. Previous search-based proof-synthesis tools Tok, Tac, ASTactic, Passport, and Proverbot9001, which rely only on supervised learning, prove 9.6%, 9.8%, 10.9%, 12.5%, and 19.8%, respectively. Diva, which combines 62 tools, proves 19.2%. Comparing to the most effective prior tool, Proverbot9001, QEDCartographer produces 34% shorter proofs 29% faster, on average over the theorems both tools prove. Together, QEDCartographer and non-learning-based CoqHammer prove 30.3% of the theorems, while CoqHammer alone proves 26.6%. Our work demonstrates that reinforcement learning is a fruitful research direction for improving proof-synthesis tools' search mechanisms.",
+        "labels": [
+            "static analysis",
+            "program verification"
+        ],
+        "url": "https://arxiv.org/abs/2408.09237"
     },
     "Programl: A graph-based program representation for data flow analysis and compiler optimizations": {
         "type": "inproceedings",

@@ -1,11 +1,11 @@
-# Teams of LLM Agents can Exploit Zero-Day Vulnerabilities
+# Llm4fuzz: Guided fuzzing of smart contracts with large language models
 
-**Authors**: Fang, Richard and Bindu, Rohan and Gupta, Akul and Zhan, Qiusi and Kang, Daniel
+**Authors**: Shou, Chaofan and Liu, Jing and Lu, Doudou and Sen, Koushik
 
 **Abstract**:
 
-LLM agents have become increasingly sophisticated, especially in the realm of cybersecurity. Researchers have shown that LLM agents can exploit real-world vulnerabilities when given a description of the vulnerability and toy capture-the-flag problems. However, these agents still perform poorly on real-world vulnerabilities that are unknown to the agent ahead of time (zero-day vulnerabilities). In this work, we show that teams of LLM agents can exploit real-world, zero-day vulnerabilities. Prior agents struggle with exploring many different vulnerabilities and long-range planning when used alone. To resolve this, we introduce HPTSA, a system of agents with a planning agent that can launch subagents. The planning agent explores the system and determines which subagents to call, resolving long-term planning issues when trying different vulnerabilities. We construct a benchmark of 15 real-world vulnerabilities and show that our team of agents improve over prior work by up to 4.5.
+As blockchain platforms grow exponentially, millions of lines of smart contract code are being deployed to manage extensive digital assets. However, vulnerabilities in this mission-critical code have led to significant exploitations and asset losses. Thorough automated security analysis of smart contracts is thus imperative. This paper introduces LLM4Fuzz to optimize automated smart contract security analysis by leveraging large language models (LLMs) to intelligently guide and prioritize fuzzing campaigns. While traditional fuzzing suffers from low efficiency in exploring the vast state space, LLM4Fuzz employs LLMs to direct fuzzers towards high-value code regions and input sequences more likely to trigger vulnerabilities. Additionally, LLM4Fuzz can leverage LLMs to guide fuzzers based on user-defined invariants, reducing blind exploration overhead. Evaluations of LLM4Fuzz on real-world DeFi projects show substantial gains in efficiency, coverage, and vulnerability detection compared to baseline fuzzing. LLM4Fuzz also uncovered five critical vulnerabilities that can lead to a loss of more than $247k.
 
-**Link**: [Read Paper](https://arxiv.org/abs/2406.01637)
+**Link**: [Read Paper](https://arxiv.org/pdf/2401.11108.pdf)
 
-**Labels**: [program testing](../../labels/program_testing.md), [vulnerability exploitation](../../labels/vulnerability_exploitation.md)
+**Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md)

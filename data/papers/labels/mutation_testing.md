@@ -1,6 +1,6 @@
 # Mutation Testing
 
-- [LLMorpheus: Mutation Testing using Large Language Models](../venues/arXiv2024/paper_23.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [LLMorpheus: Mutation Testing using Large Language Models](../venues/arXiv2024/paper_25.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In mutation testing, the quality of a test suite is evaluated by introducing faults into a program and determining whether the program's tests detect them. Most existing approaches for mutation testing involve the application of a fixed set of mutation operators, e.g., replacing a "+" with a "-" or removing a function's body. However, certain types of real-world bugs cannot easily be simulated by such approaches, limiting their effectiveness. This paper presents a technique where a Large Languag...
   - **Labels**: [program testing](program_testing.md), [mutation testing](mutation_testing.md)

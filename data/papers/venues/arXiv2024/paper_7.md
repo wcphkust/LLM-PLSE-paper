@@ -1,11 +1,11 @@
-# Repairagent: An autonomous, llm-based agent for program repair
+# CodeBenchGen: Creating Scalable Execution-based Code Generation Benchmarks
 
-**Authors**: Bouzenia, Islem and Devanbu, Premkumar and Pradel, Michael
+**Authors**: Xie, Yiqing and Xie, Alex and Sheth, Divyanshu and Liu, Pengfei and Fried, Daniel and Rose, Carolyn
 
 **Abstract**:
 
-Automated program repair has emerged as a powerful technique to mitigate the impact of software bugs on system reliability and user experience. This paper introduces RepairAgent, the first work to address the program repair challenge through an autonomous agent based on a large language model (LLM). Unlike existing deep learning-based approaches, which prompt a model with a fixed prompt or in a fixed feedback loop, our work treats the LLM as an agent capable of autonomously planning and executing actions to fix bugs by invoking suitable tools. RepairAgent freely interleaves gathering information about the bug, gathering repair ingredients, and validating fixes, while deciding which tools to invoke based on the gathered information and feedback from previous fix attempts. Key contributions that enable RepairAgent include a set of tools that are useful for program repair, a dynamically updated prompt format that allows the LLM to interact with these tools, and a finite state machine that guides the agent in invoking the tools. Our evaluation on the popular Defects4J dataset demonstrates RepairAgent's effectiveness in autonomously repairing 164 bugs, including 39 bugs not fixed by prior techniques. Interacting with the LLM imposes an average cost of 270,000 tokens per bug, which, under the current pricing of OpenAI's GPT-3.5 model, translates to 14 cents of USD per bug. To the best of our knowledge, this work is the first to present an autonomous, LLM-based agent for program repair, paving the way for future agent-based techniques in software engineering.
+To facilitate evaluation of code generation systems across diverse scenarios, we present CodeBenchGen, a framework to create scalable execution-based benchmarks that only requires light guidance from humans. Specifically, we leverage a large language model (LLM) to convert an arbitrary piece of code into an evaluation example, including test cases for execution-based evaluation. We illustrate the usefulness of our framework by creating a dataset, Exec-CSN, which includes 1,931 examples involving 293 libraries revised from code in 367 GitHub repositories taken from the CodeSearchNet dataset. To demonstrate the complexity and solvability of examples in Exec-CSN, we present a human study demonstrating that 81.3% of the examples can be solved by humans and 61% are rated as ``requires effort to solve''. We conduct code generation experiments on open-source and proprietary models and analyze the performance of both humans and models. We will release the code of both the framework and the dataset upon acceptance.
 
-**Link**: [Read Paper](https://arxiv.org/pdf/2403.17134)
+**Link**: [Read Paper](https://arxiv.org/pdf/2404.00566)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md), [agent design](../../labels/agent_design.md), [planning](../../labels/planning.md)
+**Labels**: [code generation](../../labels/code_generation.md), [benchmark](../../labels/benchmark.md)

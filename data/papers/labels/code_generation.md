@@ -386,6 +386,12 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [empirical study](empirical_study.md)
 
 
+- [SecCodePLT: A Unified Platform for Evaluating the Security of Code GenAI](../venues/arXiv2024/paper_2.md), ([arXiv2024](../venues/arXiv2024/README.md))
+
+  - **Abstract**: Language models for code (CodeLMs) have emerged as powerful tools for code-related tasks, outperforming traditional methods and standard machine learning approaches. However, these models are susceptible to security vulnerabilities, drawing increasing research attention from domains such as software engineering, artificial intelligence, and cybersecurity. Despite the growing body of research focused on the security of CodeLMs, a comprehensive survey in this area remains absent. To address this g...
+  - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [code model](code_model.md), [code model security](code_model_security.md), [benchmark](benchmark.md)
+
+
 - [Self-Collaboration Code Generation via ChatGPT](../venues/TOSEM2024/paper_5.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
 
   - **Abstract**: Although large language models (LLMs) have demonstrated remarkable code-generation ability, they still struggle with complex tasks. In real-world software development, humans usually tackle complex tasks through collaborative teamwork, a strategy that significantly controls development complexity and enhances software quality. Inspired by this, we present a self-collaboration framework for code generation employing LLMs, exemplified by ChatGPT. Specifically, through role instructions, (1) Multip...
@@ -786,7 +792,7 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [static analysis](static_analysis.md), [type inference](type_inference.md)
 
 
-- [Repairagent: An autonomous, llm-based agent for program repair](../venues/arXiv2024/paper_7.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Repairagent: An autonomous, llm-based agent for program repair](../venues/arXiv2024/paper_9.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Automated program repair has emerged as a powerful technique to mitigate the impact of software bugs on system reliability and user experience. This paper introduces RepairAgent, the first work to address the program repair challenge through an autonomous agent based on a large language model (LLM). Unlike existing deep learning-based approaches, which prompt a model with a fixed prompt or in a fixed feedback loop, our work treats the LLM as an agent capable of autonomously planning and executin...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [agent design](agent_design.md), [planning](planning.md)
@@ -872,7 +878,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [Context-aware Code Segmentation for C-to-Rust Translation using Large Language Models](../venues/arXiv2024/paper_29.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Context-aware Code Segmentation for C-to-Rust Translation using Large Language Models](../venues/arXiv2024/paper_31.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: There is strong motivation to translate C code into Rust code due to the continuing threat of memory safety vulnerabilities in existing C programs and the significant attention paid to Rust as an alternative to the C language. While large language models (LLMs) show promise for automating this translation by generating more natural and safer code than rule-based methods, previous studies have shown that LLM-generated Rust code often fails to compile, even for relatively small C programs, due to ...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
@@ -884,7 +890,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [Enabling Memory Safety of C Programs using LLMs](../venues/arXiv2024/paper_10.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Enabling Memory Safety of C Programs using LLMs](../venues/arXiv2024/paper_12.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Memory safety violations in low-level code, written in languages like C, continues to remain one of the major sources of software vulnerabilities. One method of removing such violations by construction is to port C code to a safe C dialect. Such dialects rely on programmer-supplied annotations to guarantee safety with minimal runtime overhead. This porting, however, is a manual process that imposes significant burden on the programmer and, hence, there has been limited adoption of this technique...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
@@ -950,7 +956,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [Rectifier: Code translation with corrector via llms](../venues/arXiv2024/paper_9.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Rectifier: Code translation with corrector via llms](../venues/arXiv2024/paper_11.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Software migration is garnering increasing attention with the evolution of software and society. Early studies mainly relied on handcrafted translation rules to translate between two languages, the translation process is error-prone and time-consuming. In recent years, researchers have begun to explore the use of pre-trained large language models (LLMs) in code translation. However, code translation is a complex task that LLMs would generate mistakes during code translation, they all produce cer...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
@@ -992,7 +998,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_30.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Towards Translating Real-World Code with LLMs: A Study of Translating to Rust](../venues/arXiv2024/paper_32.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large language models (LLMs) show promise in code translation - the task of translating code written in one programming language to another language - due to their ability to write code in most programming languages. However, LLM's effectiveness on translating real-world code remains largely unstudied. In this work, we perform the first substantial study on LLM-based translation to Rust by assessing the ability of five state-of-the-art LLMs, GPT4, Claude 3, Claude 2.1, Gemini Pro, and Mixtral. W...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [program testing](program_testing.md), [fuzzing](fuzzing.md)
@@ -1010,7 +1016,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_28.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [VERT: Verified Equivalent Rust Transpilation with Large Language Models as Few-Shot Learners](../venues/arXiv2024/paper_30.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Rust is a programming language that combines memory safety and low-level control, providing C-like performance while guaranteeing the absence of undefined behaviors by default. Rust's growing popularity has prompted research on safe and correct transpiling of existing code-bases to Rust. Existing work falls into two categories: rule-based and large language model (LLM)-based. While rule-based approaches can theoretically produce correct transpilations that maintain input-output equivalence to th...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program verification](program_verification.md)

@@ -7,12 +7,12 @@
   - **Abstract**: The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Speci...
   - **Labels**: [agent design](agent_design.md), [survey](survey.md)
 
-- [If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents](../venues/arXiv2024/paper_27.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents](../venues/arXiv2024/paper_29.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Speci...
   - **Labels**: [survey](survey.md), [agent design](agent_design.md), [reason with code](reason_with_code.md)
 
-- [Large language model-based agents for software engineering: A survey](../venues/arXiv2024/paper_26.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Large language model-based agents for software engineering: A survey](../venues/arXiv2024/paper_28.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: The recent advance in Large Language Models (LLMs) has shaped a new paradigm of AI agents, i.e., LLM-based agents. Compared to standalone LLMs, LLM-based agents substantially extend the versatility and expertise of LLMs by enhancing LLMs with the capabilities of perceiving and utilizing external resources and tools. To date, LLM-based agents have been applied and shown remarkable effectiveness in Software Engineering (SE). The synergy between multiple agents and human interaction brings further ...
   - **Labels**: [survey](survey.md), [agent design](agent_design.md)
@@ -24,7 +24,7 @@
 
 ## Code Generation
 
-- [A Survey on Large Language Models for Code Generation](../venues/arXiv2024/paper_6.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [A Survey on Large Language Models for Code Generation](../venues/arXiv2024/paper_8.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have garnered remarkable advancements across diverse code-related tasks, known as Code LLMs, particularly in code generation that generates source code with LLM from natural language descriptions. This burgeoning field has captured significant interest from both academic researchers and industry professionals due to its practical significance in software development, e.g., GitHub Copilot. Despite the active exploration of LLMs for a variety of code tasks, either from...
   - **Labels**: [survey](survey.md), [code generation](code_generation.md)
@@ -62,7 +62,7 @@
 
 ## Program Testing
 
-- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_31.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Large Language Models Based Fuzzing Techniques: A Survey](../venues/arXiv2024/paper_33.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In the modern era where software plays a pivotal role, software security and vulnerability analysis have become essential for software development. Fuzzing test, as an efficient software testing method, are widely used in various domains. Moreover, the rapid development of Large Language Models (LLMs) has facilitated their application in the field of software testing, demonstrating remarkable performance. Considering existing fuzzing test techniques are not entirely automated and software vulner...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [survey](survey.md)

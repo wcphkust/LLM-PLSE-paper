@@ -66,8 +66,8 @@ The papers in this repository are categorized along three dimensions: **Applicat
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
 - [General Coding Task](data/papers/labels/general_coding_task.md)   (31)
-- [Code Generation](data/papers/labels/code_generation.md)   (187)
-  - [Program Synthesis](data/papers/labels/program_synthesis.md)   (80)
+- [Code Generation](data/papers/labels/code_generation.md)   (188)
+  - [Program Synthesis](data/papers/labels/program_synthesis.md)   (81)
   - [Code Completion](data/papers/labels/code_completion.md)   (22)
   - [Program Repair](data/papers/labels/program_repair.md)   (38)
   - [Program Transformation](data/papers/labels/program_transformation.md)   (29)
@@ -83,7 +83,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (9)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (2)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (6)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (120)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (121)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (2)
@@ -93,7 +93,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (1)
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (5)
   - [Bug Detection](data/papers/labels/bug_detection.md)   (58)
-  - [Program Verification](data/papers/labels/program_verification.md)   (16)
+  - [Program Verification](data/papers/labels/program_verification.md)   (17)
   - [Program Optimization](data/papers/labels/program_optimization.md)   (3)
   - [Program Decompilation](data/papers/labels/program_decompilation.md)   (8)
   - [Code Summarization](data/papers/labels/code_summarization.md)   (8)
@@ -111,12 +111,12 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
 
 This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
 
-- [Code Model](data/papers/labels/code_model.md)   (104)
+- [Code Model](data/papers/labels/code_model.md)   (107)
   - [Code Model Training](data/papers/labels/code_model_training.md)   (83)
     - [Source Code Model](data/papers/labels/source_code_model.md)   (64)
     - [IR Code Model](data/papers/labels/IR_code_model.md)   (5)
     - [Binary Code Model](data/papers/labels/binary_code_model.md)   (14)
-  - [Code Model Security](data/papers/labels/code_model_security.md)   (17)
+  - [Code Model Security](data/papers/labels/code_model_security.md)   (20)
   - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (4)
 - [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (11)
 - [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   (3)
@@ -131,7 +131,7 @@ This category concentrates on the LLMs' ability in understanding different forms
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (42)
+- [Benchmark](data/papers/labels/benchmark.md)   (45)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (76)
 - [Survey](data/papers/labels/survey.md)   (15)
 

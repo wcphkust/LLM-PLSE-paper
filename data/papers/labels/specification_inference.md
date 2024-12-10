@@ -18,7 +18,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [specification inference](specification_inference.md)
 
 
-- [Generating API Parameter Security Rules with LLM for API Misuse Detection](../venues/arXiv2024/paper_17.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [Generating API Parameter Security Rules with LLM for API Misuse Detection](../venues/arXiv2024/paper_19.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In this paper, we present a new framework, named GPTAid, for automatic APSRs generation by analyzing API source code with LLM and detecting API misuse caused by incorrect parameter use. To validate the correctness of the LLM-generated APSRs, we propose an execution feedback-checking approach based on the observation that security-critical API misuse is often caused by APSRs violations, and most of them result in runtime errors. Specifically, GPTAid first uses LLM to generate raw APSRs and the Ri...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
@@ -30,13 +30,13 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications](../venues/arXiv2024/paper_20.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [SpecEval: Evaluating Code Comprehension in Large Language Models via Program Specifications](../venues/arXiv2024/paper_22.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Large Language models have achieved impressive performance in automated software engineering. Extensive efforts have been made to evaluate the abilities of code LLMs in various aspects, with an increasing number of benchmarks and evaluation frameworks proposed. Apart from the most sought-after capability of code generation, the capability of code comprehension is being granted growing attention. Nevertheless, existing works assessing the code comprehension capability of LLMs exhibit varied limit...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](../venues/arXiv2024/paper_19.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](../venues/arXiv2024/paper_21.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: In software development, formal program specifications play a crucial role in various stages. However, manually crafting formal program specifications is rather difficult, making the job time-consuming and labor-intensive. Moreover, it is even more challenging to write specifications that correctly and comprehensively describe the semantics of complex programs. To reduce the burden on software developers, automated specification generation methods have emerged. However, existing methods usually ...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)

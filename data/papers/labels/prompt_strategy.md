@@ -100,7 +100,7 @@
   - **Labels**: [prompt strategy](prompt_strategy.md), [reason with code](reason_with_code.md)
 
 
-- [If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents](../venues/arXiv2024/paper_27.md), ([arXiv2024](../venues/arXiv2024/README.md))
+- [If llm is the wizard, then code is the wand: A survey on how code empowers large language models to serve as intelligent agents](../venues/arXiv2024/paper_29.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Speci...
   - **Labels**: [survey](survey.md), [agent design](agent_design.md), [reason with code](reason_with_code.md)
