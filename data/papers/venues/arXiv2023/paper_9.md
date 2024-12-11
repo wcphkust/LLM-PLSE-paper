@@ -1,11 +1,11 @@
-# Harnessing the power of llm to support binary taint analysis
+# Do you still need a manual smart contract audit?
 
-**Authors**: Liu, Puzhuo and Sun, Chengnian and Zheng, Yaowen and Feng, Xuan and Qin, Chuan and Wang, Yuncheng and Li, Zhi and Sun, Limin
+**Authors**: David, Isaac and Zhou, Liyi and Qin, Kaihua and Song, Dawn and Cavallaro, Lorenzo and Gervais, Arthur
 
 **Abstract**:
 
-This paper proposes LATTE, the first static binary taint analysis that is powered by a large language model (LLM). LATTE is superior to the state of the art (e.g., Emtaint, Arbiter, Karonte) in three aspects. First, LATTE is fully automated while prior static binary taint analyzers need rely on human expertise to manually customize taint propagation rules and vulnerability inspection rules. Second, LATTE is significantly effective in vulnerability detection, demonstrated by our comprehensive evaluations. For example, LATTE has found 37 new bugs in real-world firmware which the baselines failed to find, and 7 of them have been assigned CVE numbers. Lastly, LATTE incurs remarkably low engineering cost, making it a cost-efficient and scalable solution for security researchers and practitioners. We strongly believe that LATTE opens up a new direction to harness the recent advance in LLMs to improve vulnerability analysis for binary programs.
+We investigate the feasibility of employing large language models (LLMs) for conducting the security audit of smart contracts, a traditionally time-consuming and costly process. Our research focuses on the optimization of prompt engineering for enhanced security analysis, and we evaluate the performance and accuracy of LLMs using a benchmark dataset comprising 52 Decentralized Finance (DeFi) smart contracts that have previously been compromised.     Our findings reveal that, when applied to vulnerable contracts, both GPT-4 and Claude models correctly identify the vulnerability type in 40% of the cases. However, these models also demonstrate a high false positive rate, necessitating continued involvement from manual auditors. The LLMs tested outperform a random model by 20% in terms of F1-score. To ensure the integrity of our study, we conduct mutation testing on five newly developed and ostensibly secure smart contracts, into which we manually insert two and 15 vulnerabilities each. This testing yielded a remarkable best-case 78.7% true positive rate for the GPT-4-32k model. We tested both, asking the models to perform a binary classification on whether a contract is vulnerable, and a non-binary prompt. We also examined the influence of model temperature variations and context length on the LLM's performance. Despite the potential for many further enhancements, this work lays the groundwork for a more efficient and economical approach to smart contract security audits.
 
-**Link**: [Read Paper](https://arxiv.org/abs/2310.08275)
+**Link**: [Read Paper](https://arxiv.org/pdf/2306.12338.pdf)
 
 **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)

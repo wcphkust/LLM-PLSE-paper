@@ -1,11 +1,11 @@
-# Cumulative reasoning with large language models
+# Cognitive architectures for language agents
 
-**Authors**: Zhang, Yifan and Yang, Jingqin and Yuan, Yang and Yao, Andrew Chi-Chih
+**Authors**: Sumers, Theodore R and Yao, Shunyu and Narasimhan, Karthik and Griffiths, Thomas L
 
 **Abstract**:
 
-While language models are powerful and versatile, they often fail to address highly complex problems. This is because solving complex problems requires deliberate thinking, which has been only minimally guided during training. In this paper, we propose a new method called Cumulative Reasoning (CR), which employs language models in a cumulative and iterative manner to emulate human thought processes. By decomposing tasks into smaller components, \ournameb streamlines the problem-solving process, rendering it both more manageable and effective. For logical inference tasks, CR consistently outperforms existing methods with an improvement up to 9.3\%, and achieves the astonishing accuracy of 98.04\% on the curated FOLIO wiki dataset. In the context of the Game of 24, CR achieves an accuracy of 94\%, which signifies a substantial enhancement of 20\% over the previous state-of-the-art method.
+The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Specifically, beyond enhancing LLMs in code generation, we observe that these unique properties of code help (i) unlock the reasoning ability of LLMs, enabling their applications to a range of more complex natural language tasks; (ii) steer LLMs to produce structured and precise intermediate steps, which can then be connected to external execution ends through function calls; and (iii) take advantage of code compilation and execution environment, which also provides diverse feedback for model improvement. In addition, we trace how these profound capabilities of LLMs, brought by code, have led to their emergence as intelligent agents (IAs) in situations where the ability to understand instructions, decompose goals, plan and execute actions, and refine from feedback are crucial to their success on downstream tasks. Finally, we present several key challenges and future directions of empowering LLMs with code.
 
-**Link**: [Read Paper](https://arxiv.org/pdf/2308.04371.pdf)
+**Link**: [Read Paper](https://arxiv.org/pdf/2309.02427.pdf)
 
-**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [prompt strategy](../../labels/prompt_strategy.md)
+**Labels**: [agent design](../../labels/agent_design.md), [survey](../../labels/survey.md)

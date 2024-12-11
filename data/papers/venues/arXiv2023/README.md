@@ -1,22 +1,22 @@
 # arXiv2023
 
-Number of papers: 17
+Number of papers: 16
 
-## [A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions](paper_14.md)
+## [A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions](paper_13.md)
 - **Authors**: Huang, Lei and Yu, Weijiang and Ma, Weitao and Zhong, Weihong and Feng, Zhangyin and Wang, Haotian and Chen, Qianglong and Peng, Weihua and Feng, Xiaocheng and Qin, Bing and others
 - **Abstract**: The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), leading to remarkable advancements in text understanding and generation. Nevertheless, alongside these strides, LLMs exhibit a critical tendency to produce hallucinations, resulting in content that is inconsistent with real-world facts or user inputs. This phenomenon poses substantial challenges to their practical deployment and raises concerns over the reliability of LLMs in...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2406.19508)
 - **Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [survey](../../labels/survey.md)
 
 
-## [Cognitive architectures for language agents](paper_16.md)
+## [Cognitive architectures for language agents](paper_15.md)
 - **Authors**: Sumers, Theodore R and Yao, Shunyu and Narasimhan, Karthik and Griffiths, Thomas L
 - **Abstract**: The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Speci...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2309.02427.pdf)
 - **Labels**: [agent design](../../labels/agent_design.md), [survey](../../labels/survey.md)
 
 
-## [Cumulative reasoning with large language models](paper_15.md)
+## [Cumulative reasoning with large language models](paper_14.md)
 - **Authors**: Zhang, Yifan and Yang, Jingqin and Yuan, Yang and Yao, Andrew Chi-Chih
 - **Abstract**: While language models are powerful and versatile, they often fail to address highly complex problems. This is because solving complex problems requires deliberate thinking, which has been only minimally guided during training. In this paper, we propose a new method called Cumulative Reasoning (CR), which employs language models in a cumulative and iterative manner to emulate human thought processes. By decomposing tasks into smaller components, \ournameb streamlines the problem-solving process, ...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2308.04371.pdf)
@@ -30,25 +30,18 @@ Number of papers: 17
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [empirical study](../../labels/empirical_study.md)
 
 
-## [Do you still need a manual smart contract audit?](paper_10.md)
+## [Do you still need a manual smart contract audit?](paper_9.md)
 - **Authors**: David, Isaac and Zhou, Liyi and Qin, Kaihua and Song, Dawn and Cavallaro, Lorenzo and Gervais, Arthur
 - **Abstract**: We investigate the feasibility of employing large language models (LLMs) for conducting the security audit of smart contracts, a traditionally time-consuming and costly process. Our research focuses on the optimization of prompt engineering for enhanced security analysis, and we evaluate the performance and accuracy of LLMs using a benchmark dataset comprising 52 Decentralized Finance (DeFi) smart contracts that have previously been compromised.     Our findings reveal that, when applied to vuln...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2306.12338.pdf)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [Finding inductive loop invariants using large language models](paper_12.md)
+## [Finding inductive loop invariants using large language models](paper_11.md)
 - **Authors**: Kamath, Adharsh and Senthilnathan, Aditya and Chakraborty, Saikat and Deligiannis, Pantazis and Lahiri, Shuvendu K and Lal, Akash and Rastogi, Aseem and Roy, Subhajit and Sharma, Rahul
 - **Abstract**:     Loop invariants are fundamental to reasoning about programs with loops. They establish properties about a given loop's behavior. When they additionally are inductive, they become useful for the task of formal verification that seeks to establish strong mathematical guarantees about program's runtime behavior. The inductiveness ensures that the invariants can be checked locally without consulting the entire program, thus are indispensable artifacts in a formal proof of correctness. Finding in...
 - **Link**: [Read Paper](https://arxiv.org/abs/2311.07948)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md)
-
-
-## [Harnessing the power of llm to support binary taint analysis](paper_9.md)
-- **Authors**: Liu, Puzhuo and Sun, Chengnian and Zheng, Yaowen and Feng, Xuan and Qin, Chuan and Wang, Yuncheng and Li, Zhi and Sun, Limin
-- **Abstract**: This paper proposes LATTE, the first static binary taint analysis that is powered by a large language model (LLM). LATTE is superior to the state of the art (e.g., Emtaint, Arbiter, Karonte) in three aspects. First, LATTE is fully automated while prior static binary taint analyzers need rely on human expertise to manually customize taint propagation rules and vulnerability inspection rules. Second, LATTE is significantly effective in vulnerability detection, demonstrated by our comprehensive eva...
-- **Link**: [Read Paper](https://arxiv.org/abs/2310.08275)
-- **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
 ## [How Far Have We Gone in Vulnerability Detection Using Large Language Models](paper_5.md)
@@ -58,7 +51,7 @@ Number of papers: 17
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [benchmark](../../labels/benchmark.md)
 
 
-## [Impact of large language models on generating software specifications](paper_13.md)
+## [Impact of large language models on generating software specifications](paper_12.md)
 - **Authors**: Xie, Danning and Yoo, Byungwoo and Jiang, Nan and Kim, Mijung and Tan, Lin and Zhang, Xiangyu and Lee, Judy S
 - **Abstract**: Software specifications are essential for ensuring the reliability of software systems. Existing specification extraction approaches, however, suffer from limited generalizability and require manual efforts. The recent emergence of Large Language Models (LLMs), which have been successfully applied to numerous software engineering tasks, offers a promising avenue for automating this process. In this paper, we conduct the first empirical study to evaluate the capabilities of LLMs for generating so...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2306.03324.pdf)
@@ -72,7 +65,7 @@ Number of papers: 17
 - **Labels**: [static analysis](../../labels/static_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md), [call graph analysis](../../labels/call_graph_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md), [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [source code model](../../labels/source_code_model.md), [empirical study](../../labels/empirical_study.md)
 
 
-## [Large language model-powered smart contract vulnerability detection: New perspectives](paper_11.md)
+## [Large language model-powered smart contract vulnerability detection: New perspectives](paper_10.md)
 - **Authors**: Hu, Sihao and Huang, Tiansheng and {\.I}lhan, Fatih and Tekin, Selim Furkan and Liu, Ling
 - **Abstract**: This paper provides a systematic analysis of the opportunities, challenges, and potential solutions of harnessing Large Language Models (LLMs) such as GPT-4 to dig out vulnerabilities within smart contracts based on our ongoing research. For the task of smart contract vulnerability detection, achieving practical usability hinges on identifying as many true vulnerabilities as possible while minimizing the number of false positives. Nonetheless, our empirical study reveals contradictory yet intere...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2310.01152.pdf)
@@ -107,7 +100,7 @@ Number of papers: 17
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [agent design](../../labels/agent_design.md)
 
 
-## [The rise and potential of large language model based agents: A survey](paper_17.md)
+## [The rise and potential of large language model based agents: A survey](paper_16.md)
 - **Authors**: Xi, Zhiheng and Chen, Wenxiang and Guo, Xin and He, Wei and Ding, Yiwen and Hong, Boyang and Zhang, Ming and Wang, Junzhe and Jin, Senjie and Zhou, Enyu and others
 - **Abstract**: For a long time, humanity has pursued artificial intelligence (AI) equivalent to or surpassing the human level, with AI agents considered a promising vehicle for this pursuit. AI agents are artificial entities that sense their environment, make decisions, and take actions. Many efforts have been made to develop intelligent agents, but they mainly focus on advancement in algorithms or training strategies to enhance specific capabilities or performance on particular tasks. Actually, what the commu...
 - **Link**: [Read Paper](https://arxiv.org/abs/2309.07864)

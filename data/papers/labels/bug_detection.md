@@ -66,7 +66,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
-- [Do you still need a manual smart contract audit?](../venues/arXiv2023/paper_10.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Do you still need a manual smart contract audit?](../venues/arXiv2023/paper_9.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: We investigate the feasibility of employing large language models (LLMs) for conducting the security audit of smart contracts, a traditionally time-consuming and costly process. Our research focuses on the optimization of prompt engineering for enhanced security analysis, and we evaluate the performance and accuracy of LLMs using a benchmark dataset comprising 52 Decentralized Finance (DeFi) smart contracts that have previously been compromised.     Our findings reveal that, when applied to vuln...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -114,7 +114,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Harnessing the power of llm to support binary taint analysis](../venues/arXiv2023/paper_9.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Harnessing the power of llm to support binary taint analysis](../venues/TOSEM2024/paper_7.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
 
   - **Abstract**: This paper proposes LATTE, the first static binary taint analysis that is powered by a large language model (LLM). LATTE is superior to the state of the art (e.g., Emtaint, Arbiter, Karonte) in three aspects. First, LATTE is fully automated while prior static binary taint analyzers need rely on human expertise to manually customize taint propagation rules and vulnerability inspection rules. Second, LATTE is significantly effective in vulnerability detection, demonstrated by our comprehensive eva...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -174,7 +174,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
-- [Large language model-powered smart contract vulnerability detection: New perspectives](../venues/arXiv2023/paper_11.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Large language model-powered smart contract vulnerability detection: New perspectives](../venues/arXiv2023/paper_10.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: This paper provides a systematic analysis of the opportunities, challenges, and potential solutions of harnessing Large Language Models (LLMs) such as GPT-4 to dig out vulnerabilities within smart contracts based on our ongoing research. For the task of smart contract vulnerability detection, achieving practical usability hinges on identifying as many true vulnerabilities as possible while minimizing the number of false positives. Nonetheless, our empirical study reveals contradictory yet intere...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)

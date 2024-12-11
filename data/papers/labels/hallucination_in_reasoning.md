@@ -1,12 +1,12 @@
 # Hallucination In Reasoning
 
-- [A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions](../venues/arXiv2023/paper_14.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions](../venues/arXiv2023/paper_13.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), leading to remarkable advancements in text understanding and generation. Nevertheless, alongside these strides, LLMs exhibit a critical tendency to produce hallucinations, resulting in content that is inconsistent with real-world facts or user inputs. This phenomenon poses substantial challenges to their practical deployment and raises concerns over the reliability of LLMs in...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)
 
 
-- [Cumulative reasoning with large language models](../venues/arXiv2023/paper_15.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Cumulative reasoning with large language models](../venues/arXiv2023/paper_14.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: While language models are powerful and versatile, they often fail to address highly complex problems. This is because solving complex problems requires deliberate thinking, which has been only minimally guided during training. In this paper, we propose a new method called Cumulative Reasoning (CR), which employs language models in a cumulative and iterative manner to emulate human thought processes. By decomposing tasks into smaller components, \ournameb streamlines the problem-solving process, ...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [prompt strategy](prompt_strategy.md)

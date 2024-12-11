@@ -96,7 +96,7 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [benchmark](benchmark.md)
 
 
-- [Improving Automated Program Repair with Domain Adaptation](../venues/TOSEM2024/paper_7.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
+- [Improving Automated Program Repair with Domain Adaptation](../venues/TOSEM2024/paper_8.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
 
   - **Abstract**: Automated Program Repair (APR) is defined as the process of fixing a bug/defect in the source code, by an automated tool. APR tools have recently experienced promising results by leveraging state-of-the-art Neural Language Processing (NLP) techniques. APR tools such as TFix and CodeXGLUE that combine text-to-text transformers with software-specific techniques are outperforming alternatives, these days. However, in most APR studies, the train and test sets are chosen from the same set of projects...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
@@ -216,7 +216,7 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [code model](code_model.md), [code model training](code_model_training.md), [source code model](source_code_model.md)
 
 
-- [Vision Transformer Inspired Automated Vulnerability Repair](../venues/TOSEM2024/paper_8.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
+- [Vision Transformer Inspired Automated Vulnerability Repair](../venues/TOSEM2024/paper_9.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
 
   - **Abstract**: Recently, automated vulnerability repair approaches have been widely adopted to combat increasing software security issues. In particular, transformer-based encoder-decoder models achieve competitive results. Whereas vulnerable programs may only consist of a few vulnerable code areas that need repair, existing AVR approaches lack a mechanism guiding their model to pay more attention to vulnerable code areas during repair generation. In this article, we propose a novel vulnerability repair framew...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)

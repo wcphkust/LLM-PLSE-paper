@@ -2,7 +2,7 @@
 
 ## Agent Design
 
-- [Cognitive architectures for language agents](../venues/arXiv2023/paper_16.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Cognitive architectures for language agents](../venues/arXiv2023/paper_15.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Speci...
   - **Labels**: [agent design](agent_design.md), [survey](survey.md)
@@ -17,7 +17,7 @@
   - **Abstract**: The recent advance in Large Language Models (LLMs) has shaped a new paradigm of AI agents, i.e., LLM-based agents. Compared to standalone LLMs, LLM-based agents substantially extend the versatility and expertise of LLMs by enhancing LLMs with the capabilities of perceiving and utilizing external resources and tools. To date, LLM-based agents have been applied and shown remarkable effectiveness in Software Engineering (SE). The synergy between multiple agents and human interaction brings further ...
   - **Labels**: [survey](survey.md), [agent design](agent_design.md)
 
-- [The rise and potential of large language model based agents: A survey](../venues/arXiv2023/paper_17.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [The rise and potential of large language model based agents: A survey](../venues/arXiv2023/paper_16.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: For a long time, humanity has pursued artificial intelligence (AI) equivalent to or surpassing the human level, with AI agents considered a promising vehicle for this pursuit. AI agents are artificial entities that sense their environment, make decisions, and take actions. Many efforts have been made to develop intelligent agents, but they mainly focus on advancement in algorithms or training strategies to enhance specific capabilities or performance on particular tasks. Actually, what the commu...
   - **Labels**: [survey](survey.md), [agent design](agent_design.md)
@@ -55,7 +55,7 @@
 
 ## Hallucination In Reasoning
 
-- [A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions](../venues/arXiv2023/paper_14.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions](../venues/arXiv2023/paper_13.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), leading to remarkable advancements in text understanding and generation. Nevertheless, alongside these strides, LLMs exhibit a critical tendency to produce hallucinations, resulting in content that is inconsistent with real-world facts or user inputs. This phenomenon poses substantial challenges to their practical deployment and raises concerns over the reliability of LLMs in...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)
@@ -79,7 +79,7 @@
 
 ## Static Analysis
 
-- [Survey of Code Search Based on Deep Learning](../venues/TOSEM2024/paper_9.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
+- [Survey of Code Search Based on Deep Learning](../venues/TOSEM2024/paper_10.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
 
   - **Abstract**: Code writing is repetitive and predictable, inspiring us to develop various code intelligence techniques. This survey focuses on code search, that is, to retrieve code that matches a given natural language query by effectively capturing the semantic similarity between the query and code. Deep learning, being able to extract complex semantics information, has achieved great success in this field. Recently, various deep learning methods, such as graph neural networks and pretraining models, have b...
   - **Labels**: [survey](survey.md), [static analysis](static_analysis.md), [code search](code_search.md)

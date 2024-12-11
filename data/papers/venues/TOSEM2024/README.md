@@ -1,8 +1,15 @@
 # TOSEM2024
 
-Number of papers: 9
+Number of papers: 10
 
-## [Improving Automated Program Repair with Domain Adaptation](paper_7.md)
+## [Harnessing the power of llm to support binary taint analysis](paper_7.md)
+- **Authors**: Liu, Puzhuo and Sun, Chengnian and Zheng, Yaowen and Feng, Xuan and Qin, Chuan and Wang, Yuncheng and Li, Zhi and Sun, Limin
+- **Abstract**: This paper proposes LATTE, the first static binary taint analysis that is powered by a large language model (LLM). LATTE is superior to the state of the art (e.g., Emtaint, Arbiter, Karonte) in three aspects. First, LATTE is fully automated while prior static binary taint analyzers need rely on human expertise to manually customize taint propagation rules and vulnerability inspection rules. Second, LATTE is significantly effective in vulnerability detection, demonstrated by our comprehensive eva...
+- **Link**: [Read Paper](https://arxiv.org/abs/2310.08275)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
+
+
+## [Improving Automated Program Repair with Domain Adaptation](paper_8.md)
 - **Authors**: Zirak, Armin and Hemmati, Hadi
 - **Abstract**: Automated Program Repair (APR) is defined as the process of fixing a bug/defect in the source code, by an automated tool. APR tools have recently experienced promising results by leveraging state-of-the-art Neural Language Processing (NLP) techniques. APR tools such as TFix and CodeXGLUE that combine text-to-text transformers with software-specific techniques are outperforming alternatives, these days. However, in most APR studies, the train and test sets are chosen from the same set of projects...
 - **Link**: [Read Paper](https://doi.org/10.1145/3631972)
@@ -44,7 +51,7 @@ Number of papers: 9
 - **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [agent design](../../labels/agent_design.md), [planning](../../labels/planning.md), [empirical study](../../labels/empirical_study.md)
 
 
-## [Survey of Code Search Based on Deep Learning](paper_9.md)
+## [Survey of Code Search Based on Deep Learning](paper_10.md)
 - **Authors**: Xie, Yutao and Lin, Jiayi and Dong, Hande and Zhang, Lei and Wu, Zhonghai
 - **Abstract**: Code writing is repetitive and predictable, inspiring us to develop various code intelligence techniques. This survey focuses on code search, that is, to retrieve code that matches a given natural language query by effectively capturing the semantic similarity between the query and code. Deep learning, being able to extract complex semantics information, has achieved great success in this field. Recently, various deep learning methods, such as graph neural networks and pretraining models, have b...
 - **Link**: [Read Paper](https://doi.org/10.1145/3628161)
@@ -58,7 +65,7 @@ Number of papers: 9
 - **Labels**: [static analysis](../../labels/static_analysis.md), [pointer analysis](../../labels/pointer_analysis.md), [data-flow analysis](../../labels/data-flow_analysis.md), [empirical study](../../labels/empirical_study.md)
 
 
-## [Vision Transformer Inspired Automated Vulnerability Repair](paper_8.md)
+## [Vision Transformer Inspired Automated Vulnerability Repair](paper_9.md)
 - **Authors**: Fu, Michael and Nguyen, Van and Tantithamthavorn, Chakkrit and Phung, Dinh and Le, Trung
 - **Abstract**: Recently, automated vulnerability repair approaches have been widely adopted to combat increasing software security issues. In particular, transformer-based encoder-decoder models achieve competitive results. Whereas vulnerable programs may only consist of a few vulnerable code areas that need repair, existing AVR approaches lack a mechanism guiding their model to pay more attention to vulnerable code areas during repair generation. In this article, we propose a novel vulnerability repair framew...
 - **Link**: [Read Paper](https://doi.org/10.1145/3632746)

@@ -24,7 +24,7 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [Impact of large language models on generating software specifications](../venues/arXiv2023/paper_13.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Impact of large language models on generating software specifications](../venues/arXiv2023/paper_12.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: Software specifications are essential for ensuring the reliability of software systems. Existing specification extraction approaches, however, suffer from limited generalizability and require manual efforts. The recent emergence of Large Language Models (LLMs), which have been successfully applied to numerous software engineering tasks, offers a promising avenue for automating this process. In this paper, we conduct the first empirical study to evaluate the capabilities of LLMs for generating so...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)

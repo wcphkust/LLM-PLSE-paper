@@ -36,7 +36,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [specification inference](specification_inference.md)
 
 
-- [Finding inductive loop invariants using large language models](../venues/arXiv2023/paper_12.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Finding inductive loop invariants using large language models](../venues/arXiv2023/paper_11.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**:     Loop invariants are fundamental to reasoning about programs with loops. They establish properties about a given loop's behavior. When they additionally are inductive, they become useful for the task of formal verification that seeks to establish strong mathematical guarantees about program's runtime behavior. The inductiveness ensures that the invariants can be checked locally without consulting the entire program, thus are indispensable artifacts in a formal proof of correctness. Finding in...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)

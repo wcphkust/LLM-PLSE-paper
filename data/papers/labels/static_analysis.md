@@ -138,7 +138,7 @@
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
 
 
-- [Impact of large language models on generating software specifications](../venues/arXiv2023/paper_13.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Impact of large language models on generating software specifications](../venues/arXiv2023/paper_12.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: Software specifications are essential for ensuring the reliability of software systems. Existing specification extraction approaches, however, suffer from limited generalizability and require manual efforts. The recent emergence of Large Language Models (LLMs), which have been successfully applied to numerous software engineering tasks, offers a promising avenue for automating this process. In this paper, we conduct the first empirical study to evaluate the capabilities of LLMs for generating so...
   - **Labels**: [static analysis](static_analysis.md), [specification inference](specification_inference.md)
@@ -264,7 +264,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
-- [Do you still need a manual smart contract audit?](../venues/arXiv2023/paper_10.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Do you still need a manual smart contract audit?](../venues/arXiv2023/paper_9.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: We investigate the feasibility of employing large language models (LLMs) for conducting the security audit of smart contracts, a traditionally time-consuming and costly process. Our research focuses on the optimization of prompt engineering for enhanced security analysis, and we evaluate the performance and accuracy of LLMs using a benchmark dataset comprising 52 Decentralized Finance (DeFi) smart contracts that have previously been compromised.     Our findings reveal that, when applied to vuln...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -312,7 +312,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Harnessing the power of llm to support binary taint analysis](../venues/arXiv2023/paper_9.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Harnessing the power of llm to support binary taint analysis](../venues/TOSEM2024/paper_7.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
 
   - **Abstract**: This paper proposes LATTE, the first static binary taint analysis that is powered by a large language model (LLM). LATTE is superior to the state of the art (e.g., Emtaint, Arbiter, Karonte) in three aspects. First, LATTE is fully automated while prior static binary taint analyzers need rely on human expertise to manually customize taint propagation rules and vulnerability inspection rules. Second, LATTE is significantly effective in vulnerability detection, demonstrated by our comprehensive eva...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -372,7 +372,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
-- [Large language model-powered smart contract vulnerability detection: New perspectives](../venues/arXiv2023/paper_11.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Large language model-powered smart contract vulnerability detection: New perspectives](../venues/arXiv2023/paper_10.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**: This paper provides a systematic analysis of the opportunities, challenges, and potential solutions of harnessing Large Language Models (LLMs) such as GPT-4 to dig out vulnerabilities within smart contracts based on our ongoing research. For the task of smart contract vulnerability detection, achieving practical usability hinges on identifying as many true vulnerabilities as possible while minimizing the number of false positives. Nonetheless, our empirical study reveals contradictory yet intere...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -584,7 +584,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md), [specification inference](specification_inference.md)
 
 
-- [Finding inductive loop invariants using large language models](../venues/arXiv2023/paper_12.md), ([arXiv2023](../venues/arXiv2023/README.md))
+- [Finding inductive loop invariants using large language models](../venues/arXiv2023/paper_11.md), ([arXiv2023](../venues/arXiv2023/README.md))
 
   - **Abstract**:     Loop invariants are fundamental to reasoning about programs with loops. They establish properties about a given loop's behavior. When they additionally are inductive, they become useful for the task of formal verification that seeks to establish strong mathematical guarantees about program's runtime behavior. The inductiveness ensures that the invariants can be checked locally without consulting the entire program, thus are indispensable artifacts in a formal proof of correctness. Finding in...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
@@ -740,7 +740,7 @@
   - **Labels**: [static analysis](static_analysis.md), [code search](code_search.md)
 
 
-- [Survey of Code Search Based on Deep Learning](../venues/TOSEM2024/paper_9.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
+- [Survey of Code Search Based on Deep Learning](../venues/TOSEM2024/paper_10.md), ([TOSEM2024](../venues/TOSEM2024/README.md))
 
   - **Abstract**: Code writing is repetitive and predictable, inspiring us to develop various code intelligence techniques. This survey focuses on code search, that is, to retrieve code that matches a given natural language query by effectively capturing the semantic similarity between the query and code. Deep learning, being able to extract complex semantics information, has achieved great success in this field. Recently, various deep learning methods, such as graph neural networks and pretraining models, have b...
   - **Labels**: [survey](survey.md), [static analysis](static_analysis.md), [code search](code_search.md)

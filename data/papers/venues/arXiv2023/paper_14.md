@@ -1,11 +1,11 @@
-# A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions
+# Cumulative reasoning with large language models
 
-**Authors**: Huang, Lei and Yu, Weijiang and Ma, Weitao and Zhong, Weihong and Feng, Zhangyin and Wang, Haotian and Chen, Qianglong and Peng, Weihua and Feng, Xiaocheng and Qin, Bing and others
+**Authors**: Zhang, Yifan and Yang, Jingqin and Yuan, Yang and Yao, Andrew Chi-Chih
 
 **Abstract**:
 
-The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), leading to remarkable advancements in text understanding and generation. Nevertheless, alongside these strides, LLMs exhibit a critical tendency to produce hallucinations, resulting in content that is inconsistent with real-world facts or user inputs. This phenomenon poses substantial challenges to their practical deployment and raises concerns over the reliability of LLMs in real-world scenarios, which attracts increasing attention to detect and mitigate these hallucinations. In this survey, we aim to provide a thorough and in-depth overview of recent advances in the field of LLM hallucinations. We begin with an innovative taxonomy of LLM hallucinations, then delve into the factors contributing to hallucinations. Subsequently, we present a comprehensive overview of hallucination detection methods and benchmarks. Additionally, representative approaches designed to mitigate hallucinations are introduced accordingly. Finally, we analyze the challenges that highlight the current limitations and formulate open questions, aiming to delineate pathways for future research on hallucinations in LLMs.
+While language models are powerful and versatile, they often fail to address highly complex problems. This is because solving complex problems requires deliberate thinking, which has been only minimally guided during training. In this paper, we propose a new method called Cumulative Reasoning (CR), which employs language models in a cumulative and iterative manner to emulate human thought processes. By decomposing tasks into smaller components, \ournameb streamlines the problem-solving process, rendering it both more manageable and effective. For logical inference tasks, CR consistently outperforms existing methods with an improvement up to 9.3\%, and achieves the astonishing accuracy of 98.04\% on the curated FOLIO wiki dataset. In the context of the Game of 24, CR achieves an accuracy of 94\%, which signifies a substantial enhancement of 20\% over the previous state-of-the-art method.
 
-**Link**: [Read Paper](https://arxiv.org/pdf/2406.19508)
+**Link**: [Read Paper](https://arxiv.org/pdf/2308.04371.pdf)
 
-**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [survey](../../labels/survey.md)
+**Labels**: [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [prompt strategy](../../labels/prompt_strategy.md)
